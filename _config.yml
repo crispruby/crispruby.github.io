@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Daniel A. Rozek
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: sunrise
 search: true
 
 # Build settings
@@ -58,31 +58,34 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Daniel Rozek"
+  avatar : "/assets/images/bioPhoto20241229.jpg"
+  bio    : "Computer Information Systems graduate degree with experience in programming with C#, HTML, CSS, JavaScript, SQL. Interested in Databases and SQL, Fusion 360, Unity, and 3D Modeling. Experienced in working for non-profits and retail sectors. Looking for opportunities in software development industry, database development, game development and 3D modeling."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danielrozek/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/crispruby"
+    - label: "Digital Shop of Goodies"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.etsy.com/ca/shop/DigitalShopOfGoodies"
+    - label: "Mini Video Games"
+      icon: "fas fa-fw fa-link"
+      url: "https://captain-garneto.itch.io/"
+    #- label: "YouTube" icon: "fab fa-fw fa-youtube" url: "https://"
+    #- label: "Instagram" icon: "fab fa-fw fa-instagram" "url: "http://instagram.com/"
+    # Add Strava
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danielrozek/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/crispruby"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
