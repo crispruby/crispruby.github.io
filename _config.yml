@@ -73,6 +73,9 @@ author:
     - label: "Mini Video Games"
       icon: "fas fa-fw fa-link"
       url: "https://captain-garneto.itch.io/"
+    - label: "Strava"
+      icon: "fab fa-fw fa-strava"
+      url: "https://www.strava.com/"
     #- label: "YouTube" icon: "fab fa-fw fa-youtube" url: "https://"
     #- label: "Instagram" icon: "fab fa-fw fa-instagram" "url: "http://instagram.com/"
     # Add Strava
