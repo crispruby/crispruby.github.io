@@ -71,8 +71,8 @@ author:
     icon: "fab fa-fw fa-instagram"
     url: "https://www.instagram.com/yourprofile"
   - label: "Strava"
-    icon: "custom-icon-strava" # Custom icon class
-    url: "https://www.strava.com/athletes/yourprofile"
+    icon: "assets/imagaes/strava24.png" # Custom icon class
+    url: "https://www.strava.com"
     #- label: "YouTube" icon: "fab fa-fw fa-youtube" url: "https://"
     #- label: "Instagram" icon: "fab fa-fw fa-instagram" "url: "http://instagram.com/"
     # Add Strava
