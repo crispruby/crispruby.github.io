@@ -71,11 +71,10 @@ author:
     icon: "fab fa-fw fa-instagram"
     url: "https://www.instagram.com/yourprofile"
   - label: "Strava"
-    icon: "assets/imagaes/strava24.png" # Custom icon class
+    icon: "assets/images/strava24.png"
     url: "https://www.strava.com"
     #- label: "YouTube" icon: "fab fa-fw fa-youtube" url: "https://"
     #- label: "Instagram" icon: "fab fa-fw fa-instagram" "url: "http://instagram.com/"
-    # Add Strava
 
 footer:
   links:
