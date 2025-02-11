@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: home
+layout: single
 permalink: /projects/
 author_profile: true
 ---
