@@ -74,7 +74,7 @@ author:
     icon: "fas fa-fw fa-link" 
     url: "https://captain-garneto.itch.io/"
   - label: "Strava"
-    icon: icon: "fas fa-fw fa-link" 
+    icon: "fas fa-fw fa-link" 
     #"assets/images/strava24.jpg"
     url: "https://www.strava.com/athletes/danielrozek"
     #- label: "YouTube" icon: "fab fa-fw fa-youtube" url: "https://"
