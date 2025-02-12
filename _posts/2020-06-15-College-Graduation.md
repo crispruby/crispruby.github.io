@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
+title: "Graduation"
 date: 2020-06-15T15:00:00-04:00
 categories:
   - post
