@@ -1,0 +1,13 @@
+@media (min-width: 48em) {
+  .sidebar-left {
+    width: 25%; /* Adjust this value if needed */
+  }
+
+  .main-content {
+    width: 75%; /* Adjust this value to take up the space of the disabled right sidebar */
+  }
+
+  .sidebar-right {
+    display: none; /* Ensure the right sidebar is hidden */
+  }
+}
