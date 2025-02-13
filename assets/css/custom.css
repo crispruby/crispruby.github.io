@@ -1,13 +1,39 @@
-@media (min-width: 48em) {
+@media (min-width: 80em) {
+  .page {
+    width: calc(100% - 50px); /* Adjust this value to make the main content wider */
+    padding-inline-end: 0; /* Remove the padding for the right sidebar */
+  }
+
   .page__inner-wrap {
-    display: flex;
+    float: inline-start;
+    margin-top: 1em;
+    margin-inline: 0;
+    width: 100%;
+    clear: both;
   }
 
-  .page__content {
-    flex: 1; /* Ensure the main content takes the available space */
+  .page__inner-wrap .page__content,
+  .page__inner-wrap .page__meta,
+  .page__inner-wrap .comment__date,
+  .page__inner-wrap .page__share {
+    position: relative;
+    float: inline-start;
+    margin-inline: 0;
+    width: 100%;
+    clear: both;
   }
 
-  .sidebar-right {
-    display: none; /* Ensure the right sidebar is hidden */
+  /* Ensure the right sidebar is hidden */
+  .sidebar__right {
+    display: none;
   }
 }
+
+@media (min-width: 64em) {
+  .sidebar__right {
+    display: none; /* Ensure the right sidebar is hidden */
+  }
+
+  .page {
+    width: 100%; /* Make the page full width */
+  
