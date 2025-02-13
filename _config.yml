@@ -82,6 +82,11 @@ author:
     #- label: "YouTube" icon: "fab fa-fw fa-youtube" url: "https://"
     #- label: "Instagram" icon: "fab fa-fw fa-instagram" "url: "http://instagram.com/"
 
+sidebar:
+  enabled: true
+  left: true
+  right: false
+
 footer:
   links:
     - label: "LinkedIn"
