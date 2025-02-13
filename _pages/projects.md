@@ -8,10 +8,10 @@ author_profile: true
 ============
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <p>I have designed many types of 3D objects, including tools, cups, castles, towers, lids, etc. To search my 3D models, go to my Digital Shop of Goodies on Etsy. </p>
+    <p>I have designed many types of 3D objects, including tools, cups, castles, towers, lids, etc. To search my 3D models, go to my <strong><a href="https://www.etsy.com/ca/shop/DigitalShopOfGoodies">Digital Shop of Goodies</a></strong> on Etsy. </p>
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="/assets/images/" alt="3D Modelling">
+    <img src="/assets/images/3D Model.png" alt="3D Modelling">
   </div>
 </div>
 
