@@ -1,10 +1,10 @@
 @media (min-width: 48em) {
-  .sidebar-left {
-    width: 25%; /* Adjust this value if needed */
+  .page__inner-wrap {
+    display: flex;
   }
 
-  .main-content {
-    width: 75%; /* Adjust this value to take up the space of the disabled right sidebar */
+  .page__content {
+    flex: 1; /* Ensure the main content takes the available space */
   }
 
   .sidebar-right {
