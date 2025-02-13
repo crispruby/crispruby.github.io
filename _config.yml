@@ -19,6 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 favicon: /favicon.ico
 include:
   - _includes/main.html
+assets:
+  stylesheets:
+    - /assets/css/main.css
 github_username: crispruby
 minimal_mistakes_skin: neon
 search: true
