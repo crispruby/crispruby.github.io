@@ -94,6 +94,7 @@ footer:
     
 assets:
   stylesheets:
+    - /assets/css/main.css
     - /assets/css/custom.css
     
 defaults:
