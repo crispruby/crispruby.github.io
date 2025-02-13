@@ -8,7 +8,7 @@ author_profile: true
 ============
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <p>I have designed many types of 3D objects, including tools, cups, castles, towers, lids, etc.</p>
+    <p>I have designed many types of 3D objects, including tools, cups, castles, towers, lids, etc. To search my 3D models, go to my Digital Shop of Goodies on Etsy. </p>
   </div>
   <div style="flex: 1; text-align: right;">
     <img src="/assets/images/" alt="3D Modelling">
