@@ -10,7 +10,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Daniel A. Rozek
+title: Daniel Rozek
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -57,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Daniel A. Rozek"
+  name   : "Daniel Rozek"
   avatar : "/assets/images/BioPhoto20241229.jpg"
   bio    : "Computer Information Systems graduate degree with experience in programming with C#, HTML, CSS, JavaScript, SQL. Interested in Databases and SQL, Fusion 360, Unity, and 3D Modeling. Experienced in working for non-profits and retail sectors. Looking for opportunities in software development industry, database development, game development and 3D modeling."
   links:
@@ -74,9 +74,11 @@ author:
     icon: "fas fa-fw fa-link" 
     url: "https://captain-garneto.itch.io/"
   - label: "Strava"
-    icon: "fas fa-fw fa-link" 
-    #"assets/images/strava24.jpg"
+    icon: "assets/images/strava24.jpg" #"fas fa-fw fa-link" 
     url: "https://www.strava.com/athletes/danielrozek"
+  - label: "Geocache"
+    icon: "assets/images/Geo.png"
+    url: "https://www.geocaching.com/p/default.aspx"
     #- label: "YouTube" icon: "fab fa-fw fa-youtube" url: "https://"
     #- label: "Instagram" icon: "fab fa-fw fa-instagram" "url: "http://instagram.com/"
 
