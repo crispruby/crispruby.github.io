@@ -7,7 +7,7 @@ I'm a software developer and programmer. I'm also highly interested in game deve
 Fields of Work:
 - Software Developer
 - Game Developer
-- 3D Modeller
+- 3D Modeler
 - Data Scientist
 - Database Administrator
 - Web Developer
