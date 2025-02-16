@@ -4,7 +4,7 @@ layout: single
 permalink: /projects/
 author_profile: true
 ---
-3D Modelling
+3D Modeling
 ============
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
