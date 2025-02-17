@@ -7,4 +7,4 @@ tags:
   - Education
 ---
 
-In June, 2020 I graduated from **Okanagan College** with a **Bachelor of Computer Information Systems**, along with a Database Systems Specialty and Software Design and Development Specialty and a . I took 43 courses and one intership at Okanagan College.
+In June, 2020 I graduated from **Okanagan College** with a **Bachelor of Computer Information Systems**, along with a Database Systems Specialty and Software Design and Development Specialty. I took 43 courses and one intership at Okanagan College.
