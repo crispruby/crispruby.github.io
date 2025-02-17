@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 favicon: /favicon.ico
 include:
   - _includes/main.html
-github_username: crispruby
+github_username: Crispruby
 minimal_mistakes_skin: neon
 search: true
 
@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Daniel Rozek"
   avatar : "/assets/images/Photo.jpg"
-  bio    : "Computer Information Systems graduate degree. Interest and experience in Programming, Databases and SQL, Fusion 360, Unity, and 3D Modeling. Looking for opportunities in software development industry, database development, game development and 3D modeling."
+  bio    : "Computer Information Systems graduate degree. Interest and experienced in Programming, Databases and SQL, Fusion 360, Unity, and 3D Modeling. Seeking opportunities in software development, database development, game development and 3D modeling."
   links:
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
