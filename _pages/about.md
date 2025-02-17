@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 ---
-I'm a software developer and programmer. I'm also highly interested in game development, 3D modeling, and databases.
+I'm a software developer and programmer with a strong passion for game development, 3D modeling, and databases.
 
 Fields of Work:
 - Software Developer
@@ -14,5 +14,4 @@ Fields of Work:
 - Programmer
 - Machine Learning
 
-Please see my [LinkedIn](https://www.linkedin.com/in/danielrozek/) page for a full work, volunteer, study and history or email me.
-Email: drobpc@gmail.com
+For a complete overview of my work experience, volunteer activities, and educational background, please visit my [LinkedIn](https://www.linkedin.com/in/danielrozek/) or contact me by email at drobpc@gmail.com
