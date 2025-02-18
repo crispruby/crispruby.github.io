@@ -7,7 +7,6 @@ tags:
   - Sport
 ---
 
- 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <p>On April 25, 2015 I achieved my 1st Degree Black Belt of Tae-Kwon-Do. I trained in class for 10 years and became a Black Belt of Tae-Kwon-Do. I found it as a sport where people of all ages could come to train and help each other.</p>
