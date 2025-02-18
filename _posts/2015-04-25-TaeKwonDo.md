@@ -1,5 +1,5 @@
 ---
-title: "1st Degree BlacK Belt of Tae-Kwon-Do"
+title: "1st Degree Black Belt of Tae-Kwon-Do"
 date: 2015-04-15T15:00:00-04:00
 categories:
   - post
