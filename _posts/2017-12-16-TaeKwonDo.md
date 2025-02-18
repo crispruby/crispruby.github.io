@@ -1,5 +1,5 @@
 ---
-title: "2nd Degree BlacK Belt of Tae-Kwon-Do"
+title: "2nd Degree Black Belt of Tae-Kwon-Do"
 date: 2017-12-16T15:00:00-04:00
 categories:
   - post
