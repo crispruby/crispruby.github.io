@@ -1,6 +1,9 @@
 ---
 title: "Projects"
 layout: single
+header: 
+image: /assets/images/Digital Peaks.jpg
+caption: "Digitial Peaks"
 permalink: /projects/
 author_profile: true
 ---
