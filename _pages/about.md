@@ -5,8 +5,6 @@ header:
   image: /assets/images/WidePeaks.jpg
   caption: Mountain Peaks
 ---
-<img class="header-image" src="/assets/images/WidePeaks.jpg" alt="Mountain Peaks">
-
 I'm a software developer and programmer with a strong passion for game development, 3D modeling, and databases.
 
 Fields of Work:
