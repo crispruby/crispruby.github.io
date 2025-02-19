@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 header:
   image: /assets/images/MountainPeaks.jpg
-  caption: "Mountain Peaks"
+  caption: Mountain Peaks
 ---
 I'm a software developer and programmer with a strong passion for game development, 3D modeling, and databases.
 
