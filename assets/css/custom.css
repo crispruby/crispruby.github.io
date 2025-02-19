@@ -1,39 +1,12 @@
-@media (min-width: 80em) {
-  .page {
-    width: calc(100% - 50px); /* Adjust this value to make the main content wider */
-    padding-inline-end: 0; /* Remove the padding for the right sidebar */
-  }
-
-  .page__inner-wrap {
-    float: inline-start;
-    margin-top: 1em;
-    margin-inline: 0;
-    width: 100%;
-    clear: both;
-  }
-
-  .page__inner-wrap .page__content,
-  .page__inner-wrap .page__meta,
-  .page__inner-wrap .comment__date,
-  .page__inner-wrap .page__share {
-    position: relative;
-    float: inline-start;
-    margin-inline: 0;
-    width: 100%;
-    clear: both;
-  }
-
-  /* Ensure the right sidebar is hidden */
-  .sidebar__right {
-    display: none;
-  }
+.header-image {
+  height: 15vh; 
+  object-fit: cover; 
+  width: 100%;
 }
 
-@media (min-width: 64em) {
-  .sidebar__right {
-    display: none; /* Ensure the right sidebar is hidden */
-  }
-
-  .page {
-    width: 100%; /* Make the page full width */
-  
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
