@@ -7,4 +7,3 @@ header:
   caption: Mountain Peaks
 author_profile: true
 ---
-<img class="header-image" src="/assets/images/MountainPeaks.jpg" alt="Mountain Peaks">
