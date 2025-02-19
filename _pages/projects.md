@@ -7,8 +7,6 @@ header:
 permalink: /projects/
 author_profile: true
 ---
-<img class="header-image" src="/assets/images/DigitalPeaks.jpg" alt="Digital Peaks">
-
 3D Modeling
 ============
 <div style="display: flex; align-items: center;">
