@@ -28,6 +28,9 @@ header:
     <p>In addition to those activities, I am an enthusiastic participant in a sports team. My team play in various sports, and I joined their soccer, track and field, and basketball. During the winter months, I embrace the cold by taking part in cross country skiing. These sports have not only helped me stay fit but also taught me valuable lessons in teamwork, perseverance, and integrity. Engaging in a variety of sports keeps me motivated and ensures that I am always challenging myself to reach new heights.</p>
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="/assets/images/FrostyMtn.jpg" alt="Frosty Mountain in Summer">
+    <figure>
+      <img src="/assets/images/FrostyMtn.jpg" alt="Frosty Mountain in Summer">
+      <figcaption>Frosty Mountain, Hike 22km, Elevation of 2408 meters.</figcaption>
+    </figure>
   </div>
 </div>
