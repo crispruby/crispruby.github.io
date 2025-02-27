@@ -16,6 +16,7 @@ tags:
       <img src="/assets/images/switchTKD.jpg" alt="Tae-Kwon-Do Tournament">
     </div>
   </div>
+  <div>
     <p>After the pandemic, I discovered a local sports team that offered a variety of sports. Considering the available options, I decided to play basketball, soccer, track and field, and cross-country skiing. For summer competition, I chose track and field. I competed in the regionals and secured a spot in the 2025 provincial competition in British Columbia. For winter sports, I plan to participate in cross-country skiing during the 2026 regional competition. This transition has been incredibly rewarding and has allowed me to develop new skills and experiences in a range of athletic disciplines.</p>
   </div>
   <div style="flex: 1; text-align: right;">
