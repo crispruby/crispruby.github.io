@@ -6,7 +6,6 @@ header:
   caption: Mountain Peaks
 ---
 <div>
-  <h1>Resume</h1>
   <h2>Summary</h2>
   <p>Enjoy playing, developing, programming, testing, adjusting, designing games. Always looking for a new challenge that will help improve my code, data, designs and workflow. Diploma & Degree in Computer Information Systems at Okanagan College, Kelowna, BC, Canada</p>
   <h2>Skills</h2>
