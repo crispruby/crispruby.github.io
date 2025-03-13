@@ -7,7 +7,7 @@ header:
 ---
 <div>
   <h2>Summary</h2>
-  <p>Enjoy playing, developing, programming, testing, adjusting, designing games. Always looking for a new challenge that will help improve my code, data, designs and workflow. Diploma & Degree in Computer Information Systems at Okanagan College, Kelowna, BC, Canada</p>
+  <p>Enjoy playing, developing, programming, testing, adjusting, designing games/software/data. Always looking for a new challenge that will help improve my code, data, designs and workflow. Diploma & Degree in Computer Information Systems at Okanagan College, Kelowna, BC, Canada</p>
   <h2>Skills</h2>
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Software Development</div>
