@@ -51,7 +51,7 @@ header:
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Javascript</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">PHP</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">PL/SQL</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Python</div
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Python</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">R</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Rust</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">SQL</div>
