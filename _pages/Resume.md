@@ -40,11 +40,14 @@ header:
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">SketchUp</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Unity</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Windows</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Words</div>
 </div>
 <h2>Programming Languages</h2>
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">CSS</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">C#</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">C++</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">C</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">HTML</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Java</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Javascript</div>
@@ -53,6 +56,7 @@ header:
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Python</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">R</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Rust</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Scheme</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">SQL</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">UML</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">XML</div>
