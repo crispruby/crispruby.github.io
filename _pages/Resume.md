@@ -10,21 +10,21 @@ header:
   <p>Enjoy playing, developing, programming, testing, adjusting, designing games/software/data. Always looking for a new challenge that will help improve my code, data, designs and workflow. Diploma & Degree in Computer Information Systems at Okanagan College, Kelowna, BC, Canada</p>
   <h2>Skills</h2>
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Software Development</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Game Development</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">3D Modeling</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Databases</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Web Development</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Programming</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Computer-Aided Design</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Machine Learning</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Augmented Reality</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Data Science</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">UX/UI Design</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Problem Solving</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Virtual Reality</div>
-  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Debugging</div>
   <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Attention To Detail</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Augmented Reality</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Computer-Aided Design</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Databases</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Data Science</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Debugging</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Game Development</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Machine Learning</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Problem Solving</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Programming</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Software Development</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">UX/UI Design</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Virtual Reality</div>
+  <div style="border: 2px solid #000; padding: 10px; text-align: center; flex: 1;">Web Development</div>
 </div>
 <h2>Software Proficiency</h2>
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
