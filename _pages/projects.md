@@ -22,7 +22,7 @@ Game Development
 ================
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <p>To practice game development, I used Unity, C#, Unity Assets and designed a video game called Clicky Goods. It is free to play on <strong><a href="https://captain-garneto.itch.io/clicky-goods">Itch.io</a></strong> and <strong><a href="https://play.unity.com/en/games/78977249-5d59-4a28-9ec1-b04a5477fb41/clicky-goods">Unity</a></strong>. Click the barrels of beer, cookies, and 8-Balls, but avoid the skulls.
+    <p>To practice game development, I used Unity, C#, Unity Assets and designed a video game called Clicky Goods. It is free to play on <strong><a href="https://captain-garneto.itch.io/clicky-goods">Itch.io</a></strong> and <strong><a href="https://play.unity.com/en/games/78977249-5d59-4a28-9ec1-b04a5477fb41/clicky-goods">Unity</a></strong>. Click the barrels of beer, cookies, and 8-Balls, but avoid the skulls.</p>
   </div>
   <div style="flex: 1; text-align: right;">
     <img src="/assets/images/Menu.png" alt="Clicky Goods">
