@@ -7,6 +7,17 @@ header:
 permalink: /projects/
 author_profile: true
 ---
+Rolling Barrels
+============
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <p>In 2025, using Unity and C#, along with Unity Assets, I designed a video game called Rolling Barrels and it is free to play on <strong><a href="https://captain-garneto.itch.io/sparkling-oil">Itch.io</a></strong> and <strong><a href="https://play.unity.com/en/games/5b1182ad-d41e-494b-baf7-b04c77d0e10e/rolling-barrels">Unity</a></strong>. I took Unity's <strong><a href="https://learn.unity.com/u/6307e86fedbc2a200a139855">Junior Programmer</a></strong> pathway as I created this game.</p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="/assets/images/Menu1.png" alt="Rolling Barrels">
+  </div>
+</div>
+
 3D Modeling
 ============
 <div style="display: flex; align-items: center;">
