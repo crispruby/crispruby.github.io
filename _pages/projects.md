@@ -7,6 +7,17 @@ header:
 permalink: /projects/
 author_profile: true
 ---
+Vanishings Bricks
+===============
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <p>In 2025, using Unity, C# and a few Unity Assets, I designed a video game called Vanishing Bricks and it is free to play on <strong><a href="https://captain-garneto.itch.io/vanishing-bricks">Itch.io</a></strong> and <strong><a href="https://play.unity.com/en/games/0a96c1bb-b60d-4bde-84ad-bdd0b7d3676b/vanishing-bricks">Unity</a></strong>. I took Unity's <strong><a href="https://learn.unity.com/u/6307e86fedbc2a200a139855">Junior Programmer</a></strong> pathway when creating this game.</p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="/assets/images/HighScore.png" alt="Vanishing Bricks">
+  </div>
+</div>
+
 Rolling Barrels
 ===============
 <div style="display: flex; align-items: center;">
