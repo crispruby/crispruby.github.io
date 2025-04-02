@@ -34,11 +34,11 @@ header:
     </figure>
   </div>
 </div>
-<div style="display: flex; align-items: center; justify-content: center; flex-direction: row; margin-top: 20px;">
-  <div style="flex: 1; padding: 10px;">
+<div style="display: flex; align-items: center; flex-direction: column; margin-top: 20px; text-align: center;">
+  <div style="margin-bottom: 20px;">
     <iframe height="160" width="300" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/athletes/98167640/activity-summary/5717d04d7ef24409064cfa9007cfd1b7a9742224"></iframe>
   </div>
-  <div style="flex: 1; padding: 10px;">
+  <div>
     <iframe height="454" width="300" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/athletes/98167640/latest-rides/5717d04d7ef24409064cfa9007cfd1b7a9742224"></iframe>
   </div>
 </div>
