@@ -40,7 +40,7 @@ header:
   <div style="border: 2px solid #9a9797; padding: 10px; text-align: center; flex: 1;">SketchUp</div>
   <div style="border: 2px solid #9a9797; padding: 10px; text-align: center; flex: 1;">Unity</div>
   <div style="border: 2px solid #9a9797; padding: 10px; text-align: center; flex: 1;">Windows</div>
-  <div style="border: 2px solid #9a9797; padding: 10px; text-align: center; flex: 1;">Words</div>
+  <div style="border: 2px solid #9a9797; padding: 10px; text-align: center; flex: 1;">Word</div>
 </div>
 <h2>Programming Languages</h2>
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
