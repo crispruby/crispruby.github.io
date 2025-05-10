@@ -9,12 +9,12 @@ author_profile: true
 ---
 Vanishings Bricks
 ===============
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; gap: 20px;">
   <div style="flex: 1;">
     <p>With Unity, C# and a few Unity Assets, I designed a video game called Vanishing Bricks and it is free to play on <strong><a href="https://captain-garneto.itch.io/vanishing-bricks">Itch.io</a></strong> and <strong><a href="https://play.unity.com/en/games/0a96c1bb-b60d-4bde-84ad-bdd0b7d3676b/vanishing-bricks">Unity</a></strong>. I took Unity's <strong><a href="https://learn.unity.com/u/6307e86fedbc2a200a139855">Junior Programmer</a></strong> pathway when creating this game. It saves the player's score and name, and displays who got the highest score.</p>
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="/assets/images/HighScore.png" alt="Vanishing Bricks">
+    <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/rqQNbVH4tjA" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
