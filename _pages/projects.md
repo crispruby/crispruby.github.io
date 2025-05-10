@@ -70,7 +70,7 @@ Tetris
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; gap: 10px; text-align: right;">
     <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/6UThUp5ns9E" frameborder="0" allowfullscreen></iframe>
-    <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/watch?v=SFfTbCGPIq4" frameborder="0" allowfullscreen></iframe>
+    <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://youtu.be/83nIzytE8sw" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
