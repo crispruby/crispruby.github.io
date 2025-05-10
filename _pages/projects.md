@@ -76,13 +76,13 @@ Tetris
 
 2D Game Development
 ===================
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; gap: 20px;">
   <div style="flex: 1;">
-    <p>While learning <strong>Unity</strong>, I created a couple of 2-dimensional video games. <a href="https://captain-garneto.itch.io/galaxy-battle"><strong>Galaxy Battle</strong></a> involves leading your starship around and shooting enemies. The <a href="https://github.com/crispruby/CSharp-Unity-Space-Blaster">source code</a> is available on my github account. <a href="https://captain-garneto.itch.io/king-of-time-travel"><strong>King of Time Travel</strong></a> features a mix of animation of castles and starships. The player, as a king, searches for keystones to unlock doors and find hidden treasures. The <a href="https://github.com/crispruby/CSharp-Unity-King-of-Time-Travel">source code</a> is available on my github account. Both games are free to play in the browser.</p>
+    <p>While learning <strong>Unity</strong>, I created a couple of 2-dimensional video games. <a href="https://captain-garneto.itch.io/galaxy-battle"><strong>Galaxy Battle</strong></a> involves leading your starship around and shooting enemies. The <a href="https://github.com/crispruby/CSharp-Unity-Space-Blaster">source code</a> is available on my GitHub account. <a href="https://captain-garneto.itch.io/king-of-time-travel"><strong>King of Time Travel</strong></a> features a mix of animation of castles and starships. The player, as a king, searches for keystones to unlock doors and find hidden treasures. The <a href="https://github.com/crispruby/CSharp-Unity-King-of-Time-Travel">source code</a> is available on my GitHub account. Both games are free to play in the browser.</p>
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="/assets/images/Galaxy Battle.png" alt="Galaxy Battle" style="margin-bottom: 10px;">
-    <img src="/assets/images/King.png" alt="King of Time Travel">
+    <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/WtipxZ4ExSA" frameborder="0" allowfullscreen></iframe>
+    <iframe style="width: 100%; aspect-ratio: 16/9; margin-top: 10px;" src="https://www.youtube.com/embed/quRVOBX9Ygk" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
