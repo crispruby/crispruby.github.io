@@ -64,13 +64,13 @@ Tetris
 
 3D Game Development
 ===================
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; gap: 20px;">
   <div style="flex: 1;">
-<p>While learning <strong>C#</strong> and <strong>Unity</strong>, I created two 3-dimensional games. <a href="https://captain-garneto.itch.io/bugs-of-planet-dune"><strong>Bugs of Planet Dune</strong></a>, is a game that involves shooting giant bugs, finding keys, and escaping through gates. The <a href="https://github.com/crispruby/CSharp-Unity-Bugs-of-Planet-Dune">source code</a> is publicly available on my github account. Within <a href="https://captain-garneto.itch.io/commander"><strong>Commander Ruby's Journeys</strong></a>, the player, as Commander Ruby, jumps over enemies, finds portal keys, and discovers hidden treasures. The <a href="https://github.com/crispruby/CSharp-Unity-Commander-Ruby-on-Journey">source code</a> is available on my github account. Both games are free to play in the browser.</p>
+    <p>While learning <strong>C#</strong> and <strong>Unity</strong>, I created two 3-dimensional games. <a href="https://captain-garneto.itch.io/bugs-of-planet-dune"><strong>Bugs of Planet Dune</strong></a>, is a game that involves shooting giant bugs, finding keys, and escaping through gates. The <a href="https://github.com/crispruby/CSharp-Unity-Bugs-of-Planet-Dune">source code</a> is publicly available on my GitHub account. Within <a href="https://captain-garneto.itch.io/commander"><strong>Commander Ruby's Journeys</strong></a>, the player, as Commander Ruby, jumps over enemies, finds portal keys, and discovers hidden treasures. The <a href="https://github.com/crispruby/CSharp-Unity-Commander-Ruby-on-Journey">source code</a> is available on my GitHub account. Both games are free to play in the browser.</p>
   </div>
-  <div style="flex: 1; text-align: right;">
-    <img src="/assets/images/Dune.png" alt="Bugs of Planet Dune" style="margin-bottom: 10px;">
-    <img src="/assets/images/Ruby.png" alt="Commander Ruby's Journeys">
+  <div style="flex: 1; display: flex; flex-direction: column; gap: 10px; text-align: right;">
+    <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/6UThUp5ns9E" frameborder="0" allowfullscreen></iframe>
+    <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://youtu.be/SFfTbCGPIq4" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
