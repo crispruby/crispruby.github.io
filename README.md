@@ -12,8 +12,7 @@ Links to Itch.io and Unity Play builds
 
 A clean, responsive layout powered by the Minimal Mistakes theme
 
-You can visit the live site here:
-👉 https://crispruby.github.io/
+👉 You can visit the [**Live Web**](https://crispruby.github.io/)
 
 ## What You’ll Find on the Site 📘
 The portfolio highlights:
@@ -51,3 +50,16 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 - [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
 - [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
 - [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+
+
+## Author 👤
+**Daniel Anthony Rozek**
+
+Portfolio: https://crispruby.github.io/
+
+LinkedIn: https://www.linkedin.com/in/danielrozek/
+
+GitHub: https://github.com/crispruby
+
+## License 📄
+This project is open‑source for educational and personal use.
