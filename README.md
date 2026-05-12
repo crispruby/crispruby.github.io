@@ -55,11 +55,9 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 ## Author 👤
 **Daniel Anthony Rozek**
 
-Portfolio: https://crispruby.github.io/
-
-LinkedIn: https://www.linkedin.com/in/danielrozek/
-
-GitHub: https://github.com/crispruby
+[**Portfolio**](https://crispruby.github.io/), 
+[**LinkedIn**](https://www.linkedin.com/in/danielrozek/), 
+[**GitHub**](https://github.com/crispruby)
 
 ## License 📄
 This project is open‑source for educational and personal use.
