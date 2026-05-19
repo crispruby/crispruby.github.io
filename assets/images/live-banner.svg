@@ -15,7 +15,7 @@
   <rect y="165" width="2000" height="5" fill="white" />
   <rect y="250" width="2000" height="5" fill="white" />
 
-  <!-- Yellow center dashed line -->
+  <!-- Yellow dashed center line -->
   <g stroke="#FFD700" stroke-width="6" stroke-linecap="round">
     <line x1="0" y1="205" x2="80" y2="205" />
     <line x1="120" y1="205" x2="200" y2="205" />
@@ -36,42 +36,38 @@
     <line x1="1920" y1="205" x2="2000" y2="205" />
   </g>
 
-  <!-- Cyclist -->
-  <g id="cyclist" transform="translate(300,205)" fill="#000" stroke="none">
+  <!-- Cyclist position -->
+  <!-- Center of cyclist: (300,205) -->
 
-    <!-- Rear wheel -->
-    <g transform="translate(-25,0)">
-      <circle r="15" fill="none" stroke="#000" stroke-width="3" />
-      <animateTransform attributeName="transform"
-                        type="rotate"
-                        from="0"
-                        to="360"
-                        dur="0.8s"
-                        repeatCount="indefinite" />
-    </g>
+  <!-- Rear wheel -->
+  <circle cx="275" cy="205" r="15" fill="none" stroke="#000" stroke-width="3" />
+  <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="0 275 205"
+                    to="360 275 205"
+                    dur="0.8s"
+                    repeatCount="indefinite" />
 
-    <!-- Front wheel -->
-    <g transform="translate(25,0)">
-      <circle r="15" fill="none" stroke="#000" stroke-width="3" />
-      <animateTransform attributeName="transform"
-                        type="rotate"
-                        from="0"
-                        to="360"
-                        dur="0.8s"
-                        repeatCount="indefinite" />
-    </g>
+  <!-- Front wheel -->
+  <circle cx="325" cy="205" r="15" fill="none" stroke="#000" stroke-width="3" />
+  <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="0 325 205"
+                    to="360 325 205"
+                    dur="0.8s"
+                    repeatCount="indefinite" />
 
-    <!-- Bike frame -->
-    <polyline points="-25,0 -5,-25 25,0" fill="none" stroke="#000" stroke-width="3" />
-    <line x1="-5" y1="-25" x2="-2" y2="-40" stroke="#000" stroke-width="3" />
-    <line x1="5" y1="-28" x2="25" y2="-5" stroke="#000" stroke-width="3" />
+  <!-- Bike frame -->
+  <polyline points="275,205 295,180 325,205"
+            fill="none" stroke="#000" stroke-width="3" />
+  <line x1="295" y1="180" x2="298" y2="165" stroke="#000" stroke-width="3" />
+  <line x1="305" y1="178" x2="325" y2="200" stroke="#000" stroke-width="3" />
 
-    <!-- Rider -->
-    <circle cx="-2" cy="-45" r="7" />
-    <line x1="-2" y1="-40" x2="-15" y2="-15" stroke="#000" stroke-width="3" />
-    <line x1="-15" y1="-15" x2="-5" y2="0" stroke="#000" stroke-width="3" />
-    <line x1="-2" y1="-40" x2="12" y2="-15" stroke="#000" stroke-width="3" />
-    <line x1="12" y1="-15" x2="5" y2="0" stroke="#000" stroke-width="3" />
-  </g>
+  <!-- Rider -->
+  <circle cx="298" cy="160" r="7" />
+  <line x1="298" y1="165" x2="285" y2="190" stroke="#000" stroke-width="3" />
+  <line x1="285" y1="190" x2="295" y2="205" stroke="#000" stroke-width="3" />
+  <line x1="298" y1="165" x2="312" y2="190" stroke="#000" stroke-width="3" />
+  <line x1="312" y1="190" x2="305" y2="205" stroke="#000" stroke-width="3" />
 
 </svg>
