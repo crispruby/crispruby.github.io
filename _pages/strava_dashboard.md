@@ -4,8 +4,8 @@ permalink: /strava-dashboard/
 layout: single
 author_profile: true
 header:
-  image: /assets/images/WidePeaks.jpg
-  caption: "Training Analytics"
+  image: /assets/images/live-banner.svg
+  caption: "Animated Training Banner"
 ---
 
 <div id="dashboard">
