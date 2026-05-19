@@ -1,3 +1,12 @@
+---
+title: "Strava Dashboard"
+permalink: /strava-dashboard/
+layout: single
+author_profile: true
+header:
+  image: /assets/images/live-banner.svg
+  caption: "Animated Training Banner"
+---
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 2000 220"
      preserveAspectRatio="xMidYMid slice">
