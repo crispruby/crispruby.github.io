@@ -3,7 +3,9 @@ title: "Strava Dashboard"
 permalink: /strava-dashboard/
 layout: single
 author_profile: true
-
+header:
+  image: /assets/images/WidePeaks.jpg
+  caption: ""
 ---
 {% raw %}
 <svg xmlns="http://www.w3.org/2000/svg"
