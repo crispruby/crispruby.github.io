@@ -5,17 +5,12 @@
   <!-- Sky -->
   <rect width="2000" height="260" fill="#87CEEB" />
 
-  <!-- Sun -->
-  <circle cx="1750" cy="50" r="30" fill="#FFD966" />
-
-  <!-- Road background -->
+  <!-- Road -->
   <rect y="160" width="2000" height="100" fill="#2E2E2E" />
-
-  <!-- White shoulder lines -->
   <rect y="165" width="2000" height="5" fill="white" />
   <rect y="250" width="2000" height="5" fill="white" />
 
-  <!-- Yellow dashed center line -->
+  <!-- Yellow dashed line -->
   <g stroke="#FFD700" stroke-width="6" stroke-linecap="round">
     <line x1="0" y1="205" x2="80" y2="205" />
     <line x1="120" y1="205" x2="200" y2="205" />
@@ -36,38 +31,34 @@
     <line x1="1920" y1="205" x2="2000" y2="205" />
   </g>
 
-  <!-- Cyclist position -->
-  <!-- Center of cyclist: (300,205) -->
+  <!-- Cyclist group -->
+  <g id="cyclist" fill="#000" stroke="#000" stroke-width="3">
 
-  <!-- Rear wheel -->
-  <circle cx="275" cy="205" r="15" fill="none" stroke="#000" stroke-width="3" />
-  <animateTransform attributeName="transform"
-                    type="rotate"
-                    from="0 275 205"
-                    to="360 275 205"
-                    dur="0.8s"
-                    repeatCount="indefinite" />
+    <!-- Rear wheel -->
+    <circle cx="0" cy="0" r="15" />
 
-  <!-- Front wheel -->
-  <circle cx="325" cy="205" r="15" fill="none" stroke="#000" stroke-width="3" />
-  <animateTransform attributeName="transform"
-                    type="rotate"
-                    from="0 325 205"
-                    to="360 325 205"
-                    dur="0.8s"
-                    repeatCount="indefinite" />
+    <!-- Front wheel -->
+    <circle cx="50" cy="0" r="15" />
 
-  <!-- Bike frame -->
-  <polyline points="275,205 295,180 325,205"
-            fill="none" stroke="#000" stroke-width="3" />
-  <line x1="295" y1="180" x2="298" y2="165" stroke="#000" stroke-width="3" />
-  <line x1="305" y1="178" x2="325" y2="200" stroke="#000" stroke-width="3" />
+    <!-- Frame -->
+    <polyline points="0,0 20,-25 50,0" fill="none" />
+    <line x1="20" y1="-25" x2="25" y2="-40" />
+    <line x1="30" y1="-25" x2="50" y2="-5" />
 
-  <!-- Rider -->
-  <circle cx="298" cy="160" r="7" />
-  <line x1="298" y1="165" x2="285" y2="190" stroke="#000" stroke-width="3" />
-  <line x1="285" y1="190" x2="295" y2="205" stroke="#000" stroke-width="3" />
-  <line x1="298" y1="165" x2="312" y2="190" stroke="#000" stroke-width="3" />
-  <line x1="312" y1="190" x2="305" y2="205" stroke="#000" stroke-width="3" />
+    <!-- Rider -->
+    <circle cx="25" cy="-45" r="7" />
+    <line x1="25" y1="-40" x2="10" y2="-15" />
+    <line x1="10" y1="-15" x2="20" y2="0" />
+    <line x1="25" y1="-40" x2="40" y2="-15" />
+    <line x1="40" y1="-15" x2="30" y2="0" />
+
+  </g>
+
+  <!-- Motion: left → right -->
+  <animateMotion
+      xlink:href="#cyclist"
+      dur="8s"
+      repeatCount="indefinite"
+      path="M -200 205 L 2200 205" />
 
 </svg>
