@@ -185,7 +185,14 @@ css: /assets/css/strava-dashboard.css
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
-        <!-- icons or images here -->
+        <!-- Theatre building (left side) -->
+        <rect x="8" y="20" width="32" height="60" fill="#b33" rx="4" />
+        <circle cx="24" cy="40" r="6" fill="white" />
+        <circle cx="24" cy="60" r="6" fill="white" />
+
+        <!-- Parking lot (right side) -->
+        <rect x="60" y="20" width="32" height="60" fill="#4a6cf7" rx="4" />
+        <rect x="70" y="35" width="12" height="30" fill="white" />
       </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
