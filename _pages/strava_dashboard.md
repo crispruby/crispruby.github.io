@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 header:
   image: /assets/images/WidePeaks.jpg
+css: /assets/css/strava-dashboard.css
 ---
 
 <div class="tile-world-wrapper">
