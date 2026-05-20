@@ -16,204 +16,353 @@ css: /assets/css/strava-dashboard.css
     <!-- Just light grey squares for now -->
     <!-- Row 0 -->
     <g id="tile-0-0" transform="translate(0,0)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-1-0" transform="translate(100,0)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-2-0" transform="translate(200,0)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-3-0" transform="translate(300,0)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-4-0" transform="translate(400,0)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
 
     <!-- Row 1 -->
     <g id="tile-0-1" transform="translate(0,100)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-1-1" transform="translate(100,100)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-2-1" transform="translate(200,100)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-3-1" transform="translate(300,100)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-4-1" transform="translate(400,100)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
 
     <!-- Row 2 -->
     <g id="tile-0-2" transform="translate(0,200)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-1-2" transform="translate(100,200)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-2-2" transform="translate(200,200)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-4-2" transform="translate(400,200)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
 
     <!-- Row 3 -->
     <g id="tile-0-3" transform="translate(0,300)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-1-3" transform="translate(100,300)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-2-3" transform="translate(200,300)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-3-3" transform="translate(300,300)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-4-3" transform="translate(400,300)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
 
     <!-- Row 4 -->
     <g id="tile-0-4" transform="translate(0,400)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-1-4" transform="translate(100,400)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-2-4" transform="translate(200,400)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-3-4" transform="translate(300,400)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
     <g id="tile-4-4" transform="translate(400,400)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road group (rotates) -->
+      <g class="road" data-rotation="0">
+        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      </g>
+        <!-- Decorations (do NOT rotate) -->
+      <g class="decor">
+        <!-- icons or images here -->
+      </g>
     </g>
 
   </svg>
 </div>
 <script>
-// Attach rotation behavior to every tile
 document.querySelectorAll('#tile-world g').forEach(tile => {
-  tile.dataset.rotation = 0; // store rotation state
+  const road = tile.querySelector('.road');
+  if (!road) return;
 
   tile.addEventListener('click', () => {
-    let r = parseInt(tile.dataset.rotation);
+    let r = parseInt(road.dataset.rotation || 0);
     r = (r + 90) % 360;
-    tile.dataset.rotation = r;
+    road.dataset.rotation = r;
 
-    // rotate around tile center (50,50)
-    const transform = tile.getAttribute("transform").split(")")[0] + ")";
-    tile.setAttribute("transform", transform + ` rotate(${r} 50 50)`);
+    // rotate ONLY the road group, not the tile
+    road.setAttribute("transform", `rotate(${r} 50 50)`);
   });
 });
 </script>
