@@ -16,22 +16,12 @@ css: /assets/css/strava-dashboard.css
     <!-- Just light grey squares for now -->
     <!-- Row 0 -->
     <g id="tile-0-0" transform="translate(0,0)">
-      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" /><!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" /><!-- Yellow center line -->
-      <!-- Decorations -->
-      <g class="decorations">
-        tile.addEventListener('click', () => {
-          let r = (parseInt(tile.dataset.rotation) + 90) % 360;
-          tile.dataset.rotation = r;
-        
-          // rotate only the road layer
-          tile.querySelector('.road').setAttribute("transform",`rotate(${r} 50 50)`);
-        });
-      </g>
-    <g id="tile-1-0" transform="translate(100,0)">
+      <!-- Wide dark road -->
+      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
+      <!-- Yellow center line -->
+      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <g id="tile-1-0" transform="translate(100,0)">
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Wide dark road -->
       <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
