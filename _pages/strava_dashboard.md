@@ -16,11 +16,17 @@ css: /assets/css/strava-dashboard.css
     <!-- Just light grey squares for now -->
     <!-- Row 0 -->
     <g id="tile-0-0" transform="translate(0,0)">
+      <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
+      <!-- Road -->
+      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" /><!-- Wide dark road -->
+      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" /><!-- Yellow center line -->
+      <!-- Decorations -->
+      <g class="decorations">
+        <rect x="5" y="20" width="30" height="60" fill="#b33" rx="4" />
+        <text x="20" y="55" font-size="10" fill="white" text-anchor="middle">🎭</text>
+        <rect x="65" y="20" width="30" height="60" fill="#888" rx="4" />
+        <text x="80" y="55" font-size="12" fill="white" text-anchor="middle">P</text></g>
     </g>
     <g id="tile-1-0" transform="translate(100,0)">
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
