@@ -102,15 +102,3 @@ header:
 
   </svg>
 </div>
-<style>
-  .tile-world-wrapper {
-    max-width: 600px;   /* you can adjust this */
-    margin: 1rem auto;  /* center on page */
-  }
-
-  #tile-world {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-</style>
