@@ -23,11 +23,14 @@ css: /assets/css/strava-dashboard.css
       <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" /><!-- Yellow center line -->
       <!-- Decorations -->
       <g class="decorations">
-        <rect x="5" y="20" width="30" height="60" fill="#b33" rx="4" />
-        <text x="20" y="55" font-size="10" fill="white" text-anchor="middle">🎭</text>
-        <rect x="65" y="20" width="30" height="60" fill="#888" rx="4" />
-        <text x="80" y="55" font-size="12" fill="white" text-anchor="middle">P</text></g>
-    </g>
+        tile.addEventListener('click', () => {
+          let r = (parseInt(tile.dataset.rotation) + 90) % 360;
+          tile.dataset.rotation = r;
+        
+          // rotate only the road layer
+          tile.querySelector('.road').setAttribute("transform",`rotate(${r} 50 50)`);
+        });
+      </g>
     <g id="tile-1-0" transform="translate(100,0)">
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Wide dark road -->
