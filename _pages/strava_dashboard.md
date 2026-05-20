@@ -21,12 +21,6 @@ css: /assets/css/strava-dashboard.css
       <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
       <!-- Yellow center line -->
       <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
-      <g id="tile-1-0" transform="translate(100,0)">
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Wide dark road -->
-      <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
-      <!-- Yellow center line -->
-      <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
     </g>
     <g id="tile-2-0" transform="translate(200,0)">
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
