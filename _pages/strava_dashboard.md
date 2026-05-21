@@ -178,23 +178,19 @@ css: /assets/css/strava-dashboard.css
     <g id="tile-2-2" transform="translate(200,200)">
       <!-- 1. Full-tile decoration (behind road) -->
       <g class="decor-bg">
-        <!-- Top wall -->
-        <polygon points="0,0 100,0 70,30 30,30" fill="#b33" />
-        <!-- Bottom wall -->
-        <polygon points="30,70 70,70 100,100 0,100" fill="#b33" />
-        <!-- Left wall -->
-        <polygon points="0,0 30,30 30,70 0,100" fill="#a22" />
-        <!-- Right wall -->
-        <polygon points="70,30 100,0 100,100 70,70" fill="#a22" />
+        <polygon points="0,0 100,0 70,30 30,30" fill="#b33" /><!-- Top wall -->
+        <polygon points="30,70 70,70 100,100 0,100" fill="#b33" /><!-- Bottom wall -->
+        <polygon points="0,0 30,30 30,70 0,100" fill="#a22" /><!-- Left wall -->
+        <polygon points="70,30 100,0 100,100 70,70" fill="#a22" /><!-- Right wall -->
         <!-- Windows -->
-        <rect x="30" y="5" width="12" height="8" fill="white" rx="2" />
-        <rect x="58" y="5" width="12" height="8" fill="white" rx="2" />
-        <rect x="5" y="30" width="8" height="12" fill="white" rx="2" />
-        <rect x="5" y="58" width="8" height="12" fill="white" rx="2" />
-        <rect x="85" y="30" width="8" height="12" fill="white" rx="2" />
-        <rect x="85" y="58" width="8" height="12" fill="white" rx="2" />
-        <rect x="30" y="85" width="12" height="8" fill="white" rx="2" />
-        <rect x="58" y="85" width="12" height="8" fill="white" rx="2" />
+        <rect x="25" y="5" width="12" height="8" fill="white" rx="2" />
+        <rect x="63" y="5" width="12" height="8" fill="white" rx="2" />
+        <rect x="5" y="25" width="8" height="12" fill="white" rx="2" />
+        <rect x="5" y="63" width="8" height="12" fill="white" rx="2" />
+        <rect x="85" y="25" width="8" height="12" fill="white" rx="2" />
+        <rect x="85" y="63" width="8" height="12" fill="white" rx="2" />
+        <rect x="25" y="85" width="12" height="8" fill="white" rx="2" />
+        <rect x="63" y="85" width="12" height="8" fill="white" rx="2" />
       </g>
         <!-- 2. Road (rotates) -->
       <g class="road" data-rotation="0">
