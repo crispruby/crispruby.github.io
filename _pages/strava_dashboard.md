@@ -191,10 +191,10 @@ css: /assets/css/strava-dashboard.css
         <rect x="85" y="68" width="8" height="12" fill="white" rx="2" />
         <rect x="20" y="85" width="12" height="8" fill="white" rx="2" />
         <rect x="68" y="85" width="12" height="8" fill="white" rx="2" />
-        <rect x="44" y="16" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Top door -->
-        <circle cx="54" cy="24" r="2" fill="#ffdd33" /><!-- Top door knob -->
-        <rect x="44" y="68" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Bottom door -->
-        <circle cx="50" cy="76" r="2" fill="#ffdd33" /><!-- Bottom door knob -->
+        <rect x="44" y="14" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Top door -->
+        <circle cx="54" cy="22" r="2" fill="#ffdd33" /><!-- Top door knob -->
+        <rect x="44" y="70" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Bottom door -->
+        <circle cx="48" cy="78" r="2" fill="#ffdd33" /><!-- Bottom door knob -->
         <rect x="13" y="44" width="16" height="12" fill="#3a6ff7" rx="2" /><!-- Left door -->
         <circle cx="21" cy="48" r="2" fill="#ffdd33" /><!-- Left door knob -->
         <rect x="70" y="44" width="16" height="12" fill="#3a6ff7" rx="2" /><!-- Right door -->
