@@ -176,23 +176,19 @@ css: /assets/css/strava-dashboard.css
       </g>
     </g>
     <g id="tile-2-2" transform="translate(200,200)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
+      <!-- 1. Full-tile decoration (behind road) -->
+      <g class="decor-bg">
+        <rect x="0" y="0" width="100" height="100" fill="#b33" />
+        <!-- add theatre windows, doors, etc. -->
+      </g>
+        <!-- 2. Road (rotates) -->
       <g class="road" data-rotation="0">
         <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="round" />
         <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="round" />
       </g>
-        <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
-        <!-- Theatre building (left side) -->
-        <rect x="8" y="20" width="32" height="60" fill="#b33" rx="4" />
-        <circle cx="24" cy="40" r="6" fill="white" />
-        <circle cx="24" cy="60" r="6" fill="white" />
-
-        <!-- Parking lot (right side) -->
-        <rect x="60" y="20" width="32" height="60" fill="#4a6cf7" rx="4" />
-        <rect x="70" y="35" width="12" height="30" fill="white" />
+        <!-- 3. Foreground decorations (optional, do NOT rotate) -->
+      <g class="decor-fg">
+        <!-- small icons, trees, signs -->
       </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
