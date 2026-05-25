@@ -20,8 +20,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -33,8 +33,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -46,8 +46,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -59,8 +59,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -72,8 +72,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -87,8 +87,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -100,8 +100,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -113,8 +113,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -126,8 +126,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -139,8 +139,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -154,8 +154,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -167,8 +167,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -202,8 +202,8 @@ css: /assets/css/strava-dashboard.css
       </g>
         <!-- 2. Road (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- 3. Foreground decorations (optional, do NOT rotate) -->
       <g class="decor-fg">
@@ -215,8 +215,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -228,8 +228,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -242,8 +242,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -255,8 +255,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -268,8 +268,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -281,8 +281,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -294,8 +294,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -308,8 +308,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -321,8 +321,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -334,8 +334,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -347,8 +347,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
@@ -360,8 +360,8 @@ css: /assets/css/strava-dashboard.css
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
         <!-- Decorations (do NOT rotate) -->
       <g class="decor">
