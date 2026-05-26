@@ -172,8 +172,8 @@ css: /assets/css/strava-dashboard.css
         <path d="M 50 -1 Q 40 40 0 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
         <path d="M 50 -1 Q 40 40 0 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
         <!-- Bottom → Right turn -->
-        <path d="M 50 101 Q 80 80 100 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
-        <path d="M 50 101 Q 80 80 100 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
+        <path d="M 50 101 Q 60 60 100 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+        <path d="M 50 101 Q 60 60 100 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
       </g>
       <!-- Decorations (do NOT rotate) -->
       <g class="decor">
