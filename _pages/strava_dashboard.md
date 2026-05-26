@@ -178,7 +178,7 @@ css: /assets/css/strava-dashboard.css
           <line x1="85" y1="11" x2="85" y2="19" stroke="#ccc" stroke-width="2" />
           <line x1="81" y1="15" x2="89" y2="15" stroke="#ccc" stroke-width="2" />
           <!-- Spin forward twice -->
-          <animateTransform attributeName="transform" type="rotate" values="0;720;0" dur="6s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="rotate" values="0;720;0" dur="10s" repeatCount="indefinite" />
         </g>
         <!-- Leak puddle at bottom-left end -->
         <ellipse id="puddle" cx="15" cy="85" rx="10" ry="6" fill="rgba(0,150,255,0.4)">
