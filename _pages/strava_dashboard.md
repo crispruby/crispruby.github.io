@@ -174,7 +174,7 @@ css: /assets/css/strava-dashboard.css
         <circle cx="85" cy="15" r="6" fill="#666" />
         <!-- Valve wheel at top-right end -->
         <g transform-origin="85 15">
-          <circle cx="85" cy="15" r="6" fill="#666" />
+          <circle cx="85" cy="15" r="9" fill="#666" />
           <line x1="85" y1="11" x2="85" y2="19" stroke="#ccc" stroke-width="2" />
           <line x1="81" y1="15" x2="89" y2="15" stroke="#ccc" stroke-width="2" />
           <!-- Spin forward twice -->
