@@ -169,11 +169,11 @@ css: /assets/css/strava-dashboard.css
       <!-- Roads -->
       <g class="road" data-rotation="0">
         <!-- Top → Left turn -->
-        <path d="M 50 -1 Q 43 43 -1 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
-        <path d="M 50 -1 Q 43 43 -1 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
+        <path d="M 50 -1 Q 44 44 -1 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+        <path d="M 50 -1 Q 44 44 -1 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
         <!-- Bottom → Right turn -->
-        <path d="M 50 101 Q 57 57 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
-        <path d="M 50 101 Q 57 57 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
+        <path d="M 50 101 Q 56 56 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+        <path d="M 50 101 Q 56 56 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
       </g>
       <!-- Decorations (do NOT rotate) -->
       <g class="decor">
