@@ -82,7 +82,7 @@ css: /assets/css/strava-dashboard.css
     </g>
 
     <!-- Row 1 -->
-    <g id="tile-0-1" transform="translate(0,100)">
+  <g id="tile-0-1" transform="translate(0,100)">
       <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
@@ -149,7 +149,7 @@ css: /assets/css/strava-dashboard.css
     </g>
 
     <!-- Row 2 -->
-    <g id="tile-0-2" transform="translate(0,200)">
+  <g id="tile-0-2" transform="translate(0,200)">
       <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
       <!-- Road group (rotates) -->
@@ -229,7 +229,18 @@ css: /assets/css/strava-dashboard.css
       </g>
         <!-- 3. Foreground decorations (optional, do NOT rotate) -->
       <g class="decor-fg">
-        <!-- small icons, trees, signs -->
+        <!-- Good scene flash -->
+        <g transform="translate(50,20)" opacity="0">
+          <polygon points="0,-8 2,-2 8,0 2,2 0,8 -2,2 -8,0 -2,-2" fill="rgba(255,255,180,0.9)">
+            <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="3s; flashGood.end+6s" id="flashGood" repeatCount="indefinite" />
+          </polygon>
+        </g>
+        <!-- Bad scene flash -->
+        <g transform="translate(50,20)" opacity="0">
+          <polygon points="0,-10 3,-3 10,0 3,3 0,10 -3,3 -10,0 -3,-3" fill="rgba(180,220,255,1)">
+            <animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="8s; flashBad.end+10s" id="flashBad" repeatCount="indefinite" />
+          </polygon>
+        </g>
       </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
