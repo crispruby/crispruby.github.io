@@ -164,16 +164,17 @@ css: /assets/css/strava-dashboard.css
     </g>
     <g id="tile-1-2" transform="translate(100,200)">
       <!-- Water pipe in the center gap -->
+      <rect x="0" y="0" width="100" height="100" fill="#6cc66c" />
       <rect x="46" y="0" width="8" height="100" transform="rotate(45 50 50)" fill="#888" rx="3" />
       <circle cx="50" cy="50" r="4" fill="#444" />
       <!-- Roads -->
       <g class="road" data-rotation="0">
         <!-- Top → Left turn -->
-        <path d="M 50 -1 Q 44 44 -1 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
-        <path d="M 50 -1 Q 44 44 -1 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
+        <path d="M 50 -1 Q 45 45 -1 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+        <path d="M 50 -1 Q 45 45 -1 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
         <!-- Bottom → Right turn -->
-        <path d="M 50 101 Q 56 56 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
-        <path d="M 50 101 Q 56 56 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
+        <path d="M 50 101 Q 55 55 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+        <path d="M 50 101 Q 55 55 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
       </g>
       <!-- Decorations (do NOT rotate) -->
       <g class="decor">
