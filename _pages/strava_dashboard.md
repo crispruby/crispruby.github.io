@@ -164,20 +164,16 @@ css: /assets/css/strava-dashboard.css
     </g>
     <g id="tile-1-2" transform="translate(100,200)">
       <!-- Water pipe in the center gap -->
-      <rect x="42" y="42" width="16" height="16" fill="#888" rx="3" />
+      <rect x="46" y="0" width="8" height="100" transform="rotate(45 50 50)" fill="#888" rx="3" />
       <circle cx="50" cy="50" r="4" fill="#444" />
       <!-- Roads -->
       <g class="road" data-rotation="0">
         <!-- Top → Left turn -->
-        <path d="M 50 -1 L 50 40" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 40 50 L -1 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 40" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-        <path d="M 40 50 L -1 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 -1 Q 20 20 0 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+        <path d="M 50 -1 Q 20 20 0 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
         <!-- Bottom → Right turn -->
-        <path d="M 50 60 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 60 50 L 101 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 60 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-        <path d="M 60 50 L 101 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <path d="M 50 101 Q 80 80 100 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+        <path d="M 50 101 Q 80 80 100 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
       </g>
       <!-- Decorations (do NOT rotate) -->
       <g class="decor">
