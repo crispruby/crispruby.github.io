@@ -171,9 +171,13 @@ css: /assets/css/strava-dashboard.css
         <circle cx="85" cy="15" r="4" fill="#444" />
         <circle cx="50" cy="50" r="4" fill="#444" />
         <circle cx="15" cy="85" r="4" fill="#444" />
-        <circle cx="85" cy="15" r="6" fill="#666" /><!-- Valve wheel at top-right end -->
+        <circle cx="85" cy="15" r="6" fill="#666" />
+        <!-- Valve wheel at top-right end -->
         <line x1="85" y1="11" x2="85" y2="19" stroke="#ccc" stroke-width="2" />
         <line x1="81" y1="15" x2="89" y2="15" stroke="#ccc" stroke-width="2" />
+        <!-- Leak puddle at bottom-left end -->
+        <ellipse cx="15" cy="85" rx="10" ry="6" fill="rgba(0,150,255,0.4)" />
+        <ellipse cx="20" cy="88" rx="6" ry="3" fill="rgba(0,150,255,0.3)" />
         <!-- Top → Left turn -->
         <path d="M 50 -1 Q 46 46 -1 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
         <path d="M 50 -1 Q 46 46 -1 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
