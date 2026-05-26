@@ -168,7 +168,9 @@ css: /assets/css/strava-dashboard.css
       <g class="road" data-rotation="0">
         <!-- Water pipe in the center gap -->
         <rect x="46" y="0" width="8" height="100" transform="rotate(45 50 50)" fill="#888" rx="3" />
+        <circle cx="25" cy="75" r="4" fill="#444" />
         <circle cx="50" cy="50" r="4" fill="#444" />
+        <circle cx="20" cy="80" r="4" fill="#444" />
         <!-- Top → Left turn -->
         <path d="M 50 -1 Q 46 46 -1 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
         <path d="M 50 -1 Q 46 46 -1 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
