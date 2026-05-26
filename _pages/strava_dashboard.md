@@ -175,15 +175,12 @@ css: /assets/css/strava-dashboard.css
         <!-- Valve wheel at top-right end -->
         <line x1="85" y1="11" x2="85" y2="19" stroke="#ccc" stroke-width="2" />
         <line x1="81" y1="15" x2="89" y2="15" stroke="#ccc" stroke-width="2" />
-        <!-- Rotating arm -->
-        <line x1="82" y1="18" x2="90" y2="18" stroke="#cc8844" stroke-width="2" transform-origin="85 15">
-        <animateTransform attributeName="transform"
-                    type="rotate"
-                    from="0"
-                    to="360"
-                    dur="2s"
-                    repeatCount="indefinite" />
-        </line>
+        <!-- Worker figure near valve -->
+        <circle cx="78" cy="20" r="4" fill="#f2d6b3" /> <!-- head -->
+        <rect x="75" y="24" width="6" height="10" fill="#3366cc" rx="2" /> <!-- body -->
+        <!-- arms reaching toward valve -->
+        <line x1="75" y1="26" x2="82" y2="18" stroke="#cc8844" stroke-width="2" />
+        <line x1="81" y1="26" x2="88" y2="18" stroke="#cc8844" stroke-width="2" />
         <!-- Leak puddle at bottom-left end -->
         <ellipse cx="15" cy="85" rx="10" ry="6" fill="rgba(0,150,255,0.4)" />
         <ellipse cx="20" cy="88" rx="6" ry="3" fill="rgba(0,150,255,0.3)" />
