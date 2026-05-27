@@ -247,6 +247,32 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashBad1" attributeName="opacity" values="1;0.999;1" dur="7s" repeatCount="indefinite" fill="remove" />
         </g>
+        <!-- BAD LIGHTNING FLASH -->
+        <g transform="translate(9, 26)" opacity="1">
+        <!-- Lightning bolt shape -->
+        <polygon points="
+      -4,-18
+       2,-6
+      -6,-6
+       4,6
+      -2,6
+       6,18"
+    fill="black" opacity="0">
+    <!-- Color flash: black → white → black -->
+    <animate attributeName="fill" values="black;white;black" dur="0.22s" begin="flashBolt1.repeatEvent" />
+    <!-- Visibility -->
+    <animate attributeName="opacity" values="0;1;0" dur="0.22s" begin="flashBolt1.repeatEvent" />
+    <!-- Violent expansion -->
+    <animateTransform attributeName="transform" type="scale" values="0.2;2.6;0.2" dur="0.22s" begin="flashBolt1.repeatEvent" />
+  </polygon>
+  <!-- Timer trigger -->
+  <animate id="flashBolt1"
+           attributeName="opacity"
+           values="1;0.999;1"
+           dur="7s"
+           repeatCount="indefinite"
+           fill="remove" />
+</g>
       </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
