@@ -236,7 +236,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.2;2.0;0.2" dur="0.5s" begin="flashGood1.repeat(1)" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashGood1" attributeName="opacity" values="1;1" dur="6s" repeatCount="indefinite" />
+          <animate id="flashGood1" attributeName="opacity" values="1;0.999;1" dur="6s" repeatCount="indefinite" />
         </g>
       </g>
     </g>
