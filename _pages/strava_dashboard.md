@@ -206,6 +206,7 @@ css: /assets/css/strava-dashboard.css
         <polygon points="70,30 100,0 100,100 70,70" fill="#a22" /><!-- Right wall -->
         <!-- Windows -->
         <rect x="20" y="5" width="12" height="8" fill="white" rx="2" />
+        <rect x="68" y="5" width="12" height="8" fill="white" rx="2" />
         <rect x="5" y="20" width="8" height="12" fill="white" rx="2" />
         <rect x="5" y="68" width="8" height="12" fill="white" rx="2" />
         <rect x="85" y="20" width="8" height="12" fill="white" rx="2" />
