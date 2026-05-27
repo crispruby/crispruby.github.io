@@ -232,11 +232,11 @@ css: /assets/css/strava-dashboard.css
         <!-- GOOD FLASH (top-left window) -->
         <g transform="translate(26,9)" opacity="1">
           <polygon points="0,-20 6,-6 20,0 6,6 0,20 -6,6 -20,0 -6,-6" fill="rgba(255,240,150,0.9)" opacity="0">
-            <animate attributeName="opacity" values="0;1;0" dur="0.5s" begin="flashGood1.repeat(1)" />
-            <animateTransform attributeName="transform" type="scale" values="0.2;2.0;0.2" dur="0.5s" begin="flashGood1.repeat(1)" />
+            <animate attributeName="opacity" values="0;1;0" dur="0.5s" begin="flashGood1.repeatEvent" />
+            <animateTransform attributeName="transform" type="scale" values="0.2;2.0;0.2" dur="0.5s" begin="flashGood1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashGood1" attributeName="opacity" values="1;0.999;1" dur="6s" repeatCount="indefinite" />
+          <animate id="flashGood1" attributeName="opacity" values="1;0.999;1" dur="6s" repeatCount="indefinite" fill="remove"/>
         </g>
       </g>
     </g>
