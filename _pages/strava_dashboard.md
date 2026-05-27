@@ -230,11 +230,12 @@ css: /assets/css/strava-dashboard.css
         <rect x="20" y="85" width="12" height="8" fill="white" rx="2" />
         <rect x="68" y="85" width="12" height="8" fill="white" rx="2" />
         <!-- GOOD FLASH (top-left window) -->
-        <g transform="translate(26,9)" opacity="0">
-          <polygon points="0,-20 6,-6 20,0 6,6 0,20 -6,6 -20,0 -6,-6" fill="rgba(255,240,150,0.9)">
+        <g transform="translate(26,9)">
+          <polygon points="0,-20 6,-6 20,0 6,6 0,20 -6,6 -20,0 -6,-6" fill="rgba(255,240,150,0.9)" opacity="0">
             <animate attributeName="opacity" values="0;1;0" dur="0.5s" begin="flashGood1.begin+0s" />
             <animateTransform attributeName="transform" type="scale" values="0.2;2.0;0.2" dur="0.5s" begin="flashGood1.begin+0s" />
           </polygon>
+          <!-- Timer trigger -->
           <animate id="flashGood1" attributeName="opacity" values="0;0" dur="6s" repeatCount="indefinite" />
         </g>
       </g>
