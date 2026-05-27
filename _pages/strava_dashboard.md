@@ -206,6 +206,30 @@ css: /assets/css/strava-dashboard.css
         <polygon points="70,30 100,0 100,100 70,70" fill="#a22" /><!-- Right wall -->
         <!-- Windows -->
         <rect x="20" y="5" width="12" height="8" fill="white" rx="2" />
+        <!-- GOOD SCENE FLASH -->
+        <g transform="translate(26, 16)" opacity="0">
+          <polygon points="0,-6 2,-2 6,0 2,2 0,6 -2,2 -6,0 -2,-2" fill="rgba(255,240,150,0.9)">
+          <!-- Fade in/out -->
+          <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.35s"
+             begin="flashGoodX.begin+0s"
+             fill="freeze" />
+          <!-- Grow then shrink -->
+          <animateTransform attributeName="transform"
+                      type="scale"
+                      values="0.2;1.6;0.2"
+                      dur="0.35s"
+                      begin="flashGoodX.begin+0s"
+                      fill="freeze" />
+          </polygon>
+          <!-- Timer trigger -->
+          <animate id="flashGoodX"
+            attributeName="opacity"
+            values="0;0"
+            dur="7s"
+            repeatCount="indefinite" />
+        </g>
         <rect x="68" y="5" width="12" height="8" fill="white" rx="2" />
         <rect x="5" y="20" width="8" height="12" fill="white" rx="2" />
         <rect x="5" y="68" width="8" height="12" fill="white" rx="2" />
