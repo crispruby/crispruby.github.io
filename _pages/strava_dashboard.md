@@ -207,12 +207,12 @@ css: /assets/css/strava-dashboard.css
         <!-- Windows -->
         <rect x="20" y="5" width="12" height="8" fill="white" rx="2" />
         <!-- GOOD SCENE FLASH -->
-        <g transform="translate(26, 16)" opacity="0">
+        <g transform="translate(26,9)" opacity="0">
           <polygon points="0,-6 2,-2 6,0 2,2 0,6 -2,2 -6,0 -2,-2" fill="rgba(255,240,150,0.9)">
-            <animate attributeName="opacity" values="0;1;0" dur="0.35s" begin="flashGoodX.begin+0s" fill="freeze" /><!-- Fade in/out -->
-            <animateTransform attributeName="transform" type="scale" values="0.2;1.6;0.2" dur="0.35s" begin="flashGoodX.begin+0s" fill="freeze" /> <!--Grow, shrink-->
+            <animate attributeName="opacity" values="0;1;0" dur="0.35s" begin="flashGood1.begin+0s" />
+            <animateTransform attributeName="transform" type="scale" values="0.2;1.6;0.2" dur="0.35s" begin="flashGood1.begin+0s" />
           </polygon>
-          <animate id="flashGoodX" attributeName="opacity" values="0;0" dur="7s" repeatCount="indefinite" /> <!-- Timer trigger -->
+          <animate id="flashGood1" attributeName="opacity" values="0;0" dur="6s" repeatCount="indefinite" />
         </g>
         <rect x="68" y="5" width="12" height="8" fill="white" rx="2" />
         <!-- BAD SCENE FLASH -->
