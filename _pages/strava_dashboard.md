@@ -7,11 +7,8 @@ header:
   image: /assets/images/WidePeaks.jpg
 css: /assets/css/strava-dashboard.css
 ---
-
 <div class="tile-world-wrapper">
-  <svg id="tile-world"
-       viewBox="0 0 500 500"
-       preserveAspectRatio="xMidYMid meet">
+ <svg id="tile-world" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet">
     <!-- 5x5 grid of 100x100 tiles -->
     <!-- Just light grey squares for now -->
     <!-- Row 0 -->
@@ -237,6 +234,18 @@ css: /assets/css/strava-dashboard.css
           </polygon>
           <!-- Timer trigger -->
           <animate id="flashGood1" attributeName="opacity" values="1;0.999;1" dur="6s" repeatCount="indefinite" fill="remove"/>
+        </g>
+        <!-- BAD FLASH (example window center) -->
+        <g transform="translate(74, 9)" opacity="1">
+          <polygon points="0,-22 7,-7 22,0 7,7 0,22 -7,7 -22,0 -7,-7" fill="black" opacity="0">
+            <animate attributeName="fill" values="black;white;black" dur="0.25s" begin="flashBad1.repeatEvent" />
+            <!-- Flash visibility -->
+            <animate attributeName="opacity" values="0;1;0" dur="0.25s" begin="flashBad1.repeatEvent" />
+            <!-- Flash expansion -->
+            <animateTransform attributeName="transform" type="scale" values="0.2;2.4;0.2" dur="0.25s" begin="flashBad1.repeatEvent" />
+          </polygon>
+          <!-- Timer trigger -->
+          <animate id="flashBad1" attributeName="opacity" values="1;0.999;1" dur="7s" repeatCount="indefinite" fill="remove" />
         </g>
       </g>
     </g>
