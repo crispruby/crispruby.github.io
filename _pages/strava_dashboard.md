@@ -206,28 +206,6 @@ css: /assets/css/strava-dashboard.css
         <polygon points="70,30 100,0 100,100 70,70" fill="#a22" /><!-- Right wall -->
         <!-- Windows -->
         <rect x="20" y="5" width="12" height="8" fill="white" rx="2" />
-        <!-- GOOD SCENE FLASH -->
-        <g transform="translate(26,9)" opacity="0">
-          <polygon points="0,-6 2,-2 6,0 2,2 0,6 -2,2 -6,0 -2,-2" fill="rgba(255,240,150,0.9)">
-            <animate attributeName="opacity" values="0;1;0" dur="0.35s" begin="flashGood1.begin+0s" />
-            <animateTransform attributeName="transform" type="scale" values="0.2;1.6;0.2" dur="0.35s" begin="flashGood1.begin+0s" />
-          </polygon>
-          <animate id="flashGood1" attributeName="opacity" values="0;0" dur="6s" repeatCount="indefinite" />
-        </g>
-        <rect x="68" y="5" width="12" height="8" fill="white" rx="2" />
-        <!-- BAD SCENE FLASH -->
-        <g transform="translate(WX, WY)" opacity="0">
-          <polygon points="0,-7 3,-3 7,0 3,3 0,7 -3,3 -7,0 -3,-3" fill="black">
-            <!-- Black → white → black -->
-            <animate attributeName="fill" values="black;white;black" dur="0.18s" begin="flashBadX.begin+0s" fill="freeze" />
-            <!-- Fade in/out -->
-            <animate attributeName="opacity" values="0;1;0" dur="0.18s" begin="flashBadX.begin+0s" fill="freeze" />
-            <!-- Grow then shrink -->
-            <animateTransform attributeName="transform" type="scale" values="0.2;2.0;0.2" dur="0.18s" begin="flashBadX.begin+0s" fill="freeze" />
-          </polygon>
-          <!-- Timer trigger -->
-          <animate id="flashBadX" attributeName="opacity" values="0;0" dur="9s" repeatCount="indefinite" />
-        </g>
         <rect x="5" y="20" width="8" height="12" fill="white" rx="2" />
         <rect x="5" y="68" width="8" height="12" fill="white" rx="2" />
         <rect x="85" y="20" width="8" height="12" fill="white" rx="2" />
@@ -250,17 +228,13 @@ css: /assets/css/strava-dashboard.css
       </g>
         <!-- 3. Foreground decorations (optional, do NOT rotate) -->
       <g class="decor-fg">
-        <!-- Good scene flash -->
-        <g transform="translate(50,20)" opacity="0">
-          <polygon points="0,-8 2,-2 8,0 2,2 0,8 -2,2 -8,0 -2,-2" fill="rgba(255,255,180,0.9)">
-            <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="3s; flashGood.end+6s" id="flashGood" repeatCount="indefinite" />
+        <!-- GOOD FLASH (top-left window) -->
+        <g transform="translate(26,9)" opacity="0">
+          <polygon points="0,-12 4,-4 12,0 4,4 0,12 -4,4 -12,0 -4,-4" fill="rgba(255,240,150,0.9)">
+            <animate attributeName="opacity" values="0;1;0" dur="0.5s" begin="flashGood1.begin+0s" />
+            <animateTransform attributeName="transform" type="scale" values="0.2;1.8;0.2" dur="0.5s" begin="flashGood1.begin+0s" />
           </polygon>
-        </g>
-        <!-- Bad scene flash -->
-        <g transform="translate(50,20)" opacity="0">
-          <polygon points="0,-10 3,-3 10,0 3,3 0,10 -3,3 -10,0 -3,-3" fill="rgba(180,220,255,1)">
-            <animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="8s; flashBad.end+10s" id="flashBad" repeatCount="indefinite" />
-          </polygon>
+          <animate id="flashGood1" attributeName="opacity" values="0;0" dur="6s" repeatCount="indefinite" />
         </g>
       </g>
     </g>
