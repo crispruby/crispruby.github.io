@@ -249,13 +249,7 @@ css: /assets/css/strava-dashboard.css
         </g>
         <!-- BAD LIGHTNING FLASH -->
         <g transform="translate(9, 26)" opacity="1">
-          <polygon points="-4,-18
-       2,-6
-      -6,-6
-       4,6
-      -2,6
-       6,18"
-    fill="black" opacity="0">
+          <polygon points="-4,-18 2,-6 -6,-6 4,6 -2,6 6,18" fill="black" opacity="0">
           <animate attributeName="fill" values="black;white;black" dur="0.22s" begin="flashBolt1.repeatEvent" />
           <!-- Visibility -->
           <animate attributeName="opacity" values="0;1;0" dur="0.22s" begin="flashBolt1.repeatEvent" />
