@@ -287,14 +287,16 @@ css: /assets/css/strava-dashboard.css
             <!-- Visibility -->
             <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="flashBreak1.repeatEvent" />
             <!-- Shrink-collapse (heart breaking inward) -->
-            <animateTransform attributeName="transform" type="scale" values="1.6;0.5;1.6" dur="1.2s" begin="flashBreak1.repeatEvent" />
+            <animateTransform attributeName="transform" type="rotate" values="0 -10 -2; -15 -10 -2; 0 -10 -2" dur="1.2s" begin="flashBreak1.repeatEvent" />
+            <animateTransform attributeName="transform" additive="sum" type="scale" values="1.6;0.5;1.6" dur="1.2s" begin="flashBreak1.repeatEvent" />
           </path>
           <path d="M 10 -10 C 18 -18, 28 -6, 10 8 L 0 16 L 0 -2 Z" fill="red" opacity="0"> <!-- Right half -->
             <animate attributeName="fill" values="red;white;red" dur="1.2s" begin="flashBreak1.repeatEvent" />
             <!-- Visibility -->
             <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="flashBreak1.repeatEvent" />
             <!-- Shrink-collapse -->
-            <animateTransform attributeName="transform" type="scale" values="1.6;0.5;1.6" dur="1.2s" begin="flashBreak1.repeatEvent" />
+            <animateTransform attributeName="transform" type="rotate" values="0 10 -2; 15 10 -2; 0 10 -2" dur="1.2s" begin="flashBreak1.repeatEvent" />
+            <animateTransform attributeName="transform" additive="sum" type="scale" values="1.6;0.5;1.6" dur="1.2s" begin="flashBreak1.repeatEvent" />
           </path>
           <!-- Timer trigger -->
           <animate id="flashBreak1" attributeName="opacity" values="1;0.999;1" dur="10s" repeatCount="indefinite" fill="remove" />
