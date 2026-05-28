@@ -248,7 +248,7 @@ css: /assets/css/strava-dashboard.css
           <animate id="flashBad1" attributeName="opacity" values="1;0.999;1" dur="7s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- BAD LIGHTNING FLASH -->
-<g transform="translate(WX, WY)" opacity="1">
+<g transform="translate(9, 26)" opacity="1">
   <!-- Lightning bolt shape -->
   <polygon points="
       -4,-18
