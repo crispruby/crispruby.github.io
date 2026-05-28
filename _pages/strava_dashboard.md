@@ -302,61 +302,31 @@ css: /assets/css/strava-dashboard.css
           <animate id="flashBreak1" attributeName="opacity" values="1;0.999;1" dur="10s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- MONSTER EYE FLASH -->
-<g transform="translate(88, 74)" opacity="1">
-
-  <!-- Eyelid (black cover) -->
-  <ellipse cx="0" cy="0" rx="12" ry="6" fill="black" opacity="0">
-    <!-- Eyelid fade-in/out -->
-    <animate attributeName="opacity"
-             values="0;1;0"
-             dur="0.9s"
-             begin="flashEye2.repeatEvent" />
-
-    <!-- Wink (squash vertically) -->
-    <animate attributeName="ry"
-             values="6;2;6"
-             dur="0.9s"
-             begin="flashEye2.repeatEvent" />
-  </ellipse>
-
-  <!-- Sclera (white) -->
-  <ellipse cx="0" cy="0" rx="10" ry="4" fill="white" opacity="0">
-    <animate attributeName="opacity"
-             values="0;1;0"
-             dur="0.9s"
-             begin="flashEye2.repeatEvent" />
-
-    <!-- Wink -->
-    <animate attributeName="ry"
-             values="4;1.5;4"
-             dur="0.9s"
-             begin="flashEye2.repeatEvent" />
-  </ellipse>
-
-  <!-- Iris (red) -->
-  <circle cx="0" cy="0" r="3" fill="red" opacity="0">
-    <animate attributeName="opacity"
-             values="0;1;0"
-             dur="0.9s"
-             begin="flashEye2.repeatEvent" />
-  </circle>
-
-  <!-- Pupil (black) -->
-  <circle cx="0" cy="0" r="1.5" fill="black" opacity="0">
-    <animate attributeName="opacity"
-             values="0;1;0"
-             dur="0.9s"
-             begin="flashEye2.repeatEvent" />
-  </circle>
-
-  <!-- Timer trigger -->
-  <animate id="flashEye2"
-           attributeName="opacity"
-           values="1;0.999;1"
-           dur="9s"
-           repeatCount="indefinite"
-           fill="remove" />
-</g>
+        <g transform="translate(88, 74)" opacity="1">
+          <!-- Eyelid (black cover) -->
+          <ellipse cx="0" cy="0" rx="12" ry="6" fill="black" opacity="0">
+            <!-- Eyelid fade-in/out -->
+            <animate attributeName="opacity" values="0;1;0" dur="0.9s" begin="flashEye2.repeatEvent" />
+            <!-- Wink (squish vertically) -->
+            <animate attributeName="ry" values="6;2;6" dur="0.9s" begin="flashEye2.repeatEvent" />
+          </ellipse>
+          <!-- Sclera (white) -->
+          <ellipse cx="0" cy="0" rx="10" ry="4" fill="white" opacity="0">
+            <animate attributeName="opacity" values="0;1;0" dur="0.9s" begin="flashEye2.repeatEvent" />
+            <!-- Wink -->
+            <animate attributeName="ry" values="4;1.5;4" dur="0.9s" begin="flashEye2.repeatEvent" />
+          </ellipse>
+          <!-- Iris (red) -->
+          <circle cx="0" cy="0" r="3" fill="red" opacity="0">
+            <animate attributeName="opacity" values="0;1;0" dur="0.9s" begin="flashEye2.repeatEvent" />
+          </circle>
+          <!-- Pupil (black) -->
+          <circle cx="0" cy="0" r="1.5" fill="black" opacity="0">
+            <animate attributeName="opacity" values="0;1;0" dur="0.9s" begin="flashEye2.repeatEvent" />
+          </circle>
+          <!-- Timer trigger -->
+          <animate id="flashEye2" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" />
+        </g>
         <!-- MUSICAL NOTE FLASH -->
         <g transform="translate(9, 74)" opacity="1">
           <path d="M -4 -10 L 4 -12 L 4 4 C 4 10, -2 12, -4 8 C -6 4, -2 2, 2 4 L 2 -8 Z" fill="purple" opacity="0">
