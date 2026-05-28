@@ -281,20 +281,20 @@ css: /assets/css/strava-dashboard.css
           <animate id="flashHeart1" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- HEART-BREAKING FLASH -->
-        <g transform="translate(74, 88)" opacity="1">
-          <path d="M -6 -10 C -14 -18, -24 -6, -6 8 L 0 14 L 0 -2 Z" fill="red" opacity="0">
-            <animate attributeName="fill" values="red;white;red" dur="0.45s" begin="flashBreak1.repeatEvent" />
+        <g transform="translate(74, 88)" opacity="1"> <!-- Left half -->
+          <path d="M -10 -10 C -18 -18, -28 -6, -10 8 L 0 16 L 0 -2 Z" fill="red" opacity="0">
+            <animate attributeName="fill" values="red;white;red" dur="1.2s" begin="flashBreak1.repeatEvent" />
             <!-- Visibility -->
-            <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="flashBreak1.repeatEvent" />
+            <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="flashBreak1.repeatEvent" />
             <!-- Shrink-collapse (heart breaking inward) -->
-            <animateTransform attributeName="transform" type="scale" values="1.4;0.4;1.4" dur="0.45s" begin="flashBreak1.repeatEvent" />
+            <animateTransform attributeName="transform" type="scale" values="1.6;0.5;1.6" dur="1.2s" begin="flashBreak1.repeatEvent" />
           </path>
-          <path d="M 6 -10 C 14 -18, 24 -6, 6 8 L 0 14 L 0 -2 Z" fill="red" opacity="0">
-            <animate attributeName="fill" values="red;white;red" dur="0.45s" begin="flashBreak1.repeatEvent" />
+          <path d="M 10 -10 C 18 -18, 28 -6, 10 8 L 0 16 L 0 -2 Z" fill="red" opacity="0"> <!-- Right half -->
+            <animate attributeName="fill" values="red;white;red" dur="1.2s" begin="flashBreak1.repeatEvent" />
             <!-- Visibility -->
-            <animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="flashBreak1.repeatEvent" />
+            <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="flashBreak1.repeatEvent" />
             <!-- Shrink-collapse -->
-            <animateTransform attributeName="transform" type="scale" values="1.4;0.4;1.4" dur="0.45s" begin="flashBreak1.repeatEvent" />
+            <animateTransform attributeName="transform" type="scale" values="1.6;0.5;1.6" dur="1.2s" begin="flashBreak1.repeatEvent" />
           </path>
           <!-- Timer trigger -->
           <animate id="flashBreak1" attributeName="opacity" values="1;0.999;1" dur="10s" repeatCount="indefinite" fill="remove" />
