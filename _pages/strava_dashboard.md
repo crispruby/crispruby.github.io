@@ -197,10 +197,10 @@ css: /assets/css/strava-dashboard.css
     <g id="tile-2-2" transform="translate(200,200)">
       <!-- 1. Full-tile decoration (behind road) -->
       <g class="decor-bg">
-        <polygon points="0,0 100,0 70,30 30,30" fill="#b33" /><!-- Top wall -->
-        <polygon points="30,70 70,70 100,100 0,100" fill="#b33" /><!-- Bottom wall -->
-        <polygon points="0,0 30,30 30,70 0,100" fill="#a22" /><!-- Left wall -->
-        <polygon points="70,30 100,0 100,100 70,70" fill="#a22" /><!-- Right wall -->
+        <polygon points="0,0 100,0 60,40 40,40" fill="#b33" /><!-- Top wall -->
+        <polygon points="40,60 60,60 100,100 0,100" fill="#b33" /><!-- Bottom wall -->
+        <polygon points="0,0 40,40 40,60 0,100" fill="#a22" /><!-- Left wall -->
+        <polygon points="60,40 100,0 100,100 60,60" fill="#a22" /><!-- Right wall -->
         <rect x="44" y="14" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Top door -->
         <circle cx="54" cy="22" r="2" fill="#ffdd33" /><!-- Top door knob -->
         <rect x="44" y="70" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Bottom door -->
