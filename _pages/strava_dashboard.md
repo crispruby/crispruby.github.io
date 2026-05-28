@@ -281,15 +281,8 @@ css: /assets/css/strava-dashboard.css
           <animate id="flashHeart1" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- HEART-BREAKING FLASH -->
-<g transform="translate(WX, WY)" opacity="1">
-  <!-- Broken heart shape (two halves slightly separated) -->
-  <path d="
-      M -6 -10
-      C -14 -18, -24 -6, -6 8
-      L 0 14
-      L 0 -2
-      Z
-    "
+        <g transform="translate(74, 88)" opacity="1">
+        <path d="M -6 -10 C -14 -18, -24 -6, -6 8 L 0 14 L 0 -2 Z"
     fill="red"
     opacity="0">
     
