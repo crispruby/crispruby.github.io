@@ -261,41 +261,49 @@ css: /assets/css/strava-dashboard.css
         </g>
         <!-- HERO VICTORY LIGHTNING FLASH -->
         <g transform="translate(88, 26)" opacity="1">
-          <polygon points="-4,-22
-       3,-10
-      -5,-10
-       6,2
-      -2,2
-       8,18
-       2,18
-       10,30"
-    fill="yellow"
+          <polygon points="-4,-22 3,-10 -5,-10 6,2 -2,2 8,18 2,18 10,30" fill="yellow" opacity="0">
+            <animate attributeName="fill" values="yellow;white;yellow" dur="0.28s" begin="flashHero1.repeatEvent" />
+            <!-- Visibility -->
+            <animate attributeName="opacity" values="0;1;0" dur="0.28s" begin="flashHero1.repeatEvent" />
+            <!-- Heroic expansion -->
+            <animateTransform attributeName="transform" type="scale" values="0.2;2.8;0.2" dur="0.28s" begin="flashHero1.repeatEvent" />
+          </polygon>
+          <!-- Timer trigger -->
+          <animate id="flashHero1" attributeName="opacity" values="1;0.999;1" dur="8s" repeatCount="indefinite" fill="remove" />
+        </g>
+        <!-- ROMANTIC HEART FLASH -->
+<g transform="translate(WX, WY)" opacity="1">
+  <!-- Heart shape -->
+  <path d="
+      M 0 -10
+      C -8 -18, -20 -6, 0 10
+      C 20 -6, 8 -18, 0 -10
+    "
+    fill="pink"
     opacity="0">
-    <!-- Color flash: yellow → white → yellow -->
-    <animate attributeName="fill"
-             values="yellow;white;yellow"
-             dur="0.28s"
-             begin="flashHero1.repeatEvent" />
-    <!-- Visibility -->
+
+    <!-- Soft pink glow -->
     <animate attributeName="opacity"
              values="0;1;0"
-             dur="0.28s"
-             begin="flashHero1.repeatEvent" />
-    <!-- Heroic expansion -->
+             dur="0.9s"
+             begin="flashHeart1.repeatEvent" />
+
+    <!-- Gentle heartbeat expansion -->
     <animateTransform attributeName="transform"
                       type="scale"
-                      values="0.2;2.8;0.2"
-                      dur="0.28s"
-                      begin="flashHero1.repeatEvent" />
-  </polygon>
+                      values="0.4;1.9;0.4"
+                      dur="0.9s"
+                      begin="flashHeart1.repeatEvent" />
+  </path>
+
   <!-- Timer trigger -->
-  <animate id="flashHero1"
+  <animate id="flashHeart1"
            attributeName="opacity"
            values="1;0.999;1"
-           dur="8s"
+           dur="9s"
            repeatCount="indefinite"
            fill="remove" />
-        </g>
+</g>
       </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
