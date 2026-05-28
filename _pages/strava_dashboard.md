@@ -301,6 +301,81 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashBreak1" attributeName="opacity" values="1;0.999;1" dur="10s" repeatCount="indefinite" fill="remove" />
         </g>
+            <!-- RED EYE FLASH -->
+<g transform="translate(74, 88)" opacity="1">
+  <!-- Eye shape -->
+  <ellipse cx="0" cy="0" rx="10" ry="4" fill="black" opacity="0">
+    <!-- Eye opening -->
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.7s"
+             begin="flashEye1.repeatEvent" />
+
+    <!-- Eye widening -->
+    <animate attributeName="ry"
+             values="1;4;1"
+             dur="0.7s"
+             begin="flashEye1.repeatEvent" />
+  </ellipse>
+
+  <!-- Pupil -->
+  <circle cx="0" cy="0" r="2" fill="red" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.7s"
+             begin="flashEye1.repeatEvent" />
+  </circle>
+
+  <!-- Timer -->
+  <animate id="flashEye1"
+           attributeName="opacity"
+           values="1;0.999;1"
+           dur="9s"
+           repeatCount="indefinite"
+           fill="remove" />
+</g>
+<!-- MUSICAL NOTE FLASH -->
+<g transform="translate(9, 74)" opacity="1">
+  <path d="
+      M -4 -10
+      L 4 -12
+      L 4 4
+      C 4 10, -2 12, -4 8
+      C -6 4, -2 2, 2 4
+      L 2 -8
+      Z
+    "
+    fill="purple"
+    opacity="0">
+
+    <!-- Color pulse -->
+    <animate attributeName="fill"
+             values="purple;hotpink;purple"
+             dur="0.8s"
+             begin="flashMusic1.repeatEvent" />
+
+    <!-- Visibility -->
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.8s"
+             begin="flashMusic1.repeatEvent" />
+
+    <!-- Beat expansion -->
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="0.6;1.8;0.6"
+                      dur="0.8s"
+                      begin="flashMusic1.repeatEvent" />
+  </path>
+
+  <!-- Timer -->
+  <animate id="flashMusic1"
+           attributeName="opacity"
+           values="1;0.999;1"
+           dur="7s"
+           repeatCount="indefinite"
+           fill="remove" />
+</g>
       </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
