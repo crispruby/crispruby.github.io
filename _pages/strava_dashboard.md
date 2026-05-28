@@ -259,6 +259,46 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashBolt1" attributeName="opacity" values="1;0.999;1" dur="5s" repeatCount="indefinite" fill="remove" />
         </g>
+        <!-- HERO VICTORY LIGHTNING FLASH -->
+        <g transform="translate(74, 9)" opacity="1">
+          <polygon points="-4,-22
+       3,-10
+      -5,-10
+       6,2
+      -2,2
+       8,18
+       2,18
+       10,30"
+    fill="yellow"
+    opacity="0">
+    <!-- Color flash: yellow → white → yellow -->
+    <animate attributeName="fill"
+             values="yellow;white;yellow"
+             dur="0.28s"
+             begin="flashHero1.repeatEvent" />
+
+    <!-- Visibility -->
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.28s"
+             begin="flashHero1.repeatEvent" />
+
+    <!-- Heroic expansion -->
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="0.2;2.8;0.2"
+                      dur="0.28s"
+                      begin="flashHero1.repeatEvent" />
+  </polygon>
+
+  <!-- Timer trigger -->
+  <animate id="flashHero1"
+           attributeName="opacity"
+           values="1;0.999;1"
+           dur="8s"
+           repeatCount="indefinite"
+           fill="remove" />
+        </g>
       </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
