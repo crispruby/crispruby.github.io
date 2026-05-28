@@ -233,7 +233,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.2;2.0;0.2" dur="0.5s" begin="flashGood1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashGood1" attributeName="opacity" values="1;0.999;1" dur="6s" repeatCount="indefinite" fill="remove"/>
+          <animate id="flashGood1" attributeName="opacity" values="1;0.999;1" dur="11s" repeatCount="indefinite" fill="remove"/>
         </g>
         <!-- BAD STAR FLASH (top-right window) -->
         <g transform="translate(74, 9)" opacity="1">
@@ -245,7 +245,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.2;2.4;0.2" dur="0.25s" begin="flashBad1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashBad1" attributeName="opacity" values="1;0.999;1" dur="7s" repeatCount="indefinite" fill="remove" />
+          <animate id="flashBad1" attributeName="opacity" values="1;0.999;1" dur="13s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- BAD LIGHTNING FLASH (left-top window) -->
         <g transform="translate(9, 26)" opacity="1">
@@ -257,7 +257,7 @@ css: /assets/css/strava-dashboard.css
           <animateTransform attributeName="transform" type="scale" values="0.2;2.6;0.2" dur="0.22s" begin="flashBolt1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashBolt1" attributeName="opacity" values="1;0.999;1" dur="5s" repeatCount="indefinite" fill="remove" />
+          <animate id="flashBolt1" attributeName="opacity" values="1;0.999;1" dur="17s" repeatCount="indefinite" fill="remove" />
         </g>
         <g transform="translate(88, 26)" opacity="1"><!-- GOOD LIGHTNING FLASH (right-top window) -->
           <polygon points="-4,-22 3,-10 -5,-10 6,2 -2,2 8,18 2,18 10,30" fill="yellow" opacity="0">
@@ -268,7 +268,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.2;2.8;0.2" dur="0.28s" begin="flashHero1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashHero1" attributeName="opacity" values="1;0.999;1" dur="8s" repeatCount="indefinite" fill="remove" />
+          <animate id="flashHero1" attributeName="opacity" values="1;0.999;1" dur="19s" repeatCount="indefinite" fill="remove" />
         </g>
         <g transform="translate(26, 88)" opacity="1"><!-- ROMANTIC HEART FLASH (bottom-left window) -->
           <path d="M 0 -10 C -8 -18, -20 -6, 0 10 C 20 -6, 8 -18, 0 -10" fill="pink" opacity="0">
@@ -278,7 +278,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.4;1.9;0.4" dur="0.9s" begin="flashHeart1.repeatEvent" />
           </path>
           <!-- Timer trigger -->
-          <animate id="flashHeart1" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" />
+          <animate id="flashHeart1" attributeName="opacity" values="1;0.999;1" dur="15s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- HEART-BREAKING FLASH -->
         <g transform="translate(74, 88)" opacity="1"> <!-- Left half -->
@@ -299,7 +299,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" additive="sum" type="scale" values="1.6;0.5;1.6" dur="1.2s" begin="flashBreak1.repeatEvent" />
           </path>
           <!-- Timer trigger -->
-          <animate id="flashBreak1" attributeName="opacity" values="1;0.999;1" dur="10s" repeatCount="indefinite" fill="remove" />
+          <animate id="flashBreak1" attributeName="opacity" values="1;0.999;1" dur="21s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- MONSTER EYE FLASH -->
         <g transform="translate(88, 74)" opacity="1">
@@ -325,7 +325,7 @@ css: /assets/css/strava-dashboard.css
             <animate attributeName="opacity" values="0;1;0" dur="0.9s" begin="flashEye2.repeatEvent" />
           </circle>
           <!-- Timer trigger -->
-          <animate id="flashEye2" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" />
+          <animate id="flashEye2" attributeName="opacity" values="1;0.999;1" dur="23s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- MUSICAL NOTE FLASH -->
         <g transform="translate(9, 74)" opacity="1">
@@ -337,7 +337,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.6;1.8;0.6" dur="1.3s" begin="flashMusic1.repeatEvent" />
           </path>
           <!-- Timer -->
-          <animate id="flashMusic1" attributeName="opacity" values="1;0.999;1" dur="7s" repeatCount="indefinite" fill="remove" />
+          <animate id="flashMusic1" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" />
         </g>
       </g>
     </g>
