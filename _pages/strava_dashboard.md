@@ -301,40 +301,59 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashBreak1" attributeName="opacity" values="1;0.999;1" dur="10s" repeatCount="indefinite" fill="remove" />
         </g>
-            <!-- FIREBALL BURST -->
+        <!-- MONSTER EYE FLASH -->
 <g transform="translate(88, 74)" opacity="1">
-  <polygon points="
-      0,-12  6,-6  12,0  6,6
-      0,12  -6,6  -12,0  -6,-6
-    "
-    fill="orange"
-    opacity="0">
 
-    <!-- Color blast -->
-    <animate attributeName="fill"
-             values="orange;yellow;white;orange"
-             dur="0.35s"
-             begin="flashFire1.repeatEvent" />
-
-    <!-- Visibility -->
+  <!-- Eyelid (black cover) -->
+  <ellipse cx="0" cy="0" rx="12" ry="6" fill="black" opacity="0">
+    <!-- Eyelid fade-in/out -->
     <animate attributeName="opacity"
              values="0;1;0"
-             dur="0.35s"
-             begin="flashFire1.repeatEvent" />
+             dur="0.9s"
+             begin="flashEye2.repeatEvent" />
 
-    <!-- Explosion expansion -->
-    <animateTransform attributeName="transform"
-                      type="scale"
-                      values="0.3;2.6;0.3"
-                      dur="0.35s"
-                      begin="flashFire1.repeatEvent" />
-  </polygon>
+    <!-- Wink (squash vertically) -->
+    <animate attributeName="ry"
+             values="6;2;6"
+             dur="0.9s"
+             begin="flashEye2.repeatEvent" />
+  </ellipse>
 
-  <!-- Timer -->
-  <animate id="flashFire1"
+  <!-- Sclera (white) -->
+  <ellipse cx="0" cy="0" rx="10" ry="4" fill="white" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.9s"
+             begin="flashEye2.repeatEvent" />
+
+    <!-- Wink -->
+    <animate attributeName="ry"
+             values="4;1.5;4"
+             dur="0.9s"
+             begin="flashEye2.repeatEvent" />
+  </ellipse>
+
+  <!-- Iris (red) -->
+  <circle cx="0" cy="0" r="3" fill="red" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.9s"
+             begin="flashEye2.repeatEvent" />
+  </circle>
+
+  <!-- Pupil (black) -->
+  <circle cx="0" cy="0" r="1.5" fill="black" opacity="0">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.9s"
+             begin="flashEye2.repeatEvent" />
+  </circle>
+
+  <!-- Timer trigger -->
+  <animate id="flashEye2"
            attributeName="opacity"
            values="1;0.999;1"
-           dur="6s"
+           dur="9s"
            repeatCount="indefinite"
            fill="remove" />
 </g>
