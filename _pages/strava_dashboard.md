@@ -260,7 +260,7 @@ css: /assets/css/strava-dashboard.css
           <animate id="flashBolt1" attributeName="opacity" values="1;0.999;1" dur="5s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- HERO VICTORY LIGHTNING FLASH -->
-        <g transform="translate(91, 26)" opacity="1">
+        <g transform="translate(88, 26)" opacity="1">
           <polygon points="-4,-22
        3,-10
       -5,-10
