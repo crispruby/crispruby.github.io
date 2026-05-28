@@ -226,7 +226,7 @@ css: /assets/css/strava-dashboard.css
         <rect x="85" y="68" width="8" height="12" fill="white" rx="2" />
         <rect x="20" y="85" width="12" height="8" fill="white" rx="2" />
         <rect x="68" y="85" width="12" height="8" fill="white" rx="2" />
-        <!-- GOOD FLASH (top-left window) -->
+        <!-- GOOD STAR FLASH (top-left window) -->
         <g transform="translate(26,9)" opacity="1">
           <polygon points="0,-20 6,-6 20,0 6,6 0,20 -6,6 -20,0 -6,-6" fill="rgba(255,240,150,0.9)" opacity="0">
             <animate attributeName="opacity" values="0;1;0" dur="0.5s" begin="flashGood1.repeatEvent" />
@@ -235,7 +235,7 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashGood1" attributeName="opacity" values="1;0.999;1" dur="6s" repeatCount="indefinite" fill="remove"/>
         </g>
-        <!-- BAD FLASH (example window center) -->
+        <!-- BAD STAR FLASH (top-right window) -->
         <g transform="translate(74, 9)" opacity="1">
           <polygon points="0,-22 7,-7 22,0 7,7 0,22 -7,7 -22,0 -7,-7" fill="black" opacity="0">
             <animate attributeName="fill" values="black;white;black" dur="0.25s" begin="flashBad1.repeatEvent" />
@@ -247,7 +247,7 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashBad1" attributeName="opacity" values="1;0.999;1" dur="7s" repeatCount="indefinite" fill="remove" />
         </g>
-        <!-- BAD LIGHTNING FLASH -->
+        <!-- BAD LIGHTNING FLASH (left-top window) -->
         <g transform="translate(9, 26)" opacity="1">
           <polygon points="-4,-18 2,-6 -6,-6 4,6 -2,6 6,18" fill="black" opacity="0">
           <animate attributeName="fill" values="black;white;black" dur="0.22s" begin="flashBolt1.repeatEvent" />
@@ -259,7 +259,7 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashBolt1" attributeName="opacity" values="1;0.999;1" dur="5s" repeatCount="indefinite" fill="remove" />
         </g>
-        <g transform="translate(88, 26)" opacity="1"><!-- HERO VICTORY LIGHTNING FLASH -->
+        <g transform="translate(88, 26)" opacity="1"><!-- GOOD LIGHTNING FLASH (right-top window) -->
           <polygon points="-4,-22 3,-10 -5,-10 6,2 -2,2 8,18 2,18 10,30" fill="yellow" opacity="0">
             <animate attributeName="fill" values="yellow;white;yellow" dur="0.28s" begin="flashHero1.repeatEvent" />
             <!-- Visibility -->
@@ -270,7 +270,7 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashHero1" attributeName="opacity" values="1;0.999;1" dur="8s" repeatCount="indefinite" fill="remove" />
         </g>
-        <g transform="translate(26, 88)" opacity="1"><!-- ROMANTIC HEART FLASH -->
+        <g transform="translate(26, 88)" opacity="1"><!-- ROMANTIC HEART FLASH (bottom-left window) -->
           <path d="M 0 -10 C -8 -18, -20 -6, 0 10 C 20 -6, 8 -18, 0 -10" fill="pink" opacity="0">
             <!-- Soft pink glow -->
             <animate attributeName="opacity" values="0;1;0" dur="0.9s" begin="flashHeart1.repeatEvent"/>
@@ -280,6 +280,77 @@ css: /assets/css/strava-dashboard.css
           <!-- Timer trigger -->
           <animate id="flashHeart1" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" />
         </g>
+        <!-- HEART-BREAKING FLASH -->
+<g transform="translate(WX, WY)" opacity="1">
+  <!-- Broken heart shape (two halves slightly separated) -->
+  <path d="
+      M -6 -10
+      C -14 -18, -24 -6, -6 8
+      L 0 14
+      L 0 -2
+      Z
+    "
+    fill="red"
+    opacity="0">
+    
+    <!-- Color flash: red → white → red -->
+    <animate attributeName="fill"
+             values="red;white;red"
+             dur="0.45s"
+             begin="flashBreak1.repeatEvent" />
+
+    <!-- Visibility -->
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.45s"
+             begin="flashBreak1.repeatEvent" />
+
+    <!-- Shrink-collapse (heart breaking inward) -->
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="1.4;0.4;1.4"
+                      dur="0.45s"
+                      begin="flashBreak1.repeatEvent" />
+  </path>
+
+  <path d="
+      M 6 -10
+      C 14 -18, 24 -6, 6 8
+      L 0 14
+      L 0 -2
+      Z
+    "
+    fill="red"
+    opacity="0">
+
+    <!-- Color flash -->
+    <animate attributeName="fill"
+             values="red;white;red"
+             dur="0.45s"
+             begin="flashBreak1.repeatEvent" />
+
+    <!-- Visibility -->
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.45s"
+             begin="flashBreak1.repeatEvent" />
+
+    <!-- Shrink-collapse -->
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="1.4;0.4;1.4"
+                      dur="0.45s"
+                      begin="flashBreak1.repeatEvent" />
+  </path>
+
+  <!-- Timer trigger -->
+  <animate id="flashBreak1"
+           attributeName="opacity"
+           values="1;0.999;1"
+           dur="10s"
+           repeatCount="indefinite"
+           fill="remove" />
+</g>
       </g>
     </g>
     <g id="tile-3-2" transform="translate(300,200)">
