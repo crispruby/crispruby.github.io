@@ -201,14 +201,14 @@ css: /assets/css/strava-dashboard.css
         <polygon points="40,60 60,60 100,100 0,100" fill="#b33" /><!-- Bottom wall -->
         <polygon points="0,0 40,40 40,60 0,100" fill="#a22" /><!-- Left wall -->
         <polygon points="60,40 100,0 100,100 60,60" fill="#a22" /><!-- Right wall -->
-        <rect x="44" y="14" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Top door -->
-        <circle cx="54" cy="22" r="2" fill="#ffdd33" /><!-- Top door knob -->
-        <rect x="44" y="70" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Bottom door -->
-        <circle cx="48" cy="78" r="2" fill="#ffdd33" /><!-- Bottom door knob -->
-        <rect x="13" y="44" width="16" height="12" fill="#3a6ff7" rx="2" /><!-- Left door -->
-        <circle cx="21" cy="48" r="2" fill="#ffdd33" /><!-- Left door knob -->
-        <rect x="70" y="44" width="16" height="12" fill="#3a6ff7" rx="2" /><!-- Right door -->
-        <circle cx="76" cy="52" r="2" fill="#ffdd33" /><!-- Right door knob -->
+        <rect x="44" y="24" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Top door -->
+        <circle cx="54" cy="32" r="2" fill="#ffdd33" /><!-- Top door knob -->
+        <rect x="44" y="60" width="12" height="16" fill="#3a6ff7" rx="2" /><!-- Bottom door -->
+        <circle cx="48" cy="68" r="2" fill="#ffdd33" /><!-- Bottom door knob -->
+        <rect x="23" y="44" width="16" height="12" fill="#3a6ff7" rx="2" /><!-- Left door -->
+        <circle cx="31" cy="48" r="2" fill="#ffdd33" /><!-- Left door knob -->
+        <rect x="60" y="44" width="16" height="12" fill="#3a6ff7" rx="2" /><!-- Right door -->
+        <circle cx="66" cy="52" r="2" fill="#ffdd33" /><!-- Right door knob -->
       </g>
         <!-- 2. Road (rotates) -->
       <g class="road" data-rotation="0">
