@@ -1,6 +1,6 @@
 ---
 title: "Cycle Circuit"
-permalink: /strava-dashboard/
+permalink: /cycle-circuit/
 layout: single
 author_profile: true
 header:
