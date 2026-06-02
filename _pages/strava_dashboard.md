@@ -517,3 +517,4 @@ document.querySelectorAll('#tile-world g').forEach(tile => {
   });
 });
 </script>
+<script src="/assets/js/sounds.js"></script>
