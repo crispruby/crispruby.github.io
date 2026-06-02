@@ -1,5 +1,5 @@
 ---
-title: "Strava Dashboard"
+title: "Cycle Circuit"
 permalink: /strava-dashboard/
 layout: single
 author_profile: true
