@@ -176,12 +176,14 @@ css: /assets/css/strava-dashboard.css
           <line x1="81" y1="15" x2="89" y2="15" stroke="#ccc" stroke-width="2" />
           <!-- Spin forward twice -->
           <animateTransform attributeName="transform" type="rotate" values="0;720;0" dur="10s" repeatCount="indefinite" />
+          <animate id="spinningValve1" attributeName="opacity" values="1;0.999;1" dur="15s" repeatCount="indefinite" fill="remove" />
         </g>
         <!-- Leak puddle at bottom-left end -->
         <ellipse id="puddle" cx="15" cy="85" rx="10" ry="6" fill="rgba(0,150,255,0.4)">
         <animate attributeName="rx" values="10;14;10" dur="3s" repeatCount="indefinite" />
         <animate attributeName="ry" values="6;9;6" dur="3s" repeatCount="indefinite" />
         </ellipse>
+        <animate id="spillingWater1" attributeName="opacity" values="1;0.999;1" dur="5s" repeatCount="indefinite" fill="remove" />
         <!-- Top → Left turn -->
         <path d="M 50 -1 Q 46 46 -1 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
         <path d="M 50 -1 Q 46 46 -1 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
