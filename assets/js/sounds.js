@@ -22,8 +22,8 @@ const blinkToSound = {
   flashBolt1:  sounds.electriczap,
   flashHero1:  sounds.goodthunder,
   flashBreak1:  sounds.heartbreak,
-  spinningValve1: sounds.liquidbubbles,
-  spillingWater1: sounds.screwingvalve
+  spinningValve1: sounds.screwingvalve,
+  spillingWater1: sounds.liquidbubbles
 };
 
 // 3. Attach listeners to SVG animations
