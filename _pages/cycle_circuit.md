@@ -52,32 +52,36 @@ css: /assets/css/strava-dashboard.css
       </g>
     </g>
     <g id="tile-3-0" transform="translate(300,0)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
+      <rect x="0" y="0" width="100" height="100" fill="#6cc66c" />
+      <!-- Roads (rotatable) -->
       <g class="road" data-rotation="0">
-        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+        <!-- Top → Center -->
+        <path d="M 50 -1 L 50 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
+        <path d="M 50 -1 L 50 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
+        <!-- Left → Center -->
+        <path d="M -1 50 L 50 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
+        <path d="M -1 50 L 50 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
+        <!-- Right → Center -->
+        <path d="M 101 50 L 50 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
+        <path d="M 101 50 L 50 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
       </g>
-        <!-- Decorations (do NOT rotate) -->
+      <!-- Decorations (do NOT rotate) -->
       <g class="decor">
-        <!-- icons or images here -->
+        <!-- Main Market Booth (bottom side) -->
+        <rect x="20" y="65" width="60" height="25" fill="#d96" stroke="#633" stroke-width="2" />
+        <rect x="20" y="55" width="60" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
+        <line x1="20" y1="55" x2="80" y2="55" stroke="#c33" stroke-width="3" />
+        <!-- Side Booth (left corner) -->
+        <rect x="5" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
+        <rect x="5" y="0" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
+        <!-- Pedestrian Light (right corner) -->
+        <g>
+          <rect x="75" y="5" width="8" height="25" fill="#333" rx="2" />
+          <circle cx="79" cy="10" r="3" fill="red" />
+          <circle cx="79" cy="20" r="3" fill="green" />
+        </g>
       </g>
     </g>
-    <g id="tile-4-0" transform="translate(400,0)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
-      <g class="road" data-rotation="0">
-        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-      </g>
-        <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
-        <!-- icons or images here -->
-      </g>
-    </g>
-
   <!-- Row 1 -->
   <g id="tile-0-1" transform="translate(0,100)">
       <!-- Background -->
