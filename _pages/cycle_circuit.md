@@ -53,20 +53,19 @@ css: /assets/css/strava-dashboard.css
     </g>
     <g id="tile-3-0" transform="translate(300,0)">
       <rect x="0" y="0" width="100" height="100" fill="#6cc66c" />
-      <!-- Roads (rotatable) -->
+      <!-- Roads + booths + lights (all rotate together) -->
       <g class="road" data-rotation="0">
         <!-- Top → Center -->
-        <path d="M 50 -1 L 50 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
-        <path d="M 50 -1 L 50 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
+        <path d="M 50 -1 L 50 30" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
+        <path d="M 50 -1 L 50 30" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
         <!-- Left → Center -->
-        <path d="M -1 50 L 50 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
-        <path d="M -1 50 L 50 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
+        <path d="M -1 50 L 30 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
+        <path d="M -1 50 L 30 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
         <!-- Right → Center -->
-        <path d="M 101 50 L 50 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
-        <path d="M 101 50 L 50 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
-      </g>
-      <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
+        <path d="M 101 50 L 70 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
+        <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
+        <!-- Intersection center -->
+        <circle cx="50" cy="50" r="12" fill="#444" opacity="0.15" />
         <!-- Main Market Booth (bottom side) -->
         <rect x="20" y="65" width="60" height="25" fill="#d96" stroke="#633" stroke-width="2" />
         <rect x="20" y="55" width="60" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
@@ -74,13 +73,13 @@ css: /assets/css/strava-dashboard.css
         <!-- Side Booth (left corner) -->
         <rect x="5" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
         <rect x="5" y="0" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
-        <!-- Pedestrian Light (right corner) -->
-        <g>
+        <g><!-- Pedestrian Light (right corner) -->
           <rect x="75" y="5" width="8" height="25" fill="#333" rx="2" />
           <circle cx="79" cy="10" r="3" fill="red" />
           <circle cx="79" cy="20" r="3" fill="green" />
         </g>
       </g>
+      <g class="decor"></g>
     </g>
       <g id="tile-4-0" transform="translate(400,0)">
       <!-- Background -->
