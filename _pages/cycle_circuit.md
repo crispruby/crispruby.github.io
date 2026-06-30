@@ -79,6 +79,7 @@ css: /assets/css/strava-dashboard.css
       </g>
       <g class="decor"></g>
     </g>
+    </g>
       <g id="tile-4-0" transform="translate(400,0)">
       <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
@@ -91,7 +92,6 @@ css: /assets/css/strava-dashboard.css
       <g class="decor">
         <!-- icons or images here -->
       </g>
-    </g>
   <!-- Row 1 -->
   <g id="tile-0-1" transform="translate(0,100)">
       <!-- Background -->
