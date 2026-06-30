@@ -67,6 +67,7 @@ css: /assets/css/strava-dashboard.css
         <!--White Cross Lines-->
         <line x1="36" y1="30" x2="64" y2="30" stroke="#f8f8f8" stroke-width="2" /> 
         <line x1="36" y1="35" x2="64" y2="35" stroke="#f8f8f8" stroke-width="2" /> 
+        <line x1="30" y1="35" x2="35" y2="35" stroke="#f8f8f8" stroke-width="2" /> 
         <line x1="30" y1="36" x2="30" y2="64" stroke="#f8f8f8" stroke-width="2" /> 
         <line x1="35" y1="36" x2="35" y2="64" stroke="#f8f8f8" stroke-width="2" /> 
         <line x1="70" y1="36" x2="70" y2="64" stroke="#f8f8f8" stroke-width="2" />
