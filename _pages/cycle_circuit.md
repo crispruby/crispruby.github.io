@@ -65,12 +65,12 @@ css: /assets/css/strava-dashboard.css
         <path d="M 101 50 L 70 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
         <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
         <!-- Main Market Booth (bottom side) -->
-        <rect x="20" y="65" width="60" height="25" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="20" y="55" width="60" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
-        <line x1="20" y1="55" x2="80" y2="55" stroke="#c33" stroke-width="3" />
+        <rect x="10" y="70" width="30" height="25" fill="#d96" stroke="#633" stroke-width="2" />
+        <rect x="10" y="60" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
+        <line x1="20" y1="60" x2="80" y2="65" stroke="#c33" stroke-width="3" />
         <!-- Side Booth (left corner) -->
         <rect x="5" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="5" y="0" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
+        <rect x="5" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
         <g><!-- Pedestrian Light (right corner) -->
           <rect x="75" y="5" width="8" height="25" fill="#333" rx="2" />
           <circle cx="79" cy="10" r="3" fill="red" />
