@@ -14,15 +14,33 @@ css: /assets/css/strava-dashboard.css
   <!-- Row 0 -->
   <g id="tile-0-0" transform="translate(0,0)">
    <rect x="0" y="0" width="100" height="100" fill="#6cc66c" /> <!-- Grass -->
-   <!-- Roads -->
-   <g class="road" data-rotation="0">
-    <!-- Bottom → Right turn -->
-    <path d="M 50 101 Q 54 54 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
-    <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
-   </g>
    <!-- Decorations (do NOT rotate) -->
    <g class="decor">
-    <!-- icons or images here -->
+     <!-- Bottom → Right turn -->
+    <path d="M 50 101 Q 54 54 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+    <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
+    <g id="yoga-person" transform="translate(25,35)">
+     <!-- Body -->
+     <line x1="0" y1="0" x2="0" y2="15" stroke="#333" stroke-width="2" /> <!-- torso -->
+     <line x1="-8" y1="15" x2="8" y2="15" stroke="#333" stroke-width="2" /> <!-- legs -->
+     <!-- Arms (animated) -->
+     <line id="yogaArm" x1="0" y1="5" x2="-8" y2="15" stroke="#333" stroke-width="2">
+      <animate attributeName="x2" values="-8;8;-8" dur="3s" repeatCount="indefinite" />
+     </line>
+    </g>
+    <!-- Meditation Person -->
+    <g id="meditation-person" transform="translate(65,40)">
+     <!-- Body -->
+     <circle cx="0" cy="-5" r="3" fill="#333" /> <!-- head -->
+     <ellipse cx="0" cy="5" rx="6" ry="4" fill="#333" /> <!-- body -->
+     <!-- Breathing animation -->
+     <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="4s" repeatCount="indefinite" />
+     <!-- Sneeze puff -->
+     <circle cx="10" cy="-5" r="1" fill="#fff" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="2s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="10;14;10" dur="0.4s" begin="2s" repeatCount="indefinite" />
+     </circle>
+    </g>
    </g>
   </g>
   <g id="tile-1-0" transform="translate(100,0)">
