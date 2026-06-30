@@ -106,8 +106,8 @@ css: /assets/css/strava-dashboard.css
   <!-- Fish Tank + Splash + Sewer Drip Animation (Updated Placement) -->
   <g id="fish-tank-group">
    <!-- Fish Tank -->
-   <rect x="5" y="28" width="14" height="8" fill="#66aadd" stroke="#225577" stroke-width="1.2" rx="2" />
-   <rect x="5" y="28" width="14" height="8" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.4" />
+   <rect x="5" y="27" width="14" height="8" fill="#66aadd" stroke="#225577" stroke-width="1.2" rx="2" />
+   <rect x="5" y="27" width="14" height="8" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.4" />
    <!-- Jumping Fish / Shrimp -->
    <circle cx="17" cy="37" r="1.6" fill="#ff9966">
     <animate attributeName="cy" values="37;28;37" dur="2.8s" repeatCount="indefinite" />
@@ -125,9 +125,9 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="cx" values="17;24;34" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
    </circle>
    <!-- Sewer Grate (beside road, not on crosswalk) -->
-   <rect x="21" y="39" width="6" height="6" fill="#333" stroke="#111" stroke-width="1" rx="1" />
-   <line x1="22" y1="40" x2="29" y2="40" stroke="#666" stroke-width="1" />
-   <line x1="22" y1="42" x2="29" y2="42" stroke="#666" stroke-width="1" />
+   <rect x="19" y="37" width="6" height="6" fill="#333" stroke="#111" stroke-width="1" rx="1" />
+   <line x1="19" y1="38" x2="26" y2="38" stroke="#666" stroke-width="1" />
+   <line x1="19" y1="40" x2="26" y2="40" stroke="#666" stroke-width="1" />
    <!-- Ripple -->
    <ellipse cx="35" cy="55" rx="1" ry="1" fill="none" stroke="#88ccff" stroke-width="1" opacity="0">
     <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
