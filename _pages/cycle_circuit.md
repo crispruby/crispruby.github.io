@@ -20,25 +20,38 @@ css: /assets/css/strava-dashboard.css
     <path d="M 50 101 Q 54 54 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
     <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
     <g id="yoga-person" transform="translate(25,35)">
-     <!-- Body -->
-     <line x1="0" y1="0" x2="0" y2="15" stroke="#333" stroke-width="2" /> <!-- torso -->
-     <line x1="-8" y1="15" x2="8" y2="15" stroke="#333" stroke-width="2" /> <!-- legs -->
-     <!-- Arms (animated) -->
-     <line id="yogaArm" x1="0" y1="5" x2="-8" y2="15" stroke="#333" stroke-width="2">
-      <animate attributeName="x2" values="-8;8;-8" dur="3s" repeatCount="indefinite" />
+     <!-- Head -->
+     <circle cx="0" cy="-4" r="3" fill="#333" />
+     <!-- Torso -->
+     <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2">
+     <!-- slight bend during stretch -->
+      <animate attributeName="x2" values="0;-2;2;0" dur="3s" repeatCount="indefinite" />
+     </line>
+     <!-- Legs (diagonal stance) -->
+     <line x1="0" y1="12" x2="-10" y2="18" stroke="#333" stroke-width="2" />
+     <line x1="0" y1="12" x2="10" y2="18" stroke="#333" stroke-width="2" />
+     <!-- Arm sweeping from left foot to right foot -->
+     <line id="yogaArm" x1="0" y1="4" x2="-10" y2="18" stroke="#333" stroke-width="2">
+      <animate attributeName="x2" values="-10;10;-10" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="18;18;18" dur="3s" repeatCount="indefinite" />
      </line>
     </g>
     <!-- Meditation Person -->
     <g id="meditation-person" transform="translate(65,40)">
+     <!-- Head -->
+     <circle cx="0" cy="-8" r="3" fill="#333" />
      <!-- Body -->
-     <circle cx="0" cy="-5" r="3" fill="#333" /> <!-- head -->
-     <ellipse cx="0" cy="5" rx="6" ry="4" fill="#333" /> <!-- body -->
-     <!-- Breathing animation -->
-     <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="4s" repeatCount="indefinite" />
-     <!-- Sneeze puff -->
-     <circle cx="10" cy="-5" r="1" fill="#fff" opacity="0">
-      <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="2s" repeatCount="indefinite" />
-      <animate attributeName="cx" values="10;14;10" dur="0.4s" begin="2s" repeatCount="indefinite" />
+     <ellipse cx="0" cy="2" rx="7" ry="5" fill="#333" />
+     <!-- Breathing (slow head + body lift) -->
+     <animateTransform attributeName="transform"
+     type="translate"
+     values="0,0;0,-2;0,0"
+     dur="6s"
+     repeatCount="indefinite" />
+     <!-- Sneeze puff (every 15 seconds) -->
+     <circle cx="10" cy="-8" r="1.5" fill="#fff" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="15s;30s;45s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="10;14;10" dur="0.4s" begin="15s;30s;45s" repeatCount="indefinite" />
      </circle>
     </g>
    </g>
