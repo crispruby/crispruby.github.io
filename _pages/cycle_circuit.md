@@ -57,13 +57,13 @@ css: /assets/css/strava-dashboard.css
       <g class="road" data-rotation="0">
         <!-- Top → Center -->
         <path d="M 50 -1 L 50 36" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
-        <path d="M 50 -1 L 50 36" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
+        <path d="M 50 -1 L 50 30" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
         <!-- Left → Center -->
         <path d="M -1 50 L 36 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
-        <path d="M -1 50 L 36 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
+        <path d="M -1 50 L 30 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
         <!-- Right → Center -->
         <path d="M 101 50 L 64 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
-        <path d="M 101 50 L 64 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
+        <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
         <!-- Intersection Square -->
         <rect x="36" y="36" width="28" height="28" fill="#555" />
         <!--White Cross Lines-->
