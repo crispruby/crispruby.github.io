@@ -109,29 +109,30 @@ css: /assets/css/strava-dashboard.css
    <rect x="5" y="27" width="14" height="8" fill="#66aadd" stroke="#225577" stroke-width="1.2" rx="2" />
    <rect x="5" y="27" width="14" height="8" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.4" />
    <!-- Jumping Fish / Shrimp -->
-   <circle cx="17" cy="37" r="1.6" fill="#ff9966">
-    <animate attributeName="cy" values="37;28;37" dur="2.8s" repeatCount="indefinite" />
-    <animate attributeName="cx" values="17;15;17" dur="2.8s" repeatCount="indefinite" />
+   <circle cx="12" cy="33" r="1.4" fill="#ff9966">
+    <!-- Jump arc -->
+    <animate attributeName="cy" values="33;24;33" dur="2.8s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="12;10;12" dur="2.8s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="1;1;0.2;1" dur="2.8s" repeatCount="indefinite" />
    </circle>
    <!-- Splash Arc -->
-   <path d="M 14 30 Q 17 26 20 30" stroke="#aeeaff" stroke-width="1.2" fill="none" opacity="0">
+   <path d="M 8 26 Q 12 22 16 26" stroke="#aeeaff" stroke-width="1.2" fill="none" opacity="0">
     <animate attributeName="opacity" values="0;1;0" dur="0.6s" begin="0.4s" repeatCount="indefinite" />
    </path>
    <!-- Falling Droplet (toward sewer beside road) -->
-   <circle cx="17" cy="30" r="1.2" fill="#aeeaff" opacity="0">
+   <circle cx="12" cy="26" r="1.1" fill="#aeeaff" opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
-    <animate attributeName="cy" values="30;40;52" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
-    <animate attributeName="cx" values="17;24;34" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="26;32;38" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="12;16;21" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
    </circle>
    <!-- Sewer Grate (beside road, not on crosswalk) -->
    <rect x="19" y="37" width="6" height="6" fill="#333" stroke="#111" stroke-width="1" rx="1" />
    <line x1="19" y1="38" x2="26" y2="38" stroke="#666" stroke-width="1" />
    <line x1="19" y1="40" x2="26" y2="40" stroke="#666" stroke-width="1" />
    <!-- Ripple -->
-   <ellipse cx="35" cy="55" rx="1" ry="1" fill="none" stroke="#88ccff" stroke-width="1" opacity="0">
+   <ellipse cx="22" cy="40" rx="1" ry="1" fill="none" stroke="#88ccff" stroke-width="1" opacity="0">
     <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
-    <animate attributeName="rx" values="1;4;6" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
+    <animate attributeName="rx" values="1;3;5" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
     <animate attributeName="ry" values="1;2;3" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
    </ellipse>
   </g>
