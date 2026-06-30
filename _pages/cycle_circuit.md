@@ -20,40 +20,50 @@ css: /assets/css/strava-dashboard.css
     <path d="M 50 101 Q 54 54 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
     <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
     <g id="yoga-person" transform="translate(25,35)">
-     <!-- Head -->
-     <circle cx="0" cy="-4" r="3" fill="#333" />
-     <!-- Torso -->
-     <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2">
-     <!-- slight bend during stretch -->
-      <animate attributeName="x2" values="0;-2;2;0" dur="3s" repeatCount="indefinite" />
-     </line>
-     <!-- Legs (diagonal stance) -->
-     <line x1="0" y1="12" x2="-10" y2="18" stroke="#333" stroke-width="2" />
-     <line x1="0" y1="12" x2="10" y2="18" stroke="#333" stroke-width="2" />
-     <!-- Arm sweeping from left foot to right foot -->
-     <line id="yogaArm" x1="0" y1="4" x2="-10" y2="18" stroke="#333" stroke-width="2">
-      <animate attributeName="x2" values="-10;10;-10" dur="3s" repeatCount="indefinite" />
-      <animate attributeName="y2" values="18;18;18" dur="3s" repeatCount="indefinite" />
-     </line>
-    </g>
+  <!-- Head -->
+  <circle cx="0" cy="-4" r="3" fill="#333" />
+
+  <!-- Torso (tilts left ↔ right) -->
+  <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2">
+    <animate attributeName="x2" values="0;-2;2;0" dur="3s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Legs (diagonal triangle stance) -->
+  <line x1="0" y1="12" x2="-10" y2="18" stroke="#333" stroke-width="2" />
+  <line x1="0" y1="12" x2="10" y2="18" stroke="#333" stroke-width="2" />
+
+  <!-- Left arm (down to left toes → up to sky) -->
+  <line id="yogaArmLeft" x1="0" y1="4" x2="-10" y2="18" stroke="#333" stroke-width="2">
+    <animate attributeName="x2" values="-10;-2;10;-10" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="18;4;18;18" dur="3s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Right arm (up to sky → down to right toes) -->
+  <line id="yogaArmRight" x1="0" y1="4" x2="10" y2="4" stroke="#333" stroke-width="2">
+    <animate attributeName="x2" values="10;2;-10;10" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="4;18;4;4" dur="3s" repeatCount="indefinite" />
+  </line>
+</g>
     <!-- Meditation Person -->
-    <g id="meditation-person" transform="translate(65,40)">
-     <!-- Head -->
-     <circle cx="0" cy="-8" r="3" fill="#333" />
-     <!-- Body -->
-     <ellipse cx="0" cy="2" rx="7" ry="5" fill="#333" />
-     <!-- Breathing (slow head + body lift) -->
-     <animateTransform attributeName="transform"
-     type="translate"
-     values="0,0;0,-2;0,0"
-     dur="6s"
-     repeatCount="indefinite" />
-     <!-- Sneeze puff (every 15 seconds) -->
-     <circle cx="10" cy="-8" r="1.5" fill="#fff" opacity="0">
-      <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="15s;30s;45s" repeatCount="indefinite" />
-      <animate attributeName="cx" values="10;14;10" dur="0.4s" begin="15s;30s;45s" repeatCount="indefinite" />
-     </circle>
-    </g>
+    <g id="meditation-person" transform="translate(60,20)">
+  <!-- Head (breathing rise/fall) -->
+  <circle id="medHead" cx="0" cy="-8" r="3" fill="#333">
+    <animate attributeName="cy" values="-8;-10;-8" dur="6s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Body -->
+  <ellipse cx="0" cy="4" rx="7" ry="5" fill="#333" />
+
+  <!-- Legs (crossed) -->
+  <line x1="-6" y1="10" x2="0" y2="6" stroke="#333" stroke-width="2" />
+  <line x1="6" y1="10" x2="0" y2="6" stroke="#333" stroke-width="2" />
+
+  <!-- Rare sneeze puff (every 15 seconds) -->
+  <circle cx="10" cy="-8" r="1.5" fill="#fff" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="15s;30s;45s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="10;14;10" dur="0.4s" begin="15s;30s;45s" repeatCount="indefinite" />
+  </circle>
+</g>
    </g>
   </g>
   <g id="tile-1-0" transform="translate(100,0)">
