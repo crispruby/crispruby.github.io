@@ -24,18 +24,15 @@ css: /assets/css/strava-dashboard.css
   <circle cx="0" cy="-4" r="3" fill="#333" />
 
   <!-- Torso (tilts left ↔ right) -->
-  <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2">
-    <animate attributeName="x2" values="0;-2;2;0" dur="3s" repeatCount="indefinite" />
-  </line>
-
+  <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2"/>
   <!-- Legs (diagonal triangle stance) -->
   <line x1="0" y1="12" x2="-10" y2="18" stroke="#333" stroke-width="2" />
   <line x1="0" y1="12" x2="10" y2="18" stroke="#333" stroke-width="2" />
 
   <!-- Left arm (down to left toes → up to sky) -->
-  <line id="yogaArmLeft" x1="0" y1="4" x2="-10" y2="18" stroke="#333" stroke-width="2">
+  <line id="yogaArmLeft" x1="0" y1="2" x2="-10" y2="18" stroke="#333" stroke-width="2">
     <animate attributeName="x2" values="-10;-2;10;-10" dur="3s" repeatCount="indefinite" />
-    <animate attributeName="y2" values="18;4;18;18" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="18;-6;18;-6" dur="3s" repeatCount="indefinite" />
   </line>
 
   <!-- Right arm (up to sky → down to right toes) -->
