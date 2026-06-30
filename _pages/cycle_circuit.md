@@ -56,35 +56,35 @@ css: /assets/css/strava-dashboard.css
       <!-- Roads + booths + lights (all rotate together) -->
       <g class="road" data-rotation="0">
         <!-- Top → Center -->
-        <path d="M 50 -1 L 50 30" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
-        <path d="M 50 -1 L 50 30" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
+        <path d="M 50 -1 L 50 30" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
+        <path d="M 50 -1 L 50 30" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
         <!-- Left → Center -->
-        <path d="M -1 50 L 30 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
-        <path d="M -1 50 L 30 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
+        <path d="M -1 50 L 30 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
+        <path d="M -1 50 L 30 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
         <!-- Right → Center -->
-        <path d="M 101 50 L 70 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
-        <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
+        <path d="M 101 50 L 70 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
+        <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
         <!--White Cross Lines-->
         <line x1="35" y1="30" x2="65" y2="30" stroke="#f8f8f8" stroke-width="2" /> <!--First Top Line-->
         <line x1="34" y1="35" x2="34" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Second Top Line-->
         <line x1="36" y1="30" x2="36" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
         <line x1="42" y1="30" x2="42" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
-        <line x1="48" y1="30" x2="48" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
+        <line x1="49" y1="30" x2="49" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
         <line x1="56" y1="30" x2="56" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
         <line x1="64" y1="30" x2="64" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
         <line x1="30" y1="35" x2="30" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--First Left Line-->
-        <line x1="35" y1="34" x2="35" y2="66" stroke="#f8f8f8" stroke-width="2" /> <!--Second Left Line-->
+        <line x1="35" y1="34" x2="35" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--Second Left Line-->
         <line x1="30" y1="36" x2="35" y2="36" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
         <line x1="30" y1="42" x2="35" y2="42" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
-        <line x1="30" y1="48" x2="35" y2="48" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
-        <line x1="30" y1="54" x2="35" y2="54" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
+        <line x1="30" y1="49" x2="35" y2="49" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
+        <line x1="30" y1="56" x2="35" y2="56" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
         <line x1="30" y1="64" x2="35" y2="64" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
         <line x1="70" y1="35" x2="70" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--First Right Line-->
         <line x1="66" y1="36" x2="66" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--Second Right Line-->
         <line x1="65" y1="36" x2="70" y2="36" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
         <line x1="65" y1="42" x2="70" y2="42" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
-        <line x1="65" y1="48" x2="70" y2="48" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
-        <line x1="65" y1="54" x2="70" y2="54" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
+        <line x1="65" y1="49" x2="70" y2="49" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
+        <line x1="65" y1="56" x2="70" y2="56" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
         <line x1="65" y1="64" x2="70" y2="64" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
         <!-- Left Main Market Booth (bottom side) -->
         <rect x="5" y="78" width="30" height="22" fill="#d96" stroke="#633" stroke-width="2" />
