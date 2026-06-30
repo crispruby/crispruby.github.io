@@ -78,7 +78,6 @@ css: /assets/css/strava-dashboard.css
         </g>
       </g>
       <g class="decor"></g>
-    </g>
       <g id="tile-4-0" transform="translate(400,0)">
       <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
