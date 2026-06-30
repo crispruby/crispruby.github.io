@@ -58,7 +58,7 @@ css: /assets/css/strava-dashboard.css
         <!-- Top → Center -->
         <path d="M 50 -1 L 50 30" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
         <path d="M 50 -1 L 50 30" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
-        <path d="M 50 50 L 30 3" stroke="#f8f8f8" stroke-width="3" stroke-linecap="butt" fill="none" />
+        <path d="M 30 30 L 30 3" stroke="#f8f8f8" stroke-width="3" stroke-linecap="butt" fill="none" />
         <!-- Left → Center -->
         <path d="M -1 50 L 30 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
         <path d="M -1 50 L 30 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
@@ -66,17 +66,17 @@ css: /assets/css/strava-dashboard.css
         <path d="M 101 50 L 70 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
         <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
         <!-- Left Main Market Booth (bottom side) -->
-        <rect x="5" y="75" width="30" height="25" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="5" y="65" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
-        <line x1="5" y1="65" x2="35" y2="65" stroke="#c33" stroke-width="3" />
+        <rect x="5" y="78" width="30" height="22" fill="#d96" stroke="#633" stroke-width="2" />
+        <rect x="5" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
+        <line x1="5" y1="68" x2="35" y2="68" stroke="#c33" stroke-width="3" />
         <!-- Middle Main Market Booth (bottom side) -->
-        <rect x="35" y="75" width="30" height="25" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="35" y="65" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
-        <line x1="35" y1="65" x2="65" y2="65" stroke="#c33" stroke-width="3" />
+        <rect x="35" y="78" width="30" height="22" fill="#d96" stroke="#633" stroke-width="2" />
+        <rect x="35" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
+        <line x1="35" y1="68" x2="65" y2="68" stroke="#c33" stroke-width="3" />
         <!-- Right Main Market Booth (bottom side) -->
-        <rect x="65" y="75" width="30" height="25" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="65" y="65" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
-        <line x1="65" y1="65" x2="95" y2="65" stroke="#c33" stroke-width="3" />
+        <rect x="65" y="78" width="30" height="22" fill="#d96" stroke="#633" stroke-width="2" />
+        <rect x="65" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
+        <line x1="65" y1="68" x2="95" y2="68" stroke="#c33" stroke-width="3" />
         <!-- Side Booth (left corner) -->
         <rect x="5" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
         <rect x="5" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
