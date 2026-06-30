@@ -140,24 +140,24 @@ css: /assets/css/strava-dashboard.css
   <g id="mist-group">
    <!-- Mist Puff 1 -->
    <circle cx="50" cy="60" r="2" fill="white" opacity="0.0">
-    <animate attributeName="r" values="2;10;14;2" dur="4s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0;0.8;0.3;0" dur="4s" repeatCount="indefinite" />
-    <animate attributeName="cx" values="50;48;52;50" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;12;18;2" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.45;0.18;0" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="50;46;54;50" dur="4.5s" repeatCount="indefinite" />
    </circle>
-   <!-- Mist Puff 2 (delayed) -->
+   <!-- Mist Puff 2 -->
    <circle cx="50" cy="60" r="2" fill="white" opacity="0.0">
-    <animate attributeName="r" values="2;10;14;2" dur="4s" begin="1s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0;0.8;0.3;0" dur="4s" begin="1s" repeatCount="indefinite" />
-    <animate attributeName="cx" values="50;52;48;50" dur="4s" begin="1s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;12;18;2" dur="4.5s" begin="1.2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.45;0.18;0" dur="4.5s" begin="1.2s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="50;54;46;50" dur="4.5s" begin="1.2s" repeatCount="indefinite" />
    </circle>
-   <!-- Mist Puff 3 (more delay) -->
+   <!-- Mist Puff 3 -->
    <circle cx="50" cy="60" r="2" fill="white" opacity="0.0">
-    <animate attributeName="r" values="2;10;14;2" dur="4s" begin="2s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0;0.8;0.3;0" dur="4s" begin="2s" repeatCount="indefinite" />
-    <animate attributeName="cx" values="50;49;51;50" dur="4s" begin="2s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;12;18;2" dur="4.5s" begin="2.4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.45;0.18;0" dur="4.5s" begin="2.4s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="50;48;52;50" dur="4.5s" begin="2.4s" repeatCount="indefinite" />
    </circle>
   </g>
-  <!-- <g> Pedestrian Light (right corner)
+   <!-- <g> Pedestrian Light (right corner)
    <rect x="75" y="5" width="8" height="25" fill="#333" rx="2" />
    <circle cx="79" cy="10" r="3" fill="red" />
    <circle cx="79" cy="20" r="3" fill="green" />
