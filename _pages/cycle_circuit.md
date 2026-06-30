@@ -103,34 +103,33 @@ css: /assets/css/strava-dashboard.css
   <!-- Right Side Booth -->
   <rect x="70" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
   <rect x="70" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
-  <!-- Fish Tank + Splash + Sewer Drip Animation -->
+  <!-- Fish Tank + Splash + Sewer Drip Animation (Updated Placement) -->
   <g id="fish-tank-group">
-   <!-- Fish Tank -->
-   <rect x="12" y="32" width="20" height="12" fill="#66aadd" stroke="#225577" stroke-width="1.5" rx="2" />
-   <rect x="12" y="32" width="20" height="12" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.4" />
+   <!-- Thinner Fish Tank (off the road) -->
+   <rect x="10" y="32" width="14" height="10" fill="#66aadd" stroke="#225577" stroke-width="1.2" rx="2" />
+   <rect x="10" y="32" width="14" height="10" fill="none" stroke="#ffffff" stroke-width="0.7" opacity="0.4" />
    <!-- Jumping Fish / Shrimp -->
-   <circle cx="22" cy="38" r="2" fill="#ff9966">
-     <!-- Jump up -->
-     <animate attributeName="cy" values="38;28;38" dur="2.8s" repeatCount="indefinite" />
-     <animate attributeName="cx" values="22;20;22" dur="2.8s" repeatCount="indefinite" />
-     <animate attributeName="opacity" values="1;1;0.2;1" dur="2.8s" repeatCount="indefinite" />
+   <circle cx="17" cy="37" r="1.6" fill="#ff9966">
+    <animate attributeName="cy" values="37;28;37" dur="2.8s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="17;15;17" dur="2.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;1;0.2;1" dur="2.8s" repeatCount="indefinite" />
    </circle>
    <!-- Splash Arc -->
-   <path d="M 18 30 Q 22 26 26 30" stroke="#aeeaff" stroke-width="1.5" fill="none" opacity="0">
-    <animate attributeName="opacity" values="0;1;0" dur="0.6s" begin="fish-tank-group.click+0.4s;0.4s" repeatCount="indefinite" />
+   <path d="M 14 30 Q 17 26 20 30" stroke="#aeeaff" stroke-width="1.2" fill="none" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="0.6s" begin="0.4s" repeatCount="indefinite" />
    </path>
-   <!-- Falling Droplet -->
-   <circle cx="22" cy="30" r="1.5" fill="#aeeaff" opacity="0">
+   <!-- Falling Droplet (toward sewer beside road) -->
+   <circle cx="17" cy="30" r="1.2" fill="#aeeaff" opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
     <animate attributeName="cy" values="30;40;52" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
-    <animate attributeName="cx" values="22;26;30" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="17;24;34" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
    </circle>
-   <!-- Sewer Grate -->
-   <rect x="28" y="52" width="6" height="6" fill="#333" stroke="#111" stroke-width="1" rx="1" />
-   <line x1="29" y1="53" x2="33" y2="53" stroke="#666" stroke-width="1" />
-   <line x1="29" y1="55" x2="33" y2="55" stroke="#666" stroke-width="1" />
+   <!-- Sewer Grate (beside road, not on crosswalk) -->
+   <rect x="32" y="52" width="6" height="6" fill="#333" stroke="#111" stroke-width="1" rx="1" />
+   <line x1="33" y1="53" x2="37" y2="53" stroke="#666" stroke-width="1" />
+   <line x1="33" y1="55" x2="37" y2="55" stroke="#666" stroke-width="1" />
    <!-- Ripple -->
-   <ellipse cx="31" cy="55" rx="1" ry="1" fill="none" stroke="#88ccff" stroke-width="1" opacity="0">
+   <ellipse cx="35" cy="55" rx="1" ry="1" fill="none" stroke="#88ccff" stroke-width="1" opacity="0">
     <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
     <animate attributeName="rx" values="1;4;6" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
     <animate attributeName="ry" values="1;2;3" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
