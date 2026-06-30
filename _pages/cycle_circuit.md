@@ -140,7 +140,7 @@ css: /assets/css/strava-dashboard.css
   <g id="mist-group">
    <!-- Mist Puff 1 -->
    <circle cx="50" cy="60" r="2" fill="white" opacity="0.0">
-    <animate id="stirFry" attributeName="r" values="2;12;18;2" dur="4.5s" repeatCount="indefinite" />
+    <animate id="stirFry" attributeName="r" values="2;12;18;2" dur="4.5s" repeatCount="indefinite" /><!-- To play sound,  -->
     <animate attributeName="opacity" values="0;0.45;0.18;0" dur="4.5s" repeatCount="indefinite" />
     <animate attributeName="cx" values="50;46;54;50" dur="4.5s" repeatCount="indefinite" />
    </circle>
@@ -277,10 +277,10 @@ css: /assets/css/strava-dashboard.css
           <line x1="81" y1="15" x2="89" y2="15" stroke="#ccc" stroke-width="2" />
           <!-- Spin forward twice -->
           <animateTransform attributeName="transform" type="rotate" values="0;720;0" dur="10s" repeatCount="indefinite" />
-          <animate id="spinningValve1" attributeName="opacity" values="1;0.999;1" dur="15s" repeatCount="indefinite" fill="remove" />
+          <animate attributeName="opacity" values="1;0.999;1" dur="15s" repeatCount="indefinite" fill="remove" /><!-- To play sound, id="spinningValve1" -->
         </g>
         <!-- Leak puddle at bottom-left end -->
-        <ellipse id="puddle" cx="15" cy="85" rx="10" ry="6" fill="rgba(0,150,255,0.4)">
+        <ellipse cx="15" cy="85" rx="10" ry="6" fill="rgba(0,150,255,0.4)"><!-- To play sound, id="puddle" -->
         <animate attributeName="rx" values="10;14;10" dur="3s" repeatCount="indefinite" />
         <animate attributeName="ry" values="6;9;6" dur="3s" repeatCount="indefinite" />
         </ellipse>
