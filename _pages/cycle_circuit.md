@@ -13,12 +13,12 @@ css: /assets/css/strava-dashboard.css
   <!-- Just light grey squares for now -->
   <!-- Row 0 -->
   <g id="tile-0-0" transform="translate(0,0)">
-   <!-- Background -->
-   <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-   <!-- Road group (rotates) -->
+   <rect x="0" y="0" width="100" height="100" fill="#6cc66c" /> <!-- Grass -->
+   <!-- Roads -->
    <g class="road" data-rotation="0">
-    <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-    <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+    <!-- Bottom → Right turn -->
+    <path d="M 50 101 Q 54 54 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+    <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
    </g>
    <!-- Decorations (do NOT rotate) -->
    <g class="decor">
