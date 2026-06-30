@@ -125,9 +125,9 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="cx" values="17;24;34" dur="1.8s" begin="0.6s" repeatCount="indefinite" />
    </circle>
    <!-- Sewer Grate (beside road, not on crosswalk) -->
-   <rect x="32" y="52" width="6" height="6" fill="#333" stroke="#111" stroke-width="1" rx="1" />
-   <line x1="33" y1="53" x2="37" y2="53" stroke="#666" stroke-width="1" />
-   <line x1="33" y1="55" x2="37" y2="55" stroke="#666" stroke-width="1" />
+   <rect x="24" y="42" width="6" height="6" fill="#333" stroke="#111" stroke-width="1" rx="1" />
+   <line x1="25" y1="43" x2="29" y2="43" stroke="#666" stroke-width="1" />
+   <line x1="25" y1="45" x2="29" y2="45" stroke="#666" stroke-width="1" />
    <!-- Ripple -->
    <ellipse cx="35" cy="55" rx="1" ry="1" fill="none" stroke="#88ccff" stroke-width="1" opacity="0">
     <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="1.8s" repeatCount="indefinite" />
