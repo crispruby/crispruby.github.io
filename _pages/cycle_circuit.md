@@ -64,8 +64,6 @@ css: /assets/css/strava-dashboard.css
         <!-- Right → Center -->
         <path d="M 101 50 L 70 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" />
         <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
-        <!-- Intersection center -->
-        <circle cx="50" cy="50" r="12" fill="#444" opacity="0.15" />
         <!-- Main Market Booth (bottom side) -->
         <rect x="20" y="65" width="60" height="25" fill="#d96" stroke="#633" stroke-width="2" />
         <rect x="20" y="55" width="60" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
