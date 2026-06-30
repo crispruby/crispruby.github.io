@@ -66,12 +66,12 @@ css: /assets/css/strava-dashboard.css
         <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" />
         <!--White Cross Lines-->
         <line x1="36" y1="30" x2="64" y2="30" stroke="#f8f8f8" stroke-width="2" /> <!--First Top Line-->
-        <line x1="36" y1="35" x2="64" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Second Top Line-->
-        <line x1="30" y1="35" x2="35" y2="35" stroke="#f8f8f8" stroke-width="2" /> 
+        <line x1="35" y1="35" x2="65" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Second Top Line-->
+        <line x1="30" y1="36" x2="35" y2="36" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
         <line x1="30" y1="36" x2="30" y2="64" stroke="#f8f8f8" stroke-width="2" /> <!--First Left Line-->
-        <line x1="35" y1="36" x2="35" y2="64" stroke="#f8f8f8" stroke-width="2" /> <!--Second Left Line-->
+        <line x1="35" y1="35" x2="35" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--Second Left Line-->
         <line x1="70" y1="36" x2="70" y2="64" stroke="#f8f8f8" stroke-width="2" /> <!--First Right Line-->
-        <line x1="65" y1="36" x2="65" y2="64" stroke="#f8f8f8" stroke-width="2" /> <!--Second Right Line-->
+        <line x1="65" y1="35" x2="65" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--Second Right Line-->
         <!-- Left Main Market Booth (bottom side) -->
         <rect x="5" y="78" width="30" height="22" fill="#d96" stroke="#633" stroke-width="2" />
         <rect x="5" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
