@@ -9,112 +9,130 @@ css: /assets/css/strava-dashboard.css
 ---
 <div class="tile-world-wrapper">
  <svg id="tile-world" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet">
-    <!-- 5x5 grid of 100x100 tiles -->
-    <!-- Just light grey squares for now -->
-    <!-- Row 0 -->
-    <g id="tile-0-0" transform="translate(0,0)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
-      <g class="road" data-rotation="0">
-        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-      </g>
-        <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
-        <!-- icons or images here -->
-      </g>
-    </g>
-    <g id="tile-1-0" transform="translate(100,0)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
-      <g class="road" data-rotation="0">
-        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-      </g>
-        <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
-        <!-- icons or images here -->
-      </g>
-    </g>
-    <g id="tile-2-0" transform="translate(200,0)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
-      <g class="road" data-rotation="0">
-        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-      </g>
-        <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
-        <!-- icons or images here -->
-      </g>
-    </g>
-    <g id="tile-3-0" transform="translate(300,0)">
-      <rect x="0" y="0" width="100" height="100" fill="#6cc66c" />
-      <!-- Roads + booths + lights (all rotate together) -->
-      <g class="road" data-rotation="0">
-        <!-- Top → Center -->
-        <path d="M 50 -1 L 50 36" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
-        <path d="M 50 -1 L 50 30" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
-        <!-- Left → Center -->
-        <path d="M -1 50 L 36 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
-        <path d="M -1 50 L 30 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
-        <!-- Right → Center -->
-        <path d="M 101 50 L 64 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Road-->
-        <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
-        <!-- Intersection Square -->
-        <rect x="36" y="36" width="28" height="28" fill="#555" />
-        <!--White Cross Lines-->
-        <line x1="35" y1="30" x2="65" y2="30" stroke="#f8f8f8" stroke-width="2" /> <!--First Top Line-->
-        <line x1="34" y1="35" x2="66" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Second Top Line-->
-        <line x1="36" y1="30" x2="36" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
-        <line x1="42" y1="30" x2="42" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
-        <line x1="49" y1="30" x2="49" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
-        <line x1="56" y1="30" x2="56" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
-        <line x1="64" y1="30" x2="64" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
-        <line x1="30" y1="35" x2="30" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--First Left Line-->
-        <line x1="35" y1="34" x2="35" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--Second Left Line-->
-        <line x1="30" y1="36" x2="35" y2="36" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
-        <line x1="30" y1="42" x2="35" y2="42" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
-        <line x1="30" y1="49" x2="35" y2="49" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
-        <line x1="30" y1="56" x2="35" y2="56" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
-        <line x1="30" y1="64" x2="35" y2="64" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
-        <line x1="70" y1="35" x2="70" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--First Right Line-->
-        <line x1="66" y1="36" x2="66" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--Second Right Line-->
-        <line x1="65" y1="36" x2="70" y2="36" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
-        <line x1="65" y1="42" x2="70" y2="42" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
-        <line x1="65" y1="49" x2="70" y2="49" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
-        <line x1="65" y1="56" x2="70" y2="56" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
-        <line x1="65" y1="64" x2="70" y2="64" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
-        <!-- Left Main Market Booth (bottom side) -->
-        <rect x="5" y="78" width="30" height="20" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="5" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
-        <line x1="5" y1="68" x2="35" y2="68" stroke="#c33" stroke-width="3" />
-        <!-- Middle Main Market Booth (bottom side) -->
-        <rect x="35" y="78" width="30" height="20" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="35" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
-        <line x1="35" y1="68" x2="65" y2="68" stroke="#c33" stroke-width="3" />
-        <!-- Right Main Market Booth (bottom side) -->
-        <rect x="65" y="78" width="30" height="20" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="65" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
-        <line x1="65" y1="68" x2="95" y2="68" stroke="#c33" stroke-width="3" />
-        <!-- Left Side Booth -->
-        <rect x="5" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="5" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
-        <!-- Right Side Booth -->
-        <rect x="70" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
-        <rect x="70" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
-        <!-- <g>
-          Pedestrian Light (right corner)
-          <rect x="75" y="5" width="8" height="25" fill="#333" rx="2" />
-          <circle cx="79" cy="10" r="3" fill="red" />
-          <circle cx="79" cy="20" r="3" fill="green" />
-        </g> -->
-      </g>
-      <g class="decor"></g>
-      </g>
+  <!-- 5x5 grid of 100x100 tiles -->
+  <!-- Just light grey squares for now -->
+  <!-- Row 0 -->
+  <g id="tile-0-0" transform="translate(0,0)">
+   <!-- Background -->
+   <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+   <!-- Road group (rotates) -->
+   <g class="road" data-rotation="0">
+    <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+    <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+   </g>
+   <!-- Decorations (do NOT rotate) -->
+   <g class="decor">
+    <!-- icons or images here -->
+   </g>
+  </g>
+  <g id="tile-1-0" transform="translate(100,0)">
+   <!-- Background -->
+   <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+   <!-- Road group (rotates) -->
+   <g class="road" data-rotation="0">
+    <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+    <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+  </g>
+  <!-- Decorations (do NOT rotate) -->
+  <g class="decor">
+   <!-- icons or images here -->
+  </g>
+</g>
+<g id="tile-2-0" transform="translate(200,0)">
+ <!-- Background -->
+ <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+ <!-- Road group (rotates) -->
+ <g class="road" data-rotation="0">
+  <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+  <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+ </g>
+ <!-- Decorations (do NOT rotate) -->
+ <g class="decor">
+  <!-- icons or images here -->
+ </g>
+</g>
+<g id="tile-3-0" transform="translate(300,0)">
+ <rect x="0" y="0" width="100" height="100" fill="#6cc66c" />
+ <!-- Roads + booths + lights (all rotate together) -->
+ <g class="road" data-rotation="0">
+  <!-- Road -->
+  <path d="M 50 -1 L 50 36" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Top Road-->
+  <path d="M 50 -1 L 50 30" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
+  <path d="M -1 50 L 36 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Left Road-->
+  <path d="M -1 50 L 30 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
+  <path d="M 101 50 L 64 50" stroke="#555" stroke-width="28" stroke-linecap="butt" fill="none" /><!--Right Road-->
+  <path d="M 101 50 L 70 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" fill="none" /><!--Yellow Line-->
+  <rect x="36" y="36" width="28" height="28" fill="#555" /><!-- Intersection Square -->
+  <!--White Cross Lines-->
+  <line x1="35" y1="30" x2="65" y2="30" stroke="#f8f8f8" stroke-width="2" /> <!--First Top Line-->
+  <line x1="34" y1="35" x2="66" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Second Top Line-->
+  <line x1="36" y1="30" x2="36" y2="35" stroke="#f8f8f8" stroke-width="2" /> <!--Top Cross-->
+  <line x1="42" y1="30" x2="42" y2="35" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="49" y1="30" x2="49" y2="35" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="56" y1="30" x2="56" y2="35" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="64" y1="30" x2="64" y2="35" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="30" y1="35" x2="30" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--First Left Line-->
+  <line x1="35" y1="34" x2="35" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--Second Left Line-->
+  <line x1="30" y1="36" x2="35" y2="36" stroke="#f8f8f8" stroke-width="2" /> <!--Left Cross-->
+  <line x1="30" y1="42" x2="35" y2="42" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="30" y1="49" x2="35" y2="49" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="30" y1="56" x2="35" y2="56" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="30" y1="64" x2="35" y2="64" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="70" y1="35" x2="70" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--First Right Line-->
+  <line x1="66" y1="36" x2="66" y2="65" stroke="#f8f8f8" stroke-width="2" /> <!--Second Right Line-->
+  <line x1="65" y1="36" x2="70" y2="36" stroke="#f8f8f8" stroke-width="2" /> <!--Right Cross-->
+  <line x1="65" y1="42" x2="70" y2="42" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="65" y1="49" x2="70" y2="49" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="65" y1="56" x2="70" y2="56" stroke="#f8f8f8" stroke-width="2" /> 
+  <line x1="65" y1="64" x2="70" y2="64" stroke="#f8f8f8" stroke-width="2" /> 
+  <!-- Left Main Market Booth (bottom side) -->
+  <rect x="5" y="78" width="30" height="20" fill="#d96" stroke="#633" stroke-width="2" />
+  <rect x="5" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
+  <line x1="5" y1="68" x2="35" y2="68" stroke="#c33" stroke-width="3" />
+  <!-- Middle Main Market Booth (bottom side) -->
+  <rect x="35" y="78" width="30" height="20" fill="#d96" stroke="#633" stroke-width="2" />
+  <rect x="35" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
+  <line x1="35" y1="68" x2="65" y2="68" stroke="#c33" stroke-width="3" />
+  <!-- Right Main Market Booth (bottom side) -->
+  <rect x="65" y="78" width="30" height="20" fill="#d96" stroke="#633" stroke-width="2" />
+  <rect x="65" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
+  <line x1="65" y1="68" x2="95" y2="68" stroke="#c33" stroke-width="3" />
+  <!-- Left Side Booth -->
+  <rect x="5" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
+  <rect x="5" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
+  <!-- Right Side Booth -->
+  <rect x="70" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
+  <rect x="70" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
+  <!-- Stir-Fry Mist Animation (Bottom Middle Booth) -->
+  <g id="mist-group">
+   <!-- Mist Puff 1 -->
+   <circle cx="50" cy="60" r="2" fill="white" opacity="0.0">
+    <animate attributeName="r" values="2;10;14;2" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.8;0.3;0" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="50;48;52;50" dur="4s" repeatCount="indefinite" />
+   </circle>
+   <!-- Mist Puff 2 (delayed) -->
+   <circle cx="50" cy="60" r="2" fill="white" opacity="0.0">
+    <animate attributeName="r" values="2;10;14;2" dur="4s" begin="1s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.8;0.3;0" dur="4s" begin="1s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="50;52;48;50" dur="4s" begin="1s" repeatCount="indefinite" />
+   </circle>
+   <!-- Mist Puff 3 (more delay) -->
+   <circle cx="50" cy="60" r="2" fill="white" opacity="0.0">
+    <animate attributeName="r" values="2;10;14;2" dur="4s" begin="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.8;0.3;0" dur="4s" begin="2s" repeatCount="indefinite" />
+    <animate attributeName="cx" values="50;49;51;50" dur="4s" begin="2s" repeatCount="indefinite" />
+   </circle>
+  </g>
+  <!-- <g> Pedestrian Light (right corner)
+   <rect x="75" y="5" width="8" height="25" fill="#333" rx="2" />
+   <circle cx="79" cy="10" r="3" fill="red" />
+   <circle cx="79" cy="20" r="3" fill="green" />
+  </g> -->
+ </g>
+ <g class="decor">
+ </g>
+</g>
       <g id="tile-4-0" transform="translate(400,0)">
       <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
