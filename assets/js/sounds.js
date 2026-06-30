@@ -12,7 +12,9 @@ const sounds = {
   screwingvalve:  new Audio('/assets/sounds/screw_unscrew.wav'),
   stirfry:  new Audio('/assets/sounds/sizzling_stir_fry.wav')
 };
-
+sounds.stirfry.loop = true;
+sounds.stirfry.volume = 0.35; // gentle background sizzle
+sounds.stirfry.play();
 // 2. Map blink animation IDs to sounds
 const blinkToSound = {
   flashGood1: sounds.goodstar,
