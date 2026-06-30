@@ -140,7 +140,7 @@ css: /assets/css/strava-dashboard.css
   <g id="mist-group">
    <!-- Mist Puff 1 -->
    <circle cx="50" cy="60" r="2" fill="white" opacity="0.0">
-    <animate attributeName="r" values="2;12;18;2" dur="4.5s" repeatCount="indefinite" />
+    <animate id="stirfry" attributeName="r" values="2;12;18;2" dur="4.5s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;0.45;0.18;0" dur="4.5s" repeatCount="indefinite" />
     <animate attributeName="cx" values="50;46;54;50" dur="4.5s" repeatCount="indefinite" />
    </circle>
