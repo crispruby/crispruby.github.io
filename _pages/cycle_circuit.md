@@ -100,14 +100,18 @@ css: /assets/css/strava-dashboard.css
         <rect x="65" y="78" width="30" height="20" fill="#d96" stroke="#633" stroke-width="2" />
         <rect x="65" y="68" width="30" height="12" fill="#fdd" stroke="#633" stroke-width="2" />
         <line x1="65" y1="68" x2="95" y2="68" stroke="#c33" stroke-width="3" />
-        <!-- Side Booth (left corner) -->
+        <!-- Left Side Booth -->
         <rect x="5" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
         <rect x="5" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
-        <g><!-- Pedestrian Light (right corner) -->
+        <!-- Right Side Booth -->
+        <rect x="70" y="5" width="25" height="15" fill="#d96" stroke="#633" stroke-width="2" />
+        <rect x="70" y="20" width="25" height="8" fill="#fdd" stroke="#633" stroke-width="2" />
+        <!-- <g>
+          Pedestrian Light (right corner)
           <rect x="75" y="5" width="8" height="25" fill="#333" rx="2" />
           <circle cx="79" cy="10" r="3" fill="red" />
           <circle cx="79" cy="20" r="3" fill="green" />
-        </g>
+        </g> -->
       </g>
       <g class="decor"></g>
       </g>
