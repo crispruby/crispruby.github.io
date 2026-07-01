@@ -439,7 +439,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" additive="sum" type="scale" values="1.6;0.5;1.6" dur="1.2s" begin="flashBreak1.repeatEvent" />
           </path>
           <!-- Timer trigger -->
-          <animate id="flashBreak1" attributeName="opacity" values="1;0.999;1" dur="21s" repeatCount="indefinite" fill="remove" />
+          <animate attributeName="opacity" values="1;0.999;1" dur="21s" repeatCount="indefinite" fill="remove" /><!-- To play sound, id="flashBreak1" -->
         </g>
         <!-- MONSTER EYE FLASH -->
         <g transform="translate(88, 74)" opacity="1">
@@ -465,7 +465,7 @@ css: /assets/css/strava-dashboard.css
             <animate attributeName="opacity" values="0;1;0" dur="0.9s" begin="flashEye2.repeatEvent" />
           </circle>
           <!-- Timer trigger -->
-          <animate id="flashEye2" attributeName="opacity" values="1;0.999;1" dur="23s" repeatCount="indefinite" fill="remove" />
+          <animate attributeName="opacity" values="1;0.999;1" dur="23s" repeatCount="indefinite" fill="remove" /><!-- To play sound, id="flashEye2" -->
         </g>
         <!-- MUSICAL NOTE FLASH -->
         <g transform="translate(9, 74)" opacity="1">
@@ -477,7 +477,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.6;1.8;0.6" dur="1.3s" begin="flashMusic1.repeatEvent" />
           </path>
           <!-- Timer -->
-          <animate id="flashMusic1" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" /><!-- To play sound, id="flashMusic1" -->
+          <animate attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" /><!-- To play sound, id="flashMusic1" -->
         </g>
       </g>
     </g>
