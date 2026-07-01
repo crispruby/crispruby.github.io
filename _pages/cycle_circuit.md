@@ -21,21 +21,21 @@ css: /assets/css/strava-dashboard.css
     <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
     <g id="yoga-person" transform="translate(25,35)">
   <!-- Head -->
-  <circle cx="0" cy="-4" r="3" fill="#333" />
+  <circle cx="0" cy="-3" r="3" fill="#333" />
 
-  <!-- Torso (tilts left ↔ right) -->
+  <!-- Torso -->
   <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2"/>
-  <!-- Legs (diagonal triangle stance) -->
+  <!-- Legs -->
   <line x1="0" y1="12" x2="-10" y2="18" stroke="#333" stroke-width="2" />
   <line x1="0" y1="12" x2="10" y2="18" stroke="#333" stroke-width="2" />
 
-  <!-- Left arm (down to left toes → up to sky) -->
+  <!-- Left arm -->
   <line id="yogaArmLeft" x1="0" y1="2" x2="-10" y2="18" stroke="#333" stroke-width="2">
     <animate attributeName="x2" values="-10;-10;-10" dur="4s" repeatCount="indefinite" />
     <animate attributeName="y2" values="-8;18;-8" dur="4s" repeatCount="indefinite" />
   </line>
 
-  <!-- Right arm (up to sky → down to right toes) -->
+  <!-- Right arm -->
   <line id="yogaArmRight" x1="0" y1="4" x2="10" y2="4" stroke="#333" stroke-width="2">
     <animate attributeName="x2" values="10;10;10" dur="4s" repeatCount="indefinite" />
     <animate attributeName="y2" values="18;-8;18" dur="4s" repeatCount="indefinite" />
