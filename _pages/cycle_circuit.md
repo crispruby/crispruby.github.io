@@ -56,8 +56,8 @@ css: /assets/css/strava-dashboard.css
      <line x1="1" y1="12" x2="-2" y2="11" stroke="#333" stroke-width="2" />
      <!-- Sneeze puff (every 15 seconds) -->
      <circle cx="10" cy="-4" r="1.5" fill="#fff" opacity="0">
-      <animate attributeName="opacity" values="0;1;0" dur="4s" begin="0s" repeatCount="indefinite" repeatDur="4s"/>
-      <animate attributeName="cx" values="10;14;10" dur="4s" begin="0s" repeatCount="indefinite" repeatDur="4s"/>
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="10;14;10" dur="4s" repeatCount="indefinite" />
      </circle>
     </g>
    </g>
