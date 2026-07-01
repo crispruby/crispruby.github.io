@@ -37,8 +37,8 @@ css: /assets/css/strava-dashboard.css
 
   <!-- Right arm (up to sky → down to right toes) -->
   <line id="yogaArmRight" x1="0" y1="4" x2="10" y2="4" stroke="#333" stroke-width="2">
-    <animate attributeName="x2" values="10;-10;10;-10" dur="3s" repeatCount="indefinite" />
-    <animate attributeName="y2" values="10;10;10;10" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="x2" values="10;10;10;10" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="10;-10;10;-10" dur="3s" repeatCount="indefinite" />
   </line>
 </g>
     <!-- Meditation Person -->
