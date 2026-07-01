@@ -321,7 +321,7 @@ css: /assets/css/strava-dashboard.css
         <animate attributeName="rx" values="10;14;10" dur="3s" repeatCount="indefinite" />
         <animate attributeName="ry" values="6;9;6" dur="3s" repeatCount="indefinite" />
         </ellipse>
-        <animate id="spillingWater1" attributeName="opacity" values="1;0.999;1" dur="5s" repeatCount="indefinite" fill="remove" />
+        <animate attributeName="opacity" values="1;0.999;1" dur="5s" repeatCount="indefinite" fill="remove" /><!-- To play sound, id="spillingWater1" -->
         <!-- Top → Left turn -->
         <path d="M 50 -1 Q 46 46 -1 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
         <path d="M 50 -1 Q 46 46 -1 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
@@ -477,7 +477,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.6;1.8;0.6" dur="1.3s" begin="flashMusic1.repeatEvent" />
           </path>
           <!-- Timer -->
-          <animate id="flashMusic1" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" />
+          <animate id="flashMusic1" attributeName="opacity" values="1;0.999;1" dur="9s" repeatCount="indefinite" fill="remove" /><!-- To play sound, id="flashMusic1" -->
         </g>
       </g>
     </g>
