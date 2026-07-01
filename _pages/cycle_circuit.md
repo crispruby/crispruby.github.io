@@ -57,7 +57,6 @@ css: /assets/css/strava-dashboard.css
              dur="0.4s"
              begin="15s"
              repeatCount="indefinite" />
-
     <animate attributeName="cx" values="10;14;10"
              dur="0.4s"
              begin="15s"
