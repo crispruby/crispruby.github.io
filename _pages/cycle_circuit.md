@@ -48,10 +48,16 @@ css: /assets/css/strava-dashboard.css
      <!-- Legs (crossed) -->
      <line x1="-6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
      <line x1="6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
+     <!-- Calves -->
+     <line x1="-5" y1="14" x2="-2" y2="12" stroke="#333" stroke-width="2" />
+     <line x1="5" y1="14" x2="2" y2="12" stroke="#333" stroke-width="2" />
+     <!-- Feet -->
+     <line x1="-5" y1="15" x2="-2" y2="15" stroke="#333" stroke-width="2" />
+     <line x1="5" y1="15" x2="2" y2="15" stroke="#333" stroke-width="2" />
      <!-- Sneeze puff (every 15 seconds) -->
      <circle cx="10" cy="-4" r="1.5" fill="#fff" opacity="0">
-      <animate attributeName="opacity" values="0;1;0" dur="0.5s" repeatCount="indefinite" repeatDur="15s"/>
-      <animate attributeName="cx" values="10;14;10" dur="0.5s" repeatCount="indefinite" repeatDur="15s"/>
+      <animate attributeName="opacity" values="0;1;0" dur="0.5s" begin="0s" repeatCount="indefinite" repeatDur="15s"/>
+      <animate attributeName="cx" values="10;14;10" dur="0.5s" begin="0s" repeatCount="indefinite" repeatDur="15s"/>
      </circle>
     </g>
    </g>
