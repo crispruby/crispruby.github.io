@@ -20,46 +20,60 @@ css: /assets/css/strava-dashboard.css
     <path d="M 50 101 Q 54 54 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
     <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
     <g id="yoga-person" transform="translate(25,35)">
-  <!-- Head -->
-  <circle cx="0" cy="-3" r="3" fill="#333" />
-
-  <!-- Torso -->
-  <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2"/>
-  <!-- Legs -->
-  <line x1="0" y1="12" x2="-10" y2="18" stroke="#333" stroke-width="2" />
-  <line x1="0" y1="12" x2="10" y2="18" stroke="#333" stroke-width="2" />
-
-  <!-- Left arm -->
-  <line id="yogaArmLeft" x1="0" y1="2" x2="-10" y2="18" stroke="#333" stroke-width="2">
-    <animate attributeName="x2" values="-10;-10;-10" dur="4s" repeatCount="indefinite" />
-    <animate attributeName="y2" values="-8;18;-8" dur="4s" repeatCount="indefinite" />
-  </line>
-
-  <!-- Right arm -->
-  <line id="yogaArmRight" x1="0" y1="4" x2="10" y2="4" stroke="#333" stroke-width="2">
-    <animate attributeName="x2" values="10;10;10" dur="4s" repeatCount="indefinite" />
-    <animate attributeName="y2" values="18;-8;18" dur="4s" repeatCount="indefinite" />
-  </line>
-</g>
-    <!-- Meditation Person -->
+     <circle cx="0" cy="-3" r="3" fill="#333" /><!-- Head -->
+     <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2"/>
+     <!-- Legs -->
+     <line x1="0" y1="12" x2="-10" y2="18" stroke="#333" stroke-width="2" />
+     <line x1="0" y1="12" x2="10" y2="18" stroke="#333" stroke-width="2" />
+     <!-- Left arm -->
+     <line id="yogaArmLeft" x1="0" y1="2" x2="-10" y2="18" stroke="#333" stroke-width="2">
+      <animate attributeName="x2" values="-10;-10;-10" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="-8;18;-8" dur="5s" repeatCount="indefinite" />
+     </line>
+     <!-- Right arm -->
+     <line id="yogaArmRight" x1="0" y1="4" x2="10" y2="4" stroke="#333" stroke-width="2">
+      <animate attributeName="x2" values="10;10;10" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="18;-8;18" dur="5s" repeatCount="indefinite" />
+     </line>
+    </g>
     <g id="meditation-person" transform="translate(60,20)">
-  <!-- Head (breathing rise/fall) -->
-  <circle id="medHead" cx="0" cy="-8" r="3" fill="#333">
-    <animate attributeName="cy" values="-8;-10;-8" dur="6s" repeatCount="indefinite" />
+  
+  <!-- Breathing group (moves head + body together) -->
+  <g id="medBreath">
+    <animateTransform attributeName="transform"
+      type="translate"
+      values="0,0;0,-2;0,0"
+      dur="6s"
+      repeatCount="indefinite" />
+
+    <!-- Head -->
+    <circle cx="0" cy="-4" r="3" fill="#333" />
+
+    <!-- Body -->
+    <ellipse cx="0" cy="4" rx="7" ry="5" fill="#333" />
+
+    <!-- Arms (resting on knees) -->
+    <line x1="-4" y1="6" x2="-7" y2="10" stroke="#333" stroke-width="2" />
+    <line x1="4" y1="6" x2="7" y2="10" stroke="#333" stroke-width="2" />
+
+    <!-- Legs (crossed) -->
+    <line x1="-6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
+    <line x1="6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
+  </g>
+
+  <!-- Sneeze puff (every 15 seconds) -->
+  <circle cx="10" cy="-4" r="1.5" fill="#fff" opacity="0">
+    <animate attributeName="opacity" values="0;1;0"
+             dur="0.4s"
+             begin="15s"
+             repeatCount="indefinite" />
+
+    <animate attributeName="cx" values="10;14;10"
+             dur="0.4s"
+             begin="15s"
+             repeatCount="indefinite" />
   </circle>
 
-  <!-- Body -->
-  <ellipse cx="0" cy="4" rx="7" ry="5" fill="#333" />
-
-  <!-- Legs (crossed) -->
-  <line x1="-6" y1="10" x2="0" y2="6" stroke="#333" stroke-width="2" />
-  <line x1="6" y1="10" x2="0" y2="6" stroke="#333" stroke-width="2" />
-
-  <!-- Rare sneeze puff (every 15 seconds) -->
-  <circle cx="10" cy="-8" r="1.5" fill="#fff" opacity="0">
-    <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="15s;30s;45s" repeatCount="indefinite" />
-    <animate attributeName="cx" values="10;14;10" dur="0.4s" begin="15s;30s;45s" repeatCount="indefinite" />
-  </circle>
 </g>
    </g>
   </g>
