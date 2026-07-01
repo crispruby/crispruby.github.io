@@ -40,7 +40,7 @@ css: /assets/css/strava-dashboard.css
      <circle cx="0" cy="-4" r="3" fill="#333" /><!-- Head -->
      <!-- Torso (breathing only here) -->
      <ellipse cx="0" cy="5" rx="3" ry="6" fill="#333">
-      <animate attributeName="rx" values="3;4;3" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="rx" values="3;2;3" dur="6s" repeatCount="indefinite" />
      </ellipse>
      <!-- Arms (resting on knees) -->
      <line x1="-2" y1="4" x2="-7" y2="10" stroke="#333" stroke-width="2" />
