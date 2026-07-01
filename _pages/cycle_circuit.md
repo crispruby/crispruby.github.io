@@ -39,7 +39,7 @@ css: /assets/css/strava-dashboard.css
     <g id="meditation-person" transform="translate(60,20)">
      <circle cx="0" cy="-4" r="3" fill="#333" /><!-- Head -->
      <!-- Torso (breathing only here) -->
-     <ellipse cx="0" cy="4" rx="5" ry="4" fill="#333">
+     <ellipse cx="0" cy="4" rx="3" ry="5" fill="#333">
       <animate attributeName="ry" values="4;5;4" dur="6s" repeatCount="indefinite" />
      </ellipse>
      <!-- Arms (resting on knees) -->
