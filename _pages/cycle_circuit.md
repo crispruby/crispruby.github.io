@@ -37,25 +37,15 @@ css: /assets/css/strava-dashboard.css
      </line>
     </g>
     <g id="meditation-person" transform="translate(60,20)">
-  
-  <!-- Breathing group (moves head + body together) -->
-  <g id="medBreath">
-    <animateTransform attributeName="transform"
-      type="translate"
-      values="0,0;0,-2;0,0"
-      dur="6s"
-      repeatCount="indefinite" />
-
+     <g id="medBreath">
+     <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="6s" repeatCount="indefinite" />
     <!-- Head -->
     <circle cx="0" cy="-4" r="3" fill="#333" />
-
     <!-- Body -->
     <ellipse cx="0" cy="4" rx="7" ry="5" fill="#333" />
-
     <!-- Arms (resting on knees) -->
     <line x1="-4" y1="6" x2="-7" y2="10" stroke="#333" stroke-width="2" />
     <line x1="4" y1="6" x2="7" y2="10" stroke="#333" stroke-width="2" />
-
     <!-- Legs (crossed) -->
     <line x1="-6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
     <line x1="6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
