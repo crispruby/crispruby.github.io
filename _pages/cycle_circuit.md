@@ -43,8 +43,8 @@ css: /assets/css/strava-dashboard.css
       <animate attributeName="ry" values="4;5;4" dur="6s" repeatCount="indefinite" />
      </ellipse>
      <!-- Arms (resting on knees) -->
-     <line x1="-4" y1="6" x2="-7" y2="10" stroke="#333" stroke-width="2" />
-     <line x1="4" y1="6" x2="7" y2="10" stroke="#333" stroke-width="2" />
+     <line x1="-3" y1="5" x2="-7" y2="10" stroke="#333" stroke-width="2" />
+     <line x1="3" y1="5" x2="7" y2="10" stroke="#333" stroke-width="2" />
      <!-- Legs (crossed) -->
      <line x1="-6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
      <line x1="6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
