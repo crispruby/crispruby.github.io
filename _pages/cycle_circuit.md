@@ -37,21 +37,21 @@ css: /assets/css/strava-dashboard.css
      </line>
     </g>
     <g id="meditation-person" transform="translate(60,20)">
-     <g id="medBreath">
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="6s" repeatCount="indefinite" />
-      <circle cx="0" cy="-4" r="3" fill="#333" /><!-- Head -->
-      <ellipse cx="0" cy="4" rx="7" ry="5" fill="#333" /><!-- Body -->
-      <!-- Arms (resting on knees) -->
-      <line x1="-4" y1="6" x2="-7" y2="10" stroke="#333" stroke-width="2" />
-      <line x1="4" y1="6" x2="7" y2="10" stroke="#333" stroke-width="2" />
-      <!-- Legs (crossed) -->
-      <line x1="-6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
-      <line x1="6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
-     </g>
+     <circle cx="0" cy="-4" r="3" fill="#333" /><!-- Head -->
+     <!-- Torso (breathing only here) -->
+     <ellipse cx="0" cy="4" rx="5" ry="4" fill="#333">
+      <animate attributeName="ry" values="4;5;4" dur="6s" repeatCount="indefinite" />
+     </ellipse>
+     <!-- Arms (resting on knees) -->
+     <line x1="-4" y1="6" x2="-7" y2="10" stroke="#333" stroke-width="2" />
+     <line x1="4" y1="6" x2="7" y2="10" stroke="#333" stroke-width="2" />
+     <!-- Legs (crossed) -->
+     <line x1="-6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
+     <line x1="6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
      <!-- Sneeze puff (every 15 seconds) -->
      <circle cx="10" cy="-4" r="1.5" fill="#fff" opacity="0">
-      <animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="15s" repeatCount="indefinite" />
-      <animate attributeName="cx" values="10;14;10" dur="0.4s" begin="15s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;0" dur="15s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="10;14;10" dur="15s" repeatCount="indefinite" />
      </circle>
     </g>
    </g>
