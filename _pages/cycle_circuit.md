@@ -63,8 +63,6 @@ css: /assets/css/strava-dashboard.css
              begin="15s"
              repeatCount="indefinite" />
   </circle>
-
-</g>
    </g>
   </g>
   <g id="tile-1-0" transform="translate(100,0)">
