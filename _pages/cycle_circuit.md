@@ -60,6 +60,13 @@ css: /assets/css/strava-dashboard.css
       <animate attributeName="cx" values="10;14;10" dur="4s" repeatCount="indefinite" />
      </circle>
     </g>
+    <g id="music-speaker" transform="translate(20,70)">
+     <circle cx="0" cy="0" r="4" fill="#444" />
+     <!-- Sound waves -->
+     <path d="M 6 -2 Q 10 0 6 2" stroke="#333" stroke-width="1" fill="none">
+      <animate attributeName="stroke-width" values="1;2;1" dur="3s" repeatCount="indefinite" />
+     </path>
+    </g>
    </g>
   </g>
   <g id="tile-1-0" transform="translate(100,0)">
