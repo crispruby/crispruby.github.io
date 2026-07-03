@@ -10,7 +10,8 @@ const sounds = {
   heartbreak:  new Audio('/assets/sounds/heart_break.wav'),
   liquidbubbles:  new Audio('/assets/sounds/water_bubble.wav'),
   screwingvalve:  new Audio('/assets/sounds/screw_unscrew.wav'),
-  stirfry:  new Audio('/assets/sounds/sizzling_stir_fry.wav')
+  stirfry:  new Audio('/assets/sounds/sizzling_stir_fry.wav'),
+  yogamusic:  new Audio('/assets/sounds/yoga_music.wav')
 };
 
 // 2. Map blink animation IDs to sounds
@@ -25,7 +26,8 @@ const blinkToSound = {
   flashBreak1:  sounds.heartbreak,
   spinningValve1: sounds.screwingvalve,
   spillingWater1: sounds.liquidbubbles,
-  stirFry: sounds.stirfry
+  stirFry: sounds.stirfry,
+  yogaMusic: sounds.yogamusic
 };
 
 // 3. Attach listeners to SVG animations
