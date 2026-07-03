@@ -61,7 +61,7 @@ css: /assets/css/strava-dashboard.css
      </circle>
     </g>
     <!-- Retro Radio Music Box -->
-    <g id="music-box" transform="translate(10,65)">
+    <g id="music-box" transform="translate(6,60)">
      <rect x="0" y="0" width="34" height="14" rx="3" fill="#b07a3c" stroke="#6a4a28" stroke-width="1" /><!-- Radio body -->
      <circle cx="10" cy="7" r="3" fill="#333"><!-- Left speaker grill -->
       <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
