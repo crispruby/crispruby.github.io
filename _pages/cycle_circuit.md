@@ -70,7 +70,7 @@ css: /assets/css/strava-dashboard.css
      <!-- Left speaker: LEFT-side waves -->
      <path d="M 6 5 Q 3 7 6 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
       <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
-     </path
+     </path>
      <!-- Left speaker: RIGHT-side waves -->
      <path d="M 14 5 Q 17 7 14 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
       <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
