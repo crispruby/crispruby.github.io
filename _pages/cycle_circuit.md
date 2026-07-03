@@ -67,23 +67,25 @@ css: /assets/css/strava-dashboard.css
      <circle cx="10" cy="7" r="3" fill="#333">
       <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
      </circle>
-     <!-- Left sound waves -->
+     <!-- Left speaker: LEFT-side waves -->
+     <path d="M 6 5 Q 3 7 6 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
+     </path
+     <!-- Left speaker: RIGHT-side waves -->
      <path d="M 14 5 Q 17 7 14 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
       <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
-     </path>
-     <path d="M 17 5 Q 20 7 17 9" stroke="#333" stroke-width="1" fill="none" opacity="0.3">
-      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite" />
      </path>
      <!-- Right speaker grill -->
      <circle cx="24" cy="7" r="3" fill="#333">
       <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
      </circle>
-     <!-- Right sound waves -->
-     <path d="M 28 5 Q 31 7 28 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
+     <!-- Right speaker: LEFT-side waves -->
+     <path d="M 20 5 Q 17 7 20 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
       <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
      </path>
-     <path d="M 31 5 Q 34 7 31 9" stroke="#333" stroke-width="1" fill="none" opacity="0.3">
-      <animate attributeName="opacity" values="0.2;0.6;0.2"dur="3s" repeatCount="indefinite" />
+     <!-- Right speaker: RIGHT-side waves -->
+     <path d="M 28 5 Q 31 7 28 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
      </path>
      <line x1="4" y1="0" x2="4" y2="-6" stroke="#333" stroke-width="1" /><!-- antenna -->
     </g>
