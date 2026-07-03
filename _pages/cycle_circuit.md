@@ -63,12 +63,28 @@ css: /assets/css/strava-dashboard.css
     <!-- Retro Radio Music Box -->
     <g id="music-box" transform="translate(6,60)">
      <rect x="0" y="0" width="34" height="14" rx="3" fill="#b07a3c" stroke="#6a4a28" stroke-width="1" /><!-- Radio body -->
-     <circle cx="10" cy="7" r="3" fill="#333"><!-- Left speaker grill -->
+     <!-- Left speaker grill -->
+     <circle cx="10" cy="7" r="3" fill="#333">
       <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
      </circle>
-     <circle cx="24" cy="7" r="3" fill="#333"><!-- Right speaker grill -->
+     <!-- Left sound waves -->
+     <path d="M 14 5 Q 17 7 14 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
+     </path>
+     <path d="M 17 5 Q 20 7 17 9" stroke="#333" stroke-width="1" fill="none" opacity="0.3">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite" />
+     </path>
+     <!-- Right speaker grill -->
+     <circle cx="24" cy="7" r="3" fill="#333">
       <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
      </circle>
+     <!-- Right sound waves -->
+     <path d="M 28 5 Q 31 7 28 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
+     </path>
+     <path d="M 31 5 Q 34 7 31 9" stroke="#333" stroke-width="1" fill="none" opacity="0.3">
+      <animate attributeName="opacity" values="0.2;0.6;0.2"dur="3s" repeatCount="indefinite" />
+     </path>
      <line x1="4" y1="0" x2="4" y2="-6" stroke="#333" stroke-width="1" /><!-- antenna -->
     </g>
    </g>
