@@ -399,7 +399,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.2;2.0;0.2" dur="0.5s" begin="flashGood1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashGood1" attributeName="opacity" values="1;0.999;1" dur="11s" repeatCount="indefinite" fill="remove"/>
+          <animate attributeName="opacity" values="1;0.999;1" dur="11s" repeatCount="indefinite" fill="remove"/> <!-- To play sound, id="flashGood1" -->
         </g>
         <!-- BAD STAR FLASH (top-right window) -->
         <g transform="translate(74, 9)" opacity="1">
@@ -411,7 +411,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.2;2.4;0.2" dur="0.25s" begin="flashBad1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashBad1" attributeName="opacity" values="1;0.999;1" dur="13s" repeatCount="indefinite" fill="remove" />
+          <animate attributeName="opacity" values="1;0.999;1" dur="13s" repeatCount="indefinite" fill="remove" /> <!-- To play sound, id="flashBad1" -->
         </g>
         <!-- BAD LIGHTNING FLASH (left-top window) -->
         <g transform="translate(9, 26)" opacity="1">
@@ -423,7 +423,7 @@ css: /assets/css/strava-dashboard.css
           <animateTransform attributeName="transform" type="scale" values="0.2;2.6;0.2" dur="0.22s" begin="flashBolt1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashBolt1" attributeName="opacity" values="1;0.999;1" dur="17s" repeatCount="indefinite" fill="remove" />
+          <animate attributeName="opacity" values="1;0.999;1" dur="17s" repeatCount="indefinite" fill="remove" /> <!-- To play sound, id="flashBolt1" -->
         </g>
         <g transform="translate(88, 26)" opacity="1"><!-- GOOD LIGHTNING FLASH (right-top window) -->
           <polygon points="-4,-22 3,-10 -5,-10 6,2 -2,2 8,18 2,18 10,30" fill="yellow" opacity="0">
@@ -434,7 +434,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.2;2.8;0.2" dur="0.28s" begin="flashHero1.repeatEvent" />
           </polygon>
           <!-- Timer trigger -->
-          <animate id="flashHero1" attributeName="opacity" values="1;0.999;1" dur="19s" repeatCount="indefinite" fill="remove" />
+          <animate attributeName="opacity" values="1;0.999;1" dur="19s" repeatCount="indefinite" fill="remove" /> <!-- To play sound, id="flashHero1" -->
         </g>
         <g transform="translate(26, 88)" opacity="1"><!-- ROMANTIC HEART FLASH (bottom-left window) -->
           <path d="M 0 -10 C -8 -18, -20 -6, 0 10 C 20 -6, 8 -18, 0 -10" fill="pink" opacity="0">
