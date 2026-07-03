@@ -65,7 +65,7 @@ css: /assets/css/strava-dashboard.css
      <rect x="0" y="0" width="34" height="14" rx="3" fill="#b07a3c" stroke="#6a4a28" stroke-width="1" /><!-- Radio body -->
      <!-- Left speaker grill -->
      <circle cx="10" cy="7" r="3" fill="#333">
-      <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
+      <animate id="yogaMusic" attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
      </circle>
      <!-- Left speaker: LEFT-side waves -->
      <path d="M 6 5 Q 3 7 6 9" stroke="#333" stroke-width="1" fill="none" opacity="0.5">
