@@ -61,34 +61,21 @@ css: /assets/css/strava-dashboard.css
      </circle>
     </g>
     <!-- Retro Radio Music Box -->
-<g id="music-box" transform="translate(15,70)">
-  <!-- Radio body -->
-  <rect x="0" y="0" width="36" height="14" rx="3"
-        fill="#b07a3c" stroke="#6a4a28" stroke-width="1" />
-
-  <!-- Left speaker grill -->
-  <circle cx="10" cy="7" r="3" fill="#333">
-    <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- Right speaker grill -->
-  <circle cx="24" cy="7" r="3" fill="#333">
-    <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- Tuning dial -->
-  <circle cx="32" cy="4" r="2" fill="#555" stroke="#333" stroke-width="1">
-    <animateTransform attributeName="transform"
-      type="rotate"
-      from="0 32 4"
-      to="360 32 4"
-      dur="8s"
-      repeatCount="indefinite" />
-  </circle>
-
-  <!-- Optional antenna -->
-  <line x1="4" y1="0" x2="4" y2="-6" stroke="#333" stroke-width="1" />
-</g>
+    <g id="music-box" transform="translate(15,70)">
+     <rect x="0" y="0" width="36" height="14" rx="3" fill="#b07a3c" stroke="#6a4a28" stroke-width="1" /><!-- Radio body -->
+     <circle cx="10" cy="7" r="3" fill="#333"><!-- Left speaker grill -->
+      <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
+     </circle>
+     <circle cx="24" cy="7" r="3" fill="#333"><!-- Right speaker grill -->
+      <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
+     </circle>
+     <!-- Tuning dial -->
+     <circle cx="32" cy="4" r="2" fill="#555" stroke="#333" stroke-width="1">
+      <animateTransform attributeName="transform" type="rotate" from="0 32 4" to="360 32 4" dur="8s" repeatCount="indefinite" />
+     </circle>
+     <!-- Optional antenna -->
+     <line x1="4" y1="0" x2="4" y2="-6" stroke="#333" stroke-width="1" />
+    </g>
    </g>
   </g>
   <g id="tile-1-0" transform="translate(100,0)">
