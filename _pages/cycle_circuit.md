@@ -231,8 +231,8 @@ css: /assets/css/strava-dashboard.css
  <!-- Road group (rotates) -->
  <g class="road" data-rotation="0">
   <!-- Left → Bottom turn -->
-  <path d="M 0 50 Q 54 54 50 101" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
-  <path d="M 0 50 Q 54 54 50 101" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
+  <path d="M -1 50 Q 54 54 50 101" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+  <path d="M -1 50 Q 54 54 50 101" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
  </g>
 </g>
 <!-- Row 1 -->
