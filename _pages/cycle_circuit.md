@@ -14,8 +14,7 @@ css: /assets/css/strava-dashboard.css
   <!-- Row 0 -->
   <g id="tile-0-0" transform="translate(0,0)">
    <rect x="0" y="0" width="100" height="100" fill="#6cc66c" /> <!-- Grass -->
-   <!-- Decorations (do NOT rotate) -->
-   <g class="decor">
+   <g class="road" data-rotation="0">
      <!-- Bottom → Right turn -->
     <path d="M 50 101 Q 54 54 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
     <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
@@ -61,7 +60,7 @@ css: /assets/css/strava-dashboard.css
      </circle>
     </g>
     <!-- Radio Music Box -->
-    <g id="music-box" transform="translate(6,60)">
+    <g id="music-box" transform="translate(6,55)">
      <rect x="0" y="0" width="34" height="14" rx="3" fill="#b07a3c" stroke="#6a4a28" stroke-width="1" /><!-- Radio body -->
      <!-- Left speaker grill -->
      <circle cx="10" cy="7" r="3" fill="#333">
@@ -226,23 +225,17 @@ css: /assets/css/strava-dashboard.css
    <circle cx="79" cy="20" r="3" fill="green" />
   </g> -->
  </g>
- <g class="decor">
+</g>
+<g id="tile-4-0" transform="translate(400,0)">
+ <rect x="0" y="0" width="100" height="100" fill="#6cc66c" /> <!-- Grass -->
+ <!-- Road group (rotates) -->
+ <g class="road" data-rotation="0">
+  <!-- Left → Bottom turn -->
+  <path d="M 0 50 Q 54 54 50 101" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
+  <path d="M 0 50 Q 54 54 50 101" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
  </g>
 </g>
-      <g id="tile-4-0" transform="translate(400,0)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
-      <g class="road" data-rotation="0">
-        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-      </g>
-        <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
-        <!-- icons or images here -->
-      </g>
-    </g>
-  <!-- Row 1 -->
+<!-- Row 1 -->
   <g id="tile-0-1" transform="translate(0,100)">
       <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
