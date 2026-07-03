@@ -60,7 +60,7 @@ css: /assets/css/strava-dashboard.css
       <animate attributeName="opacity" values="0.3;0.6;0.3" dur="6s" repeatCount="indefinite" />
      </circle>
     </g>
-    <!-- Retro Radio Music Box -->
+    <!-- Radio Music Box -->
     <g id="music-box" transform="translate(6,60)">
      <rect x="0" y="0" width="34" height="14" rx="3" fill="#b07a3c" stroke="#6a4a28" stroke-width="1" /><!-- Radio body -->
      <!-- Left speaker grill -->
