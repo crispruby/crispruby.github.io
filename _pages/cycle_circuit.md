@@ -444,7 +444,7 @@ css: /assets/css/strava-dashboard.css
             <animateTransform attributeName="transform" type="scale" values="0.4;1.9;0.4" dur="0.9s" begin="flashHeart1.repeatEvent" />
           </path>
           <!-- Timer trigger -->
-          <animate id="flashHeart1" attributeName="opacity" values="1;0.999;1" dur="15s" repeatCount="indefinite" fill="remove" />
+          <animate attributeName="opacity" values="1;0.999;1" dur="15s" repeatCount="indefinite" fill="remove" /> <!-- To play sound, id="flashHeart1" -->
         </g>
         <!-- HEART-BREAKING FLASH -->
         <g transform="translate(74, 88)" opacity="1"> <!-- Left half -->
