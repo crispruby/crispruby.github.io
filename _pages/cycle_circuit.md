@@ -19,7 +19,7 @@ css: /assets/css/strava-dashboard.css
      <!-- Bottom → Right turn -->
     <path d="M 50 101 Q 54 54 101 50" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
     <path d="M 50 101 Q 54 54 101 50" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
-    <g id="yoga-person" transform="translate(25,35)">
+    <g id="yoga-person" transform="translate(25,25)">
      <circle cx="0" cy="-3" r="3" fill="#333" /><!-- Head -->
      <line id="yogaTorso" x1="0" y1="0" x2="0" y2="12" stroke="#333" stroke-width="2"/>
      <!-- Legs -->
@@ -61,7 +61,7 @@ css: /assets/css/strava-dashboard.css
      </circle>
     </g>
     <!-- Retro Radio Music Box -->
-    <g id="music-box" transform="translate(15,70)">
+    <g id="music-box" transform="translate(10,65)">
      <rect x="0" y="0" width="36" height="14" rx="3" fill="#b07a3c" stroke="#6a4a28" stroke-width="1" /><!-- Radio body -->
      <circle cx="10" cy="7" r="3" fill="#333"><!-- Left speaker grill -->
       <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite" />
