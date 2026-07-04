@@ -235,19 +235,33 @@ css: /assets/css/strava-dashboard.css
   <path d="M -1 50 Q 54 54 50 101" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
   <!-- Torii Gate -->
   <g id="torii-gate" transform="translate(0,0)">
-   <rect x="25" y="24" width="10" height="50" fill="#c33" stroke="#622" stroke-width="2" />
-  <!-- Right Post (slightly higher) -->
-  <rect x="65" y="18" width="10" height="50" fill="#c33" stroke="#622" stroke-width="2" />
-  <!-- Top Beam (angled by y-shift) -->
-  <polygon points="20,19 90,13 90,21 20,27" fill="#d44" stroke="#622" stroke-width="2" />
-  <!-- Lower Beam (angled) -->
-  <polygon points="25,30 85,24 85,30 25,36" fill="#d44" stroke="#622" stroke-width="2" />
+   <!-- Left Stone Base -->
+  <polygon points="34,32 46,36 44,42 32,38"
+           fill="#777" stroke="#444" stroke-width="2" />
+
+  <!-- Right Stone Base -->
+  <polygon points="64,68 76,72 74,78 62,74"
+           fill="#777" stroke="#444" stroke-width="2" />
+
+  <!-- Left Post -->
+  <polygon points="34,32 46,36 46,86 34,82"
+           fill="#c33" stroke="#622" stroke-width="2" />
+
+  <!-- Right Post -->
+  <polygon points="64,68 76,72 76,122 64,118"
+           fill="#c33" stroke="#622" stroke-width="2" />
+
+  <!-- Top Beam -->
+  <polygon points="28,20 92,44 92,52 28,28"
+           fill="#d44" stroke="#622" stroke-width="2" />
+
+  <!-- Lower Beam -->
+  <polygon points="32,34 88,56 88,62 32,40"
+           fill="#d44" stroke="#622" stroke-width="2" />
+
   <!-- Decorative End Caps -->
-  <rect x="18" y="19" width="4" height="8" fill="#622" rx="1" />
-  <rect x="88" y="13" width="4" height="8" fill="#622" rx="1" />
-   <!-- Stone bases -->
-   <polygon points="36,32 48,44 46,50 34,38" fill="#777" stroke="#444" stroke-width="2" rx="2" />
-   <polygon points="66,68 76,72 74,78 64,74" fill="#777" stroke="#444" stroke-width="2" rx="2" />
+  <polygon points="26,20 30,20 30,28 26,28" fill="#622" />
+  <polygon points="90,44 94,44 94,52 90,52" fill="#622" />
   </g>
  </g>
 </g>
