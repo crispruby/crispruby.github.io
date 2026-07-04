@@ -231,7 +231,7 @@ css: /assets/css/strava-dashboard.css
    <!-- Left Stone Base -->
   <polygon points="34,32 46,38 43,44 31,38" fill="#777" stroke="#444" stroke-width="2" />
   <!-- Right Stone Base -->
-  <polygon points="67,56 79,62 76,68 64,62" fill="#777" stroke="#444" stroke-width="2" />
+  <polygon points="64,52 76,58 73,64 61,58" fill="#777" stroke="#444" stroke-width="2" />
   <!-- Left Post -->
   <polygon points="34,32 46,38 62,8 50,3" fill="#c33" stroke="#622" stroke-width="2" />
   <!-- Right Post -->
