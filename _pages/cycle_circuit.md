@@ -230,17 +230,17 @@ css: /assets/css/strava-dashboard.css
   <!-- Torii Gate -->
   <g id="torii-gate" transform="translate(0,0)">
    <!-- Left Stone Base -->
-  <polygon points="34,32 46,38 44,44 32,38" fill="#777" stroke="#444" stroke-width="2" />
+  <polygon points="34,32 46,38 43,44 31,38" fill="#777" stroke="#444" stroke-width="2" />
   <!-- Right Stone Base -->
-  <polygon points="64,62 76,68 74,74 62,68" fill="#777" stroke="#444" stroke-width="2" />
+  <polygon points="64,62 76,68 73,74 61,68" fill="#777" stroke="#444" stroke-width="2" />
   <!-- Left Post -->
   <polygon points="34,32 46,38 62,8 50,3" fill="#c33" stroke="#622" stroke-width="2" />
   <!-- Right Post -->
-  <polygon points="64,62 62,68 98,28 86,22" fill="#c33" stroke="#622" stroke-width="2" />
+  <polygon points="64,62 76,68 98,28 86,22" fill="#c33" stroke="#622" stroke-width="2" />
   <!-- Top Beam -->
   <polygon points="45,5 98,32 93,35 48,10" fill="#d44" stroke="#622" stroke-width="2" />
   <!-- Lower Beam -->
-  <polygon points="38,13 93,39 90,43 37,17" fill="#d44" stroke="#622" stroke-width="2" />
+  <polygon points="39,12 93,39 90,43 37,16" fill="#d44" stroke="#622" stroke-width="2" />
   </g>
  </g>
 </g>
