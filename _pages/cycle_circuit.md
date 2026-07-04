@@ -234,27 +234,18 @@ css: /assets/css/strava-dashboard.css
   <path d="M -1 50 Q 54 54 50 101" stroke="#555" stroke-width="28" fill="none" stroke-linecap="butt" />
   <path d="M -1 50 Q 54 54 50 101" stroke="#ffdd33" stroke-width="4" fill="none" stroke-linecap="butt" />
   <!-- Torii Gate -->
-<g id="torii-gate" transform="translate(0,0)">
-  <!-- Left Post -->
-  <rect x="25" y="20" width="10" height="50" fill="#c33" stroke="#622" stroke-width="2" />
-
-  <!-- Right Post -->
-  <rect x="65" y="20" width="10" height="50" fill="#c33" stroke="#622" stroke-width="2" />
-
-  <!-- Top Beam -->
-  <rect x="20" y="15" width="70" height="8" fill="#d44" stroke="#622" stroke-width="2" rx="2" />
-
-  <!-- Lower Beam -->
-  <rect x="25" y="25" width="60" height="6" fill="#d44" stroke="#622" stroke-width="2" rx="2" />
-
-  <!-- Decorative End Caps -->
-  <rect x="18" y="15" width="4" height="8" fill="#622" rx="1" />
-  <rect x="88" y="15" width="4" height="8" fill="#622" rx="1" />
-
-  <!-- Optional stone bases -->
-  <rect x="24" y="68" width="12" height="6" fill="#777" stroke="#444" stroke-width="1" rx="2" />
-  <rect x="64" y="68" width="12" height="6" fill="#777" stroke="#444" stroke-width="1" rx="2" />
-</g>
+  <g id="torii-gate" transform="translate(0,0)">
+   <rect x="25" y="20" width="10" height="50" fill="#c33" stroke="#622" stroke-width="2" /><!-- Left Post -->
+   <rect x="65" y="20" width="10" height="50" fill="#c33" stroke="#622" stroke-width="2" /><!-- Right Post -->
+   <rect x="20" y="15" width="70" height="8" fill="#d44" stroke="#622" stroke-width="2" rx="2" /><!-- Top Beam -->
+   <rect x="25" y="25" width="60" height="6" fill="#d44" stroke="#622" stroke-width="2" rx="2" /><!-- Lower Beam -->
+   <!-- Decorative End Caps -->
+   <rect x="18" y="15" width="4" height="8" fill="#622" rx="1" />
+   <rect x="88" y="15" width="4" height="8" fill="#622" rx="1" />
+   <!-- Stone bases -->
+   <rect x="36" y="32" width="12" height="6" fill="#777" stroke="#444" stroke-width="1" rx="2" />
+   <rect x="64" y="68" width="12" height="6" fill="#777" stroke="#444" stroke-width="1" rx="2" />
+  </g>
  </g>
 </g>
 <!-- Row 1 -->
