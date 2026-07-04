@@ -656,5 +656,17 @@
         <!-- icons or images here -->
       </g>
     </g>
+<script><![CDATA[
+document.querySelectorAll('#tile-world g').forEach(tile => {
+  const road = tile.querySelector('.road');
+  if (!road) return;
 
-  </svg>
+  tile.addEventListener('click', () => {
+    let r = parseInt(road.dataset.rotation || 0);
+    r = (r + 90) % 360;
+    road.dataset.rotation = r;
+    road.setAttribute("transform", `rotate(${r} 50 50)`);
+  });
+});
+]]></script>
+</svg>
