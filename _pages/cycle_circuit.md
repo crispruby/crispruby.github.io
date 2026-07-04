@@ -245,12 +245,9 @@ css: /assets/css/strava-dashboard.css
   <!-- Decorative End Caps -->
   <rect x="18" y="19" width="4" height="8" fill="#622" rx="1" />
   <rect x="88" y="13" width="4" height="8" fill="#622" rx="1" />
-  <!-- Stone Bases (aligned to diagonal posts) -->
-  <rect x="24" y="72" width="12" height="6" fill="#777" stroke="#444" stroke-width="1" rx="2" />
-  <rect x="64" y="66" width="12" height="6" fill="#777" stroke="#444" stroke-width="1" rx="2" />
    <!-- Stone bases -->
-   <rect x="36" y="32" width="12" height="6" fill="#777" stroke="#444" stroke-width="1" rx="2" />
-   <rect x="64" y="68" width="12" height="6" fill="#777" stroke="#444" stroke-width="1" rx="2" />
+   <polygon points="36,32 48,44 46,50 34,38" fill="#777" stroke="#444" stroke-width="2" rx="2" />
+   <polygon points="66,68 76,72 74,78 64,74" fill="#777" stroke="#444" stroke-width="2" rx="2" />
   </g>
  </g>
 </g>
