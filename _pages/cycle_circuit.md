@@ -237,11 +237,11 @@ css: /assets/css/strava-dashboard.css
   <!-- Left Post -->
   <polygon points="34,32 46,38 62,8 50,3" fill="#c33" stroke="#622" stroke-width="2" />
   <!-- Right Post -->
-  <polygon points="64,62 74,74 98,28 86,24" fill="#c33" stroke="#622" stroke-width="2" />
+  <polygon points="64,62 62,68 98,28 86,22" fill="#c33" stroke="#622" stroke-width="2" />
   <!-- Top Beam -->
-  <polygon points="45,5 95,32 90,37 48,10" fill="#d44" stroke="#622" stroke-width="2" />
+  <polygon points="45,5 98,32 93,35 48,10" fill="#d44" stroke="#622" stroke-width="2" />
   <!-- Lower Beam -->
-  <polygon points="40,15 92,40 88,45 38,20" fill="#d44" stroke="#622" stroke-width="2" />
+  <polygon points="38,13 93,39 90,43 37,17" fill="#d44" stroke="#622" stroke-width="2" />
   </g>
  </g>
 </g>
