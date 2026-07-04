@@ -221,7 +221,7 @@
    <!-- Left Stone Base -->
   <polygon points="34,32 46,38 43,44 31,38" fill="#777" stroke="#444" stroke-width="2" />
   <!-- Right Stone Base -->
-  <polygon points="64,52 76,58 73,64 61,58" fill="#777" stroke="#444" stroke-width="2" />
+  <polygon points="64,62 76,68 73,74 61,68" fill="#777" stroke="#444" stroke-width="2" />
   <!-- Left Post -->
   <polygon points="34,32 46,38 52,18 40,12" fill="#c33" stroke="#622" stroke-width="2" />
   <!-- Right Post -->
