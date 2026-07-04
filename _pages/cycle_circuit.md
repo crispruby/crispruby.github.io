@@ -101,8 +101,7 @@ css: /assets/css/strava-dashboard.css
  </g>
 </g>
 <g id="tile-2-0" transform="translate(200,0)">
- <!-- Background -->
- <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+ <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
  <!-- Road group (rotates) -->
  <g class="road" data-rotation="0">
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
