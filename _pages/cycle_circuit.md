@@ -250,11 +250,8 @@ css: /assets/css/strava-dashboard.css
   <!-- Right Post -->
   <polygon points="64,68 76,72 76,122 64,118"
            fill="#c33" stroke="#622" stroke-width="2" />
-
   <!-- Top Beam -->
-  <polygon points="28,20 92,44 92,52 28,28"
-           fill="#d44" stroke="#622" stroke-width="2" />
-
+  <polygon points="40,10 95,35 92,45 43,20" fill="#d44" stroke="#622" stroke-width="2" />
   <!-- Lower Beam -->
   <polygon points="32,34 88,56 88,62 32,40"
            fill="#d44" stroke="#622" stroke-width="2" />
