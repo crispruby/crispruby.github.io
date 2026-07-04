@@ -10,4 +10,3 @@ css: /assets/css/strava-dashboard.css
 <div class="tile-world-wrapper">
  <object data="/assets/images/tile-world.svg" type="image/svg+xml" width="500" height="500"></object>
 </div>
- <script src="/assets/js/sounds.js"></script>
