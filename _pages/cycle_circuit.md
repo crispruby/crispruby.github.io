@@ -237,9 +237,9 @@ css: /assets/css/strava-dashboard.css
   <!-- Right Post -->
   <polygon points="64,62 76,68 98,28 86,22" fill="#c33" stroke="#622" stroke-width="2" />
   <!-- Top Beam -->
-  <polygon points="45,5 98,32 93,35 48,10" fill="#d44" stroke="#622" stroke-width="2" />
+  <polygon points="45,5 98,32 93,34 48,10" fill="#d44" stroke="#622" stroke-width="2" />
   <!-- Lower Beam -->
-  <polygon points="39,12 93,39 90,43 37,16" fill="#d44" stroke="#622" stroke-width="2" />
+  <polygon points="39,12 95,39 92,43 37,16" fill="#d44" stroke="#622" stroke-width="2" />
   </g>
  </g>
 </g>
