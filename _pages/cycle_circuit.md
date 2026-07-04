@@ -219,11 +219,6 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="cx" values="50;48;52;50" dur="4.5s" begin="2.4s" repeatCount="indefinite" />
    </circle>
   </g>
-   <!-- <g> Pedestrian Light (right corner)
-   <rect x="75" y="5" width="8" height="25" fill="#333" rx="2" />
-   <circle cx="79" cy="10" r="3" fill="red" />
-   <circle cx="79" cy="20" r="3" fill="green" />
-  </g> -->
  </g>
 </g>
 <g id="tile-4-0" transform="translate(400,0)">
@@ -253,8 +248,7 @@ css: /assets/css/strava-dashboard.css
   <!-- Top Beam -->
   <polygon points="40,10 95,35 92,45 43,20" fill="#d44" stroke="#622" stroke-width="2" />
   <!-- Lower Beam -->
-  <polygon points="32,34 88,56 88,62 32,40"
-           fill="#d44" stroke="#622" stroke-width="2" />
+  <polygon points="45,25 88,40 88,50 48,35" fill="#d44" stroke="#622" stroke-width="2" />
 
   <!-- Decorative End Caps -->
   <polygon points="26,20 30,20 30,28 26,28" fill="#622" />
