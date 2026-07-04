@@ -10,7 +10,6 @@ css: /assets/css/strava-dashboard.css
 <div class="tile-world-wrapper">
  <svg id="tile-world" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet">
   <!-- 5x5 grid of 100x100 tiles -->
-  <!-- Just light grey squares for now -->
   <!-- Row 0 -->
   <g id="tile-0-0" transform="translate(0,0)">
    <rect x="0" y="0" width="100" height="100" fill="#6cc66c" /> <!-- Grass -->
