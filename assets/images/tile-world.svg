@@ -1,4 +1,4 @@
-<svg id="tile-world" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet">
+<svg id="tile-world" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet">
   <!-- 5x5 grid of 100x100 pixel tiles -->
   <!-- Row 0 -->
   <g id="tile-0-0" transform="translate(0,0)">
