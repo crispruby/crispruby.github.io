@@ -1,6 +1,6 @@
 ---
 title: "Cycle Circuit"
-permalink: /cycle-circuit/
+permalink: /cycle/
 layout: single
 author_profile: true
 header:
