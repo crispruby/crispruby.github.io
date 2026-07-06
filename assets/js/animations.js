@@ -27,13 +27,12 @@ document.querySelector('#tile-4-0').addEventListener('click', () => {
   // Step 3: Catch itself mid-air
   setTimeout(() => {
     bird.animate([
-      { transform: 'translate(75px,30px) rotate(60deg)' },
-      { transform: 'translate(60px,0px) rotate(0deg)' }
-    ], {
-      duration: 500,
-      fill: 'forwards',
-      easing: 'ease-out'
-    });
+  { transform: 'translate(0px,0px) rotate(0deg)' },
+  { transform: 'translate(5px,25px) rotate(30deg)' }
+], {
+  duration: 400,
+  fill: 'forwards'
+});
   }, 1000);
 
   // Step 4: Fly around the torii gate
