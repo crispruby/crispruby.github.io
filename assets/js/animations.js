@@ -100,8 +100,8 @@ setInterval(() => {
     duration: 800,
     easing: 'ease-in-out'
   });
-}, 11000);
+}, 5000);
 setInterval(() => {
   if (birdBusy) return;
   runBirdAnimation();
-}, 13000);
+}, 7000);
