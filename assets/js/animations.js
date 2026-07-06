@@ -3,10 +3,10 @@ document.querySelector('#tile-4-0').addEventListener('click', () => {
 
   // Step 1: Wobble on the beam
   bird.animate([
-    { transform: 'translate(70px,8px) rotate(30deg)' },
-    { transform: 'translate(68px,8px) rotate(20deg)' },
-    { transform: 'translate(72px,8px) rotate(40deg)' },
-    { transform: 'translate(70px,8px) rotate(30deg)' }
+    { transform: 'rotate(0deg)' },
+  { transform: 'rotate(-10deg)' },
+  { transform: 'rotate(10deg)' },
+  { transform: 'rotate(0deg)' }
   ], {
     duration: 600,
     easing: 'ease-in-out'
