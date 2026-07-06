@@ -241,6 +241,33 @@ css: /assets/css/strava-dashboard.css
    <!-- Lower Beam -->
    <polygon points="38,12 95,39 92,43 37,16" fill="#d44" stroke="#622" stroke-width="2" />
   </g>
+   <!-- Clumsy Bird (centered on top beam) -->
+<g id="clumsy-bird" transform="translate(70,8)">
+  <!-- Body -->
+  <ellipse cx="0" cy="6" rx="6" ry="5" fill="#333"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="0" r="4" fill="#333"/>
+
+  <!-- Eye -->
+  <circle cx="1.5" cy="-1" r="1" fill="#fff"/>
+
+  <!-- Beak -->
+  <polygon points="3,-1 6,0 3,1" fill="#d89"/>
+
+  <!-- Wing (left) -->
+  <path d="M -4 6 Q -8 8 -4 10" stroke="#222" stroke-width="2" fill="none"/>
+
+  <!-- Wing (right) -->
+  <path d="M 4 6 Q 8 8 4 10" stroke="#222" stroke-width="2" fill="none"/>
+
+  <!-- Tail -->
+  <polygon points="-2,10 -6,12 -2,14" fill="#222"/>
+
+  <!-- Feet -->
+  <line x1="-2" y1="11" x2="-3" y2="13" stroke="#222" stroke-width="1"/>
+  <line x1="2" y1="11" x2="3" y2="13" stroke="#222" stroke-width="1"/>
+</g>
  </g>
 </g>
 <!-- Row 1 -->
