@@ -253,9 +253,9 @@ css: /assets/css/strava-dashboard.css
     <!-- Beak -->
     <polygon points="3,-1 6,0 3,1" fill="#d89"/>
     <!-- Wing (left) -->
-    <path d="M -4 6 Q -8 8 -4 10" stroke="#222" stroke-width="2" fill="none"/>
-    <!-- Wing (right) -->
-    <path d="M 4 6 Q 8 8 4 10" stroke="#222" stroke-width="2" fill="none"/>
+<path id="wing-left" d="M -4 6 Q -8 8 -4 10" stroke="#222" stroke-width="2" fill="none"/>
+<!-- Wing (right) -->
+<path id="wing-right" d="M 4 6 Q 8 8 4 10" stroke="#222" stroke-width="2" fill="none"/>
     <!-- Tail -->
     <polygon points="-2,10 -6,12 -2,14" fill="#222"/>
     <!-- Feet -->
