@@ -25,8 +25,23 @@ document.querySelector('#tile-4-0').addEventListener('click', () => {
       easing: 'ease-in-out'
     });
   }
+const tail = document.querySelector('#tail');
 
-  // Step 1: Wobble on the beam (relative)
+// Tail twitch (cute flick)
+function twitchTail() {
+  tail.animate([
+    { transform: 'rotate(0deg)' },
+    { transform: 'rotate(15deg)' },
+    { transform: 'rotate(-10deg)' },
+    { transform: 'rotate(0deg)' }
+  ], {
+    duration: 300,
+    iterations: 2,
+    easing: 'ease-in-out'
+  });
+}
+
+  //Wobble on the beam (relative)
   bird.animate([
     { transform: 'rotate(0deg)' },
     { transform: 'rotate(-10deg)' },
@@ -37,7 +52,7 @@ document.querySelector('#tile-4-0').addEventListener('click', () => {
     easing: 'ease-in-out'
   });
 
-  // Step 2: Slip off the beam (relative)
+  //Slip off the beam (relative)
   setTimeout(() => {
     bird.animate([
       { transform: 'translate(0px,0px) rotate(0deg)' },
@@ -49,7 +64,7 @@ document.querySelector('#tile-4-0').addEventListener('click', () => {
     });
   }, 600);
 
-  // Step 3: Catch itself mid-air + flap wings
+  //Catch itself mid-air + flap wings
   setTimeout(() => {
     flapWings();
     bird.animate([
