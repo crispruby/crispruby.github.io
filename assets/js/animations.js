@@ -1,13 +1,10 @@
 let birdBusy = false;
-
 function runBirdAnimation() {
   birdBusy = true;
-
   const bird = document.querySelector('#clumsy-bird');
   const wingLeft = document.querySelector('#wing-left');
   const wingRight = document.querySelector('#wing-right');
   const tail = document.querySelector('#tail');
-
   function flapWings() {
     wingLeft.animate([
       { transform: 'rotate(0deg)' },
@@ -18,7 +15,6 @@ function runBirdAnimation() {
       iterations: 6,
       easing: 'ease-in-out'
     });
-
     wingRight.animate([
       { transform: 'rotate(0deg)' },
       { transform: 'rotate(25deg)' },
@@ -29,7 +25,6 @@ function runBirdAnimation() {
       easing: 'ease-in-out'
     });
   }
-
   function twitchTail() {
     tail.animate([
       { transform: 'rotate(0deg)' },
@@ -42,7 +37,6 @@ function runBirdAnimation() {
       easing: 'ease-in-out'
     });
   }
-
   // Wobble
   bird.animate([
     { transform: 'rotate(0deg)' },
@@ -53,7 +47,6 @@ function runBirdAnimation() {
     duration: 600,
     easing: 'ease-in-out'
   });
-
   // Slip
   setTimeout(() => {
     bird.animate([
@@ -78,7 +71,6 @@ function runBirdAnimation() {
       easing: 'ease-out'
     });
   }, 1000);
-
   // Fly around + tail twitch
 setTimeout(() => {
   twitchTail();
@@ -96,12 +88,9 @@ setTimeout(() => {
   birdBusy = false;
 }, 3200);
 }
-
 setInterval(() => {
   if (birdBusy) return; // skip if bird is flying
-
   const bird = document.querySelector('#clumsy-bird');
-
   bird.animate([
     { transform: 'rotate(0deg)' },
     { transform: 'rotate(-5deg)' },
@@ -111,5 +100,4 @@ setInterval(() => {
     duration: 800,
     easing: 'ease-in-out'
   });
-
 }, 15000);
