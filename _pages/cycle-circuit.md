@@ -242,7 +242,7 @@ css: /assets/css/strava-dashboard.css
    <polygon points="38,12 95,39 92,43 37,16" fill="#d44" stroke="#622" stroke-width="2" />
   </g>
    <!-- Clumsy Bird (centered on top beam) -->
-<g id="clumsy-bird" transform="translate(70,8)">
+<g id="clumsy-bird" transform="translate(70,8) rotate(30)">
   <!-- Body -->
   <ellipse cx="0" cy="6" rx="6" ry="5" fill="#333"/>
 
