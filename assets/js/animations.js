@@ -1,5 +1,30 @@
 document.querySelector('#tile-4-0').addEventListener('click', () => {
   const bird = document.querySelector('#clumsy-bird');
+  const wingLeft = document.querySelector('#wing-left');
+  const wingRight = document.querySelector('#wing-right');
+
+  // Wing flaps (during flight)
+  function flapWings() {
+    wingLeft.animate([
+      { transform: 'rotate(0deg)' },
+      { transform: 'rotate(-25deg)' },
+      { transform: 'rotate(0deg)' }
+    ], {
+      duration: 200,
+      iterations: 6,
+      easing: 'ease-in-out'
+    });
+
+    wingRight.animate([
+      { transform: 'rotate(0deg)' },
+      { transform: 'rotate(25deg)' },
+      { transform: 'rotate(0deg)' }
+    ], {
+      duration: 200,
+      iterations: 6,
+      easing: 'ease-in-out'
+    });
+  }
 
   // Step 1: Wobble on the beam (relative)
   bird.animate([
@@ -24,8 +49,9 @@ document.querySelector('#tile-4-0').addEventListener('click', () => {
     });
   }, 600);
 
-  // Step 3: Catch itself mid-air (relative)
+  // Step 3: Catch itself mid-air + flap wings
   setTimeout(() => {
+    flapWings();
     bird.animate([
       { transform: 'translate(5px,25px) rotate(30deg)' },
       { transform: 'translate(-10px,-10px) rotate(-10deg)' }
