@@ -1,13 +1,13 @@
 let birdBusy = false;
 
-document.querySelector('#tile-4-0').addEventListener('click', () => {
+function runBirdAnimation() {
   birdBusy = true;
 
   const bird = document.querySelector('#clumsy-bird');
   const wingLeft = document.querySelector('#wing-left');
   const wingRight = document.querySelector('#wing-right');
+  const tail = document.querySelector('#tail');
 
-  // Wing flaps (during flight)
   function flapWings() {
     wingLeft.animate([
       { transform: 'rotate(0deg)' },
@@ -29,23 +29,21 @@ document.querySelector('#tile-4-0').addEventListener('click', () => {
       easing: 'ease-in-out'
     });
   }
-const tail = document.querySelector('#tail');
 
-// Tail twitch (cute flick)
-function twitchTail() {
-  tail.animate([
-    { transform: 'rotate(0deg)' },
-    { transform: 'rotate(15deg)' },
-    { transform: 'rotate(-10deg)' },
-    { transform: 'rotate(0deg)' }
-  ], {
-    duration: 300,
-    iterations: 2,
-    easing: 'ease-in-out'
-  });
-}
+  function twitchTail() {
+    tail.animate([
+      { transform: 'rotate(0deg)' },
+      { transform: 'rotate(15deg)' },
+      { transform: 'rotate(-10deg)' },
+      { transform: 'rotate(0deg)' }
+    ], {
+      duration: 300,
+      iterations: 2,
+      easing: 'ease-in-out'
+    });
+  }
 
-  //Wobble on the beam (relative)
+  // Wobble
   bird.animate([
     { transform: 'rotate(0deg)' },
     { transform: 'rotate(-10deg)' },
@@ -56,7 +54,7 @@ function twitchTail() {
     easing: 'ease-in-out'
   });
 
-  //Slip off the beam (relative)
+  // Slip
   setTimeout(() => {
     bird.animate([
       { transform: 'translate(0px,0px) rotate(0deg)' },
@@ -68,7 +66,7 @@ function twitchTail() {
     });
   }, 600);
 
-  //Catch itself mid-air + flap wings
+  // Catch + flap
   setTimeout(() => {
     flapWings();
     bird.animate([
@@ -79,23 +77,26 @@ function twitchTail() {
       fill: 'forwards',
       easing: 'ease-out'
     });
-    birdBusy = false;
   }, 1000);
 
-  // Step 4: Fly around the torii gate (relative)
-  setTimeout(() => {
-    twitchTail();
-    bird.animate([
-      { transform: 'translate(-10px,-10px) rotate(-10deg)' },
-      { transform: 'translate(20px,10px) rotate(5deg)' },
-      { transform: 'translate(0px,0px) rotate(0deg)' }
-    ], {
-      duration: 1500,
-      fill: 'forwards',
-      easing: 'ease-in-out'
-    });
-  }, 1500);
-});
+  // Fly around + tail twitch
+setTimeout(() => {
+  twitchTail();
+  bird.animate([
+    { transform: 'translate(-10px,-10px) rotate(-10deg)' },
+    { transform: 'translate(20px,10px) rotate(5deg)' },
+    { transform: 'translate(0px,0px) rotate(0deg)' }
+  ], {
+    duration: 1500,
+    fill: 'forwards',
+    easing: 'ease-in-out'
+  });
+}, 1500);
+setTimeout(() => {
+  birdBusy = false;
+}, 3200);
+}
+
 setInterval(() => {
   if (birdBusy) return; // skip if bird is flying
 
