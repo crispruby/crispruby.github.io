@@ -1,4 +1,8 @@
+let birdBusy = false;
+
 document.querySelector('#tile-4-0').addEventListener('click', () => {
+  birdBusy = true;
+
   const bird = document.querySelector('#clumsy-bird');
   const wingLeft = document.querySelector('#wing-left');
   const wingRight = document.querySelector('#wing-right');
@@ -75,6 +79,7 @@ function twitchTail() {
       fill: 'forwards',
       easing: 'ease-out'
     });
+    birdBusy = false;
   }, 1000);
 
   // Step 4: Fly around the torii gate (relative)
@@ -91,3 +96,19 @@ function twitchTail() {
     });
   }, 1500);
 });
+setInterval(() => {
+  if (birdBusy) return; // skip if bird is flying
+
+  const bird = document.querySelector('#clumsy-bird');
+
+  bird.animate([
+    { transform: 'rotate(0deg)' },
+    { transform: 'rotate(-5deg)' },
+    { transform: 'rotate(5deg)' },
+    { transform: 'rotate(0deg)' }
+  ], {
+    duration: 800,
+    easing: 'ease-in-out'
+  });
+
+}, 15000);
