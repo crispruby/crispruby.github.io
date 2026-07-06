@@ -79,6 +79,7 @@ function twitchTail() {
 
   // Step 4: Fly around the torii gate (relative)
   setTimeout(() => {
+    twitchTail();
     bird.animate([
       { transform: 'translate(-10px,-10px) rotate(-10deg)' },
       { transform: 'translate(20px,10px) rotate(5deg)' },
