@@ -666,19 +666,20 @@ css: /assets/css/strava-dashboard.css
         <!-- icons or images here -->
       </g>
     </g>
-<script><![CDATA[
+</svg>
+</div>
+<script>
 document.querySelectorAll('#tile-world g').forEach(tile => {
   const road = tile.querySelector('.road');
   if (!road) return;
-
   tile.addEventListener('click', () => {
     let r = parseInt(road.dataset.rotation || 0);
     r = (r + 90) % 360;
     road.dataset.rotation = r;
+
+    // rotate ONLY the road group, not the tile
     road.setAttribute("transform", `rotate(${r} 50 50)`);
   });
 });
-]]></script>
-</svg>
-</div>
+</script>
 <script src="/assets/js/sounds.js"></script>
