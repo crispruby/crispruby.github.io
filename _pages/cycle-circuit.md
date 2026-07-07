@@ -257,7 +257,6 @@ css: /assets/css/strava-dashboard.css
   </g>
   <g id="bird-bath" transform="translate(72,72)">
    <!-- Pedestal -->
-   <ellipse cx="14" cy="26" rx="12" ry="6" fill="#8a7f7f" stroke="#5a5555" stroke-width="2"/>
    <rect x="6" y="10" width="16" height="16" fill="#9c9292" stroke="#5a5555" stroke-width="2" rx="3"/>
    <!-- Bowl -->
    <ellipse cx="14" cy="10" rx="18" ry="8" fill="#bfbaba" stroke="#6a6464" stroke-width="2"/>
