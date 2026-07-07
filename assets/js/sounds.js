@@ -20,7 +20,24 @@ const sounds = {
   delayed_chirp3:  new Audio('/assets/sounds/delayed_chirp3.wav'),
   delayed_chirp4:  new Audio('/assets/sounds/delayed_chirp4.wav')
 };
+// Unlock audio autoplay for all bird chirps
+setTimeout(() => {
+  const unlockList = [
+    sounds.chirp1,
+    sounds.chirp2,
+    sounds.chirp3,
+    sounds.chirp4,
+    sounds.delayed_chirp3,
+    sounds.delayed_chirp4
+  ];
 
+  unlockList.forEach(snd => {
+    snd.play().then(() => {
+      snd.pause();
+      snd.currentTime = 0;
+    }).catch(() => {});
+  });
+}, 500);
 // 2. Map blink animation IDs to sounds
 const blinkToSound = {
   flashGood1: sounds.goodstar,
