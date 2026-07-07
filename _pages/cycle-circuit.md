@@ -255,19 +255,19 @@ css: /assets/css/strava-dashboard.css
     <line x1="2" y1="11" x2="3" y2="13" stroke="#222" stroke-width="1"/>
    </g>
   </g>
-  <g id="bird-bath" transform="translate(69,72)">
+  <g id="bird-bath" transform="translate(72,73)">
    <!-- Pedestal -->
-   <rect x="6" y="10" width="16" height="16" fill="#9c9292" stroke="#5a5555" stroke-width="2" rx="3"/>
+   <rect x="7" y="12" width="12" height="14" fill="#9c9292" stroke="#5a5555" stroke-width="2" rx="3"/>
    <!-- Bowl -->
-   <ellipse cx="14" cy="10" rx="18" ry="8" fill="#bfbaba" stroke="#6a6464" stroke-width="2"/>
+   <ellipse cx="13" cy="10" rx="14" ry="6" fill="#bfbaba" stroke="#6a6464" stroke-width="2"/>
    <!-- Water -->
-   <ellipse cx="14" cy="10" rx="14" ry="5" fill="#7ec8e3" stroke="#5aa9c8" stroke-width="1.5"/>
-   <ellipse id="bath-ripple" cx="14" cy="10" rx="1" ry="1" fill="none" stroke="#9ed9f0" stroke-width="1" opacity="0.6">
-   <animate attributeName="rx" values="1; 10; 12" dur="3s" repeatCount="indefinite" begin="1s"/>
-   <animate attributeName="ry" values="1; 4; 6" dur="3s" repeatCount="indefinite" begin="1s"/>
-   <animate attributeName="opacity" values="0.6; 0.3; 0" dur="3s" repeatCount="indefinite" begin="1s"/>
+   <ellipse cx="13" cy="10" rx="11" ry="4" fill="#7ec8e3" stroke="#5aa9c8" stroke-width="1.5"/>
+   <ellipse id="bath-ripple" cx="13" cy="10" rx="1" ry="1" fill="none" stroke="#b3e9ff" stroke-width="1.4" opacity="0.9">
+    <animate attributeName="rx" values="1; 7; 9" dur="3s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="ry" values="1; 3; 5" dur="3s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0.9; 0.5; 0" dur="3s" repeatCount="indefinite" begin="1s"/>
    </ellipse>
-   <ellipse cx="10" cy="8" rx="6" ry="2" fill="rgba(255,255,255,0.35)"/>
+   <ellipse cx="10" cy="8" rx="5" ry="1.6" fill="rgba(255,255,255,0.35)"/>
   </g>
  </g>
 </g>
