@@ -90,6 +90,16 @@ setTimeout(() => {
 }
 setInterval(() => {
   if (birdBusy) return; // skip if bird is flying
+  // Pick a random chirp
+  const chirps = [
+    sounds.chirp1,
+    sounds.chirp2,
+    sounds.chirp3,
+    sounds.chirp4
+  ];
+  const randomChirp = chirps[Math.floor(Math.random() * chirps.length)];
+  const clone = randomChirp.cloneNode();
+  clone.play();
   const bird = document.querySelector('#clumsy-bird');
   bird.animate([
     { transform: 'rotate(0deg)' },
