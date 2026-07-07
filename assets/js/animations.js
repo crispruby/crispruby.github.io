@@ -103,7 +103,5 @@ setInterval(() => {
 }, 5000 + Math.random() * 3000); // 5–8 seconds
 setInterval(() => {
   if (birdBusy) return;
-  const chirp = sounds.clumsybird.cloneNode();
-  chirp.play();
   runBirdAnimation();
 }, 12000 + Math.random() * 3000); // 12–15 seconds
