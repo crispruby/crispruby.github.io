@@ -241,28 +241,31 @@ css: /assets/css/strava-dashboard.css
    <!-- Lower Beam -->
    <polygon points="38,12 95,39 92,43 37,16" fill="#d44" stroke="#622" stroke-width="2" />
   </g>
-   <g id="clumsy-bird-wrapper" transform="translate(70,8) rotate(30)">
-  <!-- Bird inner (this is what we animate) -->
-  <g id="clumsy-bird">
-    <!-- Body -->
-    <ellipse cx="0" cy="6" rx="6" ry="5" fill="#333"/>
-    <!-- Head -->
-    <circle cx="0" cy="0" r="4" fill="#333"/>
-    <!-- Eye -->
-    <circle cx="1.5" cy="-1" r="1" fill="#fff"/>
-    <!-- Beak -->
-    <polygon points="3,-1 6,0 3,1" fill="#d89"/>
-    <!-- Wing (left) -->
-<path id="wing-left" d="M -4 6 Q -8 8 -4 10" stroke="#222" stroke-width="2" fill="none"/>
-<!-- Wing (right) -->
-<path id="wing-right" d="M 4 6 Q 8 8 4 10" stroke="#222" stroke-width="2" fill="none"/>
-    <!-- Tail -->
-    <polygon id="tail" points="-2,10 -6,12 -2,14" fill="#222"/>
-    <!-- Feet -->
-    <line x1="-2" y1="11" x2="-3" y2="13" stroke="#222" stroke-width="1"/>
+  <g id="clumsy-bird-wrapper" transform="translate(70,8) rotate(30)">
+   <!-- Bird inner (animated) -->
+   <g id="clumsy-bird">
+    <ellipse cx="0" cy="6" rx="6" ry="5" fill="#333<!-- Body -->
+    <circle cx="0" cy="0" r="4" fill="#333"/><!-- Head -->
+    <circle cx="1.5" cy="-1" r="1" fill="#fff"/><!-- Eye -->
+    <polygon points="3,-1 6,0 3,1" fill="#d89"/><!-- Beak -->
+    <path id="wing-left" d="M -4 6 Q -8 8 -4 10" stroke="#222" stroke-width="2" fill="none"/><!-- Wing (left) -->
+    <path id="wing-right" d="M 4 6 Q 8 8 4 10" stroke="#222" stroke-width="2" fill="none"/><!-- Wing (right) -->
+    <polygon id="tail" points="-2,10 -6,12 -2,14" fill="#222"/><!-- Tail -->
+    <line x1="-2" y1="11" x2="-3" y2="13" stroke="#222" stroke-width="1<!-- Feet -->
     <line x1="2" y1="11" x2="3" y2="13" stroke="#222" stroke-width="1"/>
+   </g>
   </g>
-</g>
+  <g id="bird-bath" transform="translate(72,72)">
+   <!-- Pedestal -->
+   <ellipse cx="14" cy="26" rx="12" ry="6" fill="#8a7f7f" stroke="#5a5555" stroke-width="2"/>
+   <rect x="6" y="10" width="16" height="16" fill="#9c9292" stroke="#5a5555" stroke-width="2" rx="3"/>
+   <!-- Bowl -->
+   <ellipse cx="14" cy="10" rx="18" ry="8" fill="#bfbaba" stroke="#6a6464" stroke-width="2"/>
+   <!-- Water -->
+   <ellipse cx="14" cy="10" rx="14" ry="5" fill="#7ec8e3" stroke="#5aa9c8" stroke-width="1.5"/>
+   <!-- Highlight -->
+   <ellipse cx="10" cy="8" rx="6" ry="2" fill="rgba(255,255,255,0.35)"/>
+  </g>
  </g>
 </g>
 <!-- Row 1 -->
