@@ -251,7 +251,7 @@ css: /assets/css/strava-dashboard.css
     <path id="wing-left" d="M -4 6 Q -8 8 -4 10" stroke="#222" stroke-width="2" fill="none"/><!-- Wing (left) -->
     <path id="wing-right" d="M 4 6 Q 8 8 4 10" stroke="#222" stroke-width="2" fill="none"/><!-- Wing (right) -->
     <polygon id="tail" points="-2,10 -6,12 -2,14" fill="#222"/><!-- Tail -->
-    <line x1="-2" y1="11" x2="-3" y2="13" stroke="#222" stroke-width="1<!-- Feet -->
+    <line x1="-2" y1="11" x2="-3" y2="13" stroke="#222" stroke-width="1"/><!-- Feet -->
     <line x1="2" y1="11" x2="3" y2="13" stroke="#222" stroke-width="1"/>
    </g>
   </g>
