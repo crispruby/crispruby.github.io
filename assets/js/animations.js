@@ -104,4 +104,4 @@ setInterval(() => {
 setInterval(() => {
   if (birdBusy) return;
   runBirdAnimation();
-}, 7000);
+}, 14000);
