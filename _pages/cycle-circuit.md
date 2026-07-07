@@ -255,13 +255,10 @@ css: /assets/css/strava-dashboard.css
     <line x1="2" y1="11" x2="3" y2="13" stroke="#222" stroke-width="1"/>
    </g>
   </g>
-  <g id="bird-bath" transform="translate(72,73)">
-   <!-- Pedestal -->
-   <rect x="7" y="12" width="12" height="14" fill="#9c9292" stroke="#5a5555" stroke-width="2" rx="3"/>
-   <!-- Bowl -->
-   <ellipse cx="13" cy="10" rx="14" ry="6" fill="#bfbaba" stroke="#6a6464" stroke-width="2"/>
-   <!-- Water -->
-   <ellipse cx="13" cy="10" rx="11" ry="4" fill="#7ec8e3" stroke="#5aa9c8" stroke-width="1.5"/>
+  <g id="bird-bath" transform="translate(71,73)">
+   <rect x="7" y="12" width="12" height="14" fill="#9c9292" stroke="#5a5555" stroke-width="2" rx="3"/><!-- Pedestal -->
+   <ellipse cx="13" cy="10" rx="14" ry="6" fill="#bfbaba" stroke="#6a6464" stroke-width="2"/><!-- Bowl -->
+   <ellipse cx="13" cy="10" rx="11" ry="4" fill="#7ec8e3" stroke="#5aa9c8" stroke-width="1.5"/><!-- Water -->
    <ellipse id="bath-ripple" cx="13" cy="10" rx="1" ry="1" fill="none" stroke="#b3e9ff" stroke-width="1.4" opacity="0.9">
     <animate attributeName="rx" values="1; 7; 9" dur="3s" repeatCount="indefinite" begin="1s"/>
     <animate attributeName="ry" values="1; 3; 5" dur="3s" repeatCount="indefinite" begin="1s"/>
