@@ -26,9 +26,7 @@ setTimeout(() => {
     sounds.chirp1,
     sounds.chirp2,
     sounds.chirp3,
-    sounds.chirp4,
-    sounds.delayed_chirp3,
-    sounds.delayed_chirp4
+    sounds.chirp4
   ];
 
   unlockList.forEach(snd => {
