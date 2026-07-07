@@ -14,18 +14,7 @@ const sounds = {
   yogamusic:  new Audio('/assets/sounds/yoga_music.wav'),
   clumsybird:  new Audio('/assets/sounds/clumsy_bird.wav')
 };
-setTimeout(() => {
-  sounds.clumsybird.loop = true;
-  sounds.clumsybird.volume = 0.45;
-  sounds.clumsybird.play().catch(() => {
-    // If autoplay is blocked, try again every 2 seconds
-    const tryPlay = setInterval(() => {
-      sounds.clumsybird.play().then(() => {
-        clearInterval(tryPlay);
-      }).catch(() => {});
-    }, 2000);
-  });
-}, 500);
+
 // 2. Map blink animation IDs to sounds
 const blinkToSound = {
   flashGood1: sounds.goodstar,
