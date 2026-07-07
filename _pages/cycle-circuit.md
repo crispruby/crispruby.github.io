@@ -255,7 +255,7 @@ css: /assets/css/strava-dashboard.css
     <line x1="2" y1="11" x2="3" y2="13" stroke="#222" stroke-width="1"/>
    </g>
   </g>
-  <g id="bird-bath" transform="translate(70,72)">
+  <g id="bird-bath" transform="translate(69,72)">
    <!-- Pedestal -->
    <rect x="6" y="10" width="16" height="16" fill="#9c9292" stroke="#5a5555" stroke-width="2" rx="3"/>
    <!-- Bowl -->
