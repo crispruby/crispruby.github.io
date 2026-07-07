@@ -14,9 +14,6 @@ const sounds = {
   yogamusic:  new Audio('/assets/sounds/yoga_music.wav'),
   clumsybird:  new Audio('/assets/sounds/clumsy_bird.wav')
 };
-sounds.clumsybird.loop = true;
-//sounds.clumsybird.volume = 0.45; // gentle background chirping
-sounds.clumsybird.play();
 // 2. Map blink animation IDs to sounds
 const blinkToSound = {
   flashGood1: sounds.goodstar,
