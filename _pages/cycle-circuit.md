@@ -244,7 +244,7 @@ css: /assets/css/strava-dashboard.css
   <g id="clumsy-bird-wrapper" transform="translate(70,8) rotate(30)">
    <!-- Bird inner (animated) -->
    <g id="clumsy-bird">
-    <ellipse cx="0" cy="6" rx="6" ry="5" fill="#333<!-- Body -->
+    <ellipse cx="0" cy="6" rx="6" ry="5" fill="#333"/><!-- Body -->
     <circle cx="0" cy="0" r="4" fill="#333"/><!-- Head -->
     <circle cx="1.5" cy="-1" r="1" fill="#fff"/><!-- Eye -->
     <polygon points="3,-1 6,0 3,1" fill="#d89"/><!-- Beak -->
