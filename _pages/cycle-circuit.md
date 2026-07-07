@@ -263,7 +263,11 @@ css: /assets/css/strava-dashboard.css
    <ellipse cx="14" cy="10" rx="18" ry="8" fill="#bfbaba" stroke="#6a6464" stroke-width="2"/>
    <!-- Water -->
    <ellipse cx="14" cy="10" rx="14" ry="5" fill="#7ec8e3" stroke="#5aa9c8" stroke-width="1.5"/>
-   <!-- Highlight -->
+   <ellipse id="bath-ripple" cx="14" cy="10" rx="1" ry="1" fill="none" stroke="#9ed9f0" stroke-width="1" opacity="0.6">
+   <animate attributeName="rx" values="1; 10; 12" dur="3s" repeatCount="indefinite" begin="1s"/>
+   <animate attributeName="ry" values="1; 4; 6" dur="3s" repeatCount="indefinite" begin="1s"/>
+   <animate attributeName="opacity" values="0.6; 0.3; 0" dur="3s" repeatCount="indefinite" begin="1s"/>
+   </ellipse>
    <ellipse cx="10" cy="8" rx="6" ry="2" fill="rgba(255,255,255,0.35)"/>
   </g>
  </g>
