@@ -12,7 +12,13 @@ const sounds = {
   screwingvalve:  new Audio('/assets/sounds/screw_unscrew.wav'),
   stirfry:  new Audio('/assets/sounds/sizzling_stir_fry.wav'),
   yogamusic:  new Audio('/assets/sounds/yoga_music.wav'),
-  clumsybird:  new Audio('/assets/sounds/clumsy_bird.wav')
+  clumsybird:  new Audio('/assets/sounds/clumsy_bird.wav'),
+  chirp1:  new Audio('/assets/sounds/chirp1.wav'),
+  chirp2:  new Audio('/assets/sounds/chirp2.wav'),
+  chirp3:  new Audio('/assets/sounds/chirp3.wav'),
+  chirp4:  new Audio('/assets/sounds/chirp4.wav'),
+  delayed_chirp3:  new Audio('/assets/sounds/delayed_chirp3.wav'),
+  delayed_chirp4:  new Audio('/assets/sounds/delayed_chirp4.wav')
 };
 
 // 2. Map blink animation IDs to sounds
@@ -29,7 +35,13 @@ const blinkToSound = {
   spillingWater1: sounds.liquidbubbles,
   stirFry: sounds.stirfry,
   yogaMusic: sounds.yogamusic,
-  birdChirps: sounds.clumsybird
+  birdChirps: sounds.clumsybird,
+  birdChirp1: sounds.chirp1,
+  birdChirp2: sounds.chirp2,
+  birdChirp3: sounds.chirp3,
+  birdChirp4: sounds.chirp4,
+  delayedChirp3: sounds.delayed_chirp3,
+  delayedChirp4: sounds.delayed_chirp4
 };
 
 // 3. Attach listeners to SVG animations
