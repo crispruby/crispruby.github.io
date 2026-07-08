@@ -104,57 +104,40 @@ css: /assets/css/strava-dashboard.css
      <path d="M 20 70 Q 25 75 30 70" stroke="#ccc" stroke-width="1" />
      <ellipse cx="40" cy="80" rx="6" ry="3" fill="#e0e0e0" />
      <!-- Graffiti: Chinese Long Dragon -->
-     <!-- Graffiti: Chinese Long Dragon -->
-<g id="graffiti-dragon" transform="translate(6,6)">
-  <!-- Long body with connected neck and upward tail -->
-  <path d="M 20 20 Q 35 10 55 18 Q 80 28 100 20 Q 110 10 105 0" fill="none" stroke="#999" stroke-width="3" />
-  <!-- Body segments -->
-  <g stroke="#999" stroke-width="2" fill="none">
-    <path d="M 30 18 L 34 22" />
-    <path d="M 50 14 L 54 18" />
-    <path d="M 75 22 L 79 26" />
-    <path d="M 95 12 L 99 16" />
-  </g>
-
-  <!-- Head (left side, facing left) -->
-  <g transform="translate(0,10)">
-    <!-- Head shape -->
-    <path d="M 20 0 Q 8 -4 0 4 Q 8 10 20 6 Z"
-          fill="#d0d0d0" stroke="#999" stroke-width="2" />
-
-    <!-- Eye -->
-    <path d="M 12 3 Q 10 5 8 3"
-          stroke="#777" stroke-width="1" fill="none" />
-
-    <!-- Mouth -->
-    <path d="M 16 6 Q 10 8 4 6"
-          stroke="#777" stroke-width="1" fill="none" />
-
-    <!-- Horns -->
-    <path d="M 15 -2 L 20 -8" stroke="#777" stroke-width="2" />
-    <path d="M 5 -2 L 0 -8" stroke="#777" stroke-width="2" />
-
-    <!-- Whiskers -->
-    <path d="M 18 4 L 26 6" stroke="#777" stroke-width="1" />
-    <path d="M 2 4 L -6 6" stroke="#777" stroke-width="1" />
-  </g>
-
-  <!-- Legs + claws (raised higher so they stay off the road) -->
-  <g stroke="#999" stroke-width="2" fill="none">
-    <!-- Front leg -->
-    <path d="M 45 26 Q 43 22 40 24" />  <!-- leg -->
-    <path d="M 45 26 L 47 30" />        <!-- claw -->
-
-    <!-- Middle leg -->
-    <path d="M 70 28 Q 68 24 65 26" />  <!-- leg -->
-    <path d="M 70 28 L 72 32" />        <!-- claw -->
-
-    <!-- Rear leg -->
-    <path d="M 95 22 Q 93 18 90 20" />  <!-- leg -->
-    <path d="M 95 22 L 97 26" />        <!-- claw -->
-  </g>
-</g>
-
+     <g id="graffiti-dragon" transform="translate(6,6)">
+      <path d="M 20 20 Q 35 10 55 18 Q 80 28 100 20 Q 110 10 105 0" fill="none" stroke="#999" stroke-width="3" /><!-- Long body -->
+      <!-- Body segments -->
+      <g stroke="#999" stroke-width="2" fill="none">
+       <path d="M 30 18 L 34 22" />
+       <path d="M 50 14 L 54 18" />
+       <path d="M 75 22 L 79 26" />
+       <path d="M 95 12 L 99 16" />
+      </g>
+      <!-- Head -->
+      <g transform="translate(0,10)">
+       <path d="M 20 0 Q 8 -4 0 4 Q 8 10 20 6 Z" fill="#d0d0d0" stroke="#999" stroke-width="2" />
+       <path d="M 12 3 Q 10 5 8 3" stroke="#777" stroke-width="1" fill="none" /><!-- Eye -->
+       <path d="M 16 6 Q 10 8 4 6" stroke="#777" stroke-width="1" fill="none" /><!-- Mouth -->
+       <!-- Horns -->
+       <path d="M 15 -2 L 20 -8" stroke="#777" stroke-width="2" />
+       <path d="M 5 -2 L 0 -8" stroke="#777" stroke-width="2" />
+       <!-- Whiskers -->
+       <path d="M 18 4 L 26 6" stroke="#777" stroke-width="1" />
+       <path d="M 2 4 L -6 6" stroke="#777" stroke-width="1" />
+      </g>
+      <!-- Legs + claws (raised higher so they stay off the road) -->
+      <g stroke="#999" stroke-width="2" fill="none">
+       <!-- Front leg -->
+       <path d="M 45 26 Q 43 22 40 24" />  <!-- leg -->
+       <path d="M 45 26 L 47 30" />        <!-- claw -->
+       <!-- Middle leg -->
+       <path d="M 70 28 Q 68 24 65 26" />  <!-- leg -->
+       <path d="M 70 28 L 72 32" />        <!-- claw -->
+       <!-- Rear leg -->
+       <path d="M 95 22 Q 93 18 90 20" />  <!-- leg -->
+       <path d="M 95 22 L 97 26" />        <!-- claw -->
+      </g>
+     </g> 
      <!-- Old Pipe -->
      <g id="old-pipe" transform="translate(5,10)">
       <path d="M 30 84 L 30 92" stroke="#888" stroke-width="5" stroke-linecap="butt" />
