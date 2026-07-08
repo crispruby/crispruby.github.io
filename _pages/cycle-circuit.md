@@ -95,7 +95,7 @@ css: /assets/css/strava-dashboard.css
    <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
    <!-- Alley Wall -->
    <rect x="0" y="0" width="100" height="40" fill="#e5e5e5" />
-   <rect x="70" y="0" width="100" height="30" fill="#8B0000" />
+   <rect x="0" y="70" width="100" height="30" fill="#8B0000" />
    <!-- Road group (rotates) -->
    <g class="road" data-rotation="0">
     <path d="M -1 50 L 101 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
@@ -112,7 +112,7 @@ css: /assets/css/strava-dashboard.css
      </g>
      <!-- Old Pipe -->
      <g id="old-pipe" transform="translate(5,10)">
-      <path d="M -1 50 L 50 100" stroke="#888" stroke-width="4" stroke-linecap="round" />
+      <path d="M -1 50 L 50 100" stroke="#888" stroke-width="5" stroke-linecap="round" />
       <!-- Drip -->
       <ellipse id="pipe-drip" cx="45" cy="6" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
        <animate attributeName="cy" values="6; 20" dur="0.6s" repeatCount="indefinite" />
