@@ -97,7 +97,53 @@ css: /assets/css/strava-dashboard.css
    <g class="road" data-rotation="0">
     <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
     <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-  </g>
+     <!-- Alley Wall -->
+     <rect x="0" y="0" width="100" height="40" fill="#e5e5e5" />
+     <rect x="0" y="40" width="100" height="60" fill="#f9f9f9" />
+     <!-- Ground clutter -->
+     <path d="M 20 70 Q 25 75 30 70" stroke="#ccc" stroke-width="1" />
+     <ellipse cx="40" cy="80" rx="6" ry="3" fill="#e0e0e0" />
+     <!-- Graffiti: Sleeping Dragon -->
+     <g id="graffiti-dragon" transform="translate(10,8)">
+      <path d="M 0 20 Q 20 0 40 20 Q 20 30 0 20" fill="#cfcfcf" stroke="#999" stroke-width="2" />
+      <circle cx="20" cy="15" r="4" fill="#bbb" stroke="#888" stroke-width="1" />
+      <path d="M 18 15 Q 20 17 22 15" stroke="#777" stroke-width="1" fill="none" />
+      <text x="45" y="22" font-size="8" fill="#aaa">Zzz</text>
+     </g>
+     <!-- Old Pipe -->
+     <g id="old-pipe" transform="translate(5,10)">
+      <rect x="0" y="0" width="90" height="6" fill="#777" stroke="#555" stroke-width="2" />
+      <!-- Drip -->
+      <ellipse id="pipe-drip" cx="45" cy="6" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
+       <animate attributeName="cy" values="6; 20" dur="0.6s" repeatCount="indefinite" />
+       <animate attributeName="opacity" values="0.9; 0" dur="0.6s" repeatCount="indefinite" />
+      </ellipse>
+     </g>
+     <!-- Garbage Bin -->
+     <g id="garbage-bin" transform="translate(70,45)">
+      <rect x="0" y="0" width="25" height="20" fill="#6a6a6a" stroke="#444" stroke-width="2" rx="3" />
+      <!-- Bin Lid -->
+      <rect x="-2" y="-6" width="29" height="8" fill="#555" stroke="#333" stroke-width="2" rx="2" />
+     </g>
+     <!-- Cat -->
+     <g id="stray-cat" transform="translate(78,46)">
+      <circle cx="0" cy="0" r="6" fill="#333" />
+      <circle cx="-2" cy="-1" r="1" fill="#fff" />
+      <circle cx="2" cy="-1" r="1" fill="#fff" />
+      <polygon points="-3,2 0,4 3,2" fill="#d89" />
+     </g>
+     <!-- Donut -->
+     <g id="cat-donut" transform="translate(75,63)">
+      <circle cx="0" cy="0" r="4" fill="#d9a" />
+      <circle cx="0" cy="0" r="1.5" fill="#f9f9f9" />
+     </g>
+     <!-- Toy Mouse -->
+     <g id="cat-mouse" transform="translate(85,63)">
+      <ellipse cx="0" cy="0" rx="4" ry="2" fill="#aaa" />
+      <circle cx="3" cy="-1" r="1" fill="#555" />
+      <line x1="-4" y1="0" x2="-7" y2="0" stroke="#777" stroke-width="1" />
+     </g>
+    </g>
  </g>
 <g id="tile-2-0" transform="translate(200,0)">
  <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
@@ -255,7 +301,7 @@ css: /assets/css/strava-dashboard.css
     <line x1="2" y1="11" x2="3" y2="13" stroke="#222" stroke-width="1"/>
    </g>
   </g>
-  <g id="bird-bath" transform="translate(71,73)">
+  <g id="bird-bath" transform="translate(70,73)">
    <rect x="7" y="12" width="12" height="14" fill="#9c9292" stroke="#5a5555" stroke-width="2" rx="3"/><!-- Pedestal -->
    <ellipse cx="13" cy="10" rx="14" ry="6" fill="#bfbaba" stroke="#6a6464" stroke-width="2"/><!-- Bowl -->
    <ellipse cx="13" cy="10" rx="11" ry="4" fill="#7ec8e3" stroke="#5aa9c8" stroke-width="1.5"/><!-- Water -->
