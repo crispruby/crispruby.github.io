@@ -141,12 +141,17 @@ css: /assets/css/strava-dashboard.css
       </g>
      </g> 
      <!-- Old Pipe -->
-     <g id="old-pipe" transform="translate(30,70)">
-      <path d="M 28 14 L 30 22" stroke="#888" stroke-width="5" stroke-linecap="butt" />
-      <!-- Drip -->
-      <ellipse id="pipe-drip" cx="40" cy="6" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
-       <animate attributeName="cy" values="6; 20" dur="0.6s" repeatCount="indefinite" />
-       <animate attributeName="opacity" values="0.9; 0" dur="0.6s" repeatCount="indefinite" />
+     <g id="old-pipe" transform="translate(40,70)">
+      <!-- Wall crack around pipe mount -->
+      <path d="M -4 0 L -6 4 L -3 6 L -7 10 L -2 12 L 2 9 L 4 12 L 7 8 L 5 4 L 8 2 L 4 -1 Z" stroke="#666" stroke-width="1" fill="none" />
+      <!-- Vertical pipe -->
+      <rect x="0" y="0" width="6" height="25" fill="#777" stroke="#555" stroke-width="2" rx="2" />
+      <!-- Pipe hole (facing upward) -->
+      <circle cx="3" cy="0" r="3" fill="#444" stroke="#222" stroke-width="1" />
+      <!-- Drip moving upward toward sewer -->
+      <ellipse id="pipe-drip" cx="3" cy="20" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
+       <animate attributeName="cy" values="20; -5" dur="0.7s" repeatCount="indefinite" />
+       <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
       </ellipse>
      </g>
      <!-- Sewer Grate -->
