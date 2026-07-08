@@ -102,13 +102,38 @@ css: /assets/css/strava-dashboard.css
      <!-- Ground clutter -->
      <path d="M 20 70 Q 25 75 30 70" stroke="#ccc" stroke-width="1" />
      <ellipse cx="40" cy="80" rx="6" ry="3" fill="#e0e0e0" />
-     <!-- Graffiti: Sleeping Dragon -->
-     <g id="graffiti-dragon" transform="translate(10,8)">
-      <path d="M 0 20 Q 20 0 40 20 Q 20 30 0 20" fill="#cfcfcf" stroke="#999" stroke-width="2" />
-      <circle cx="20" cy="15" r="4" fill="#bbb" stroke="#888" stroke-width="1" />
-      <path d="M 18 15 Q 20 17 22 15" stroke="#777" stroke-width="1" fill="none" />
-      <text x="45" y="22" font-size="8" fill="#aaa">Zzz</text>
-     </g>
+     <!-- Graffiti: Sleeping Chinese Dragon -->
+<g id="graffiti-dragon" transform="translate(6,6)">
+  <!-- Long curled body -->
+  <path d="M 0 25 
+           Q 25 5 50 20 
+           T 100 25 
+           Q 80 40 55 35 
+           T 0 25"
+        fill="#d0d0d0" stroke="#999" stroke-width="2" />
+
+  <!-- Head -->
+  <g transform="translate(45,15)">
+    <ellipse cx="0" cy="0" rx="10" ry="6"
+             fill="#cfcfcf" stroke="#888" stroke-width="2" />
+
+    <!-- Sleepy eye -->
+    <path d="M -3 -1 Q 0 1 3 -1"
+          stroke="#777" stroke-width="1" fill="none" />
+
+    <!-- Horns -->
+    <path d="M -6 -4 L -10 -8" stroke="#777" stroke-width="2" />
+    <path d="M 6 -4 L 10 -8" stroke="#777" stroke-width="2" />
+
+    <!-- Whiskers -->
+    <path d="M -8 2 L -14 4" stroke="#777" stroke-width="1" />
+    <path d="M 8 2 L 14 4" stroke="#777" stroke-width="1" />
+  </g>
+
+  <!-- Zzz -->
+  <text x="105" y="20" font-size="8" fill="#aaa">Zzz</text>
+</g>
+
      <!-- Old Pipe -->
      <g id="old-pipe" transform="translate(5,10)">
       <rect x="0" y="0" width="90" height="6" fill="#777" stroke="#555" stroke-width="2" />
