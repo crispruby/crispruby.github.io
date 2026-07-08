@@ -141,8 +141,8 @@ css: /assets/css/strava-dashboard.css
       </g>
      </g> 
      <!-- Old Pipe -->
-     <g id="old-pipe" transform="translate(5,10)">
-      <path d="M 30 84 L 30 92" stroke="#888" stroke-width="5" stroke-linecap="butt" />
+     <g id="old-pipe" transform="translate(30,70)">
+      <path d="M 30 14 L 30 22" stroke="#888" stroke-width="5" stroke-linecap="butt" />
       <!-- Drip -->
       <ellipse id="pipe-drip" cx="45" cy="6" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
        <animate attributeName="cy" values="6; 20" dur="0.6s" repeatCount="indefinite" />
