@@ -142,9 +142,9 @@ css: /assets/css/strava-dashboard.css
      </g> 
      <!-- Old Pipe -->
      <g id="old-pipe" transform="translate(30,70)">
-      <path d="M 30 14 L 30 22" stroke="#888" stroke-width="5" stroke-linecap="butt" />
+      <path d="M 28 14 L 30 22" stroke="#888" stroke-width="5" stroke-linecap="butt" />
       <!-- Drip -->
-      <ellipse id="pipe-drip" cx="45" cy="6" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
+      <ellipse id="pipe-drip" cx="40" cy="6" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
        <animate attributeName="cy" values="6; 20" dur="0.6s" repeatCount="indefinite" />
        <animate attributeName="opacity" values="0.9; 0" dur="0.6s" repeatCount="indefinite" />
       </ellipse>
@@ -158,25 +158,25 @@ css: /assets/css/strava-dashboard.css
       <line x1="15" y1="2" x2="15" y2="6" stroke="#222" stroke-width="1"/>
      </g>
      <!-- Garbage Bin -->
-     <g id="garbage-bin" transform="translate(70,45)">
+     <g id="garbage-bin" transform="translate(70,15)">
       <rect x="0" y="0" width="25" height="20" fill="#6a6a6a" stroke="#444" stroke-width="2" rx="3" />
       <!-- Bin Lid -->
       <rect x="-2" y="-6" width="29" height="8" fill="#555" stroke="#333" stroke-width="2" rx="2" />
      </g>
      <!-- Cat -->
-     <g id="stray-cat" transform="translate(78,46)">
+     <g id="stray-cat" transform="translate(78,16)">
       <circle cx="0" cy="0" r="6" fill="#333" />
       <circle cx="-2" cy="-1" r="1" fill="#fff" />
       <circle cx="2" cy="-1" r="1" fill="#fff" />
       <polygon points="-3,2 0,4 3,2" fill="#d89" />
      </g>
      <!-- Donut -->
-     <g id="cat-donut" transform="translate(75,63)">
+     <g id="cat-donut" transform="translate(75,33)">
       <circle cx="0" cy="0" r="4" fill="#d9a" />
       <circle cx="0" cy="0" r="1.5" fill="#f9f9f9" />
      </g>
      <!-- Toy Mouse -->
-     <g id="cat-mouse" transform="translate(85,63)">
+     <g id="cat-mouse" transform="translate(85,33)">
       <ellipse cx="0" cy="0" rx="4" ry="2" fill="#aaa" />
       <circle cx="3" cy="-1" r="1" fill="#555" />
       <line x1="-4" y1="0" x2="-7" y2="0" stroke="#777" stroke-width="1" />
