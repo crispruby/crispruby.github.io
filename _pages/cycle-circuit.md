@@ -145,12 +145,12 @@ css: /assets/css/strava-dashboard.css
       <!-- Wall crack around lower pipe mount -->
       <path d="M -4 20 L -6 24 L -3 26 L -7 30 L -2 32 L 2 29 L 4 32 L 7 28 L 5 24 L 8 22 L 4 19 Z" stroke="#666" stroke-width="1" fill="none" />
       <!-- Vertical pipe (shortened so drip starts at end) -->
-      <rect x="0" y="0" width="6" height="20" fill="#777" stroke="#555" stroke-width="2" rx="2" />
+      <rect x="0" y="15" width="6" height="5" fill="#777" stroke="#555" stroke-width="2" rx="2" />
       <!-- Pipe hole at lower end -->
-      <circle cx="3" cy="20" r="3" fill="#444" stroke="#222" stroke-width="1" />
+      <circle cx="3" cy="15" r="3" fill="#444" stroke="#222" stroke-width="1" />
       <!-- Drip moving upward toward sewer -->
-      <ellipse id="pipe-drip" cx="3" cy="20" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
-       <animate attributeName="cy" values="20; -5" dur="0.7s" repeatCount="indefinite" />
+      <ellipse id="pipe-drip" cx="3" cy="15" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
+       <animate attributeName="cy" values="15; -5" dur="0.7s" repeatCount="indefinite" />
        <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
       </ellipse>
      </g>
