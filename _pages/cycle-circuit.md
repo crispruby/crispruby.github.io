@@ -107,14 +107,7 @@ css: /assets/css/strava-dashboard.css
      <!-- Graffiti: Chinese Long Dragon -->
 <g id="graffiti-dragon" transform="translate(6,6)">
   <!-- Long body with connected neck and upward tail -->
-  <path d="
-    M 20 20        <!-- neck start near head -->
-    Q 35 10 55 18  <!-- neck curve -->
-    Q 80 28 100 20 <!-- mid body -->
-    Q 110 10 105 0 <!-- tail curves upward -->
-    "
-    fill="none" stroke="#999" stroke-width="3" />
-
+  <path d="M 20 20 Q 35 10 55 18 Q 80 28 100 20 Q 110 10 105 0" fill="none" stroke="#999" stroke-width="3" />
   <!-- Body segments -->
   <g stroke="#999" stroke-width="2" fill="none">
     <path d="M 30 18 L 34 22" />
