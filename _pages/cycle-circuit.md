@@ -98,8 +98,8 @@ css: /assets/css/strava-dashboard.css
    <rect x="0" y="40" width="100" height="60" fill="#f9f9f9" />
    <!-- Road group (rotates) -->
    <g class="road" data-rotation="0">
-    <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-    <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+    <path d="M -1 50 L 101 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+    <path d="M -1 50 L 101 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
      <!-- Ground clutter -->
      <path d="M 20 70 Q 25 75 30 70" stroke="#ccc" stroke-width="1" />
      <ellipse cx="40" cy="80" rx="6" ry="3" fill="#e0e0e0" />
@@ -118,6 +118,14 @@ css: /assets/css/strava-dashboard.css
        <animate attributeName="cy" values="6; 20" dur="0.6s" repeatCount="indefinite" />
        <animate attributeName="opacity" values="0.9; 0" dur="0.6s" repeatCount="indefinite" />
       </ellipse>
+     </g>
+     <!-- Sewer Grate -->
+     <g id="sewer-grate" transform="translate(40,78)">
+      <rect x="0" y="0" width="20" height="8" fill="#444" stroke="#222" stroke-width="2" rx="2" />
+      <line x1="3" y1="2" x2="3" y2="6" stroke="#222" stroke-width="1"/>
+      <line x1="7" y1="2" x2="7" y2="6" stroke="#222" stroke-width="1"/>
+      <line x1="11" y1="2" x2="11" y2="6" stroke="#222" stroke-width="1"/>
+      <line x1="15" y1="2" x2="15" y2="6" stroke="#222" stroke-width="1"/>
      </g>
      <!-- Garbage Bin -->
      <g id="garbage-bin" transform="translate(70,45)">
