@@ -100,9 +100,6 @@ css: /assets/css/strava-dashboard.css
    <g class="road" data-rotation="0">
     <path d="M -1 50 L 101 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
     <path d="M -1 50 L 101 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-     <!-- Ground clutter -->
-     <path d="M 20 70 Q 25 75 30 70" stroke="#ccc" stroke-width="1" />
-     <ellipse cx="40" cy="80" rx="6" ry="3" fill="#e0e0e0" />
      <!-- Graffiti: Chinese Long Dragon -->
      <g id="graffiti-dragon" transform="translate(6,6)">
       <path d="M 18 18 Q 30 8 50 16 Q 75 26 95 18 Q 100 5 95 -5" fill="none" stroke="#999" stroke-width="3" /><!-- Long body -->
