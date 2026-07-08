@@ -155,7 +155,7 @@ css: /assets/css/strava-dashboard.css
       </ellipse>
      </g>
      <!-- Sewer Grate -->
-     <g id="sewer-grate" transform="translate(40,65)">
+     <g id="sewer-grate" transform="translate(40,60)">
       <rect x="0" y="0" width="20" height="8" fill="#444" stroke="#222" stroke-width="2" rx="2" />
       <line x1="3" y1="2" x2="3" y2="6" stroke="#222" stroke-width="1"/>
       <line x1="7" y1="2" x2="7" y2="6" stroke="#222" stroke-width="1"/>
