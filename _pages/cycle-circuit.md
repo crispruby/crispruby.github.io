@@ -95,7 +95,6 @@ css: /assets/css/strava-dashboard.css
    <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
    <!-- Alley Wall -->
    <rect x="0" y="0" width="100" height="40" fill="#e5e5e5" />
-   <rect x="0" y="40" width="100" height="60" fill="#f9f9f9" />
    <!-- Road group (rotates) -->
    <g class="road" data-rotation="0">
     <path d="M -1 50 L 101 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
