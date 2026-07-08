@@ -140,14 +140,14 @@ css: /assets/css/strava-dashboard.css
        <path d="M 90 18 L 92 22" />        <!-- claw -->
       </g>
      </g> 
-     <!-- Old Pipe -->
+     <!-- Old Pipe (vertical, dripping upward toward sewer) -->
      <g id="old-pipe" transform="translate(40,70)">
-      <!-- Wall crack around pipe mount -->
-      <path d="M -4 0 L -6 4 L -3 6 L -7 10 L -2 12 L 2 9 L 4 12 L 7 8 L 5 4 L 8 2 L 4 -1 Z" stroke="#666" stroke-width="1" fill="none" />
-      <!-- Vertical pipe -->
-      <rect x="0" y="0" width="6" height="25" fill="#777" stroke="#555" stroke-width="2" rx="2" />
-      <!-- Pipe hole (facing upward) -->
-      <circle cx="3" cy="0" r="3" fill="#444" stroke="#222" stroke-width="1" />
+      <!-- Wall crack around lower pipe mount -->
+      <path d="M -4 20 L -6 24 L -3 26 L -7 30 L -2 32 L 2 29 L 4 32 L 7 28 L 5 24 L 8 22 L 4 19 Z" stroke="#666" stroke-width="1" fill="none" />
+      <!-- Vertical pipe (shortened so drip starts at end) -->
+      <rect x="0" y="0" width="6" height="20" fill="#777" stroke="#555" stroke-width="2" rx="2" />
+      <!-- Pipe hole at lower end -->
+      <circle cx="3" cy="20" r="3" fill="#444" stroke="#222" stroke-width="1" />
       <!-- Drip moving upward toward sewer -->
       <ellipse id="pipe-drip" cx="3" cy="20" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
        <animate attributeName="cy" values="20; -5" dur="0.7s" repeatCount="indefinite" />
