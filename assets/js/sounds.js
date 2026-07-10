@@ -17,8 +17,7 @@ const sounds = {
   chirp2:  new Audio('/assets/sounds/chirp2.wav'),
   chirp3:  new Audio('/assets/sounds/chirp3.wav'),
   chirp4:  new Audio('/assets/sounds/chirp4.wav'),
-  delayed_chirp3:  new Audio('/assets/sounds/delayed_chirp3.wav'),
-  delayed_chirp4:  new Audio('/assets/sounds/delayed_chirp4.wav')
+  sewer_drops:  new Audio('/assets/sounds/sewer_drops.wav')
 };
 // Unlock audio autoplay for all bird chirps
 setTimeout(() => {
@@ -55,8 +54,7 @@ const blinkToSound = {
   birdChirp2: sounds.chirp2,
   birdChirp3: sounds.chirp3,
   birdChirp4: sounds.chirp4,
-  delayedChirp3: sounds.delayed_chirp3,
-  delayedChirp4: sounds.delayed_chirp4
+  sewerDrops: sounds.sewer_drops
 };
 
 // 3. Attach listeners to SVG animations
