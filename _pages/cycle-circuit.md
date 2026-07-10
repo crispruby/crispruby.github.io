@@ -147,7 +147,7 @@ css: /assets/css/strava-dashboard.css
       <circle cx="3" cy="14" r="3" fill="#444" stroke="#222" stroke-width="1" />
       <!-- Drip moving upward toward sewer -->
       <ellipse id="pipe-drip" cx="3" cy="14" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
-       <animate attributeName="cy" values="14; -5" dur="0.7s" repeatCount="indefinite" />
+       <animate attributeName="cy" values="14; -5" dur="0.9s" repeatCount="indefinite" />
        <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
       </ellipse>
      </g>
