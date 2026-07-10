@@ -143,10 +143,10 @@ css: /assets/css/strava-dashboard.css
       <path d="M -4 20 L -6 24 L -3 26 L -7 30 L -2 32 L 2 29 L 4 32 L 7 28 L 5 24 L 8 22 L 4 19 Z" stroke="#666" stroke-width="1" fill="none" />
       <!-- Vertical pipe (shortened so drip starts at end) -->
       <rect x="0" y="14" width="6" height="9" fill="#777" stroke="#555" stroke-width="2" rx="2" />
-      <!-- Pipe hole at lower end -->
+      <!-- Pipe hole -->
       <circle cx="3" cy="14" r="3" fill="#444" stroke="#222" stroke-width="1" />
       <!-- Drip moving upward toward sewer -->
-      <ellipse id="pipe-drip" cx="3" cy="14" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
+      <ellipse id="sewerDrops" cx="3" cy="14" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
        <animate attributeName="cy" values="14; -5" dur="0.9s" repeatCount="indefinite" />
        <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
       </ellipse>
