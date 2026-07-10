@@ -56,15 +56,26 @@ const blinkToSound = {
   birdChirp4: sounds.chirp4,
   sewerDrops: sounds.sewer_drops
 };
-
 // 3. Attach listeners to SVG animations
 Object.keys(blinkToSound).forEach(animId => {
   const anim = document.getElementById(animId);
   if (!anim) return;
-
   anim.addEventListener("repeatEvent", () => {
     const snd = blinkToSound[animId];
     const clone = snd.cloneNode();
     clone.play();
   });
 });
+let sewerCounter = 0;
+const sewerAnim = document.getElementById("sewerDrops");
+if (sewerAnim) {
+  sewerAnim.addEventListener("repeatEvent", () => {
+    sewerCounter++;
+
+    if (sewerCounter >= 7) {
+      sewerCounter = 0;
+      const snd = sounds.sewer_drops.cloneNode();
+      snd.play();
+    }
+  });
+}
