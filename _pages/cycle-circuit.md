@@ -93,10 +93,10 @@ css: /assets/css/strava-dashboard.css
   <g id="tile-1-0" transform="translate(100,0)">
    <!-- Background -->
    <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+   <!-- Road group (rotates) -->
    <!-- Alley Wall -->
    <rect x="0" y="0" width="100" height="40" fill="#e5e5e5" />
    <rect x="0" y="70" width="100" height="30" fill="#8B0000" />
-   <!-- Road group (rotates) -->
    <g class="road" data-rotation="0">
     <path d="M -1 50 L 101 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
     <path d="M -1 50 L 101 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
@@ -130,7 +130,7 @@ css: /assets/css/strava-dashboard.css
        <path d="M 42 22 Q 40 18 37 20" />  <!-- leg -->
        <path d="M 42 22 L 44 26" />        <!-- claw -->
        <!-- Middle leg -->
-       <path d="M 67 24 Q 65 20 62 22" />  <!-- leg -->
+       <path d="M 67 21 Q 65 20 62 22" />  <!-- leg -->
        <path d="M 67 24 L 69 28" />        <!-- claw -->
        <!-- Rear leg -->
        <path d="M 90 18 Q 88 14 85 16" />  <!-- leg -->
