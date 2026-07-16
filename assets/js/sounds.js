@@ -60,21 +60,16 @@ Object.keys(blinkToSound).forEach(animId => {
   });
 });
 let sewerCounter = 0;
-const sewerAnim = document.getElementById("sewerDrops");
 
-console.log("DEBUG: sewerAnim =", sewerAnim);
+setInterval(() => {
+  sewerCounter++;
 
-if (sewerAnim) {
-  sewerAnim.addEventListener("endEvent", () => {
-    console.log("DEBUG: endEvent fired");
+  console.log("DEBUG: sewer tick", sewerCounter);
 
-    sewerCounter++;
-
-    if (sewerCounter >= 7) {
-      sewerCounter = 0;
-      const snd = sounds.sewer_drops.cloneNode();
-      snd.play();
-    }
-  });
-}
+  if (sewerCounter >= 7) {
+    sewerCounter = 0;
+    const snd = sounds.sewer_drops.cloneNode();
+    snd.play();
+  }
+}, 1000); 
 });
