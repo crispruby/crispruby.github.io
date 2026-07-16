@@ -91,13 +91,14 @@ css: /assets/css/strava-dashboard.css
    </g>
   </g>
   <g id="tile-1-0" transform="translate(100,0)">
+   <!-- Road group (rotates) -->
    <!-- Background -->
    <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-   <!-- Road group (rotates) -->
-   <!-- Alley Wall -->
-   <rect x="0" y="0" width="100" height="40" fill="#e5e5e5" />
-   <rect x="0" y="70" width="100" height="30" fill="#8B0000" />
    <g class="road" data-rotation="0">
+    <!-- Alley Wall -->
+    <rect x="0" y="0" width="100" height="40" fill="#e5e5e5" />
+    <rect x="0" y="70" width="100" height="30" fill="#8B0000" />
+    <!-- Road -->
     <path d="M -1 50 L 101 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
     <path d="M -1 50 L 101 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
      <!-- Graffiti: Chinese Long Dragon -->
@@ -147,7 +148,7 @@ css: /assets/css/strava-dashboard.css
       <circle cx="3" cy="14" r="3" fill="#444" stroke="#222" stroke-width="1" />
       <!-- Drip moving upward toward sewer -->
       <ellipse id="sewerDrops" cx="3" cy="14" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
-       <animate attributeName="cy" values="14; -5" dur="0.9s" repeatCount="indefinite" />
+       <animate attributeName="cy" values="14; -5" dur="1s" repeatCount="indefinite" />
        <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
       </ellipse>
      </g>
