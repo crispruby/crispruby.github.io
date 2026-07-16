@@ -1,3 +1,4 @@
+window.addEventListener("load", () => {
 // 1. Load sounds
 const sounds = {
   goodstar: new Audio('/assets/sounds/star_twinkle.wav'),
@@ -73,3 +74,4 @@ if (sewerAnim) {
     }
   });
 }
+});
