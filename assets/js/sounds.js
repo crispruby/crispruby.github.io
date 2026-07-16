@@ -21,15 +21,15 @@ const sounds = {
   sewer_drops:  new Audio('/assets/sounds/sewer_drops.wav')
 };
 // Unlock audio autoplay for all bird chirps
-//setTimeout(() => {
-//const unlockList = [sounds.chirp1, sounds.chirp2, sounds.chirp3, sounds.chirp4];
- // unlockList.forEach(snd => {
- //   snd.play().then(() => {
- //     snd.pause();
- //     snd.currentTime = 0;
- //   }).catch(() => {});
- // });
-//}, 500);
+setTimeout(() => {
+const unlockList = [sounds.chirp1, sounds.chirp2, sounds.chirp3, sounds.chirp4];
+  unlockList.forEach(snd => {
+    snd.play().then(() => {
+      snd.pause();
+      snd.currentTime = 0;
+    }).catch(() => {});
+  });
+}, 500);
 // 2. Map blink animation IDs to sounds
 const blinkToSound = {
   flashGood1: sounds.goodstar,
