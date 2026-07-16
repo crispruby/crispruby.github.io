@@ -29,6 +29,15 @@ const unlockList = [sounds.chirp1, sounds.chirp2, sounds.chirp3, sounds.chirp4];
     }).catch(() => {});
   });
 }, 500);
+
+window.addEventListener("click", () => {
+    Object.values(sounds).forEach(snd => {
+      snd.play().then(() => {
+        snd.pause();
+        snd.currentTime = 0;
+      }).catch(() => {});
+    });
+  }, { once: true });
 // 2. Map blink animation IDs to sounds
 const blinkToSound = {
   flashGood1: sounds.goodstar,
@@ -51,25 +60,27 @@ const blinkToSound = {
 };
 // 3. Attach listeners to SVG animations
 Object.keys(blinkToSound).forEach(animId => {
-  const anim = document.getElementById(animId);
-  if (!anim) return;
-  anim.addEventListener("repeatEvent", () => {
-    const snd = blinkToSound[animId];
-    const clone = snd.cloneNode();
-    clone.play();
+    const anim = document.getElementById(animId);
+    if (!anim) return;
+
+    anim.addEventListener("repeatEvent", () => {
+      const snd = blinkToSound[animId];
+      const clone = snd.cloneNode();
+      clone.play();
+    });
   });
-});
 let sewerCounter = 0;
 
-setInterval(() => {
-  sewerCounter++;
+  setInterval(() => {
+    sewerCounter++;
 
-  console.log("DEBUG: sewer tick", sewerCounter);
+    console.log("DEBUG: sewer tick", sewerCounter);
 
-  if (sewerCounter >= 7) {
-    sewerCounter = 0;
-    const snd = sounds.sewer_drops.cloneNode();
-    snd.play();
-  }
-}, 1000); 
+    if (sewerCounter >= 7) {
+      sewerCounter = 0;
+      const snd = sounds.sewer_drops.cloneNode();
+      snd.play();
+    }
+  }, 1000); // matches your SVG drip duration
+
 });
