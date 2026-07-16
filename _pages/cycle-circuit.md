@@ -130,7 +130,7 @@ css: /assets/css/strava-dashboard.css
        <path d="M 42 22 Q 40 18 37 20" />  <!-- leg -->
        <path d="M 42 22 L 44 26" />        <!-- claw -->
        <!-- Middle leg -->
-       <path d="M 67 21 Q 65 20 62 22" />  <!-- leg -->
+       <path d="M 67 18 Q 65 20 62 22" />  <!-- leg -->
        <path d="M 67 24 L 69 28" />        <!-- claw -->
        <!-- Rear leg -->
        <path d="M 90 18 Q 88 14 85 16" />  <!-- leg -->
@@ -329,7 +329,7 @@ css: /assets/css/strava-dashboard.css
   </g>
   <g id="clumsy-bird-wrapper" transform="translate(70,8) rotate(30)">
    <!-- Bird inner (animated) -->
-   <g id="clumsy-bird">
+   <g id="clumsy-bird"><!-- To play sound, id="clumsy-bird" -->
     <ellipse cx="0" cy="6" rx="6" ry="5" fill="#333"/><!-- Body -->
     <circle cx="0" cy="0" r="4" fill="#333"/><!-- Head -->
     <circle cx="1.5" cy="-1" r="1" fill="#fff"/><!-- Eye -->
