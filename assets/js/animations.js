@@ -1,3 +1,4 @@
+window.addEventListener("load", () => {
 let birdBusy = false;
 function runBirdAnimation() {
   birdBusy = true;
@@ -124,3 +125,4 @@ setInterval(() => {
   //clone.play(); //To play sounds
   runBirdAnimation();
 }, 12000 + Math.random() * 3000); // 12–15 seconds
+});
