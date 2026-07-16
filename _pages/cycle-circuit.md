@@ -138,6 +138,8 @@ css: /assets/css/strava-dashboard.css
        <path d="M 90 18 L 92 22" />        <!-- claw -->
       </g>
      </g> 
+     <button onclick="new Audio('/assets/sounds/sewer_drops.wav').play()">Test Sewer Sound</button>
+
      <!-- Old Pipe (vertical, dripping upward toward sewer) -->
      <g id="old-pipe" transform="translate(40,70)">
       <!-- Wall crack around lower pipe mount -->
