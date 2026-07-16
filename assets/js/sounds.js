@@ -63,6 +63,14 @@ Object.keys(blinkToSound).forEach(animId => {
 });
 let sewerCounter = 0;
 const sewerAnim = document.getElementById("sewerDrops");
+console.log("DEBUG: sewerAnim =", sewerAnim);
+
+if (sewerAnim) {
+  sewerAnim.addEventListener("repeatEvent", () => {
+    console.log("DEBUG: repeatEvent fired");
+  });
+}
+
 if (sewerAnim) {
   sewerAnim.addEventListener("repeatEvent", () => {
     sewerCounter++;
