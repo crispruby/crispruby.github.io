@@ -152,39 +152,44 @@ css: /assets/css/strava-dashboard.css
        <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
       </ellipse>
      </g>
-     <!-- Propane Tank (rolling left ↔ right along road edge) -->
-<g id="propane-tank" transform="translate(20,42)">
-  <!-- Tank Body -->
-  <ellipse cx="0" cy="0" rx="12" ry="8" fill="#c0c0c0" stroke="#666" stroke-width="2" />
+     <!-- Propane Tank (rolling along road edge, sewer side) -->
+<g id="propane-tank" transform="translate(35,42)">
+  <!-- Tank Body (rounded rectangle) -->
+  <rect x="-14" y="-6" width="28" height="12" rx="6" ry="6"
+        fill="#c0c0c0" stroke="#666" stroke-width="2" />
 
   <!-- Valve / Mouth (facing road) -->
-  <rect x="-3" y="6" width="6" height="4" fill="#777" stroke="#444" stroke-width="1" rx="1" />
+  <rect x="-3" y="6" width="6" height="4"
+        fill="#777" stroke="#444" stroke-width="1" rx="1" />
 
   <!-- Propane Hazard Symbol -->
-  <g transform="translate(-6,-4)">
-    <polygon points="0,0 6,0 3,-5" fill="#ff3333" stroke="#aa0000" stroke-width="1" />
-    <path d="M 3 -4 L 3 -2" stroke="#fff" stroke-width="1" />
-    <circle cx="3" cy="-1" r="1" fill="#fff" />
+  <g transform="translate(-10,-4)">
+    <polygon points="0,0 8,0 4,-6"
+             fill="#ff3333" stroke="#aa0000" stroke-width="1" />
+    <path d="M 4 -5 L 4 -3" stroke="#fff" stroke-width="1" />
+    <circle cx="4" cy="-2" r="1" fill="#fff" />
   </g>
 
   <!-- Rust Patches -->
-  <ellipse cx="-5" cy="2" rx="3" ry="2" fill="#b5651d" opacity="0.7" />
-  <ellipse cx="6" cy="-3" rx="2" ry="1.5" fill="#8b4513" opacity="0.6" />
+  <ellipse cx="-8" cy="1" rx="4" ry="2"
+           fill="#b5651d" opacity="0.7" />
+  <ellipse cx="9" cy="-2" rx="3" ry="1.5"
+           fill="#8b4513" opacity="0.6" />
 
-  <!-- Rolling Animation -->
+  <!-- Rolling Animation (left ↔ right near sewer) -->
   <animateTransform
     attributeName="transform"
     type="translate"
     dur="3s"
-    values="20,42; 55,42; 20,42"
+    values="35,42; 60,42; 35,42"
     repeatCount="indefinite" />
 
-  <!-- Slight rotation while rolling -->
+  <!-- Slight rotation wobble -->
   <animateTransform
     attributeName="transform"
     type="rotate"
     dur="3s"
-    values="0 0 0; 8 0 0; 0 0 0"
+    values="0 0 0; -6 0 0; 0 0 0"
     repeatCount="indefinite"
     additive="sum" />
 </g>
