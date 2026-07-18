@@ -173,7 +173,7 @@ css: /assets/css/strava-dashboard.css
       <circle cx="4" cy="-2" r="1" fill="#fff" />
      </g>
      <!-- Sparkles when tank reaches sewer side -->
-     <g id="tank-sparkles" transform="translate(-5,-12)" opacity="0.9">
+     <g id="tank-sparkles" transform="translate(-5,-8)" opacity="0.9">
       <!-- Main sparkle -->
       <polygon points="0,-2 1,0 0,2 -1,0" fill="#ffd700" stroke="#ffcc00" stroke-width="0.5">
        <animate attributeName="opacity" values="0;1;0" dur="0.6s" repeatCount="indefinite" begin="0s" />
