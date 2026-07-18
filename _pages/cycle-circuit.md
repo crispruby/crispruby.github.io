@@ -185,6 +185,65 @@ css: /assets/css/strava-dashboard.css
        <animateTransform attributeName="transform" type="scale" values="0.2;1;0.2" dur="0.6s" repeatCount="indefinite" additive="sum" />
       </polygon>
      </g>
+     <!-- Mini Explosion Burst -->
+<g id="tank-explosion" transform="translate(-5,-10)" opacity="0">
+  
+  <!-- Flash circle -->
+  <circle cx="0" cy="0" r="0" fill="#ffdd55" opacity="0.9">
+    <animate attributeName="r"
+             values="0; 6; 0"
+             dur="0.4s"
+             repeatCount="indefinite"
+             begin="0s" />
+    <animate attributeName="opacity"
+             values="0; 1; 0"
+             dur="0.4s"
+             repeatCount="indefinite"
+             begin="0s" />
+  </circle>
+
+  <!-- Burst ring -->
+  <circle cx="0" cy="0" r="0" stroke="#ffaa00" stroke-width="2" fill="none">
+    <animate attributeName="r"
+             values="0; 10; 0"
+             dur="0.4s"
+             repeatCount="indefinite"
+             begin="0s" />
+    <animate attributeName="opacity"
+             values="0; 1; 0"
+             dur="0.4s"
+             repeatCount="indefinite"
+             begin="0s" />
+  </circle>
+
+  <!-- Outward sparks -->
+  <line x1="0" y1="0" x2="0" y2="-6" stroke="#ffcc33" stroke-width="1.5">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.4s"
+             repeatCount="indefinite" />
+    <animateTransform attributeName="transform"
+             type="rotate"
+             values="0; 360"
+             dur="0.4s"
+             repeatCount="indefinite" />
+  </line>
+
+  <line x1="0" y1="0" x2="0" y2="-4" stroke="#ffee88" stroke-width="1">
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="0.4s"
+             repeatCount="indefinite"
+             begin="0.1s" />
+    <animateTransform attributeName="transform"
+             type="rotate"
+             values="0; -360"
+             dur="0.4s"
+             repeatCount="indefinite" />
+  </line>
+
+</g>
+
      <!-- Rolling Animation (left ↔ right near sewer) -->
      <animateTransform attributeName="transform" type="translate" dur="3s" values="55,65; 90,65; 55,65" repeatCount="indefinite" />
      <!-- Slight rotation wobble -->
