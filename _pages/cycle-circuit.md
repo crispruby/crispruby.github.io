@@ -152,13 +152,21 @@ css: /assets/css/strava-dashboard.css
        <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
       </ellipse>
      </g>
+     <!-- Sewer Grate -->
+     <g id="sewer-grate" transform="translate(40,60)">
+      <rect x="0" y="0" width="20" height="8" fill="#444" stroke="#222" stroke-width="2" rx="2" />
+      <line x1="3" y1="2" x2="3" y2="6" stroke="#222" stroke-width="1"/>
+      <line x1="7" y1="2" x2="7" y2="6" stroke="#222" stroke-width="1"/>
+      <line x1="11" y1="2" x2="11" y2="6" stroke="#222" stroke-width="1"/>
+      <line x1="15" y1="2" x2="15" y2="6" stroke="#222" stroke-width="1"/>
+     </g>
      <!-- Propane Tank (rolling along road edge, sewer side) -->
-     <g id="propane-tank" transform="translate(35,58)">
+     <g id="propane-tank" transform="translate(60,61)">
       <rect x="-14" y="-6" width="20" height="12" rx="6" ry="6" fill="#c0c0c0" stroke="#666" stroke-width="2" />
       <!-- Valve / Mouth (facing road) -->
-      <rect x="-3" y="6" width="6" height="4" fill="#777" stroke="#444" stroke-width="1" rx="1" />
+      <rect x="-3" y="-20" width="6" height="4" fill="#777" stroke="#444" stroke-width="1" rx="1" />
       <!-- Propane Hazard Symbol -->
-      <g transform="translate(-15,2)">
+      <g transform="translate(-8,1)">
        <polygon points="0,0 8,0 4,-6" fill="#ff3333" stroke="#aa0000" stroke-width="1" />
        <path d="M 4 -5 L 4 -3" stroke="#fff" stroke-width="1" />
        <circle cx="4" cy="-2" r="1" fill="#fff" />
@@ -167,17 +175,9 @@ css: /assets/css/strava-dashboard.css
       <ellipse cx="-6" cy="1" rx="2" ry="1" fill="#b5651d" opacity="0.7" />
       <ellipse cx="7" cy="-2" rx="2" ry="1" fill="#8b4513" opacity="0.6" />
       <!-- Rolling Animation (left ↔ right near sewer) -->
-      <animateTransform attributeName="transform" type="translate" dur="3s" values="35,58; 60,58; 35,58" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" dur="3s" values="60,61; 95,61; 60,61" repeatCount="indefinite" />
       <!-- Slight rotation wobble -->
       <animateTransform attributeName="transform" type="rotate" dur="3s" values="0 0 0; -6 0 0; 0 0 0" repeatCount="indefinite" additive="sum" />
-     </g>
-     <!-- Sewer Grate -->
-     <g id="sewer-grate" transform="translate(40,60)">
-      <rect x="0" y="0" width="20" height="8" fill="#444" stroke="#222" stroke-width="2" rx="2" />
-      <line x1="3" y1="2" x2="3" y2="6" stroke="#222" stroke-width="1"/>
-      <line x1="7" y1="2" x2="7" y2="6" stroke="#222" stroke-width="1"/>
-      <line x1="11" y1="2" x2="11" y2="6" stroke="#222" stroke-width="1"/>
-      <line x1="15" y1="2" x2="15" y2="6" stroke="#222" stroke-width="1"/>
      </g>
      <!-- Garbage Bin -->
      <g id="garbage-bin" transform="translate(70,15)">
