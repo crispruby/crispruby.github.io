@@ -63,6 +63,27 @@ window.addEventListener("load", () => {
     }
    }
   }, 3000); // matches tank roll duration
+  // Load Explosion Burst sound into an audio buffer
+  let burstBuffer = null;
+  fetch('/assets/sounds/propane_burst.wav')
+   .then(res => res.arrayBuffer())
+   .then(data => audioCtx.decodeAudioData(data))
+   .then(buffer => {
+     burstBuffer = buffer;
+     console.log("DEBUG: Burst sound loaded");
+  });
+  // Function to play Propane Tank Burst sound
+  function playBurstSound() {
+   if (!burstBuffer) return;
+   const source = audioCtx.createBufferSource();
+   source.buffer = burstBuffer;
+   source.connect(audioCtx.destination);
+   source.start(0);
+  }
+  //Propane Tank Burst
+  setInterval(() => {
+   playBurstSound();   // your 2.3s ignition/burst sound
+  }, 3000);
   // 3. Unlock HTML <audio> sounds (bird chirps etc.)
   setTimeout(() => {
     const unlockList = [sounds.chirp1, sounds.chirp2, sounds.chirp3, sounds.chirp4];
