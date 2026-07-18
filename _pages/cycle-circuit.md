@@ -101,107 +101,120 @@ css: /assets/css/strava-dashboard.css
     <!-- Road -->
     <path d="M -1 50 L 101 50" stroke="#555" stroke-width="28" stroke-linecap="butt" />
     <path d="M -1 50 L 101 50" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-     <!-- Graffiti: Chinese Long Dragon -->
-     <g id="graffiti-dragon" transform="translate(6,6)">
-      <path d="M 18 18 Q 30 8 50 16 Q 75 26 95 18 Q 100 5 95 -5" fill="none" stroke="#999" stroke-width="3" /><!-- Long body -->
-      <!-- Body segments -->
-      <g stroke="#999" stroke-width="2" fill="none">
-       <path d="M 28 16 L 32 20" />
-       <path d="M 48 12 L 52 16" />
-       <path d="M 72 20 L 76 24" />
-       <path d="M 92 10 L 96 14" />
-      </g>
-      <!-- Head -->
-      <g transform="translate(0,10)">
-       <path d="M 22 0 Q 10 -4 0 4 Q 10 10 22 6 Z" fill="#d0d0d0" stroke="#999" stroke-width="2" />
-       <!-- Eye -->
-       <path d="M 14 2 Q 12 4 10 2" stroke="#777" stroke-width="1" fill="none" />
-       <path d="M 14 1 Q 12 3 10 1" stroke="#555" stroke-width="1" fill="none" />
-       <path d="M 18 6 Q 12 8 6 6" stroke="#777" stroke-width="1" fill="none" /><!-- Mouth -->
-       <!-- Horns -->
-       <path d="M 16 -2 L 22 -8" stroke="#777" stroke-width="2" />
-       <path d="M 6 -2 L 0 -8" stroke="#777" stroke-width="2" />
-       <!-- Whiskers -->
-       <path d="M 20 4 L 28 6" stroke="#777" stroke-width="1" />
-       <path d="M 4 4 L -4 6" stroke="#777" stroke-width="1" />
-      </g>
-      <!-- Legs + claws -->
-      <g stroke="#999" stroke-width="2" fill="none">
-       <!-- Front leg -->
-       <path d="M 42 22 Q 40 18 37 20" />  <!-- leg -->
-       <path d="M 42 22 L 44 26" />        <!-- claw -->
-       <!-- Middle leg -->
-       <path d="M 67 18 Q 65 20 62 22" />  <!-- leg -->
-       <path d="M 67 24 L 69 28" />        <!-- claw -->
-       <!-- Rear leg -->
-       <path d="M 90 18 Q 88 14 85 16" />  <!-- leg -->
-       <path d="M 90 18 L 92 22" />        <!-- claw -->
-      </g>
-     </g> 
-     <!-- Old Pipe (vertical, dripping upward toward sewer) -->
-     <g id="old-pipe" transform="translate(40,70)">
-      <!-- Wall crack around lower pipe mount -->
-      <path d="M -4 20 L -6 24 L -3 26 L -7 30 L -2 32 L 2 29 L 4 32 L 7 28 L 5 24 L 8 22 L 4 19 Z" stroke="#666" stroke-width="1" fill="none" />
-      <!-- Vertical pipe (shortened so drip starts at end) -->
-      <rect x="0" y="14" width="6" height="9" fill="#777" stroke="#555" stroke-width="2" rx="2" />
-      <!-- Pipe hole -->
-      <circle cx="3" cy="14" r="3" fill="#444" stroke="#222" stroke-width="1" />
-      <!-- Drip moving upward toward sewer -->
-      <ellipse id="sewerDrops" cx="3" cy="14" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
-       <animate attributeName="cy" values="14; -5" dur="0.9s" repeatCount="indefinite" />
-       <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
-      </ellipse>
+    <!-- Graffiti: Chinese Long Dragon -->
+    <g id="graffiti-dragon" transform="translate(6,6)">
+     <path d="M 18 18 Q 30 8 50 16 Q 75 26 95 18 Q 100 5 95 -5" fill="none" stroke="#999" stroke-width="3" /><!-- Long body -->
+     <!-- Body segments -->
+     <g stroke="#999" stroke-width="2" fill="none">
+      <path d="M 28 16 L 32 20" />
+      <path d="M 48 12 L 52 16" />
+      <path d="M 72 20 L 76 24" />
+      <path d="M 92 10 L 96 14" />
      </g>
-     <!-- Sewer Grate -->
-     <g id="sewer-grate" transform="translate(40,60)">
-      <rect x="0" y="0" width="20" height="8" fill="#444" stroke="#222" stroke-width="2" rx="2" />
-      <line x1="3" y1="2" x2="3" y2="6" stroke="#222" stroke-width="1"/>
-      <line x1="7" y1="2" x2="7" y2="6" stroke="#222" stroke-width="1"/>
-      <line x1="11" y1="2" x2="11" y2="6" stroke="#222" stroke-width="1"/>
-      <line x1="15" y1="2" x2="15" y2="6" stroke="#222" stroke-width="1"/>
+     <!-- Head -->
+     <g transform="translate(0,10)">
+      <path d="M 22 0 Q 10 -4 0 4 Q 10 10 22 6 Z" fill="#d0d0d0" stroke="#999" stroke-width="2" />
+      <!-- Eye -->
+      <path d="M 14 2 Q 12 4 10 2" stroke="#777" stroke-width="1" fill="none" />
+      <path d="M 14 1 Q 12 3 10 1" stroke="#555" stroke-width="1" fill="none" />
+      <path d="M 18 6 Q 12 8 6 6" stroke="#777" stroke-width="1" fill="none" /><!-- Mouth -->
+      <!-- Horns -->
+      <path d="M 16 -2 L 22 -8" stroke="#777" stroke-width="2" />
+      <path d="M 6 -2 L 0 -8" stroke="#777" stroke-width="2" />
+      <!-- Whiskers -->
+      <path d="M 20 4 L 28 6" stroke="#777" stroke-width="1" />
+      <path d="M 4 4 L -4 6" stroke="#777" stroke-width="1" />
      </g>
-     <!-- Propane Tank (rolling along road edge, sewer side) -->
-     <g id="propane-tank" transform="translate(55,64)">
-      <rect x="-14" y="-6" width="20" height="12" rx="6" ry="6" fill="#c0c0c0" stroke="#666" stroke-width="2" />
-      <!-- Valve / Mouth (facing road) -->
-      <rect x="-5" y="-9" width="6" height="4" fill="#777" stroke="#444" stroke-width="1" rx="1" />
-      <!-- Propane Hazard Symbol (slides horizontally to simulate rolling) -->
-      <g id="tank-symbol" transform="translate(-10,2)">
-       <animateTransform attributeName="transform" type="translate" values="-10,2; -2,2; -10,2" dur="3s" repeatCount="indefinite" />
-       <polygon points="0,0 8,0 4,-6" fill="#ff3333" stroke="#aa0000" stroke-width="1" />
-       <path d="M 4 -5 L 4 -3" stroke="#fff" stroke-width="1" />
-       <circle cx="4" cy="-2" r="1" fill="#fff" />
-      </g>
-      <!-- Rolling Animation (left ↔ right near sewer) -->
-      <animateTransform attributeName="transform" type="translate" dur="3s" values="55,63; 90,63; 55,63" repeatCount="indefinite" />
-      <!-- Slight rotation wobble -->
-      <animateTransform attributeName="transform" type="rotate" dur="3s" values="0 0 0; -6 0 0; 0 0 0" repeatCount="indefinite" additive="sum" />
+     <!-- Legs + claws -->
+     <g stroke="#999" stroke-width="2" fill="none">
+      <!-- Front leg -->
+      <path d="M 42 22 Q 40 18 37 20" />  <!-- leg -->
+      <path d="M 42 22 L 44 26" />        <!-- claw -->
+      <!-- Middle leg -->
+      <path d="M 67 18 Q 65 20 62 22" />  <!-- leg -->
+      <path d="M 67 24 L 69 28" />        <!-- claw -->
+      <!-- Rear leg -->
+      <path d="M 90 18 Q 88 14 85 16" />  <!-- leg -->
+      <path d="M 90 18 L 92 22" />        <!-- claw -->
      </g>
-     <!-- Garbage Bin -->
-     <g id="garbage-bin" transform="translate(70,15)">
-      <rect x="0" y="0" width="25" height="20" fill="#6a6a6a" stroke="#444" stroke-width="2" rx="3" />
-      <!-- Bin Lid -->
-      <rect x="-2" y="-6" width="29" height="8" fill="#555" stroke="#333" stroke-width="2" rx="2" />
-     </g>
-     <!-- Cat -->
-     <g id="stray-cat" transform="translate(78,16)">
-      <circle cx="0" cy="0" r="6" fill="#333" />
-      <circle cx="-2" cy="-1" r="1" fill="#fff" />
-      <circle cx="2" cy="-1" r="1" fill="#fff" />
-      <polygon points="-3,2 0,4 3,2" fill="#d89" />
-     </g>
-     <!-- Donut -->
-     <g id="cat-donut" transform="translate(75,33)">
-      <circle cx="0" cy="0" r="4" fill="#d9a" />
-      <circle cx="0" cy="0" r="1.5" fill="#f9f9f9" />
-     </g>
-     <!-- Toy Mouse -->
-     <g id="cat-mouse" transform="translate(85,33)">
-      <ellipse cx="0" cy="0" rx="4" ry="2" fill="#aaa" />
-      <circle cx="3" cy="-1" r="1" fill="#555" />
-      <line x1="-4" y1="0" x2="-7" y2="0" stroke="#777" stroke-width="1" />
-     </g>
+    </g> 
+    <!-- Old Pipe (vertical, dripping upward toward sewer) -->
+    <g id="old-pipe" transform="translate(40,70)">
+     <!-- Wall crack around lower pipe mount -->
+     <path d="M -4 20 L -6 24 L -3 26 L -7 30 L -2 32 L 2 29 L 4 32 L 7 28 L 5 24 L 8 22 L 4 19 Z" stroke="#666" stroke-width="1" fill="none" />
+     <!-- Vertical pipe (shortened so drip starts at end) -->
+     <rect x="0" y="14" width="6" height="9" fill="#777" stroke="#555" stroke-width="2" rx="2" />
+     <!-- Pipe hole -->
+     <circle cx="3" cy="14" r="3" fill="#444" stroke="#222" stroke-width="1" />
+     <!-- Drip moving upward toward sewer -->
+     <ellipse id="sewerDrops" cx="3" cy="14" rx="2" ry="3" fill="#d0eaff" opacity="0.9">
+      <animate attributeName="cy" values="14; -5" dur="0.9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9; 0" dur="0.7s" repeatCount="indefinite" />
+     </ellipse>
     </g>
+    <!-- Sewer Grate -->
+    <g id="sewer-grate" transform="translate(40,60)">
+     <rect x="0" y="0" width="20" height="8" fill="#444" stroke="#222" stroke-width="2" rx="2" />
+     <line x1="3" y1="2" x2="3" y2="6" stroke="#222" stroke-width="1"/>
+     <line x1="7" y1="2" x2="7" y2="6" stroke="#222" stroke-width="1"/>
+     <line x1="11" y1="2" x2="11" y2="6" stroke="#222" stroke-width="1"/>
+     <line x1="15" y1="2" x2="15" y2="6" stroke="#222" stroke-width="1"/>
+    </g>
+    <!-- Propane Tank (rolling along road edge, sewer side) -->
+    <g id="propane-tank" transform="translate(55,64)">
+     <rect x="-14" y="-6" width="20" height="12" rx="6" ry="6" fill="#c0c0c0" stroke="#666" stroke-width="2" />
+     <!-- Valve / Mouth (facing road) -->
+     <rect x="-5" y="-9" width="6" height="4" fill="#777" stroke="#444" stroke-width="1" rx="1" />
+     <!-- Propane Hazard Symbol (slides horizontally to simulate rolling) -->
+     <g id="tank-symbol" transform="translate(-10,2)">
+      <animateTransform attributeName="transform" type="translate" values="-10,2; -2,2; -10,2" dur="3s" repeatCount="indefinite" />
+      <polygon points="0,0 8,0 4,-6" fill="#ff3333" stroke="#aa0000" stroke-width="1" />
+      <path d="M 4 -5 L 4 -3" stroke="#fff" stroke-width="1" />
+      <circle cx="4" cy="-2" r="1" fill="#fff" />
+     </g>
+     <!-- Sparkles when tank reaches sewer side -->
+     <g id="tank-sparkles" transform="translate(-5,-12)" opacity="0.9">
+      <!-- Main sparkle -->
+      <polygon points="0,-2 1,0 0,2 -1,0" fill="#ffd700" stroke="#ffcc00" stroke-width="0.5">
+       <animate attributeName="opacity" values="0;1;0" dur="0.6s" repeatCount="indefinite" begin="0s" />
+       <animateTransform attributeName="transform" type="scale" values="0.2;1.2;0.2" dur="0.6s" repeatCount="indefinite" additive="sum" />
+      </polygon>
+      <!-- Small sparkle offset -->
+      <polygon points="0,-1 0.6,0 0,1 -0.6,0" fill="#fff2a8" stroke="#ffe680" stroke-width="0.4" transform="translate(3,-1)">
+       <animate attributeName="opacity" values="0;1;0" dur="0.6s" repeatCount="indefinite" begin="0.2s" />
+       <animateTransform attributeName="transform" type="scale" values="0.2;1;0.2" dur="0.6s" repeatCount="indefinite" additive="sum" />
+      </polygon>
+     </g>
+     <!-- Rolling Animation (left ↔ right near sewer) -->
+     <animateTransform attributeName="transform" type="translate" dur="3s" values="55,63; 90,63; 55,63" repeatCount="indefinite" />
+     <!-- Slight rotation wobble -->
+     <animateTransform attributeName="transform" type="rotate" dur="3s" values="0 0 0; -6 0 0; 0 0 0" repeatCount="indefinite" additive="sum" />
+    </g>
+    <!-- Garbage Bin -->
+    <g id="garbage-bin" transform="translate(70,15)">
+     <rect x="0" y="0" width="25" height="20" fill="#6a6a6a" stroke="#444" stroke-width="2" rx="3" />
+     <!-- Bin Lid -->
+     <rect x="-2" y="-6" width="29" height="8" fill="#555" stroke="#333" stroke-width="2" rx="2" />
+    </g>
+    <!-- Cat -->
+    <g id="stray-cat" transform="translate(78,16)">
+     <circle cx="0" cy="0" r="6" fill="#333" />
+     <circle cx="-2" cy="-1" r="1" fill="#fff" />
+     <circle cx="2" cy="-1" r="1" fill="#fff" />
+     <polygon points="-3,2 0,4 3,2" fill="#d89" />
+    </g>
+    <!-- Donut -->
+    <g id="cat-donut" transform="translate(75,33)">
+     <circle cx="0" cy="0" r="4" fill="#d9a" />
+     <circle cx="0" cy="0" r="1.5" fill="#f9f9f9" />
+    </g>
+    <!-- Toy Mouse -->
+    <g id="cat-mouse" transform="translate(85,33)">
+     <ellipse cx="0" cy="0" rx="4" ry="2" fill="#aaa" />
+     <circle cx="3" cy="-1" r="1" fill="#555" />
+     <line x1="-4" y1="0" x2="-7" y2="0" stroke="#777" stroke-width="1" />
+    </g>
+   </g>
  </g>
 <g id="tile-2-0" transform="translate(200,0)">
  <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
