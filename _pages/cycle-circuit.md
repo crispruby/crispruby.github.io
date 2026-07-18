@@ -161,45 +161,17 @@ css: /assets/css/strava-dashboard.css
       <line x1="15" y1="2" x2="15" y2="6" stroke="#222" stroke-width="1"/>
      </g>
      <!-- Propane Tank (rolling along road edge, sewer side) -->
-     <g id="propane-tank" transform="translate(55,63)">
+     <g id="propane-tank" transform="translate(55,64)">
       <rect x="-14" y="-6" width="20" height="12" rx="6" ry="6" fill="#c0c0c0" stroke="#666" stroke-width="2" />
       <!-- Valve / Mouth (facing road) -->
       <rect x="-5" y="-9" width="6" height="4" fill="#777" stroke="#444" stroke-width="1" rx="1" />
-        <!-- Propane Hazard Symbol (slides horizontally to simulate rolling) -->
-  <g id="tank-symbol" transform="translate(-8,2)">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="-8,2; -2,2; -8,2"
-      dur="3s"
-      repeatCount="indefinite" />
-    <polygon points="0,0 8,0 4,-6"
-             fill="#ff3333" stroke="#aa0000" stroke-width="1" />
-    <path d="M 4 -5 L 4 -3" stroke="#fff" stroke-width="1" />
-    <circle cx="4" cy="-2" r="1" fill="#fff" />
-  </g>
-
-  <!-- Rust Patch 1 (slides differently for parallax effect) -->
-  <ellipse cx="-6" cy="1" rx="2" ry="1"
-           fill="#b5651d" opacity="0.7">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="-6,1; -10,1; -6,1"
-      dur="3s"
-      repeatCount="indefinite" />
-  </ellipse>
-
-  <!-- Rust Patch 2 (slides opposite direction) -->
-  <ellipse cx="7" cy="-2" rx="2" ry="1"
-           fill="#8b4513" opacity="0.6">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="7,-2; 11,-2; 7,-2"
-      dur="3s"
-      repeatCount="indefinite" />
-  </ellipse>
+      <!-- Propane Hazard Symbol (slides horizontally to simulate rolling) -->
+      <g id="tank-symbol" transform="translate(-8,2)">
+       <animateTransform attributeName="transform" type="translate" values="-9,2; -2,2; -9,2" dur="3s" repeatCount="indefinite" />
+       <polygon points="0,0 8,0 4,-6" fill="#ff3333" stroke="#aa0000" stroke-width="1" />
+       <path d="M 4 -5 L 4 -3" stroke="#fff" stroke-width="1" />
+       <circle cx="4" cy="-2" r="1" fill="#fff" />
+      </g>
       <!-- Rolling Animation (left ↔ right near sewer) -->
       <animateTransform attributeName="transform" type="translate" dur="3s" values="55,63; 90,63; 55,63" repeatCount="indefinite" />
       <!-- Slight rotation wobble -->
