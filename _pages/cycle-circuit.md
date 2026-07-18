@@ -161,7 +161,7 @@ css: /assets/css/strava-dashboard.css
      <line x1="15" y1="2" x2="15" y2="6" stroke="#222" stroke-width="1"/>
     </g>
     <!-- Propane Tank (rolling along road edge, sewer side) -->
-    <g id="propane-tank" transform="translate(55,64)">
+    <g id="propane-tank" transform="translate(55,65)">
      <rect x="-14" y="-6" width="20" height="12" rx="6" ry="6" fill="#c0c0c0" stroke="#666" stroke-width="2" />
      <!-- Valve / Mouth (facing road) -->
      <rect x="-5" y="-9" width="6" height="4" fill="#777" stroke="#444" stroke-width="1" rx="1" />
@@ -186,7 +186,7 @@ css: /assets/css/strava-dashboard.css
       </polygon>
      </g>
      <!-- Rolling Animation (left ↔ right near sewer) -->
-     <animateTransform attributeName="transform" type="translate" dur="3s" values="55,63; 90,63; 55,63" repeatCount="indefinite" />
+     <animateTransform attributeName="transform" type="translate" dur="3s" values="55,65; 90,65; 55,65" repeatCount="indefinite" />
      <!-- Slight rotation wobble -->
      <animateTransform attributeName="transform" type="rotate" dur="3s" values="0 0 0; -6 0 0; 0 0 0" repeatCount="indefinite" additive="sum" />
     </g>
