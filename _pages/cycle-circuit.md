@@ -166,8 +166,8 @@ css: /assets/css/strava-dashboard.css
       <!-- Valve / Mouth (facing road) -->
       <rect x="-5" y="-9" width="6" height="4" fill="#777" stroke="#444" stroke-width="1" rx="1" />
       <!-- Propane Hazard Symbol (slides horizontally to simulate rolling) -->
-      <g id="tank-symbol" transform="translate(-8,2)">
-       <animateTransform attributeName="transform" type="translate" values="-9,2; -2,2; -9,2" dur="3s" repeatCount="indefinite" />
+      <g id="tank-symbol" transform="translate(-10,2)">
+       <animateTransform attributeName="transform" type="translate" values="-10,2; -2,2; -10,2" dur="3s" repeatCount="indefinite" />
        <polygon points="0,0 8,0 4,-6" fill="#ff3333" stroke="#aa0000" stroke-width="1" />
        <path d="M 4 -5 L 4 -3" stroke="#fff" stroke-width="1" />
        <circle cx="4" cy="-2" r="1" fill="#fff" />
