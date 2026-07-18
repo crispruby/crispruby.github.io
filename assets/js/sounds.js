@@ -21,7 +21,6 @@ window.addEventListener("load", () => {
   // 2. Web Audio API for sewer drip (autoplay-safe)
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   let sewerBuffer = null;
-
   // Load sewer sound into an audio buffer
   fetch('/assets/sounds/sewer_drops.wav')
     .then(res => res.arrayBuffer())
@@ -30,7 +29,6 @@ window.addEventListener("load", () => {
       sewerBuffer = buffer;
       console.log("DEBUG: sewer sound loaded");
     });
-
   // Function to play sewer drip sound
   function playSewerSound() {
     if (!sewerBuffer) return; // not loaded yet
@@ -39,6 +37,32 @@ window.addEventListener("load", () => {
     source.connect(audioCtx.destination);
     source.start(0);
   }
+  // Load spark sound into an audio buffer
+  let sparkBuffer = null;
+  fetch('/assets/sounds/Sparks.wav')
+   .then(res => res.arrayBuffer())
+   .then(data => audioCtx.decodeAudioData(data))
+   .then(buffer => {
+     sparkBuffer = buffer;
+     console.log("DEBUG: spark sound loaded");
+  });
+  // Function to play Propane Tank Spark sound
+  function playSparkSound() {
+   if (!sparkBuffer) return;
+   const source = audioCtx.createBufferSource();
+   source.buffer = sparkBuffer;
+   source.connect(audioCtx.destination);
+   source.start(0);
+  }
+  let tankCycle = 0;
+  setInterval(() => {
+   tankCycle++;
+   if (tankCycle % 3 === 0) {        // every 3rd cycle
+    if (Math.random() < 0.9) {      // 90% chance
+      playSparkSound();
+    }
+   }
+  }, 3000); // matches tank roll duration
   // 3. Unlock HTML <audio> sounds (bird chirps etc.)
   setTimeout(() => {
     const unlockList = [sounds.chirp1, sounds.chirp2, sounds.chirp3, sounds.chirp4];
