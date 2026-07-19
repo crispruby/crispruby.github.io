@@ -185,18 +185,32 @@ css: /assets/css/strava-dashboard.css
        <animateTransform attributeName="transform" type="scale" values="0.2;1;0.2" dur="0.6s" repeatCount="indefinite" additive="sum" />
       </polygon>
      </g>
-      <!-- Mini Explosion Burst (drawn on top, follows tank) -->
-<g id="tank-explosion" transform="translate(-5,-10)">
-  <circle cx="0" cy="0" r="0" fill="#ffdd55" opacity="0.9">
-    <animate attributeName="r" values="0; 6; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
-    <animate attributeName="opacity" values="0; 1; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
-  </circle>
-
-  <circle cx="0" cy="0" r="0" stroke="#ffaa00" stroke-width="2" fill="none">
-    <animate attributeName="r" values="0; 10; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
-    <animate attributeName="opacity" values="0; 1; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
-  </circle>
-</g>
+     <!-- Mini Explosion Burst (drawn on top, follows tank) -->
+     <g id="tank-explosion" transform="translate(-5,-10)">
+      <circle cx="0" cy="0" r="0" fill="#ffdd55" opacity="0.9">
+       <animate attributeName="r" values="0; 6; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+       <animate attributeName="opacity" values="0; 1; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+      </circle>
+      <circle cx="0" cy="0" r="0" stroke="#ffaa00" stroke-width="2" fill="none">
+       <animate attributeName="r" values="0; 10; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+       <animate attributeName="opacity" values="0; 1; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+      </circle>
+     </g>
+     <!-- Burning Cloud Puff -->
+     <g id="tank-cloud" transform="translate(-5,-10)">
+      <!-- Cloud shape -->
+      <path d="M -6 0 Q -3 -4 0 -2 Q 3 -6 6 -2 Q 3 2 0 1 Q -3 4 -6 0 Z" fill="#ffdd55" opacity="0.8">
+       <!-- Cloud expansion -->
+       <animateTransform attributeName="transform" type="scale" values="0.2; 1.4; 0.2" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+       <!-- Cloud fade -->
+       <animate attributeName="opacity" values="0.8; 0.3; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+      </path>
+      <!-- Darker edge glow -->
+      <path d="M -6 0 Q -3 -4 0 -2 Q 3 -6 6 -2 Q 3 2 0 1 Q -3 4 -6 0 Z" fill="#cc6600" opacity="0.4">
+       <animateTransform attributeName="transform" type="scale" values="0.2; 1.4; 0.2" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+       <animate attributeName="opacity" values="0.4; 0.2; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+      </path>
+     </g>
      <!-- Rolling Animation (left ↔ right near sewer) -->
      <animateTransform attributeName="transform" type="translate" dur="3s" values="55,65; 90,65; 55,65" repeatCount="indefinite" />
      <!-- Slight rotation wobble -->
