@@ -185,25 +185,31 @@ css: /assets/css/strava-dashboard.css
        <animateTransform attributeName="transform" type="scale" values="0.2;1;0.2" dur="0.6s" repeatCount="indefinite" additive="sum" />
       </polygon>
      </g>
-     <!-- Blue Flame Flickers (at valve) -->
-     <g id="tank-flames" transform="translate(-5,-9)">
-      <path d="M -2 0 Q 0 -4 2 0 Q 0 -2 -2 0 Z" fill="#66ccff" opacity="0.8">
-       <animate attributeName="opacity" values="0.2; 1; 0.2" dur="0.4s" repeatCount="indefinite" />
-       <animateTransform attributeName="transform" type="scale" values="0.8; 1.3; 0.8" dur="0.4s" repeatCount="indefinite" />
-      </path>
-     </g>
      <!-- Shock Ring (yellow pressure wave) -->
      <circle cx="0" cy="0" r="0" stroke="#ffdd33" stroke-width="3" fill="none" transform="translate(-5,-10)">
       <animate attributeName="r" values="0; 12; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       <animate attributeName="opacity" values="0; 1; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
      </circle>
-     <!-- Black Burning Cloud Puff -->
+     <!-- Black Burning Explosion Cloud (square base + round top) -->
      <g id="tank-cloud" transform="translate(-5,-10)">
-      <!-- Dark smoke cloud -->
-      <path d="M -6 0 Q -3 -4 0 -2 Q 3 -6 6 -2 Q 3 2 0 1 Q -3 4 -6 0 Z" fill="#333" opacity="0.9">
-       <animateTransform attributeName="transform" type="scale" values="0.2; 1.6; 0.2" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+      <!-- Square base (ground impact) -->
+      <rect x="-6" y="0" width="12" height="6" fill="#222" opacity="0.9" rx="2">
+       <animateTransform attributeName="transform" type="scale" values="0.3; 1.5; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+       <animate attributeName="opacity" values="0.9; 0.5; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+      </rect>
+      <!-- Top cloud circles (mushroom puff) -->
+      <circle cx="-4" cy="-3" r="4" fill="#333" opacity="0.9">
+       <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
-      </path>
+      </circle>
+      <circle cx="0" cy="-4" r="5" fill="#444" opacity="0.9">
+       <animateTransform attributeName="transform" type="scale" values="0.3; 1.7; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+       <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+      </circle>
+      <circle cx="4" cy="-3" r="4" fill="#333" opacity="0.9">
+       <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+       <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
+      </circle>
       <!-- Orange burning glow -->
       <path d="M -6 0 Q -3 -4 0 -2 Q 3 -6 6 -2 Q 3 2 0 1 Q -3 4 -6 0 Z" fill="#aa5500" opacity="0.5">
        <animateTransform attributeName="transform" type="scale" values="0.2; 1.4; 0.2" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
