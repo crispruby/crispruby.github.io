@@ -148,7 +148,7 @@ window.addEventListener("load", () => {
    unlockAudioCtx();
   }, { once: true });
   const shockRing = document.getElementById('shockRing');
-shockRing.addEventListener("repeatEvent", () => {
+shockRing.addEventListener("beginEvent", () => {
   playBurstSound();
 });
 
