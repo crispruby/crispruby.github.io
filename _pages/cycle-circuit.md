@@ -193,12 +193,12 @@ css: /assets/css/strava-dashboard.css
      <!-- Black Burning Explosion Cloud (square base + round top) -->
      <g id="tank-cloud" transform="translate(-5,-10)">
       <!-- Square base (ground impact) -->
-      <rect x="-6" y="0" width="12" height="6" fill="#222" opacity="0.9" rx="2">
+      <rect x="-6" y="0" width="12" height="6" fill="#111" opacity="0.9" rx="2">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.5; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.5; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </rect>
       <!-- Top cloud circles (mushroom puff) -->
-      <circle cx="-4" cy="-3" r="4" fill="#333" opacity="0.9">
+      <circle cx="-4" cy="-3" r="4" fill="#222" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </circle>
