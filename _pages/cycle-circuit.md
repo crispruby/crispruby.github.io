@@ -194,21 +194,21 @@ css: /assets/css/strava-dashboard.css
      <g id="tank-cloud" transform="translate(-5,-10)">
       <!-- Square base (ground impact) -->
       <rect x="-6" y="0" width="12" height="6" fill="#111" opacity="0.9" rx="2">
+       <animate attributeName="fill-opacity" values="0;1;0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.5; 0.3" dur="0.8s" begin="15s" repeatCount="1" />
-       <animate attributeName="opacity" values="0.9; 0.5; 0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
       </rect>
       <!-- Top cloud circles (mushroom puff) -->
       <circle cx="-4" cy="-3" r="4" fill="#111" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" begin="15s" repeatCount="1" />
-       <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
+       <animate attributeName="fill-opacity" values="0;1;0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
       </circle>
       <circle cx="0" cy="-4" r="5" fill="#111" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.7; 0.3" dur="0.8s" begin="15s" repeatCount="1" />
-       <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
+       <animate attributeName="fill-opacity" values="0;1;0"  dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
       </circle>
       <circle cx="4" cy="-3" r="4" fill="#111" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" begin="15s" repeatCount="1" />
-       <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
+       <animate attributeName="fill-opacity" values="0;1;0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
       </circle>
      </g>
      <!-- Rolling Animation (left ↔ right near sewer) -->
