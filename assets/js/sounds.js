@@ -147,9 +147,9 @@ window.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("click", () => {
    unlockAudioCtx();
   }, { once: true });
-  const shockRing = document.getElementById('shockRing');
-shockRing.addEventListener("beginEvent", () => {
+ const shockRingAnim = document.getElementById('shockRingAnim');
+ shockRingAnim.addEventListener("beginEvent", () => {
+  console.log("Explosion beginEvent fired");
   playBurstSound();
-});
-console.log("shockRing:", document.getElementById('shockRing'));
+ });
 });
