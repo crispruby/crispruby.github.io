@@ -147,7 +147,7 @@ window.addEventListener("load", () => {
   window.addEventListener("click", () => {
    unlockAudioCtx();
   }, { once: true });
-  const shockRing = document.querySelector('#propane-tank circle');
+  const shockRing = document.getElementById('shockRing');
 shockRing.addEventListener("repeatEvent", () => {
   playBurstSound();
 });
