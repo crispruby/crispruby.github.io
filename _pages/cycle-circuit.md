@@ -187,7 +187,7 @@ css: /assets/css/strava-dashboard.css
      </g>
      <!-- Shock Ring (yellow pressure wave) -->
      <circle cx="0" cy="0" r="0" stroke="#ffdd33" stroke-width="3" fill="none" transform="translate(-5,-10)">
-      <animate attributeName="r" values="0; 12; 0" dur="0.8s" begin="15s" repeatCount="1" />
+      <animate attributeName="r" values="0; 12; 0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
       <animate attributeName="opacity" values="0; 1; 0" dur="0.8s" begin="15s; 30s; 45s; 60s" repeatCount="1" />
      </circle>
      <!-- Black Burning Explosion Cloud (square base + round top) -->
