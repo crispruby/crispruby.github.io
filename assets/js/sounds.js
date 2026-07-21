@@ -80,10 +80,6 @@ window.addEventListener("load", () => {
    source.connect(audioCtx.destination);
    source.start(0);
   }
-  //Propane Tank Burst
-  setInterval(() => {
-   playBurstSound();   // your 2.3s ignition/burst sound
-  }, 15000);
   // 3. Unlock HTML <audio> sounds (bird chirps etc.)
   setTimeout(() => {
     const unlockList = [sounds.chirp1, sounds.chirp2, sounds.chirp3, sounds.chirp4];
@@ -133,11 +129,27 @@ window.addEventListener("load", () => {
   // 5. Automatic sewer drip timer (Web Audio API)
   let sewerCounter = 0;
   setInterval(() => {
-    sewerCounter++;
-    console.log("DEBUG: sewer tick", sewerCounter);
-    if (sewerCounter >= 7) {
-      sewerCounter = 0;
-      playSewerSound(); // Web Audio API version
-    }
+   sewerCounter++;
+   console.log("DEBUG: sewer tick", sewerCounter);
+   if (sewerCounter >= 7) {
+    sewerCounter = 0;
+    playSewerSound(); // Web Audio API version
+   }
   }, 1000);
+  //Propane Tank Burst
+  function unlockAudioCtx() {
+   const buffer = audioCtx.createBuffer(1, 1, audioCtx.sampleRate);
+   const source = audioCtx.createBufferSource();
+   source.buffer = buffer;
+   source.connect(audioCtx.destination);
+   source.start(0);
+  }
+  window.addEventListener("click", () => {
+   unlockAudioCtx();
+  }, { once: true });
+  const shockRing = document.querySelector('#propane-tank circle');
+shockRing.addEventListener("repeatEvent", () => {
+  playBurstSound();
+});
+
 });
