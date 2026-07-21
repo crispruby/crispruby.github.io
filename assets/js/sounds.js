@@ -83,7 +83,7 @@ window.addEventListener("load", () => {
   //Propane Tank Burst
   setInterval(() => {
    playBurstSound();   // your 2.3s ignition/burst sound
-  }, 3000);
+  }, 15000);
   // 3. Unlock HTML <audio> sounds (bird chirps etc.)
   setTimeout(() => {
     const unlockList = [sounds.chirp1, sounds.chirp2, sounds.chirp3, sounds.chirp4];
