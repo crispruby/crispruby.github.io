@@ -44,7 +44,7 @@ css: /assets/css/strava-dashboard.css
      <!-- Arms (resting on knees) -->
      <line x1="-2" y1="4" x2="-7" y2="10" stroke="#333" stroke-width="2" />
      <line x1="2" y1="4" x2="7" y2="10" stroke="#333" stroke-width="2" />
-     <!-- Legs (crossed) -->
+     <!-- Legs sitting crossed -->
      <line x1="-6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
      <line x1="6" y1="12" x2="0" y2="8" stroke="#333" stroke-width="2" />
      <!-- Calves -->
