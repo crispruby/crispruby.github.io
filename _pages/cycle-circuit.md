@@ -198,23 +198,18 @@ css: /assets/css/strava-dashboard.css
        <animate attributeName="opacity" values="0.9; 0.5; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </rect>
       <!-- Top cloud circles (mushroom puff) -->
-      <circle cx="-4" cy="-3" r="4" fill="#222" opacity="0.9">
+      <circle cx="-4" cy="-3" r="4" fill="#111" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </circle>
-      <circle cx="0" cy="-4" r="5" fill="#444" opacity="0.9">
+      <circle cx="0" cy="-4" r="5" fill="#222" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.7; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </circle>
-      <circle cx="4" cy="-3" r="4" fill="#333" opacity="0.9">
+      <circle cx="4" cy="-3" r="4" fill="#222" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </circle>
-      <!-- Orange burning glow -->
-      <path d="M -6 0 Q -3 -4 0 -2 Q 3 -6 6 -2 Q 3 2 0 1 Q -3 4 -6 0 Z" fill="#aa5500" opacity="0.5">
-       <animateTransform attributeName="transform" type="scale" values="0.2; 1.4; 0.2" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
-       <animate attributeName="opacity" values="0.5; 0.2; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
-      </path>
      </g>
      <!-- Rolling Animation (left ↔ right near sewer) -->
      <animateTransform attributeName="transform" type="translate" dur="3s" values="55,65; 90,65; 55,65" repeatCount="indefinite" />
