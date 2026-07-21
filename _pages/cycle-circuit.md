@@ -202,11 +202,11 @@ css: /assets/css/strava-dashboard.css
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </circle>
-      <circle cx="0" cy="-4" r="5" fill="#222" opacity="0.9">
+      <circle cx="0" cy="-4" r="5" fill="#111" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.7; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </circle>
-      <circle cx="4" cy="-3" r="4" fill="#222" opacity="0.9">
+      <circle cx="4" cy="-3" r="4" fill="#111" opacity="0.9">
        <animateTransform attributeName="transform" type="scale" values="0.3; 1.6; 0.3" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
        <animate attributeName="opacity" values="0.9; 0.4; 0" dur="0.8s" repeatCount="indefinite" begin="1.5s" />
       </circle>
