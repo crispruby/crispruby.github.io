@@ -151,5 +151,5 @@ window.addEventListener("DOMContentLoaded", () => {
 shockRing.addEventListener("beginEvent", () => {
   playBurstSound();
 });
-
+console.log("shockRing:", document.getElementById('shockRing'));
 });
