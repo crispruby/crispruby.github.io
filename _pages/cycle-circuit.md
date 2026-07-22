@@ -235,9 +235,11 @@ css: /assets/css/strava-dashboard.css
      <line x1="-6" y1="6" x2="-6" y2="10" stroke="#333" stroke-width="2" />
      <line x1="2" y1="6" x2="2" y2="10" stroke="#333" stroke-width="2" />
      <!-- Tail -->
-     <rect x="-10" y="-2" width="8" height="2" rx="1" fill="#333">
-      <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
-     </rect>
+     <g transform="translate(-10,-2)">
+      <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
+       <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" additive="sum" />
+      </rect>
+     </g>
      <!-- Walking into bin -->
      <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" />
     </g>
