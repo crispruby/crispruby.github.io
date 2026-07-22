@@ -217,10 +217,10 @@ css: /assets/css/strava-dashboard.css
      <animateTransform attributeName="transform" type="rotate" dur="3s" values="0 0 0; -6 0 0; 0 0 0" repeatCount="indefinite" additive="sum" />
     </g>
     <!-- Fallen Garbage Bin (top-right of tile) -->
-    <g id="fallen-bin" transform="translate(50,10)">
-     <rect x="0" y="0" width="50" height="20" rx="4" fill="#111" stroke="#333" stroke-width="2" /><!-- Bin body -->
+    <g id="fallen-bin" transform="translate(55,15)">
+     <rect x="0" y="0" width="45" height="20" rx="4" fill="#111" stroke="#333" stroke-width="2" /><!-- Bin body -->
      <rect x="-24" y="0" width="20" height="20" rx="3" fill="#222" stroke="#444" stroke-width="2" /><!-- Bin Lid -->
-     <rect x="-4" y="-16" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" /><!-- Bin Left Neck-->
+     <rect x="-4" y="16" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" /><!-- Bin Left Neck-->
      <rect x="-4" y="0" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" /><!-- Bin Right Neck-->
     </g>
     <!-- Cat -->
