@@ -221,24 +221,22 @@ css: /assets/css/strava-dashboard.css
      <rect x="0" y="0" width="45" height="20" rx="4" fill="#111" stroke="#333" stroke-width="2" />
     </g>
     <!-- Cat walking into bin -->
-    <g id="stray-cat" transform="translate(10,22)">
-     <!-- Head -->
-     <circle cx="0" cy="0" r="6" fill="#333" />
-     <!-- Body -->
-     <circle cx="-3" cy="7" r="5" fill="#333" />
+    <g id="stray-cat" transform="translate(10,32)">
+     <circle cx="0" cy="0" r="6" fill="#333" /> <!-- body -->
+     <circle cx="0" cy="-7" r="5" fill="#333" /><!-- Head -->
      <!-- Eyes -->
-     <circle cx="-2" cy="-1" r="1" fill="#fff" />
-     <circle cx="2" cy="-1" r="1" fill="#fff" />
+     <circle cx="-2" cy="-8" r="1" fill="#fff" />
+     <circle cx="2" cy="-8" r="1" fill="#fff" />
      <!-- Nose -->
-     <polygon points="-1,2 0,3 1,2" fill="#d89" />
+     <polygon points="-1,-6 0,-5 1,-6" fill="#d89" />
      <!-- Legs -->
-     <line x1="-5" y1="12" x2="-5" y2="16" stroke="#333" stroke-width="2" />
-     <line x1="-1" y1="12" x2="-1" y2="16" stroke="#333" stroke-width="2" />
-     <line x1="-7" y1="12" x2="-7" y2="16" stroke="#333" stroke-width="2" />
-     <line x1="3" y1="12" x2="3" y2="16" stroke="#333" stroke-width="2" />
+     <line x1="-4" y1="6" x2="-4" y2="10" stroke="#333" stroke-width="2" />
+     <line x1="0" y1="6" x2="0" y2="10" stroke="#333" stroke-width="2" />
+     <line x1="-6" y1="6" x2="-6" y2="10" stroke="#333" stroke-width="2" />
+     <line x1="2" y1="6" x2="2" y2="10" stroke="#333" stroke-width="2" />
      <!-- Tail -->
-     <rect x="4" y="6" width="8" height="2" rx="1" fill="#333">
-      <animateTransform attributeName="transform" type="rotate" values="0;10;0" dur="1s" repeatCount="indefinite" />
+     <rect x="-10" y="-2" width="8" height="2" rx="1" fill="#333">
+      <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
      </rect>
      <!-- Walking into bin -->
      <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" />
