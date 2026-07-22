@@ -221,36 +221,28 @@ css: /assets/css/strava-dashboard.css
      <rect x="0" y="0" width="45" height="20" rx="4" fill="#111" stroke="#333" stroke-width="2" />
     </g>
     <!-- Cat walking into bin -->
-<g id="stray-cat" transform="translate(10,25)">
-  <!-- Head -->
-  <circle cx="0" cy="0" r="6" fill="#333" />
-
-  <!-- Body -->
-  <circle cx="-3" cy="7" r="5" fill="#333" />
-
-  <!-- Eyes -->
-  <circle cx="-2" cy="-1" r="1" fill="#fff" />
-  <circle cx="2" cy="-1" r="1" fill="#fff" />
-
-  <!-- Nose -->
-  <polygon points="-1,2 0,3 1,2" fill="#d89" />
-
-  <!-- Legs -->
-  <line x1="-5" y1="12" x2="-5" y2="16" stroke="#333" stroke-width="2" />
-  <line x1="-1" y1="12" x2="-1" y2="16" stroke="#333" stroke-width="2" />
-  <line x1="-7" y1="12" x2="-7" y2="16" stroke="#333" stroke-width="2" />
-  <line x1="3" y1="12" x2="3" y2="16" stroke="#333" stroke-width="2" />
-
-  <!-- Tail -->
-  <rect x="4" y="6" width="8" height="2" rx="1" fill="#333">
-    <animateTransform attributeName="transform" type="rotate"
-      values="0;10;0" dur="1s" repeatCount="indefinite" />
-  </rect>
-
-  <!-- Walking into bin -->
-  <animateTransform attributeName="transform" type="translate"
-    values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" />
-</g>
+    <g id="stray-cat" transform="translate(10,22)">
+     <!-- Head -->
+     <circle cx="0" cy="0" r="6" fill="#333" />
+     <!-- Body -->
+     <circle cx="-3" cy="7" r="5" fill="#333" />
+     <!-- Eyes -->
+     <circle cx="-2" cy="-1" r="1" fill="#fff" />
+     <circle cx="2" cy="-1" r="1" fill="#fff" />
+     <!-- Nose -->
+     <polygon points="-1,2 0,3 1,2" fill="#d89" />
+     <!-- Legs -->
+     <line x1="-5" y1="12" x2="-5" y2="16" stroke="#333" stroke-width="2" />
+     <line x1="-1" y1="12" x2="-1" y2="16" stroke="#333" stroke-width="2" />
+     <line x1="-7" y1="12" x2="-7" y2="16" stroke="#333" stroke-width="2" />
+     <line x1="3" y1="12" x2="3" y2="16" stroke="#333" stroke-width="2" />
+     <!-- Tail -->
+     <rect x="4" y="6" width="8" height="2" rx="1" fill="#333">
+      <animateTransform attributeName="transform" type="rotate" values="0;10;0" dur="1s" repeatCount="indefinite" />
+     </rect>
+     <!-- Walking into bin -->
+     <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" />
+    </g>
     <g id="fallen-bin-lid" transform="translate(50,15)">
      <rect x="-24" y="0" width="20" height="20" rx="3" fill="#222" stroke="#444" stroke-width="2" />
      <rect x="-4" y="16" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" />
