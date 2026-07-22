@@ -221,7 +221,7 @@ css: /assets/css/strava-dashboard.css
      <rect x="0" y="0" width="45" height="20" rx="4" fill="#111" stroke="#333" stroke-width="2" />
     </g>
     <!-- Cat walking into bin -->
-    <g id="stray-cat" transform="translate(10,32)">
+    <g id="stray-cat">
      <circle cx="0" cy="0" r="6" fill="#333" /> <!-- body -->
      <circle cx="0" cy="-7" r="5" fill="#333" /><!-- Head -->
      <!-- Eyes -->
@@ -241,7 +241,7 @@ css: /assets/css/strava-dashboard.css
       </rect>
      </g>
      <!-- Walking into bin -->
-     <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" />
+     <animateTransform attributeName="transform" type="translate" values="10,32; 45,32; 50,32" dur="3s" begin="2s" fill="freeze" />
     </g>
     <g id="fallen-bin-lid" transform="translate(50,15)">
      <rect x="-24" y="0" width="20" height="20" rx="3" fill="#222" stroke="#444" stroke-width="2" />
