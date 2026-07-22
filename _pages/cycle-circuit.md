@@ -216,9 +216,10 @@ css: /assets/css/strava-dashboard.css
      <!-- Slight rotation wobble -->
      <animateTransform attributeName="transform" type="rotate" dur="3s" values="0 0 0; -6 0 0; 0 0 0" repeatCount="indefinite" additive="sum" />
     </g>
-    <!-- Fallen Garbage Bin -->
-    <g id="fallen-bin-body" transform="translate(50,15)">
-     <rect x="0" y="0" width="45" height="20" rx="4" fill="#111" stroke="#333" stroke-width="2" />
+     <g id="fallen-bin-lid" transform="translate(50,15)">
+     <rect x="-24" y="0" width="20" height="20" rx="3" fill="#222" stroke="#444" stroke-width="2" />
+     <rect x="-4" y="16" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" />
+     <rect x="-4" y="0" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" />
     </g>
     <!-- Cat walking into bin -->
     <g id="stray-cat">
@@ -243,10 +244,9 @@ css: /assets/css/strava-dashboard.css
      <!-- Walking into bin -->
      <animateTransform attributeName="transform" type="translate" values="10,32; 45,32; 50,32" dur="3s" begin="2s" fill="freeze" />
     </g>
-    <g id="fallen-bin-lid" transform="translate(50,15)">
-     <rect x="-24" y="0" width="20" height="20" rx="3" fill="#222" stroke="#444" stroke-width="2" />
-     <rect x="-4" y="16" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" />
-     <rect x="-4" y="0" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" />
+    <!-- Fallen Garbage Bin -->
+    <g id="fallen-bin-body" transform="translate(50,15)">
+     <rect x="0" y="0" width="45" height="20" rx="4" fill="#111" stroke="#333" stroke-width="2" />
     </g>
     <!-- Donut -->
     <g id="cat-donut" transform="translate(75,33)">
