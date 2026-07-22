@@ -231,10 +231,10 @@ css: /assets/css/strava-dashboard.css
      <!-- Nose -->
      <polygon points="-1,-6 0,-5 1,-6" fill="#d89" />
      <!-- Legs -->
-     <line x1="-4" y1="4" x2="-4" y2="8" stroke="#4a2f18" stroke-width="2" />
-     <line x1="0" y1="4" x2="0" y2="8" stroke="#4a2f18" stroke-width="2" />
-     <line x1="-6" y1="4" x2="-6" y2="8" stroke="#4a2f18" stroke-width="2" />
+     <line x1="-2" y1="4" x2="-2" y2="8" stroke="#4a2f18" stroke-width="2" />
      <line x1="2" y1="4" x2="2" y2="8" stroke="#4a2f18" stroke-width="2" />
+     <line x1="-8" y1="4" x2="-8" y2="8" stroke="#4a2f18" stroke-width="2" />
+     <line x1="4" y1="4" x2="4" y2="8" stroke="#4a2f18" stroke-width="2" />
      <!-- Tail -->
      <g transform="translate(-10,-2)">
       <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
