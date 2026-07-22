@@ -216,12 +216,22 @@ css: /assets/css/strava-dashboard.css
      <!-- Slight rotation wobble -->
      <animateTransform attributeName="transform" type="rotate" dur="3s" values="0 0 0; -6 0 0; 0 0 0" repeatCount="indefinite" additive="sum" />
     </g>
-    <!-- Garbage Bin -->
-    <g id="garbage-bin" transform="translate(70,15)">
-     <rect x="0" y="0" width="25" height="20" fill="#6a6a6a" stroke="#444" stroke-width="2" rx="3" />
-     <!-- Bin Lid -->
-     <rect x="-2" y="-6" width="29" height="8" fill="#555" stroke="#333" stroke-width="2" rx="2" />
-    </g>
+    <!-- Fallen Garbage Bin (top-right of tile) -->
+    <g id="fallen-bin" transform="translate(70,5) rotate(-20)">
+  <!-- Bin body -->
+  <rect x="0" y="0" width="32" height="22" rx="4"
+        fill="#111" stroke="#333" stroke-width="2" />
+
+  <!-- Open lid (stuck against wall) -->
+  <g id="fallen-bin-lid" transform="translate(0,-2) rotate(-60 0 0)">
+    <rect x="-2" y="-8" width="36" height="10" rx="3"
+          fill="#222" stroke="#444" stroke-width="2" />
+  </g>
+
+  <!-- Bin shadow (optional) -->
+  <ellipse cx="16" cy="24" rx="18" ry="4"
+           fill="rgba(0,0,0,0.25)" />
+</g>
     <!-- Cat -->
     <g id="stray-cat" transform="translate(78,16)">
      <circle cx="0" cy="0" r="6" fill="#333" />
