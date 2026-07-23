@@ -223,40 +223,45 @@ css: /assets/css/strava-dashboard.css
     </g>
     <!-- Cat walking into bin -->
     <g id="stray-cat" transform="translate(22,28)">
-     <g id="cat-body">
-      <circle cx="0" cy="0" r="6" fill="#5c3b1e" />
+     <!-- HEAD -->
+     <g id="cat-head" transform="translate(0,-7)">
       <circle cx="2" cy="-7" r="5" fill="#5c3b1e" />
-      <!-- Ears -->
       <polygon points="0,-10 2,-14 4,-10" fill="#5c3b1e" />
       <polygon points="4,-10 6,-14 8,-10" fill="#5c3b1e" />
-      <!-- Eyes -->
       <circle cx="0" cy="-8" r="1" fill="#fff" />
       <circle cx="4" cy="-8" r="1" fill="#fff" />
-      <polygon points="2,-6 3,-5 4,-6" fill="#d89" /><!-- Nose -->
-      <path d="M 2 -4 Q 3 -3 4 -4" stroke="#fff" stroke-width="1" fill="none" /><!-- Mouth -->
-      <!-- Whiskers -->
+      <polygon points="2,-6 3,-5 4,-6" fill="#d89" />
+      <path d="M 2 -4 Q 3 -3 4 -4" stroke="#fff" stroke-width="1" fill="none" />
       <line x1="-1" y1="-6" x2="-5" y2="-6" stroke="#fff" stroke-width="1" />
       <line x1="-1" y1="-5" x2="-5" y2="-4" stroke="#fff" stroke-width="1" />
       <line x1="5" y1="-6" x2="9" y2="-6" stroke="#fff" stroke-width="1" />
       <line x1="5" y1="-5" x2="9" y2="-4" stroke="#fff" stroke-width="1" />
-      <!-- Legs -->
+     </g>
+     <!-- BODY -->
+     <g id="cat-body-core">
+      <circle cx="0" cy="0" r="6" fill="#5c3b1e" />
       <line x1="-2" y1="4" x2="-2" y2="8" stroke="#4a2f18" stroke-width="2" />
       <line x1="2" y1="4" x2="2" y2="8" stroke="#4a2f18" stroke-width="2" />
       <line x1="-4" y1="4" x2="-4" y2="8" stroke="#4a2f18" stroke-width="2" />
       <line x1="4" y1="4" x2="4" y2="8" stroke="#4a2f18" stroke-width="2" />
-      <!-- Tail -->
-      <g transform="translate(-12,-2)">
-       <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
-        <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
-       </rect>
-      </g>
      </g>
-     <!-- Walking into bin -->
+     <!-- TAIL -->
+     <g id="cat-tail" transform="translate(-12,-2)">
+      <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
+       <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
+      </rect>
+     </g>
+     <!-- Walking INTO bin -->
      <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" additive="sum" />
      <!-- Walking OUT of bin -->
-     <animateTransform attributeName="transform" type="translate" values="40,0; 35,0; 0,0" dur="3s" begin="10s" fill="freeze" additive="sum"/>
-     <!-- Flip only the inner artwork -->
-     <animateTransform xlink:href="#cat-body" attributeName="transform" type="scale" values="1,1; -1,1" begin="10s" dur="0.1s" fill="freeze"/>
+     <animateTransform attributeName="transform" type="translate" values="40,0; 35,0; 0,0" dur="3s" begin="10s" fill="freeze" additive="sum" />
+     <!-- TURN AROUND (2 seconds total) -->
+     <!-- Head turns first -->
+     <animateTransform xlink:href="#cat-head" attributeName="transform" type="rotate" values="0; 180" begin="7.5s" dur="0.7s" fill="freeze" />
+     <!-- Body rotates next -->
+     <animateTransform xlink:href="#cat-body-core" attributeName="transform" type="rotate" values="0; 180" begin="7.7s" dur="0.7s" fill="freeze" />
+     <!-- Tail swings last -->
+     <animateTransform xlink:href="#cat-tail" attributeName="transform" type="rotate" values="0; 180" begin="7.9s" dur="0.7s" fill="freeze" />
     </g>
     <!-- Fallen Garbage Bin -->
     <g id="fallen-bin-body" transform="translate(50,15)">
