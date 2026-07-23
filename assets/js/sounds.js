@@ -18,10 +18,10 @@ window.addEventListener("DOMContentLoaded", () => {
     chirp3: new Audio('/assets/sounds/chirp3.wav'),
     chirp4: new Audio('/assets/sounds/chirp4.wav')
   };
-  // 2. Web Audio API for sewer drip (autoplay-safe)
+  // 2. Web Audio API (autoplay-safe)
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  // --- Sewer drip ---
   let sewerBuffer = null;
-  // Load sewer sound into an audio buffer
   fetch('/assets/sounds/sewer_drops.wav')
     .then(res => res.arrayBuffer())
     .then(data => audioCtx.decodeAudioData(data))
@@ -29,56 +29,53 @@ window.addEventListener("DOMContentLoaded", () => {
       sewerBuffer = buffer;
       console.log("DEBUG: sewer sound loaded");
     });
-  // Function to play sewer drip sound
   function playSewerSound() {
-    if (!sewerBuffer) return; // not loaded yet
+    if (!sewerBuffer) return;
     const source = audioCtx.createBufferSource();
     source.buffer = sewerBuffer;
     source.connect(audioCtx.destination);
     source.start(0);
   }
-  // Load spark sound into an audio buffer
+  // --- Propane spark ---
   let sparkBuffer = null;
   fetch('/assets/sounds/Sparks.wav')
-   .then(res => res.arrayBuffer())
-   .then(data => audioCtx.decodeAudioData(data))
-   .then(buffer => {
-     sparkBuffer = buffer;
-     console.log("DEBUG: spark sound loaded");
-  });
-  // Function to play Propane Tank Spark sound
+    .then(res => res.arrayBuffer())
+    .then(data => audioCtx.decodeAudioData(data))
+    .then(buffer => {
+      sparkBuffer = buffer;
+      console.log("DEBUG: spark sound loaded");
+    });
   function playSparkSound() {
-   if (!sparkBuffer) return;
-   const source = audioCtx.createBufferSource();
-   source.buffer = sparkBuffer;
-   source.connect(audioCtx.destination);
-   source.start(0);
+    if (!sparkBuffer) return;
+    const source = audioCtx.createBufferSource();
+    source.buffer = sparkBuffer;
+    source.connect(audioCtx.destination);
+    source.start(0);
   }
   let tankCycle = 0;
   setInterval(() => {
-   tankCycle++;
-   if (tankCycle % 3 === 0) {        // every 3rd cycle
-    if (Math.random() < 0.9) {      // 90% chance
-      playSparkSound();
+    tankCycle++;
+    if (tankCycle % 3 === 0) {
+      if (Math.random() < 0.9) {
+        playSparkSound();
+      }
     }
-   }
-  }, 3000); // matches tank roll duration
-  // Load Explosion Burst sound into an audio buffer
+  }, 3000);
+  // --- Propane explosion burst ---
   let burstBuffer = null;
   fetch('/assets/sounds/propane_burst.wav')
-   .then(res => res.arrayBuffer())
-   .then(data => audioCtx.decodeAudioData(data))
-   .then(buffer => {
-     burstBuffer = buffer;
-     console.log("DEBUG: Burst sound loaded");
-  });
-  // Function to play Propane Tank Burst sound
+    .then(res => res.arrayBuffer())
+    .then(data => audioCtx.decodeAudioData(data))
+    .then(buffer => {
+      burstBuffer = buffer;
+      console.log("DEBUG: Burst sound loaded");
+    });
   function playBurstSound() {
-   if (!burstBuffer) return;
-   const source = audioCtx.createBufferSource();
-   source.buffer = burstBuffer;
-   source.connect(audioCtx.destination);
-   source.start(0);
+    if (!burstBuffer) return;
+    const source = audioCtx.createBufferSource();
+    source.buffer = burstBuffer;
+    source.connect(audioCtx.destination);
+    source.start(0);
   }
   // 3. Unlock HTML <audio> sounds (bird chirps etc.)
   setTimeout(() => {
@@ -126,30 +123,66 @@ window.addEventListener("DOMContentLoaded", () => {
       clone.play();
     });
   });
-  // 5. Automatic sewer drip timer (Web Audio API)
+  // 5. Automatic sewer drip timer
   let sewerCounter = 0;
   setInterval(() => {
-   sewerCounter++;
-   console.log("DEBUG: sewer tick", sewerCounter);
-   if (sewerCounter >= 7) {
-    sewerCounter = 0;
-    playSewerSound(); // Web Audio API version
-   }
+    sewerCounter++;
+    console.log("DEBUG: sewer tick", sewerCounter);
+    if (sewerCounter >= 7) {
+      sewerCounter = 0;
+      playSewerSound();
+    }
   }, 1000);
-  //Propane Tank Burst
+  // Unlock AudioContext
+  let audioUnlocked = false;
   function unlockAudioCtx() {
-   const buffer = audioCtx.createBuffer(1, 1, audioCtx.sampleRate);
-   const source = audioCtx.createBufferSource();
-   source.buffer = buffer;
-   source.connect(audioCtx.destination);
-   source.start(0);
+    const buffer = audioCtx.createBuffer(1, 1, audioCtx.sampleRate);
+    const source = audioCtx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(audioCtx.destination);
+    source.start(0);
+    audioUnlocked = true;
   }
   window.addEventListener("click", () => {
-   unlockAudioCtx();
+    unlockAudioCtx();
   }, { once: true });
- const shockRingAnim = document.getElementById('shockRingAnim');
- shockRingAnim.addEventListener("beginEvent", () => {
-  console.log("Explosion beginEvent fired");
-  playBurstSound();
- });
+  // Explosion beginEvent → play burst
+  const shockRingAnim = document.getElementById('shockRingAnim');
+  if (shockRingAnim) {
+    shockRingAnim.addEventListener("beginEvent", () => {
+      console.log("Explosion beginEvent fired");
+      playBurstSound();
+    });
+  }
+  // 6. CAT RUMMAGE SOUND 
+  let rummageBuffer = null;
+  function loadRummageSound() {
+    fetch('/assets/sounds/rummage.wav')
+      .then(res => res.arrayBuffer())
+      .then(data => audioCtx.decodeAudioData(data))
+      .then(buffer => {
+        rummageBuffer = buffer;
+        console.log("DEBUG: rummage sound loaded");
+      });
+  }
+  function playRummage() {
+    if (!rummageBuffer) return;
+    const src = audioCtx.createBufferSource();
+    src.buffer = rummageBuffer;
+    src.connect(audioCtx.destination);
+    src.start(0);
+  }
+  // Cat animation: begin="2s" dur="3s" → ends at 5s
+  function scheduleCatRummage() {
+    setTimeout(() => {
+      console.log("DEBUG: cat rummage triggered");
+      playRummage();
+    }, 5000);
+  }
+  // Load rummage sound + schedule playback once audio is unlocked
+  window.addEventListener("click", () => {
+    if (!audioUnlocked) return;
+    loadRummageSound();
+    scheduleCatRummage();
+  }, { once: true });
 });
