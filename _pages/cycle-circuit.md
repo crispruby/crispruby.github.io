@@ -222,7 +222,7 @@ css: /assets/css/strava-dashboard.css
      <rect x="-4" y="0" width="4" height="4" rx="1" fill="#222" stroke="#444" stroke-width="1" />
     </g>
     <!-- Cat walking into bin -->
-    <g id="stray-cat" transform="translate(20,28)">
+    <g id="stray-cat" transform="translate(22,28)">
      <circle cx="0" cy="0" r="6" fill="#5c3b1e" /> <!-- body -->
      <circle cx="2" cy="-7" r="5" fill="#5c3b1e" /><!-- Head -->
      <!-- Ears -->
