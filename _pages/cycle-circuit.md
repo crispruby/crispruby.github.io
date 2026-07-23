@@ -259,13 +259,6 @@ css: /assets/css/strava-dashboard.css
      <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" additive="sum" />
      <!-- Walking OUT of bin -->
      <animateTransform attributeName="transform" type="translate" values="40,0; 35,0; 0,0" dur="3s" begin="10s" fill="freeze" additive="sum" />
-     <!-- TURN AROUND (2 seconds total) -->
-     <!-- Head turns first -->
-     <animateTransform xlink:href="#cat-head" attributeName="transform" type="rotate" values="0; 180" begin="7.5s" dur="0.7s" fill="freeze" />
-     <!-- Body rotates next -->
-     <animateTransform xlink:href="#cat-body-core" attributeName="transform" type="rotate" values="0; 180" begin="7.7s" dur="0.7s" fill="freeze" />
-     <!-- Tail swings last -->
-     <animateTransform xlink:href="#cat-tail" attributeName="transform" type="rotate" values="0; 180" begin="7.9s" dur="0.7s" fill="freeze" />
     </g>
     <!-- Fallen Garbage Bin -->
     <g id="fallen-bin-body" transform="translate(50,15)">
