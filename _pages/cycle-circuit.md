@@ -224,7 +224,7 @@ css: /assets/css/strava-dashboard.css
     <!-- Cat walking into bin -->
     <g id="stray-cat" transform="translate(22,28)">
      <!-- HEAD -->
-     <g id="cat-head" transform="translate(0,-7)">
+     <g id="cat-head" transform="translate(0,0)">
       <circle cx="2" cy="-7" r="5" fill="#5c3b1e" />
       <polygon points="0,-10 2,-14 4,-10" fill="#5c3b1e" />
       <polygon points="4,-10 6,-14 8,-10" fill="#5c3b1e" />
