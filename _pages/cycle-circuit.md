@@ -256,7 +256,8 @@ css: /assets/css/strava-dashboard.css
      <!-- Walking OUT of bin -->
      <animateTransform attributeName="transform" type="translate" values="40,0; 35,0; 0,0" dur="3s" begin="10s" fill="freeze" additive="sum"/>
      <!-- Flip cat horizontally when walking OUT -->
-     <animateTransform attributeName="transform" type="scale" values="1; -1" begin="10s" dur="0.1s" fill="freeze" additive="sum"/>
+     <animateTransform attributeName="transform" type="scale" values="1,1; -1,1" begin="10s" dur="0.1s" fill="freeze" additive="sum"/>
+     <animateTransform attributeName="transform" type="translate" values="0,0; -40,0" begin="10s" dur="0.1s" fill="freeze" additive="sum"/>
     </g>
     <!-- Fallen Garbage Bin -->
     <g id="fallen-bin-body" transform="translate(50,15)">
