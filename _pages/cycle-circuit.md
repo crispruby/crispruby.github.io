@@ -226,7 +226,7 @@ css: /assets/css/strava-dashboard.css
      <!-- INNER PIVOT GROUP -->
      <g id="cat-inner" transform="translate(0,0)">
       <!-- TAIL -->
-      <g id="cat-tail" transform="translate(-12,-2)">
+      <g id="cat-tail" transform="translate(-12,0)">
        <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
         <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
        </rect>
@@ -242,8 +242,8 @@ css: /assets/css/strava-dashboard.css
        <line x1="4" y1="4" x2="4" y2="8" stroke="#4a2f18" stroke-width="2" />
       </g>
       <!-- HEAD -->
-      <g id="cat-head" transform="translate(0,0)">
-       <circle cx="2" cy="-7" r="5" fill="#5c3b1e" />
+      <g id="cat-head" transform="translate(2,-7)">
+       <circle cx="0" cy="0" r="5" fill="#5c3b1e" />
        <polygon points="0,-10 2,-14 4,-10" fill="#5c3b1e" />
        <polygon points="4,-10 6,-14 8,-10" fill="#5c3b1e" />
        <circle cx="0" cy="-8" r="1" fill="#fff" />
