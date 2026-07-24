@@ -223,38 +223,41 @@ css: /assets/css/strava-dashboard.css
     </g>
     <!-- Cat walking into bin -->
     <g id="stray-cat" transform="translate(22,28)">
-     <!-- TAIL -->
-     <g id="cat-tail" transform="translate(-12,-2)">
-      <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
-       <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
-      </rect>
-      <!-- Tail slides to the right during turn -->
-      <animateTransform attributeName="transform" type="translate" values="0, 0; 24,0" begin="7.5s" dur="2s" fill="freeze" />
-     </g>
-     <!-- BODY -->
-     <g id="cat-body-core" transform="translate(0,0)">
-      <circle cx="0" cy="0" r="6" fill="#5c3b1e" />
-      <line x1="-2" y1="4" x2="-2" y2="8" stroke="#4a2f18" stroke-width="2" />
-      <line x1="2" y1="4" x2="2" y2="8" stroke="#4a2f18" stroke-width="2" />
-      <line x1="-4" y1="4" x2="-4" y2="8" stroke="#4a2f18" stroke-width="2" />
-      <line x1="4" y1="4" x2="4" y2="8" stroke="#4a2f18" stroke-width="2" />
-     </g>
-     <!-- HEAD -->
-     <g id="cat-head" transform="translate(0,0)">
-      <circle cx="2" cy="-7" r="5" fill="#5c3b1e" />
-      <polygon points="0,-10 2,-14 4,-10" fill="#5c3b1e" />
-      <polygon points="4,-10 6,-14 8,-10" fill="#5c3b1e" />
-      <circle cx="0" cy="-8" r="1" fill="#fff" />
-      <circle cx="4" cy="-8" r="1" fill="#fff" />
-      <polygon points="2,-6 3,-5 4,-6" fill="#d89" />
-      <path d="M 2 -4 Q 3 -3 4 -4" stroke="#fff" stroke-width="1" fill="none" />
-      <line x1="-1" y1="-6" x2="-5" y2="-6" stroke="#fff" stroke-width="1" />
-      <line x1="-1" y1="-5" x2="-5" y2="-4" stroke="#fff" stroke-width="1" />
-      <line x1="5" y1="-6" x2="9" y2="-6" stroke="#fff" stroke-width="1" />
-      <line x1="5" y1="-5" x2="9" y2="-4" stroke="#fff" stroke-width="1" />
-      <!-- Head slides to the left during turn -->
-      <animateTransform attributeName="transform" type="translate" values="0,0; -12,0" begin="7.5s" dur="2s" fill="freeze" />
-     </g>
+     <!-- INNER PIVOT GROUP -->
+     <g id="cat-inner" transform="translate(0,0)">
+      <!-- TAIL -->
+      <g id="cat-tail" transform="translate(-12,-2)">
+       <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
+        <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
+       </rect>
+       <!-- Tail slides right by +24px -->
+       <animateTransform attributeName="transform" type="translate" values="0,0; 24,0" begin="7.5s" dur="2s" fill="freeze" />
+      </g>
+      <!-- BODY (centered, stable) -->
+      <g id="cat-body-core" transform="translate(0,0)">
+       <circle cx="0" cy="0" r="6" fill="#5c3b1e" />
+       <line x1="-2" y1="4" x2="-2" y2="8" stroke="#4a2f18" stroke-width="2" />
+       <line x1="2" y1="4" x2="2" y2="8" stroke="#4a2f18" stroke-width="2" />
+       <line x1="-4" y1="4" x2="-4" y2="8" stroke="#4a2f18" stroke-width="2" />
+       <line x1="4" y1="4" x2="4" y2="8" stroke="#4a2f18" stroke-width="2" />
+      </g>
+      <!-- HEAD -->
+      <g id="cat-head" transform="translate(0,0)">
+       <circle cx="2" cy="-7" r="5" fill="#5c3b1e" />
+       <polygon points="0,-10 2,-14 4,-10" fill="#5c3b1e" />
+       <polygon points="4,-10 6,-14 8,-10" fill="#5c3b1e" />
+       <circle cx="0" cy="-8" r="1" fill="#fff" />
+       <circle cx="4" cy="-8" r="1" fill="#fff" />
+       <polygon points="2,-6 3,-5 4,-6" fill="#d89" />
+       <path d="M 2 -4 Q 3 -3 4 -4" stroke="#fff" stroke-width="1" fill="none" />
+       <line x1="-1" y1="-6" x2="-5" y2="-6" stroke="#fff" stroke-width="1" />
+       <line x1="-1" y1="-5" x2="-5" y2="-4" stroke="#fff" stroke-width="1" />
+       <line x1="5" y1="-6" x2="9" y2="-6" stroke="#fff" stroke-width="1" />
+       <line x1="5" y1="-5" x2="9" y2="-4" stroke="#fff" stroke-width="1" />
+       <!-- Head slides left by -12px -->
+       <animateTransform attributeName="transform" type="translate" values="0,0; -12,0" begin="7.5s" dur="2s" fill="freeze" />
+      </g>
+     </g> <!-- END cat-inner -->
      <!-- Walking INTO bin -->
      <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" additive="sum" />
      <!-- Walking OUT of bin -->
