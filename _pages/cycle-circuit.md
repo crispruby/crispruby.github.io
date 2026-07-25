@@ -268,7 +268,7 @@ css: /assets/css/strava-dashboard.css
          <!-- Slight bounce as cat walks -->
          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1; 0,0" keyTimes="0; 0.25; 0.50" dur="16s" repeatCount="indefinite" additive="sum" />
          <!-- Visible on cycles 1, 4, 7, ... -->
-         <animate attributeName="opacity" values="0; 0; 1; 1; 0" keyTimes="0; 0.104; 0.105; 0.270; 0.271" dur="48s" repeatCount="indefinite" />
+         <animate attributeName="opacity" values="0; 1; 0; 0; 1; 0" keyTimes="0; 0.25; 0.333; 0.666; 0.75; 1" dur="48s" repeatCount="indefinite" />
         </g>
        </g>
       </g>
