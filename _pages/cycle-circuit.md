@@ -272,18 +272,19 @@ css: /assets/css/strava-dashboard.css
         </g>
         <!-- FISH SKULL (Cycle 2, 5, 8...) -->
         <g id="cat-item-fish" transform="translate(2,-2)">
-        <polygon points="-3,0 -1,-1 -1,1" fill="#eee" stroke="#333" stroke-width="0.5" /><!-- Fish head -->
-        <line x1="-1" y1="0" x2="3" y2="0" stroke="#eee" stroke-width="1" /><!-- Spine -->
-        <!-- Ribs -->
-        <line x1="0" y1="-1" x2="0" y2="1" stroke="#eee" stroke-width="1" />
-        <line x1="1" y1="-1" x2="1" y2="1" stroke="#eee" stroke-width="1" />
-        <line x1="2" y1="-1" x2="2" y2="1" stroke="#eee" stroke-width="1" />
-        <!-- Rattle motion -->
-        <animateTransform attributeName="transform" type="rotate" values="0; -8; 8; -8; 0" keyTimes="0; 0.55; 0.60; 0.65; 0.70" dur="16s" repeatCount="indefinite" additive="sum" />
-        <!-- Visible only on cycles 2, 5, 8... -->
-        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.333; 0.333; 0.5; 0.666; 1" dur="48s" repeatCount="indefinite" />
+         <polygon points="-3,0 -1,-1 -1,1" fill="#eee" stroke="#333" stroke-width="0.5" /><!-- Fish head -->
+         <line x1="-1" y1="0" x2="3" y2="0" stroke="#eee" stroke-width="1" /><!-- Spine -->
+         <!-- Ribs -->
+         <line x1="0" y1="-1" x2="0" y2="1" stroke="#eee" stroke-width="1" />
+         <line x1="1" y1="-1" x2="1" y2="1" stroke="#eee" stroke-width="1" />
+         <line x1="2" y1="-1" x2="2" y2="1" stroke="#eee" stroke-width="1" />
+         <!-- Rattle motion -->
+         <animateTransform attributeName="transform" type="rotate" values="0; -8; 8; -8; 0" keyTimes="0; 0.55; 0.60; 0.65; 0.70" dur="16s" repeatCount="indefinite" additive="sum" />
+         <!-- Visible only on cycles 2, 5, 8... -->
+         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.333; 0.333; 0.5; 0.666; 1" dur="48s" repeatCount="indefinite" />
        </g>
       </g>
+     </g>
      <!-- WALKING IN OUT-->
      <animateTransform attributeName="transform" type="translate" values="0,0; 40,0; 40,0; 0,0; 0,0" keyTimes="0; 0.25; 0.5; 0.75; 1" dur="16s" repeatCount="indefinite"/>
     </g>
