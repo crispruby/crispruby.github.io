@@ -226,7 +226,7 @@ css: /assets/css/strava-dashboard.css
      <g id="cat-root" transform="translate(22,28)">
       <!-- TAIL -->
        <g id="cat-tail" transform="translate(-12,0)">
-        <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
+        <rect x="0" y="0" width="8" height="2" rx="1" fill="#e08a2e">
          <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite"/>
         </rect>
         <!-- Tail moves to right side of body -->
@@ -234,7 +234,7 @@ css: /assets/css/strava-dashboard.css
        </g>
        <!-- BODY -->
        <g id="cat-body-core" transform="translate(0,0)">
-        <circle cx="0" cy="0" r="6" fill="#5c3b1e" />
+        <circle cx="0" cy="0" r="6" fill="#e08a2e" />
         <line x1="-2" y1="4" x2="-2" y2="8" stroke="#4a2f18" stroke-width="2" />
         <line x1="2" y1="4" x2="2" y2="8" stroke="#4a2f18" stroke-width="2" />
         <line x1="-4" y1="4" x2="-4" y2="8" stroke="#4a2f18" stroke-width="2" />
@@ -242,9 +242,9 @@ css: /assets/css/strava-dashboard.css
        </g>
        <!-- HEAD -->
        <g id="cat-head" transform="translate(4,0)">
-        <circle cx="2" cy="-7" r="5" fill="#5c3b1e" />
-        <polygon points="0,-10 2,-14 4,-10" fill="#5c3b1e" />
-        <polygon points="4,-10 6,-14 8,-10" fill="#5c3b1e" />
+        <circle cx="2" cy="-7" r="5" fill="#e08a2e" />
+        <polygon points="0,-10 2,-14 4,-10" fill="#e08a2e" />
+        <polygon points="4,-10 6,-14 8,-10" fill="#e08a2e" />
         <circle cx="0" cy="-8" r="1" fill="#fff" />
         <circle cx="4" cy="-8" r="1" fill="#fff" />
         <polygon points="2,-6 3,-5 4,-6" fill="#d89" />
