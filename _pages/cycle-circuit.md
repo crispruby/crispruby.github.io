@@ -231,7 +231,7 @@ css: /assets/css/strava-dashboard.css
         </rect>
         <!-- Tail moves to right side of body -->
         <animateTransform attributeName="transform" type="translate" values="0,0; 6,0" begin="7.5s" dur="2s" fill="freeze" />
-        <animateTransform attributeName="transform" type="translate" values="0,0; -12,0" begin="7.5s" dur="1s" fill="freeze" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; -12,0" begin="13s" dur="1s" fill="freeze" />
        </g>
        <!-- BODY -->
        <g id="cat-body-core" transform="translate(0,0)">
