@@ -231,6 +231,7 @@ css: /assets/css/strava-dashboard.css
         </rect>
         <!-- Tail moves to right side of body -->
         <animateTransform attributeName="transform" type="translate" values="0,0; 6,0" begin="7.5s" dur="2s" fill="freeze" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; -6,0" begin="7.5s" dur="1s" fill="freeze" />
        </g>
        <!-- BODY -->
        <g id="cat-body-core" transform="translate(0,0)">
@@ -255,6 +256,7 @@ css: /assets/css/strava-dashboard.css
         <line x1="5" y1="-5" x2="9" y2="-4" stroke="#fff" stroke-width="1" />
         <!-- Head moves to left side of body -->
         <animateTransform attributeName="transform" type="translate" values="0,0; -8,0" begin="7.5s" dur="2s" fill="freeze" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; 8,0" begin="13s" dur="1s" fill="freeze" />
        </g>
       </g>
      <!-- WALKING IN -->
