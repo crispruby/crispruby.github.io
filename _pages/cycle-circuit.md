@@ -241,7 +241,7 @@ css: /assets/css/strava-dashboard.css
         <line x1="4" y1="4" x2="4" y2="8" stroke="#4a2f18" stroke-width="2" />
        </g>
        <!-- HEAD -->
-       <g id="cat-head" transform="translate(0,0)">
+       <g id="cat-head" transform="translate(2,0)">
         <circle cx="2" cy="-7" r="5" fill="#5c3b1e" />
         <polygon points="0,-10 2,-14 4,-10" fill="#5c3b1e" />
         <polygon points="4,-10 6,-14 8,-10" fill="#5c3b1e" />
