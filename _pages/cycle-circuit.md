@@ -230,7 +230,7 @@ css: /assets/css/strava-dashboard.css
          <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite"/>
         </rect>
         <!-- Tail moves to right side of body -->
-        <animateTransform attributeName="transform" type="translate" values="0,0; -6,0; 8,0; 8,0; -6,0" keyTimes="0; 0.3; 0.5; 0.8; 1" dur="16s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="translate" values="-12,0; -6,0; 8,0; 8,0; -6,0" keyTimes="0; 0.3; 0.5; 0.8; 1" dur="16s" repeatCount="indefinite" additive="sum"/>
        </g>
        <!-- BODY -->
        <g id="cat-body-core" transform="translate(0,0)">
@@ -254,7 +254,7 @@ css: /assets/css/strava-dashboard.css
         <line x1="5" y1="-6" x2="9" y2="-6" stroke="#fff" stroke-width="1" />
         <line x1="5" y1="-5" x2="9" y2="-4" stroke="#fff" stroke-width="1" />
         <!-- Head moves to left side of body -->
-        <animateTransform attributeName="transform" type="translate" values="-8,0; 0,0; -8,0; 4,0; 0,0" keyTimes="0; 0.3; 0.5; 0.8; 1" dur="16s" repeatCount="indefinite" additive="sum"/>
+        <animateTransform attributeName="transform" type="translate" values="-12,0; 0,0; -8,0; 4,0; 0,0" keyTimes="0; 0.3; 0.5; 0.8; 1" dur="16s" repeatCount="indefinite" additive="sum"/>
        </g>
       </g>
      <!-- WALKING IN OUT-->
