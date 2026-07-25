@@ -227,11 +227,11 @@ css: /assets/css/strava-dashboard.css
       <!-- TAIL -->
        <g id="cat-tail" transform="translate(-12,0)">
         <rect x="0" y="0" width="8" height="2" rx="1" fill="#333">
-         <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
+         <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite"/>
         </rect>
         <!-- Tail moves to right side of body -->
-        <animateTransform attributeName="transform" type="translate" values="0,0; 6,0" begin="7.5s" dur="2s" fill="freeze" />
-        <animateTransform attributeName="transform" type="translate" values="0,0; -12,0" begin="13s" dur="1s" fill="freeze" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; 6,0" begin="3s" dur="2s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; -12,0" begin="9s" dur="2s" repeatCount="indefinite"/>
        </g>
        <!-- BODY -->
        <g id="cat-body-core" transform="translate(0,0)">
@@ -255,14 +255,14 @@ css: /assets/css/strava-dashboard.css
         <line x1="5" y1="-6" x2="9" y2="-6" stroke="#fff" stroke-width="1" />
         <line x1="5" y1="-5" x2="9" y2="-4" stroke="#fff" stroke-width="1" />
         <!-- Head moves to left side of body -->
-        <animateTransform attributeName="transform" type="translate" values="0,0; -8,0" begin="7.5s" dur="2s" fill="freeze" />
-        <animateTransform attributeName="transform" type="translate" values="0,0; 4,0" begin="13s" dur="1s" fill="freeze" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; -8,0" begin="3s" dur="2s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 4,0" begin="9s" dur="2s" repeatCount="indefinite"/>
        </g>
       </g>
      <!-- WALKING IN -->
-     <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="2s" fill="freeze" />
+     <animateTransform attributeName="transform" type="translate" values="0,0; 35,0; 40,0" dur="3s" begin="0s" fill="freeze" repeatCount="indefinite"/>
      <!-- WALKING OUT -->
-     <animateTransform attributeName="transform" type="translate" values="40,0; 35,0; 0,0" dur="3s" begin="10s" fill="freeze" />
+     <animateTransform attributeName="transform" type="translate" values="40,0; 35,0; 0,0" dur="3s" begin="6s" fill="freeze" repeatCount="indefinite"/>
     </g>
     <!-- Fallen Garbage Bin -->
     <g id="fallen-bin-body" transform="translate(50,15)">
