@@ -268,7 +268,7 @@ css: /assets/css/strava-dashboard.css
          <!-- Slight bounce as cat walks -->
          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1; 0,0" keyTimes="0; 0.25; 0.50" dur="16s" repeatCount="indefinite" additive="sum" />
          <!-- Visible on cycles 1, 4, 7, ... -->
-         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16; 0.17; 0.41; 0.42; 1" dur="48s" repeatCount="indefinite" />
+         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.15; 0.16; 0.41; 0.42; 1" dur="48s" repeatCount="indefinite" />
         </g>
         <!-- FISH SKULL (Cycle 2, 5, 8...) -->
         <g id="cat-item-fish" transform="translate(2,-2)">
@@ -281,7 +281,7 @@ css: /assets/css/strava-dashboard.css
          <!-- Rattle motion -->
          <animateTransform attributeName="transform" type="rotate" values="0; -8; 8; -8; 0" keyTimes="0; 0.55; 0.60; 0.65; 0.70" dur="16s" repeatCount="indefinite" additive="sum" />
          <!-- Visible only on cycles 2, 5, 8... -->
-         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5; 0.51; 0.65; 0.66; 1" dur="48s" repeatCount="indefinite" />
+         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5; 0.51; 0.75; 0.76; 1" dur="48s" repeatCount="indefinite" />
        </g>
       </g>
      </g>
