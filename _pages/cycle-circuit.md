@@ -256,6 +256,21 @@ css: /assets/css/strava-dashboard.css
         <!-- Head moves to left side of body -->
         <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; -12,0; -12,0; 0,0" keyTimes="0; 0.5; 0.6; 0.9; 1" dur="16s" repeatCount="indefinite" additive="sum"/>
        </g>
+       <!-- TOY MOUSE (dangling from mouth) -->
+       <g id="cat-item-mouse" transform="translate(2,-2)">
+        <!-- Mouse body -->
+        <ellipse cx="0" cy="0" rx="3" ry="2" fill="#bbb" stroke="#888" stroke-width="0.5" />
+        <!-- Ears -->
+        <circle cx="-2" cy="-1" r="1" fill="#ccc" />
+        <circle cx="2" cy="-1" r="1" fill="#ccc" />
+        <line x1="3" y1="0" x2="5" y2="1" stroke="#999" stroke-width="1" /><!-- Tail -->
+        <!-- Dangling swing -->
+        <animateTransform attributeName="transform" type="rotate" values="0; -10; 10; -10; 0" keyTimes="0; 0.55; 0.60; 0.65; 0.70" dur="16s" repeatCount="indefinite" additive="sum" />
+        <!-- Slight bounce as cat walks -->
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1; 0,0" keyTimes="0; 0.25; 0.50" dur="16s" repeatCount="indefinite" additive="sum" />
+        <!-- Visible on cycles 1, 4, 7, ... -->
+        <animate attributeName="opacity" values="1; 0; 0; 1; 0; 0" keyTimes="0; 0.333; 0.666; 0.667; 0.9; 1" dur="48s" repeatCount="indefinite" />
+       </g>
       </g>
      <!-- WALKING IN OUT-->
      <animateTransform attributeName="transform" type="translate" values="0,0; 40,0; 40,0; 0,0; 0,0" keyTimes="0; 0.25; 0.5; 0.75; 1" dur="16s" repeatCount="indefinite"/>
