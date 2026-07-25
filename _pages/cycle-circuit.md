@@ -230,7 +230,7 @@ css: /assets/css/strava-dashboard.css
          <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
         </rect>
         <!-- Tail moves to right side of body -->
-        <animateTransform attributeName="transform" type="translate" values="0,0; 24,0" begin="7.5s" dur="2s" fill="freeze" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; 16,0" begin="7.5s" dur="2s" fill="freeze" />
        </g>
        <!-- BODY -->
        <g id="cat-body-core" transform="translate(0,0)">
@@ -241,7 +241,7 @@ css: /assets/css/strava-dashboard.css
         <line x1="4" y1="4" x2="4" y2="8" stroke="#4a2f18" stroke-width="2" />
        </g>
        <!-- HEAD -->
-       <g id="cat-head" transform="translate(2,0)">
+       <g id="cat-head" transform="translate(4,0)">
         <circle cx="2" cy="-7" r="5" fill="#5c3b1e" />
         <polygon points="0,-10 2,-14 4,-10" fill="#5c3b1e" />
         <polygon points="4,-10 6,-14 8,-10" fill="#5c3b1e" />
