@@ -230,7 +230,7 @@ css: /assets/css/strava-dashboard.css
          <animateTransform attributeName="transform" type="rotate" values="0;-10;0" dur="1s" repeatCount="indefinite" />
         </rect>
         <!-- Tail moves to right side of body -->
-        <animateTransform attributeName="transform" type="translate" values="0,0; 16,0" begin="7.5s" dur="2s" fill="freeze" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; 8,0" begin="7.5s" dur="2s" fill="freeze" />
        </g>
        <!-- BODY -->
        <g id="cat-body-core" transform="translate(0,0)">
