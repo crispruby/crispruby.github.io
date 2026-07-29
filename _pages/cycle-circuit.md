@@ -283,6 +283,15 @@ css: /assets/css/strava-dashboard.css
          <!-- Visible only on cycles 2, 5, 8... -->
          <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5; 0.51; 0.75; 0.76; 1" dur="48s" repeatCount="indefinite" />
        </g>
+       <!-- BEEF PATTY (Cycle 3, 6, 9...) -->
+       <g id="cat-item-patty" transform="translate(2,-2)">
+        <ellipse cx="0" cy="0" rx="6" ry="3.5" fill="#8b3f2f" stroke="#4a1f1a" stroke-width="0.8" /><!-- Patty shape -->
+        <!-- Shrink/eat animation -->
+        <!-- Starts at 3s (0.1875 of 16s), ends at 7.5s (0.46875 of 16s) -->
+        <animateTransform attributeName="transform" type="scale" values="1; 1; 0.8; 0.5; 0" keyTimes="0; 0.1875; 0.28125; 0.375; 0.46875" dur="16s" repeatCount="indefinite" additive="sum" />
+        <!-- Visible only on cycles 3, 6, 9... -->
+        <animate attributeName="opacity" values="0; 0; 0; 1; 1; 0" keyTimes="0; 0.666; 0.667; 0.75; 0.76; 1" dur="48s" repeatCount="indefinite" />
+       </g>
       </g>
      </g>
      <!-- WALKING IN OUT-->
