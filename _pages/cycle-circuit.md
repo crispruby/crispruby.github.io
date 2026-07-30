@@ -444,11 +444,11 @@ css: /assets/css/strava-dashboard.css
    <line x1="20" y1="80" x2="36" y2="100" stroke="#111" stroke-width="2"/> 
    <!-- Window (bottom wall) -->
    <rect id="cafe-window" x="5" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2">
-    <animate attributeName="fill" values="#cce6ff; #fffbd1; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#cce6ff; #fffbd1; #4a4a4a; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
    </rect>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
-    <animateTransform attributeName="transform" type="rotate" values="0 20 60; -25 20 60; 0 20 60" dur="2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 20 60; -35 20 60; 0 20 60" dur="2s" repeatCount="indefinite"/>
    </polygon>
   </g>
   <!-- KENNEL -->
@@ -466,11 +466,11 @@ css: /assets/css/strava-dashboard.css
    <line x1="0" y1="100" x2="16" y2="80" stroke="#111" stroke-width="2"/> 
    <!-- Window (bottom wall) -->
    <rect id="kennel-window" x="15" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2">
-    <animate attributeName="fill" values="#cce6ff; #ffe6e6; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#cce6ff; #ffe6e6; #3a3a3a; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
    </rect>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
-    <animateTransform attributeName="transform" type="rotate" values="0 16 60; 25 16 60; 0 16 60" dur="2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 16 60; 35 16 60; 0 16 60" dur="2s" repeatCount="indefinite"/>
    </polygon>
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
@@ -489,6 +489,9 @@ css: /assets/css/strava-dashboard.css
   </g>
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+  <text x="80" y="50" font-size="10" fill="#fff" text-anchor="middle">BARK
+   <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.5;0.6;1" dur="0.6s" repeatCount="indefinite"/>
+  </text>
  </g>
 </g>
 <g id="tile-4-0" transform="translate(400,0)">
