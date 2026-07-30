@@ -258,11 +258,11 @@ css: /assets/css/strava-dashboard.css
         <!-- TOY MOUSE (dangling from mouth) -->
         <g id="cat-item-mouse" transform="translate(2,-2)">
          <!-- Mouse body -->
-         <ellipse cx="0" cy="0" rx="3" ry="2" fill="#bbb" stroke="#888" stroke-width="0.5" />
+         <ellipse cx="0" cy="0" rx="4" ry="2.7" fill="#bbb" stroke="#888" stroke-width="0.5" />
          <!-- Ears -->
-         <circle cx="-2" cy="-1" r="1" fill="#ccc" />
-         <circle cx="2" cy="-1" r="1" fill="#ccc" />
-         <line x1="3" y1="0" x2="5" y2="1" stroke="#999" stroke-width="1" /><!-- Tail -->
+         <circle cx="-2.5" cy="-1.2" r="1.2" fill="#ccc" />
+         <circle cx="2.5" cy="-1.2" r="1.2" fill="#ccc" />
+         <line x1="3.5" y1="0" x2="6" y2="1.2" stroke="#999" stroke-width="1" /><!-- Tail -->
          <!-- Dangling swing -->
          <animateTransform attributeName="transform" type="rotate" values="0; -10; 10; -10; 0" keyTimes="0; 0.55; 0.60; 0.65; 0.70" dur="16s" repeatCount="indefinite" additive="sum" />
          <!-- Slight bounce as cat walks -->
@@ -272,12 +272,12 @@ css: /assets/css/strava-dashboard.css
         </g>
         <!-- FISH SKULL (Cycle 2, 5, 8...) -->
         <g id="cat-item-fish" transform="translate(2,-2)">
-         <polygon points="-3,0 -1,-1 -1,1" fill="#eee" stroke="#333" stroke-width="0.5" /><!-- Fish head -->
-         <line x1="-1" y1="0" x2="3" y2="0" stroke="#eee" stroke-width="1" /><!-- Spine -->
+         <polygon points="-5,0 -2,-2 -2,2" fill="#eee" stroke="#333" stroke-width="0.5" /><!-- Fish head -->
+         <line x1="-2" y1="0" x2="5" y2="0" stroke="#eee" stroke-width="1" /><!-- Spine -->
          <!-- Ribs -->
-         <line x1="0" y1="-1" x2="0" y2="1" stroke="#eee" stroke-width="1" />
-         <line x1="1" y1="-1" x2="1" y2="1" stroke="#eee" stroke-width="1" />
-         <line x1="2" y1="-1" x2="2" y2="1" stroke="#eee" stroke-width="1" />
+         <line x1="1" y1="-2" x2="1" y2="2" stroke="#eee" stroke-width="1" />
+         <line x1="2" y1="-2" x2="2" y2="2" stroke="#eee" stroke-width="1" />
+         <line x1="3" y1="-2" x2="3" y2="2" stroke="#eee" stroke-width="1" />
          <!-- Rattle motion -->
          <animateTransform attributeName="transform" type="rotate" values="0; -8; 8; -8; 0" keyTimes="0; 0.55; 0.60; 0.65; 0.70" dur="16s" repeatCount="indefinite" additive="sum" />
          <!-- Visible only on cycles 2, 5, 8... -->
