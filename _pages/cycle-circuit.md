@@ -464,7 +464,7 @@ css: /assets/css/strava-dashboard.css
    <line x1="0" y1="100" x2="16" y2="80" stroke="#111" stroke-width="2"/> 
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
-   <g id="police-car" transform="translate(35,10)">
+   <g id="police-car">
    <!-- Parking pad -->
    <rect x="-5" y="-5" width="40" height="20" fill="#eee" stroke="#ccc" stroke-width="1" rx="3" />
    <!-- Car body -->
