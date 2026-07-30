@@ -290,7 +290,7 @@ css: /assets/css/strava-dashboard.css
         <!-- Starts at 3s (0.1875 of 16s), ends at 7.5s (0.46875 of 16s) -->
         <animateTransform attributeName="transform" type="scale" values="1; 1; 0.8; 0.5; 0" keyTimes="0; 0.1875; 0.28125; 0.375; 0.46875" dur="16s" repeatCount="indefinite" additive="sum" />
         <!-- Visible only on cycles 3, 6, 9... -->
-        <animate attributeName="opacity" values="0; 0; 1; 1; 0" keyTimes="0; 0; 0.8; 0.9; 1" dur="48s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0" keyTimes="0; 0.8; 0.81; 0.99; 1" dur="48s" repeatCount="indefinite" />
        </g>
       </g>
      </g>
