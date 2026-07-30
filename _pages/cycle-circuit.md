@@ -285,7 +285,7 @@ css: /assets/css/strava-dashboard.css
        </g>
        <!-- Beef Patty (Cycle 3, 6, 9...) -->
        <g id="cat-item-patty" transform="translate(2,-1)">
-        <ellipse cx="0" cy="0" rx="6" ry="3.5" fill="#8b3f2f" stroke="#4a1f1a" stroke-width="0.8" transform-box="fill-box" transform-origin="center"/><!-- Patty shape -->
+        <ellipse cx="0" cy="0" rx="6" ry="3.5" fill="#8b3f2f" stroke="#4a1f1a" stroke-width="0.8" transform-box="fill-box" transform-origin="center"><!-- Patty shape -->
          <!-- Starts shrinking at 3s (0.1875 of 16s), ends at 7.5s (0.46875 of 16s) -->
          <animateTransform attributeName="transform" type="scale" values="1; 0; 0; 1" keyTimes="0.81; 0.96; 0.999; 1" dur="48s" repeatCount="indefinite" />
         </ellipse>
