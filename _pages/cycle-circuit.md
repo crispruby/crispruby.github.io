@@ -436,7 +436,9 @@ css: /assets/css/strava-dashboard.css
    <!-- Window (bottom wall) -->
    <rect id="cafe-window" x="5" y="85" width="10" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
    <!-- Door facing downward toward road -->
-   <rect id="cafe-door" x="20" y="60" width="10" height="15" fill="#663300" stroke="#442200" stroke-width="1" rx="2" />
+   <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2"/>
+   <!-- Wall Corner -->
+   <line x1="20" y1="80" x2="36" y2="100" stroke="#fff" stroke-width="2"/> 
   </g>
   <!-- KENNEL (top-right) -->
   <g id="robbery-kennel" transform="translate(55,5)">
