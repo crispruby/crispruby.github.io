@@ -429,6 +429,11 @@ css: /assets/css/strava-dashboard.css
  <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
   <!-- CAFE -->
   <g id="robbery-cafe">
+   <!-- Grass Rim -->
+   <rect x="0" y="0" width="36" height="40" fill="#0f0" stroke="#0F0" stroke-width="1"/> 
+   <!-- Parking lot -->
+   <rect x="5" y="5" width="31" height="35" fill="#eee" stroke="#ccc" stroke-width="1" rx="3" />
+   <!-- Building -->
    <rect x="0" y="40" width="36" height="60" fill="#f4cfa3" stroke="#c49b6c" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
    <rect x="0" y="40" width="20" height="40" fill="#d88" stroke="#a55" stroke-width="1" rx="2" />
@@ -442,9 +447,14 @@ css: /assets/css/strava-dashboard.css
   </g>
   <!-- KENNEL -->
   <g id="robbery-kennel" transform="translate(64,0)">
+   <!-- Grass Rim -->
+   <rect x="0" y="0" width="36" height="40" fill="#0f0" stroke="#0F0" stroke-width="1"/> 
+   <!-- Parking lot -->
+   <rect x="0" y="5" width="31" height="35" fill="#eee" stroke="#ccc" stroke-width="1" rx="3" />
+   <!-- Building -->
    <rect x="0" y="40" width="36" height="60" fill="#e0c090" stroke="#b48a50" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
-   <rect x="16" y="40" width="20" height="60" fill="#88a" stroke="#556" stroke-width="1" rx="2" />
+   <rect x="16" y="40" width="20" height="40" fill="#88a" stroke="#556" stroke-width="1" rx="2" />
    <text x="0" y="40" font-size="7" text-anchor="middle" fill="#fff">KENNEL</text>
    <!-- Window (bottom wall) -->
    <rect id="kennel-window" x="15" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
@@ -455,10 +465,6 @@ css: /assets/css/strava-dashboard.css
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
   <g id="police-car">
-   <!-- Grass Rim -->
-   <rect x="0" y="0" width="36" height="40" fill="#0f0" stroke="#0F0" stroke-width="1"/> 
-   <!-- Parking lot -->
-   <rect x="5" y="5" width="31" height="35" fill="#eee" stroke="#ccc" stroke-width="1" rx="3" />
    <!-- Car body -->
    <rect x="1" y="5" width="30" height="12" fill="#224488" stroke="#112244" stroke-width="2" rx="3" />
    <!-- Light bar -->
