@@ -448,7 +448,7 @@ css: /assets/css/strava-dashboard.css
    </rect>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
-    <animateTransform attributeName="transform" type="rotate" values="0 20 60; -35 20 60; 0 20 60" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
   </g>
   <!-- KENNEL -->
