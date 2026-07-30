@@ -465,17 +465,15 @@ css: /assets/css/strava-dashboard.css
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
    <g id="police-car">
-   <!-- Parking pad -->
-   <rect x="-5" y="-5" width="40" height="20" fill="#eee" stroke="#ccc" stroke-width="1" rx="3" />
    <!-- Car body -->
-   <rect x="0" y="0" width="30" height="12" fill="#224488" stroke="#112244" stroke-width="2" rx="3" />
+   <rect x="0" y="8" width="30" height="12" fill="#224488" stroke="#112244" stroke-width="2" rx="3" />
    <!-- Light bar -->
-   <rect x="8" y="-4" width="14" height="4" fill="#ff3333" stroke="#aa0000" stroke-width="1" rx="1" />
+   <rect x="8" y="4" width="14" height="4" fill="#ff3333" stroke="#aa0000" stroke-width="1" rx="1" />
    <!-- Window -->
-   <rect x="4" y="2" width="10" height="6" fill="#cce6ff" stroke="#88aacc" stroke-width="1" />
+   <rect x="4" y="10" width="10" height="6" fill="#cce6ff" stroke="#88aacc" stroke-width="1" />
    <!-- Wheels -->
-   <circle cx="6" cy="12" r="4" fill="#333" />
-   <circle cx="24" cy="12" r="4" fill="#333" />
+   <circle cx="6" cy="20" r="4" fill="#333" />
+   <circle cx="24" cy="20" r="4" fill="#333" />
  </g>
  <!-- Road group (rotates) -->
  <g class="road" data-rotation="0">
