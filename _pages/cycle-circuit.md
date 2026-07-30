@@ -269,6 +269,8 @@ css: /assets/css/strava-dashboard.css
          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1; 0,0" keyTimes="0; 0.25; 0.50" dur="16s" repeatCount="indefinite" additive="sum" />
          <!-- Visible on cycles 1, 4, 7, ... -->
          <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.15; 0.16; 0.41; 0.42; 1" dur="48s" repeatCount="indefinite" />
+         <!-- Dummy Trigger of Sound -->
+         <animate id="mouseSqueak" attributeName="opacity" values="1; 1" keyTimes="0.2; 0.21" dur="48s" repeatCount="indefinite" />
         </g>
         <!-- FISH SKULL (Cycle 2, 5, 8...) -->
         <g id="cat-item-fish" transform="translate(2,-2)">
@@ -282,12 +284,16 @@ css: /assets/css/strava-dashboard.css
          <animateTransform attributeName="transform" type="rotate" values="0; -8; 8; -8; 0" keyTimes="0; 0.55; 0.60; 0.65; 0.70" dur="16s" repeatCount="indefinite" additive="sum" />
          <!-- Visible only on cycles 2, 5, 8... -->
          <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5; 0.51; 0.75; 0.76; 1" dur="48s" repeatCount="indefinite" />
+         <!-- Dummy Trigger of Sound -->
+         <animate id="boneRattle" attributeName="opacity" values="1; 1" keyTimes="0.55; 0.56" dur="48s" repeatCount="indefinite" />
        </g>
        <!-- Beef Patty (Cycle 3, 6, 9...) -->
        <g id="cat-item-patty">
         <ellipse cx="0" cy="0" rx="4" ry="3.5" fill="#8b3f2f" stroke="#4a1f1a" stroke-width="0.8" transform="translate(2,-1)" transform-box="fill-box" transform-origin="center"/><!-- Patty shape -->
         <!-- Visible only on cycles 3, 6, 9... -->
         <animate attributeName="opacity" values="0; 0; 1; 1" keyTimes="0; 0.8; 0.81; 1" dur="48s" repeatCount="indefinite" />
+        <!-- Dummy Trigger of Sound -->
+        <animate id="sizzlePatty" attributeName="opacity" values="1; 1" keyTimes="0.82; 0.83" dur="48s" repeatCount="indefinite" />
        </g>
       </g>
      </g>
