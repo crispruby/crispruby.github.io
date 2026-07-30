@@ -434,25 +434,24 @@ css: /assets/css/strava-dashboard.css
    <rect x="0" y="40" width="20" height="40" fill="#d88" stroke="#a55" stroke-width="1" rx="2" />
    <text x="5" y="40" font-size="7" text-anchor="middle" fill="#fff">CAFE</text>
    <!-- Window (bottom wall) -->
-   <rect id="cafe-window" x="5" y="85" width="10" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
-   <!-- Door facing downward toward road -->
+   <rect id="cafe-window" x="5" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
+   <!-- Door facing road -->
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2"/>
    <!-- Wall Corner -->
-   <line x1="20" y1="80" x2="36" y2="100" stroke="#fff" stroke-width="2"/> 
+   <line x1="20" y1="80" x2="36" y2="100" stroke="#111" stroke-width="2"/> 
   </g>
   <!-- KENNEL (top-right) -->
-  <g id="robbery-kennel" transform="translate(55,5)">
-   <!-- Building (45px tall) -->
+  <g id="robbery-kennel" transform="translate(64,0)">
    <rect x="0" y="0" width="36" height="60" fill="#e0c090" stroke="#b48a50" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
-   <rect x="0" y="-12" width="40" height="12" fill="#88a" stroke="#556" stroke-width="1" rx="2" />
-   <text x="20" y="-3" font-size="7" text-anchor="middle" fill="#fff">KENNEL</text>
+   <rect x="16" y="40" width="20" height="60" fill="#88a" stroke="#556" stroke-width="1" rx="2" />
+   <text x="0" y="40" font-size="7" text-anchor="middle" fill="#fff">KENNEL</text>
    <!-- Window (bottom wall) -->
-   <rect id="kennel-window" x="5" y="30" width="12" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
-   <!-- Door facing downward toward road -->
-   <rect id="kennel-door" x="23" y="30" width="12" height="15" fill="#554422" stroke="#332211" stroke-width="1" rx="2" />
-   <!-- Dog bowl -->
-   <ellipse cx="10" cy="42" rx="6" ry="3" fill="#ccc" stroke="#999" stroke-width="1" />
+   <rect id="kennel-window" x="15" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
+   <!-- Door facing road -->
+   <polygon id="cafe-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2"/>
+   <!-- Wall Corner -->
+   <line x1="0" y1="100" x2="16" y2="80" stroke="#111" stroke-width="2"/> 
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
   <g id="police-car" transform="translate(30,55)">
