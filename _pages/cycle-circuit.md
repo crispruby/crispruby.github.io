@@ -318,18 +318,6 @@ css: /assets/css/strava-dashboard.css
    </g>
  </g>
 <g id="tile-2-0" transform="translate(200,0)">
- <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
- <!-- Road group (rotates) -->
- <g class="road" data-rotation="0">
-  <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-  <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
- </g>
- <!-- Decorations (do NOT rotate) -->
- <g class="decor">
-  <!-- icons or images here -->
- </g>
-</g>
-<g id="tile-3-0" transform="translate(300,0)">
  <rect x="0" y="0" width="100" height="100" fill="#6cc66c" />
  <!-- Roads + booths + lights (all rotate together) -->
  <g class="road" data-rotation="0">
@@ -435,6 +423,18 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="cx" values="50;48;52;50" dur="4.5s" begin="2.4s" repeatCount="indefinite" />
    </circle>
   </g>
+ </g>
+</g> 
+<g id="tile-3-0" transform="translate(300,0)">
+ <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
+ <!-- Road group (rotates) -->
+ <g class="road" data-rotation="0">
+  <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+  <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+ </g>
+ <!-- Decorations (do NOT rotate) -->
+ <g class="decor">
+  <!-- icons or images here -->
  </g>
 </g>
 <g id="tile-4-0" transform="translate(400,0)">
