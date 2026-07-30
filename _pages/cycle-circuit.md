@@ -428,23 +428,20 @@ css: /assets/css/strava-dashboard.css
 <g id="tile-3-0" transform="translate(300,0)">
  <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
   <!-- CAFE (top-left) -->
-  <g id="robbery-cafe" transform="translate(5,5)">
-   <!-- Building (45px tall) -->
-   <rect x="0" y="0" width="40" height="45" fill="#f4cfa3" stroke="#c49b6c" stroke-width="2" rx="3" />
+  <g id="robbery-cafe">
+   <rect x="0" y="40" width="36" height="60" fill="#f4cfa3" stroke="#c49b6c" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
-   <rect x="0" y="-12" width="40" height="12" fill="#d88" stroke="#a55" stroke-width="1" rx="2" />
-   <text x="20" y="-3" font-size="7" text-anchor="middle" fill="#fff">CAFE</text>
+   <rect x="0" y="40" width="20" height="40" fill="#d88" stroke="#a55" stroke-width="1" rx="2" />
+   <text x="5" y="40" font-size="7" text-anchor="middle" fill="#fff">CAFE</text>
    <!-- Window (bottom wall) -->
-   <rect id="cafe-window" x="5" y="30" width="12" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
+   <rect id="cafe-window" x="5" y="85" width="10" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
    <!-- Door facing downward toward road -->
-   <rect id="cafe-door" x="23" y="30" width="12" height="15" fill="#663300" stroke="#442200" stroke-width="1" rx="2" />
-   <!-- Safe inside (visible through door later) -->
-   <rect id="cafe-safe" x="8" y="18" width="10" height="10" fill="#999" stroke="#555" stroke-width="1" rx="1" />
+   <rect id="cafe-door" x="20" y="60" width="10" height="15" fill="#663300" stroke="#442200" stroke-width="1" rx="2" />
   </g>
   <!-- KENNEL (top-right) -->
   <g id="robbery-kennel" transform="translate(55,5)">
    <!-- Building (45px tall) -->
-   <rect x="0" y="0" width="40" height="45" fill="#e0c090" stroke="#b48a50" stroke-width="2" rx="3" />
+   <rect x="0" y="0" width="36" height="60" fill="#e0c090" stroke="#b48a50" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
    <rect x="0" y="-12" width="40" height="12" fill="#88a" stroke="#556" stroke-width="1" rx="2" />
    <text x="20" y="-3" font-size="7" text-anchor="middle" fill="#fff">KENNEL</text>
