@@ -427,7 +427,7 @@ css: /assets/css/strava-dashboard.css
 </g> 
 <g id="tile-3-0" transform="translate(300,0)">
  <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
-  <!-- CAFE (top-left) -->
+  <!-- CAFE -->
   <g id="robbery-cafe">
    <rect x="0" y="40" width="36" height="60" fill="#f4cfa3" stroke="#c49b6c" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
@@ -440,9 +440,9 @@ css: /assets/css/strava-dashboard.css
    <!-- Wall Corner -->
    <line x1="20" y1="80" x2="36" y2="100" stroke="#111" stroke-width="2"/> 
   </g>
-  <!-- KENNEL (top-right) -->
+  <!-- KENNEL -->
   <g id="robbery-kennel" transform="translate(64,0)">
-   <rect x="0" y="0" width="36" height="60" fill="#e0c090" stroke="#b48a50" stroke-width="2" rx="3" />
+   <rect x="0" y="40" width="36" height="60" fill="#e0c090" stroke="#b48a50" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
    <rect x="16" y="40" width="20" height="60" fill="#88a" stroke="#556" stroke-width="1" rx="2" />
    <text x="0" y="40" font-size="7" text-anchor="middle" fill="#fff">KENNEL</text>
@@ -454,11 +454,13 @@ css: /assets/css/strava-dashboard.css
    <line x1="0" y1="100" x2="16" y2="80" stroke="#111" stroke-width="2"/> 
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
-  <g id="police-car" transform="translate(30,55)">
+  <g id="police-car">
+   <!-- Grass Rim -->
+   <rect x="0" y="0" width="36" height="40" fill="#0f0" stroke="#0F0" stroke-width="1"/> 
    <!-- Parking lot -->
-   <rect x="-10" y="-5" width="50" height="20" fill="#eee" stroke="#ccc" stroke-width="1" rx="3" />
+   <rect x="5" y="5" width="31" height="35" fill="#eee" stroke="#ccc" stroke-width="1" rx="3" />
    <!-- Car body -->
-   <rect x="0" y="0" width="30" height="12" fill="#224488" stroke="#112244" stroke-width="2" rx="3" />
+   <rect x="1" y="5" width="30" height="12" fill="#224488" stroke="#112244" stroke-width="2" rx="3" />
    <!-- Light bar -->
    <rect x="8" y="-4" width="14" height="4" fill="#ff3333" stroke="#aa0000" stroke-width="1" rx="1" />
    <!-- Window -->
