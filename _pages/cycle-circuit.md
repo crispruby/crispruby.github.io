@@ -437,7 +437,7 @@ css: /assets/css/strava-dashboard.css
    <rect x="0" y="40" width="36" height="60" fill="#f4cfa3" stroke="#c49b6c" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
    <rect x="0" y="40" width="20" height="40" fill="#d88" stroke="#a55" stroke-width="1" rx="2" />
-   <text x="10" y="60" font-size="12" fill="#fff" text-anchor="middle" transform="rotate(90 10 60)">CAFE</text>
+   <text x="8" y="60" font-size="12" fill="#fff" text-anchor="middle" transform="rotate(270 8 60)">CAFE</text>
    <!-- Window (bottom wall) -->
    <rect id="cafe-window" x="5" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
    <!-- Door facing road -->
@@ -455,7 +455,7 @@ css: /assets/css/strava-dashboard.css
    <rect x="0" y="40" width="36" height="60" fill="#e0c090" stroke="#b48a50" stroke-width="2" rx="3" />
    <!-- Sideways Roof Sign -->
    <rect x="16" y="40" width="20" height="40" fill="#88a" stroke="#556" stroke-width="1" rx="2" />
-   <text x="26" y="60" font-size="12" fill="#fff" text-anchor="middle" transform="rotate(270 26 60)">KENNEL</text>
+   <text x="28" y="60" font-size="11.5" fill="#fff" text-anchor="middle" transform="rotate(90 28 60)">KENNEL</text>
    <!-- Window (bottom wall) -->
    <rect id="kennel-window" x="15" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
    <!-- Door facing road -->
