@@ -291,11 +291,11 @@ css: /assets/css/strava-dashboard.css
        </g>
       </g>
      <!-- Dummy Trigger of Sound -->
-     <animate id="mouseSqueak" attributeName="fill" values="#000; #000" dur="48s" begin="0s; 5s" repeatCount="indefinite" />
+     <animate id="mouseSqueak" attributeName="fill" values="#000; #000" dur="48s" begin="0s; 8s" repeatCount="indefinite" />
      <!-- Dummy Trigger of Sound -->
-      <animate id="boneRattle" attributeName="fill" values="#000; #000" dur="48s" begin="0s; 21s" repeatCount="indefinite" />
+      <animate id="boneRattle" attributeName="fill" values="#000; #000" dur="48s" begin="0s; 24s" repeatCount="indefinite" />
       <!-- Dummy Trigger of Sound -->
-      <animate id="sizzlePatty" attributeName="fill" values="#000; #000" dur="48s"  begin="0s; 37s" repeatCount="indefinite" />
+      <animate id="sizzlePatty" attributeName="fill" values="#000; #000" dur="48s"  begin="0s; 39s" repeatCount="indefinite" />
      </g>
      <!-- WALKING IN OUT-->
      <animateTransform attributeName="transform" type="translate" values="0,0; 40,0; 40,0; 0,0; 0,0" keyTimes="0; 0.25; 0.5; 0.75; 1" dur="16s" repeatCount="indefinite"/>
