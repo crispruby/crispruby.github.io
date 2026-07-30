@@ -270,7 +270,7 @@ css: /assets/css/strava-dashboard.css
          <!-- Visible on cycles 1, 4, 7, ... -->
          <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.15; 0.16; 0.41; 0.42; 1" dur="48s" repeatCount="indefinite" />
          <!-- Dummy Trigger of Sound -->
-         <animate id="mouseSqueak" attributeName="opacity" values="1; 1" keyTimes="0.2; 0.21" dur="48s" repeatCount="indefinite" />
+         <animate id="mouseSqueak" attributeName="opacity" values="1; 1" dur="48s" begin="5s" repeatCount="indefinite" />
         </g>
         <!-- FISH SKULL (Cycle 2, 5, 8...) -->
         <g id="cat-item-fish" transform="translate(2,-2)">
@@ -285,7 +285,7 @@ css: /assets/css/strava-dashboard.css
          <!-- Visible only on cycles 2, 5, 8... -->
          <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5; 0.51; 0.75; 0.76; 1" dur="48s" repeatCount="indefinite" />
          <!-- Dummy Trigger of Sound -->
-         <animate id="boneRattle" attributeName="opacity" values="1; 1" keyTimes="0.55; 0.56" dur="48s" repeatCount="indefinite" />
+         <animate id="boneRattle" attributeName="opacity" values="1; 1" dur="48s" begin="20s" repeatCount="indefinite" />
        </g>
        <!-- Beef Patty (Cycle 3, 6, 9...) -->
        <g id="cat-item-patty">
@@ -293,7 +293,7 @@ css: /assets/css/strava-dashboard.css
         <!-- Visible only on cycles 3, 6, 9... -->
         <animate attributeName="opacity" values="0; 0; 1; 1" keyTimes="0; 0.8; 0.81; 1" dur="48s" repeatCount="indefinite" />
         <!-- Dummy Trigger of Sound -->
-        <animate id="sizzlePatty" attributeName="opacity" values="1; 1" keyTimes="0.82; 0.83" dur="48s" repeatCount="indefinite" />
+        <animate id="sizzlePatty" attributeName="opacity" values="1; 1" dur="48s"  begin="36s" repeatCount="indefinite" />
        </g>
       </g>
      </g>
