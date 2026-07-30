@@ -438,12 +438,16 @@ css: /assets/css/strava-dashboard.css
    <!-- Sideways Roof Sign -->
    <rect x="0" y="40" width="20" height="40" fill="#d88" stroke="#a55" stroke-width="1" rx="2" />
    <text x="10" y="60" font-size="12" fill="#fff" text-anchor="middle" transform="rotate(270 10 60)">CAFE</text>
-   <!-- Window (bottom wall) -->
-   <rect id="cafe-window" x="5" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
-   <!-- Door facing road -->
-   <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2"/>
    <!-- Wall Corner -->
    <line x1="20" y1="80" x2="36" y2="100" stroke="#111" stroke-width="2"/> 
+   <!-- Window (bottom wall) -->
+   <rect id="cafe-window" x="5" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2">
+    <animate attributeName="fill" values="#cce6ff; #fffbd1; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
+   </rect>
+   <!-- Door facing road -->
+   <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
+    <animateTransform attributeName="transform" type="rotate" values="0 20 60; -25 20 60; 0 20 60" dur="2s" repeatCount="indefinite"/>
+   </polygon>
   </g>
   <!-- KENNEL -->
   <g id="robbery-kennel" transform="translate(64,0)">
@@ -456,19 +460,25 @@ css: /assets/css/strava-dashboard.css
    <!-- Sideways Roof Sign -->
    <rect x="16" y="40" width="20" height="40" fill="#88a" stroke="#556" stroke-width="1" rx="2" />
    <text x="26" y="60" font-size="11.5" fill="#fff" text-anchor="middle" transform="rotate(90 26 60)">KENNEL</text>
-   <!-- Window (bottom wall) -->
-   <rect id="kennel-window" x="15" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2" />
-   <!-- Door facing road -->
-   <polygon id="cafe-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2"/>
    <!-- Wall Corner -->
    <line x1="0" y1="100" x2="16" y2="80" stroke="#111" stroke-width="2"/> 
+   <!-- Window (bottom wall) -->
+   <rect id="kennel-window" x="15" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2">
+    <animate attributeName="fill" values="#cce6ff; #ffe6e6; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
+   </rect>
+   <!-- Door facing road -->
+   <polygon id="cafe-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
+    <animateTransform attributeName="transform" type="rotate" values="0 16 60; 25 16 60; 0 16 60" dur="2s" repeatCount="indefinite"/>
+   </polygon>
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
    <g id="police-car">
    <!-- Car body -->
    <rect x="0" y="8" width="30" height="12" fill="#224488" stroke="#112244" stroke-width="2" rx="3" />
    <!-- Light bar -->
-   <rect x="8" y="4" width="14" height="4" fill="#ff3333" stroke="#aa0000" stroke-width="1" rx="1" />
+   <rect x="8" y="4" width="14" height="4" fill="#ff3333" stroke="#aa0000" stroke-width="1" rx="1">
+    <animate attributeName="fill" values="#ff3333; #66f; #ff3333" dur="0.4s" repeatCount="indefinite"/>
+   </rect>
    <!-- Window -->
    <rect x="4" y="10" width="10" height="6" fill="#cce6ff" stroke="#88aacc" stroke-width="1" />
    <!-- Wheels -->
