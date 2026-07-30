@@ -470,7 +470,7 @@ css: /assets/css/strava-dashboard.css
    </rect>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
-    <animateTransform attributeName="transform" type="rotate" values="0 16 60; 35 16 60; 0 16 60" dur="2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 8 57.5; 35 8 57.5; 0 8 57.5" dur="2s" repeatCount="indefinite"/>
    </polygon>
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
@@ -489,7 +489,7 @@ css: /assets/css/strava-dashboard.css
   </g>
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-  <text x="80" y="50" font-size="10" fill="#fff" text-anchor="middle">BARK
+  <text x="40" y="80" font-size="10" fill="#fff" text-anchor="middle">BARK
    <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.5;0.6;1" dur="0.6s" repeatCount="indefinite"/>
   </text>
  </g>
