@@ -426,7 +426,9 @@ css: /assets/css/strava-dashboard.css
  </g>
 </g> 
 <g id="tile-3-0" transform="translate(300,0)">
- <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
+ <!-- Road group (rotates) -->
+ <g class="road" data-rotation="0">
+  <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
   <!-- CAFE -->
   <g id="robbery-cafe">
    <!-- Grass Rim -->
@@ -472,7 +474,7 @@ css: /assets/css/strava-dashboard.css
    </polygon>
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
-   <g id="police-car">
+  <g id="police-car">
    <!-- Car body -->
    <rect x="0" y="8" width="30" height="12" fill="#224488" stroke="#112244" stroke-width="2" rx="3" />
    <!-- Light bar -->
@@ -484,9 +486,7 @@ css: /assets/css/strava-dashboard.css
    <!-- Wheels -->
    <circle cx="6" cy="20" r="4" fill="#333" />
    <circle cx="24" cy="20" r="4" fill="#333" />
- </g>
- <!-- Road group (rotates) -->
- <g class="road" data-rotation="0">
+  </g>
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
  </g>
