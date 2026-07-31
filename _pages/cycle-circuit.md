@@ -453,7 +453,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
    <!-- Wrapper handles rotation + position -->
-   <g id="robber-wife-wrapper" transform="translate(21,55) rotate(-35 3 10)">
+   <g id="robber-wife-wrapper" transform="translate(22,55) rotate(-45 3 10)">
     <!-- Inner group draws the character -->
     <g id="robber-wife">
      <!-- Full black robber mask -->
@@ -500,7 +500,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65"/>
    </polygon>
     <!-- Wrapper handles rotation + position -->
-   <g id="robber-wife-wrapper" transform="translate(15,55) rotate(35 3 10)">
+   <g id="robber-wife-wrapper" transform="translate(12,55) rotate(45 3 10)">
     <!-- Inner group draws the character -->
     <g id="robber-wife">
      <!-- Full black robber mask -->
@@ -518,8 +518,8 @@ css: /assets/css/strava-dashboard.css
      <!-- Arms holding bag -->
      <line x1="1" y1="9" x2="0" y2="11" stroke="#333" stroke-width="1"/>
      <line x1="5" y1="9" x2="6" y2="11" stroke="#333" stroke-width="1"/>
-     <!-- Bigger orange bag -->
-     <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
+     <!-- Big bag -->
+     <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff0"/>
     </g>
    </g>
   </g>
