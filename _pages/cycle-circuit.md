@@ -470,7 +470,7 @@ css: /assets/css/strava-dashboard.css
    </rect>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
-    <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 16,55 0,60 4,66 16,63; 16,55 0,60 0,70 16,65"/>
+    <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 16,55 0,60 0,66 16,66; 16,55 0,60 0,70 16,65"/>
    </polygon>
   </g>
   <!-- POLICE CAR (small parking lot above road) -->
