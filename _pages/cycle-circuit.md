@@ -453,7 +453,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
    <!-- Wrapper handles rotation + position -->
-   <g id="robber-wife-wrapper" transform="translate(20,55) rotate(-15 3 10)">
+   <g id="robber-wife-wrapper" transform="translate(21,55) rotate(-25 3 10)">
     <!-- Inner group draws the character -->
     <g id="robber-wife">
      <!-- Full black robber mask -->
