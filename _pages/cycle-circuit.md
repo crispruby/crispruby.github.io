@@ -466,8 +466,8 @@ css: /assets/css/strava-dashboard.css
     <line x1="2" y1="15" x2="2" y2="18" stroke="#333" stroke-width="1"/>
     <line x1="4" y1="15" x2="4" y2="18" stroke="#333" stroke-width="1"/>
     <!-- Arms holding bag -->
-    <line x1="1" y1="10" x2="0" y2="12" stroke="#333" stroke-width="1"/>
-    <line x1="5" y1="10" x2="6" y2="12" stroke="#333" stroke-width="1"/>
+    <line x1="1" y1="9" x2="0" y2="11" stroke="#333" stroke-width="1"/>
+    <line x1="5" y1="9" x2="6" y2="11" stroke="#333" stroke-width="1"/>
     <!-- Bigger orange bag -->
     <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
   </g>
@@ -489,9 +489,9 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="fill" values="#cce6ff; #ffe6e6; #3a3a3a; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
    </rect>
    <!-- Room Entrance facing road -->
-   <polygon id="cafe-entrance" points="16,55 0,60 0,70 16,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
+   <polygon id="kennel-entrance" points="16,55 0,60 0,70 16,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
    <!-- Door facing road -->
-   <polygon id="cafe-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
+   <polygon id="kennel-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65"/>
    </polygon>
   </g>
