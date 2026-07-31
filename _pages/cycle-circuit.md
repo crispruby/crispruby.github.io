@@ -429,6 +429,8 @@ css: /assets/css/strava-dashboard.css
  <!-- Road group (rotates) -->
  <g class="road" data-rotation="0">
   <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" /> <!-- Background -->
+  <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+  <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <!-- CAFE -->
   <g id="robbery-cafe">
    <!-- Grass Rim -->
@@ -453,9 +455,9 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
    <!-- Wrapper handles rotation + position -->
-   <g id="robber-wife-wrapper" transform="translate(26,55) rotate(-60 3 10)">
+   <g id="cafe-wife-wrapper" transform="translate(26,54) rotate(-60 3 10)">
     <!-- Inner group draws the character -->
-    <g id="robber-wife">
+    <g id="cafe-wife">
      <!-- Full black robber mask -->
      <circle cx="3" cy="3" r="3" fill="#000"/>
      <!-- Eye holes -->
@@ -471,7 +473,7 @@ css: /assets/css/strava-dashboard.css
      <!-- Arms holding bag -->
      <line x1="1" y1="9" x2="0" y2="11" stroke="#333" stroke-width="1"/>
      <line x1="5" y1="9" x2="6" y2="11" stroke="#333" stroke-width="1"/>
-     <!-- Bigger orange bag -->
+     <!-- Big bag -->
      <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
     </g>
    </g>
@@ -500,7 +502,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65"/>
    </polygon>
     <!-- Wrapper handles rotation + position -->
-   <g id="robber-wife-wrapper" transform="translate(8,55) rotate(60 3 10)">
+   <g id="robber-wife-wrapper" transform="translate(4,54) rotate(60 3 10)">
     <!-- Inner group draws the character -->
     <g id="robber-wife">
      <!-- Full black robber mask -->
@@ -537,8 +539,6 @@ css: /assets/css/strava-dashboard.css
    <circle cx="6" cy="20" r="4" fill="#333" />
    <circle cx="24" cy="20" r="4" fill="#333" />
   </g>
-  <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-  <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <text x="50" y="80" font-size="10" fill="#fff" text-anchor="middle">BARK
    <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.5;0.6;1" dur="0.6s" repeatCount="indefinite"/>
   </text>
