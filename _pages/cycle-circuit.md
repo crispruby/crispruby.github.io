@@ -479,7 +479,7 @@ css: /assets/css/strava-dashboard.css
      </g>
      <animateTransform attributeName="transform" type="rotate" values="-60 3 10; 0 3 10; 60 3 10; 0 3 10" dur="3s" repeatCount="indefinite"/>
     </g>
-    <animateTransform attributeName="transform" type="translate" values="26,55; 58,55; 26,55" dur="3s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="translate" values="26,55; 64,55; 26,55" dur="3s" repeatCount="indefinite" />
    </g>
   </g>
   <!-- KENNEL -->
