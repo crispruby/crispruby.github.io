@@ -455,7 +455,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
    <!-- Wrapper handles rotation + position -->
-   <g id="cafe-wife-wrapper" transform="translate(20,55)">
+   <g id="cafe-wife-wrapper" transform="translate(26,55)">
     <g id="cafe-wife">
      <!-- Full black robber mask -->
      <circle cx="3" cy="3" r="3" fill="#000"/>
@@ -474,8 +474,15 @@ css: /assets/css/strava-dashboard.css
      <line x1="5" y1="9" x2="6" y2="11" stroke="#333" stroke-width="1"/>
      <!-- Big bag -->
      <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
-    </g>
-    <animateTransform attributeName="transform" type="transform" dur="2.5s" repeatCount="indefinite" values=" translate(26,54) rotate(-60 3 10); translate(20,54) rotate(-30 3 10); translate(14,54) rotate(0 3 10); translate(8,54)  rotate(30 3 10); translate(4,54)  rotate(60 3 10)"/>
+    </g
+      <animateTransform 
+      attributeName="transform" 
+      type="transform"
+      type="translate"
+      values="26,55 rotate(0 3 10); 68,54 rotate(60 3 10)" 
+      dur="2s" 
+      repeatCount="indefinite"
+      additive="sum" />
    </g>
   </g>
   <!-- KENNEL -->
