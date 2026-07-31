@@ -475,8 +475,17 @@ css: /assets/css/strava-dashboard.css
      <!-- Big bag -->
      <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
     </g>
-    <animateTransform attributeName="transform" type="translate" values="26,54; 20,54; 14,54; 8,54; 4,54" dur="2.5s" repeatCount="indefinite" additive="sum"/>
-    <animateTransform attributeName="transform" type="rotate" values="-60 3 10; -30 3 10; 0 3 10; 30 3 10; 60 3 10" dur="2.5s" repeatCount="indefinite" additive="sum"/>
+    <animateTransform attributeName="transform"
+                  type="transform"
+                  dur="2.5s"
+                  repeatCount="indefinite"
+                  values="
+                    translate(26,54) rotate(-60 3 10);
+                    translate(20,54) rotate(-30 3 10);
+                    translate(14,54) rotate(0 3 10);
+                    translate(8,54)  rotate(30 3 10);
+                    translate(4,54)  rotate(60 3 10)
+                  "/>
    </g>
   </g>
   <!-- KENNEL -->
