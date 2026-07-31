@@ -454,33 +454,6 @@ css: /assets/css/strava-dashboard.css
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
-   <!-- Wrapper handles rotation + position -->
-   <g id="cafe-wife-wrapper" transform="translate(26,55)">
-    <!-- Rotation wrapper -->
-    <g id="cafe-wife-rotate">
-     <g id="cafe-wife">
-      <!-- Full black robber mask -->
-      <circle cx="3" cy="3" r="3" fill="#000"/>
-      <!-- Eye holes -->
-      <circle cx="2" cy="3" r="0.6" fill="#fff"/>
-      <circle cx="4" cy="3" r="0.6" fill="#fff"/>
-      <!-- Body -->
-      <rect x="1" y="6" width="4" height="6" fill="#d14fae" rx="1"/>
-      <!-- Skirt -->
-      <polygon points="1,12 5,12 6,16 0,16" fill="#d14fae"/>
-      <!-- legs -->
-      <line x1="2" y1="15" x2="2" y2="18" stroke="#333" stroke-width="1"/>
-      <line x1="4" y1="15" x2="4" y2="18" stroke="#333" stroke-width="1"/>
-      <!-- Arms holding bag -->
-      <line x1="1" y1="9" x2="0" y2="11" stroke="#333" stroke-width="1"/>
-      <line x1="5" y1="9" x2="6" y2="11" stroke="#333" stroke-width="1"/>
-      <!-- Big bag -->
-      <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
-     </g>
-     <animateTransform attributeName="transform" type="rotate" values="-60 3 10; 0 3 10; 60 3 10; 0 3 10" dur="3s" repeatCount="indefinite"/>
-    </g>
-    <animateTransform attributeName="transform" type="translate" values="26,55; 64,55; 26,55" dur="3s" repeatCount="indefinite" />
-   </g>
   </g>
   <!-- KENNEL -->
   <g id="robbery-kennel" transform="translate(64,0)">
@@ -529,6 +502,33 @@ css: /assets/css/strava-dashboard.css
     </g>
    </g>
   </g>
+  <!-- Wrapper handles rotation + position -->
+   <g id="cafe-wife-wrapper" transform="translate(26,55)">
+    <!-- Rotation wrapper -->
+    <g id="cafe-wife-rotate">
+     <g id="cafe-wife">
+      <!-- Full black robber mask -->
+      <circle cx="3" cy="3" r="3" fill="#000"/>
+      <!-- Eye holes -->
+      <circle cx="2" cy="3" r="0.6" fill="#fff"/>
+      <circle cx="4" cy="3" r="0.6" fill="#fff"/>
+      <!-- Body -->
+      <rect x="1" y="6" width="4" height="6" fill="#d14fae" rx="1"/>
+      <!-- Skirt -->
+      <polygon points="1,12 5,12 6,16 0,16" fill="#d14fae"/>
+      <!-- legs -->
+      <line x1="2" y1="15" x2="2" y2="18" stroke="#333" stroke-width="1"/>
+      <line x1="4" y1="15" x2="4" y2="18" stroke="#333" stroke-width="1"/>
+      <!-- Arms holding bag -->
+      <line x1="1" y1="9" x2="0" y2="11" stroke="#333" stroke-width="1"/>
+      <line x1="5" y1="9" x2="6" y2="11" stroke="#333" stroke-width="1"/>
+      <!-- Big bag -->
+      <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
+     </g>
+     <animateTransform attributeName="transform" type="rotate" values="-60 3 10; 0 3 10; 60 3 10; 0 3 10" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <animateTransform attributeName="transform" type="translate" values="26,55; 68,55; 26,55" dur="3s" repeatCount="indefinite" />
+   </g>
   <!-- POLICE CAR (small parking lot above road) -->
   <g id="police-car">
    <!-- Car body -->
