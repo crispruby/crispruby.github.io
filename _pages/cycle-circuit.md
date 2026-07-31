@@ -475,7 +475,11 @@ css: /assets/css/strava-dashboard.css
      <!-- Big bag -->
      <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
     </g>
-     <animateTransform attributeName="transform" type="XML" values="26,55 rotate(0 3 10); 68,54 rotate(60 3 10)" dur="2s" repeatCount="indefinite" />
+     <animate attributeName="transform" 
+             type="XML" 
+             values="translate(26,55) rotate(0 3 10); translate(68,54) rotate(60 3 10)" 
+             dur="2s" 
+             repeatCount="indefinite" />
    </g>
   </g>
   <!-- KENNEL -->
