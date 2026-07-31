@@ -470,6 +470,7 @@ css: /assets/css/strava-dashboard.css
     <line x1="5" y1="9" x2="6" y2="11" stroke="#333" stroke-width="1"/>
     <!-- Bigger orange bag -->
     <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff8c00"/>
+   </g>
   </g>
   <!-- KENNEL -->
   <g id="robbery-kennel" transform="translate(64,0)">
