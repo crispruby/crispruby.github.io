@@ -452,6 +452,18 @@ css: /assets/css/strava-dashboard.css
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
+   <g id="robber-wife" transform="translate(10,60)">
+    <!-- Head -->
+    <circle cx="3" cy="3" r="3" fill="#f2c9b1"/>
+    <!-- Ponytail -->
+    <path d="M5,3 Q8,5 6,7" stroke="#442200" stroke-width="1" fill="none"/>
+    <!-- Body -->
+    <rect x="1" y="6" width="4" height="8" fill="#d14fae" rx="1"/>
+    <!-- Legs -->
+    <line x1="2" y1="14" x2="2" y2="18" stroke="#333" stroke-width="1"/>
+    <line x1="4" y1="14" x2="4" y2="18" stroke="#333" stroke-width="1"/>
+    <!-- Bag -->
+    <circle cx="6" cy="10" r="2" fill="#663300"/>
   </g>
   <!-- KENNEL -->
   <g id="robbery-kennel" transform="translate(64,0)">
