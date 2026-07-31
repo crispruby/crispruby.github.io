@@ -477,7 +477,7 @@ css: /assets/css/strava-dashboard.css
     </g>
      <animateTransform attributeName="transform" 
       type="translate" 
-      values="0,0; 42,-1; 0,0" 
+      values="0,0; -22,0; 0,0" 
       dur="2s" 
       repeatCount="indefinite" />
    </g>
