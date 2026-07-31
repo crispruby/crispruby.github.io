@@ -480,7 +480,7 @@ css: /assets/css/strava-dashboard.css
    </polygon>
   </g>
   <!-- Wrapper handles rotation + position -->
-  <g id="robber-wife-wrapper" transform="translate(4,54) rotate(60 3 10)">
+  <g id="robber-wife-wrapper" transform="translate(68,54) rotate(60 3 10)">
    <!-- Inner group draws the character -->
    <g id="robber-wife">
     <!-- Full black robber mask -->
@@ -503,7 +503,7 @@ css: /assets/css/strava-dashboard.css
    </g>
   </g>
   <!-- Wrapper handles rotation + position -->
-   <g id="cafe-wife-wrapper" transform="translate(26,55)">
+   <g id="cafe-wife-wrapper" transform="translate(26,54)">
     <!-- Rotation wrapper -->
     <g id="cafe-wife-rotate">
      <g id="cafe-wife">
@@ -527,7 +527,7 @@ css: /assets/css/strava-dashboard.css
      </g>
      <animateTransform attributeName="transform" type="rotate" values="-60 3 10; 60 3 10; 60 3 10; -60 3 10" keyTimes="0; 0.33; 0.66; 1"dur="6s" repeatCount="indefinite"/>
     </g>
-    <animateTransform attributeName="transform" type="translate" values="26,55; 68,55; 26,55" dur="3s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="translate" values="26,54; 68,54; 26,54" dur="3s" repeatCount="indefinite" />
    </g>
   <!-- POLICE CAR (small parking lot above road) -->
   <g id="police-car">
