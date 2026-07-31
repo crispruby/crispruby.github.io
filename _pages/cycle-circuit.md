@@ -453,7 +453,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
    <!-- Wrapper handles rotation + position -->
-   <g id="robber-wife-wrapper" transform="translate(22,55) rotate(-45 3 10)">
+   <g id="robber-wife-wrapper" transform="translate(26,55) rotate(-60 3 10)">
     <!-- Inner group draws the character -->
     <g id="robber-wife">
      <!-- Full black robber mask -->
@@ -500,7 +500,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65"/>
    </polygon>
     <!-- Wrapper handles rotation + position -->
-   <g id="robber-wife-wrapper" transform="translate(12,55) rotate(45 3 10)">
+   <g id="robber-wife-wrapper" transform="translate(8,55) rotate(60 3 10)">
     <!-- Inner group draws the character -->
     <g id="robber-wife">
      <!-- Full black robber mask -->
@@ -509,9 +509,9 @@ css: /assets/css/strava-dashboard.css
      <circle cx="2" cy="3" r="0.6" fill="#fff"/>
      <circle cx="4" cy="3" r="0.6" fill="#fff"/>
      <!-- Body -->
-     <rect x="1" y="6" width="4" height="6" fill="#d14fae" rx="1"/>
+     <rect x="1" y="6" width="4" height="6" fill="#ff0" rx="1"/>
      <!-- Skirt -->
-     <polygon points="1,12 5,12 6,16 0,16" fill="#d14fae"/>
+     <polygon points="1,12 5,12 6,16 0,16" fill="#ff0"/>
      <!-- legs -->
      <line x1="2" y1="15" x2="2" y2="18" stroke="#333" stroke-width="1"/>
      <line x1="4" y1="15" x2="4" y2="18" stroke="#333" stroke-width="1"/>
