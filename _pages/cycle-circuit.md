@@ -447,7 +447,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="fill" values="#cce6ff; #fffbd1; #4a4a4a; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
    </rect>
    <!-- Room Entrance facing road -->
-   <polygon id="cafe-entrance" points="20,55 36,60 36,70 20,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2">
+   <polygon id="cafe-entrance" points="20,55 36,60 36,70 20,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
@@ -471,7 +471,7 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="fill" values="#cce6ff; #ffe6e6; #3a3a3a; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
    </rect>
    <!-- Room Entrance facing road -->
-   <polygon id="cafe-entrance" points="16,55 0,60 0,70 16,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2">
+   <polygon id="cafe-entrance" points="16,55 0,60 0,70 16,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
     <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65"/>
