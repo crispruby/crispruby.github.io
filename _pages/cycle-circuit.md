@@ -527,7 +527,7 @@ css: /assets/css/strava-dashboard.css
      </g>
      <animateTransform attributeName="transform" type="rotate" values="-60 3 10; 0 3 10; 60 3 10; 0 3 10; -60 3 10" dur="3s" repeatCount="indefinite"/>
     </g>
-    <animateTransform attributeName="transform" type="translate" values="26,54; 68,54; 26,54" dur="3s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="translate" values="26,54; 68,54; 68,54; 26,54; 26,54" keyTimes="0; 0.25; 0.50; 0.75; 1" dur="6s" repeatCount="indefinite" />
    </g>
   <!-- POLICE CAR (small parking lot above road) -->
   <g id="police-car">
