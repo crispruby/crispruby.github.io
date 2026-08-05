@@ -502,23 +502,11 @@ css: /assets/css/strava-dashboard.css
     <!-- Big bag -->
     <ellipse cx="3" cy="13" rx="4" ry="3" fill="#ff0"/>
     </g>
-
     <!-- Rotation with pauses -->
-    <animateTransform attributeName="transform"
-                      type="rotate"
-                      values="60 3 10; 0 3 10; 0 3 10; 60 3 10; 60 3 10"
-                      keyTimes="0; 0.25; 0.50; 0.75; 1"
-                      dur="6s"
-                      repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="60 3 10; -60 3 10; -60 3 10; 60 3 10; 60 3 10" keyTimes="0; 0.25; 0.50; 0.75; 1" dur="6s" repeatCount="indefinite"/>
   </g>
-
   <!-- Movement with pauses -->
-  <animateTransform attributeName="transform"
-                    type="translate"
-                    values="68,54; 26,54; 26,54; 68,54; 68,54"
-                    keyTimes="0; 0.25; 0.50; 0.75; 1"
-                    dur="6s"
-                    repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="68,54; 26,54; 26,54; 68,54; 68,54" keyTimes="0; 0.25; 0.50; 0.75; 1" dur="6s" repeatCount="indefinite"/>
 </g>
   <!-- Wrapper handles rotation + position -->
    <g id="cafe-wife-wrapper" transform="translate(26,54)">
