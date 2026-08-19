@@ -19,7 +19,8 @@ window.addEventListener("DOMContentLoaded", () => {
     chirp4: new Audio('/assets/sounds/chirp4.wav'),
     sizzle_patty: new Audio('/assets/sounds/sizzling.wav'),
     mouse_squeak: new Audio('/assets/sounds/mouse_squeak.wav'),
-    bone_rattle: new Audio('/assets/sounds/rattling_bones.wav')
+    bone_rattle: new Audio('/assets/sounds/rattling_bones.wav'),
+    dogbarks: new Audio('/assets/sounds/dogbarks.wav')
   };
   // 2. Web Audio API (autoplay-safe)
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -118,7 +119,8 @@ window.addEventListener("DOMContentLoaded", () => {
     birdChirp4: sounds.chirp4,
     sizzlePatty: sounds.sizzle_patty,
     mouseSqueak: sounds.mouse_squeak,
-    boneRattle: sounds.bone_rattle
+    boneRattle: sounds.bone_rattle,
+    barks: sounds.dogbarks
   };
   Object.keys(blinkToSound).forEach(animId => {
     const anim = document.getElementById(animId);
