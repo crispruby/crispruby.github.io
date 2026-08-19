@@ -484,8 +484,10 @@ css: /assets/css/strava-dashboard.css
   <g id="robber-wife-rotate">
     <!-- Wife drawing -->
     <g id="robber-wife">
-    <!-- Full black robber mask -->
-    <circle cx="3" cy="3" r="3" fill="#000"/>
+    <!-- Head (neutral skin tone) -->
+    <circle cx="3" cy="3" r="3" fill="#f2c9a1"/>
+    <!-- Eye mask band -->
+    <rect x="0" y="1.5" width="6" height="3" rx="1" fill="#000"/>
     <!-- Eye holes -->
     <circle cx="2" cy="3" r="0.6" fill="#fff"/>
     <circle cx="4" cy="3" r="0.6" fill="#fff"/>
@@ -513,8 +515,10 @@ css: /assets/css/strava-dashboard.css
     <!-- Rotation wrapper -->
     <g id="cafe-wife-rotate">
      <g id="cafe-wife">
-      <!-- Full black robber mask -->
-      <circle cx="3" cy="3" r="3" fill="#000"/>
+      <!-- Head (neutral skin tone) -->
+      <circle cx="3" cy="3" r="3" fill="#f2c9a1"/>
+      <!-- Eye mask band -->
+      <rect x="0" y="1.5" width="6" height="3" rx="1" fill="#000"/>
       <!-- Eye holes -->
       <circle cx="2" cy="3" r="0.6" fill="#fff"/>
       <circle cx="4" cy="3" r="0.6" fill="#fff"/>
