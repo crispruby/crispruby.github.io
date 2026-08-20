@@ -146,12 +146,9 @@ window.addEventListener("load", () => {
   }
   const barkAnim = document.getElementById("barkBlink");
   if (barkAnim) {
-   barkAnim.addEventListener("beginEvent", () => {
-    console.log("DEBUG: barkBlink beginEvent fired");
-    playBark();
-   });
    barkAnim.addEventListener("repeatEvent", () => {
-    console.log("DEBUG: barkBlink repeatEvent fired");
+    console.log("DEBUG: barkBlink repeatEvent fired → playing bark");
+    playBark();
    });
   }
   // 5. Automatic sewer drip timer
