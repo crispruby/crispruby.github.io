@@ -150,6 +150,9 @@ window.addEventListener("load", () => {
     console.log("DEBUG: barkBlink beginEvent fired");
     playBark();
    });
+   barkAnim.addEventListener("repeatEvent", () => {
+    console.log("DEBUG: barkBlink repeatEvent fired");
+   });
   }
   // 5. Automatic sewer drip timer
   let sewerCounter = 0;
