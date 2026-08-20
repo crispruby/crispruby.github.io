@@ -642,7 +642,7 @@ css: /assets/css/strava-dashboard.css
     <rect x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
    </g>
    <!-- Jackhammer Worker (right side) -->
-   <g id="jackhammer-worker" transform="translate(65,45)">
+   <g id="jackhammer-worker" transform="translate(65,65)">
     <!-- Head -->
     <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
     <!-- Body -->
