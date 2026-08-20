@@ -137,6 +137,11 @@ window.addEventListener("load", () => {
    barkAnim.addEventListener("beginEvent", () => {
     const bark = sounds.dogbarks.cloneNode();
     bark.play();
+    sounds.dogbarks.play().then(() => {
+     console.log("dogbarks.wav CAN play");
+    }).catch(err => {
+     console.log("dogbarks.wav FAILED:", err);
+    });
    });
   }
   // 5. Automatic sewer drip timer
