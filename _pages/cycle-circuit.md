@@ -643,7 +643,7 @@ css: /assets/css/strava-dashboard.css
    <animateTransform attributeName="transform" type="translate" values="0,0; 0,1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
   </g>
    <!-- Jackhammer Worker (right side) -->
-   <g id="jackhammer-worker" transform="translate(75,75)">
+   <g id="jackhammer-worker">
     <!-- Head -->
     <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
     <!-- Body -->
@@ -651,7 +651,7 @@ css: /assets/css/strava-dashboard.css
     <!-- Jackhammer -->
     <rect x="4" y="19" width="6" height="12" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
     <!-- Vibration -->
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,50; 0,51; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
    </g>
   <!-- Excavator (left side) -->
   <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
