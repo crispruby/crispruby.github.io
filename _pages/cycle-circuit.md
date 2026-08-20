@@ -452,7 +452,7 @@ css: /assets/css/strava-dashboard.css
    <polygon id="cafe-entrance" points="20,55 36,60 36,70 20,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
-    <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
+    <animate attributeName="points" dur="24s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
    </polygon>
   </g>
   <!-- KENNEL -->
@@ -476,7 +476,15 @@ css: /assets/css/strava-dashboard.css
    <polygon id="kennel-entrance" points="16,55 0,60 0,70 16,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
    <!-- Door facing road -->
    <polygon id="kennel-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
-    <animate attributeName="points" dur="0.8s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65"/>
+    <animate attributeName="points" dur="24s" repeatCount="indefinite" values="
+      16,55 0,60 0,70 16,65; 
+      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 
+      16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65; 
+      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 
+      16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65; 
+      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 
+      16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65" 
+      keyTimes="0;0.01;0.188;0.189;0.561;0.562;0.563;0.564;0.624;0.625;0.627;0.628;1"/>
    </polygon>
   </g>
   <g id="robber-wife-wrapper" transform="translate(68,54)">
