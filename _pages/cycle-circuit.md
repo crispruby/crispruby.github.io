@@ -642,19 +642,6 @@ css: /assets/css/strava-dashboard.css
    <!-- Tiny vibration synced with jackhammer -->
    <animateTransform attributeName="transform" type="translate" values="0,0; 0,1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
   </g>
-  <!-- Excavator (left side) -->
-  <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
-   <!-- Body -->
-   <rect x="0" y="10" width="30" height="15" fill="#d4a000" stroke="#8a6a00" stroke-width="2" rx="3"/>
-    <!-- Cabin -->
-    <rect x="5" y="0" width="20" height="12" fill="#ffe680" stroke="#8a6a00" stroke-width="2" rx="2"/>
-    <!-- Arm -->
-    <line x1="30" y1="15" x2="45" y2="5" stroke="#8a6a00" stroke-width="4"/>
-    <!-- Bucket -->
-    <polygon points="45,5 55,10 50,15" fill="#444" stroke="#222" stroke-width="1"/>
-    <!-- Tracks -->
-    <rect x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
-   </g>
    <!-- Jackhammer Worker (right side) -->
    <g id="jackhammer-worker" transform="translate(65,55)">
     <!-- Head -->
@@ -665,6 +652,19 @@ css: /assets/css/strava-dashboard.css
     <rect x="4" y="19" width="6" height="12" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
     <!-- Vibration -->
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+   </g>
+  <!-- Excavator (left side) -->
+  <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
+   <!-- Body -->
+   <rect x="0" y="10" width="30" height="15" fill="#d4a000" stroke="#8a6a00" stroke-width="2" rx="3"/>
+   <!-- Cabin -->
+   <rect x="5" y="0" width="20" height="12" fill="#ffe680" stroke="#8a6a00" stroke-width="2" rx="2"/>
+   <!-- Arm -->
+   <line x1="30" y1="15" x2="45" y2="5" stroke="#8a6a00" stroke-width="4"/>
+   <!-- Bucket -->
+   <polygon points="45,5 55,10 50,15" fill="#444" stroke="#222" stroke-width="1"/>
+   <!-- Tracks -->
+   <rect x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
    </g>
    <!-- Dust Puff -->
    <circle id="dust" cx="70" cy="62" r="2" fill="#ccc" opacity="0">
