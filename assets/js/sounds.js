@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   // 1. Load normal HTML <audio> sounds 
   const sounds = {
     goodstar: new Audio('/assets/sounds/star_twinkle.wav'),
