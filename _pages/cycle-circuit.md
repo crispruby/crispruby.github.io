@@ -557,7 +557,7 @@ css: /assets/css/strava-dashboard.css
    <animate attributeName="opacity" values="0;0;1;1;0;0;1;1;0;0;1;1;0;0" keyTimes="0;0.609;0.61;0.626;0.627;0.63;0.631;0.635;0.636;0.640;0.641;0.645;0.646;1" dur="24s" begin="0s" repeatCount="indefinite"/>
   </text>
   <rect id="barkTrigger" x="0" y="0" width="0" height="0" fill="none">
-   <animate id="barkTriggerAnim" attributeName="opacity" values="0;0" keyTimes="0;1" dur="24s" begin="0s; barkTriggerAnim.end" repeatCount="indefinite"/>
+   <animate id="barkBlink" attributeName="opacity" values="0;0" keyTimes="0;1" dur="24s" begin="14.616s; barkTriggerAnim.end" repeatCount="indefinite"/>
   </rect>
  </g>
 </g>
