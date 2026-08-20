@@ -628,6 +628,7 @@ css: /assets/css/strava-dashboard.css
  <g class="road" data-rotation="0">
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+  <path d="M -1 50 L 36 50" stroke="#666" stroke-width="28" stroke-linecap="butt" />
   <!-- Excavator (left side) -->
   <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
    <!-- Body -->
