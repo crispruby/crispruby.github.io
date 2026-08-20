@@ -643,7 +643,7 @@ css: /assets/css/strava-dashboard.css
    <animateTransform attributeName="transform" type="translate" values="0,0; 0,1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
   </g>
    <!-- Jackhammer Worker (right side) -->
-   <g id="jackhammer-worker" transform="translate(65,55)">
+   <g id="jackhammer-worker" transform="translate(75,75)">
     <!-- Head -->
     <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
     <!-- Body -->
