@@ -651,7 +651,7 @@ css: /assets/css/strava-dashboard.css
     <!-- Jackhammer -->
     <rect x="4" y="19" width="6" height="12" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
     <!-- Vibration -->
-    <animateTransform attributeName="transform" type="translate" values="0,30; 0,31; 0,30" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="10,30; 10,31; 10,30" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
    </g>
   <!-- Excavator (left side) -->
   <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
@@ -666,11 +666,29 @@ css: /assets/css/strava-dashboard.css
    <!-- Tracks -->
    <rect x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
    </g>
-   <!-- Dust Puff -->
-   <circle id="dust" cx="70" cy="62" r="2" fill="#ccc" opacity="0">
-    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="2;5;2" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite"/>
-   </circle>
+   <!-- Dust Puffs Around Jackhammer -->
+   <g id="dust-puffs">
+    <!-- Left puff -->
+    <circle cx="8" cy="28" r="2" fill="#ccc" opacity="0">
+     <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
+     <animate attributeName="r" values="2;4;2" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Right puff -->
+    <circle cx="14" cy="28" r="2" fill="#ccc" opacity="0">
+     <animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/>
+     <animate attributeName="r" values="2;5;2" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Front puff -->
+    <circle cx="11" cy="33" r="2" fill="#ccc" opacity="0">
+     <animate attributeName="opacity" values="0;1;0" dur="1.1s" repeatCount="indefinite"/>
+     <animate attributeName="r" values="2;4;2" dur="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Back puff -->
+    <circle cx="11" cy="26" r="2" fill="#ccc" opacity="0">
+     <animate attributeName="opacity" values="0;1;0" dur="1.3s" repeatCount="indefinite"/>
+     <animate attributeName="r" values="2;5;2" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+   </g>
    <!-- Cones -->
    <g id="cone1" transform="translate(30,70)">
     <polygon points="0,10 5,0 10,10" fill="#ff6600" stroke="#aa4400" stroke-width="1"/>
