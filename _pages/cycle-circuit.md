@@ -629,16 +629,16 @@ css: /assets/css/strava-dashboard.css
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <path d="M -1 50 L 36 50" stroke="#666" stroke-width="28" stroke-linecap="butt" />
-  <g id="broken-road-details  transform="translate(0,-4)">
+  <g id="broken-road-details">
    <!-- Main jagged crack -->
-   <path d="M 5 45 L 12 52 L 8 58 L 15 63 L 10 68" stroke="#444" stroke-width="2" fill="none"/>
+   <path d="M 5 40 L 12 47 L 8 53 L 15 58 L 10 63" stroke="#444" stroke-width="2" fill="none"/>
    <!-- Secondary cracks -->
-   <path d="M 20 48 L 25 54 L 22 60" stroke="#555" stroke-width="1.5" fill="none"/>
-   <path d="M 28 46 L 32 51 L 30 57" stroke="#666" stroke-width="1.2" fill="none"/>
+   <path d="M 20 43 L 25 49 L 22 55" stroke="#555" stroke-width="1.5" fill="none"/>
+   <path d="M 28 41 L 32 46 L 30 52" stroke="#666" stroke-width="1.2" fill="none"/>
    <!-- Asphalt chunks -->
-   <polygon points="6,60 10,57 12,62" fill="#2a2a2a"/>
-   <polygon points="18,55 22,52 23,57" fill="#2a2a2a"/>
-   <polygon points="28,58 31,55 33,60" fill="#2a2a2a"/>
+   <polygon points="6,55 10,52 12,57" fill="#2a2a2a"/>
+   <polygon points="18,50 22,47 23,52" fill="#2a2a2a"/>
+   <polygon points="28,53 31,50 33,55" fill="#2a2a2a"/>
    <!-- Tiny vibration synced with jackhammer -->
    <animateTransform attributeName="transform" type="translate" values="0,0; 0,1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
   </g>
