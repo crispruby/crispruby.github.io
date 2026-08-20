@@ -629,7 +629,7 @@ css: /assets/css/strava-dashboard.css
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <!-- Excavator (left side) -->
-  <g id="excavator" transform="translate(5,45)">
+  <g id="excavator" transform="translate(5,45)  rotate(90 0 0)">
    <!-- Body -->
    <rect x="0" y="10" width="30" height="15" fill="#d4a000" stroke="#8a6a00" stroke-width="2" rx="3"/>
     <!-- Cabin -->
