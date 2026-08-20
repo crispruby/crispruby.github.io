@@ -656,7 +656,7 @@ css: /assets/css/strava-dashboard.css
     <rect x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
    </g>
    <!-- Jackhammer Worker (right side) -->
-   <g id="jackhammer-worker" transform="translate(65,65)">
+   <g id="jackhammer-worker" transform="translate(65,55)">
     <!-- Head -->
     <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
     <!-- Body -->
@@ -671,8 +671,6 @@ css: /assets/css/strava-dashboard.css
     <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite"/>
     <animate attributeName="r" values="2;5;2" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite"/>
    </circle>
-   <!-- Road Cracks -->
-   <path d="M 48 60 L 52 63 L 49 66 L 53 69" stroke="#444" stroke-width="1"/>
    <!-- Cones -->
    <g id="cone1" transform="translate(30,70)">
     <polygon points="0,10 5,0 10,10" fill="#ff6600" stroke="#aa4400" stroke-width="1"/>
