@@ -132,16 +132,23 @@ window.addEventListener("load", () => {
     });
   });
   // --- Bark animation → play dogbarks.wav once ---
+  let barkBuffer = null;
+  fetch('/assets/sounds/dogbarks.wav').then(res => res.arrayBuffer()).then(data => audioCtx.decodeAudioData(data)).then(buffer => {
+    barkBuffer = buffer;
+    console.log("DEBUG: bark sound loaded");
+  });
+  function playBark() {
+   if (!barkBuffer) return;
+   const src = audioCtx.createBufferSource();
+   src.buffer = barkBuffer;
+   src.connect(audioCtx.destination);
+   src.start(0);
+  }
   const barkAnim = document.getElementById("barkBlink");
   if (barkAnim) {
    barkAnim.addEventListener("beginEvent", () => {
-    const bark = sounds.dogbarks.cloneNode();
-    bark.play();
-    sounds.dogbarks.play().then(() => {
-     console.log("dogbarks.wav CAN play");
-    }).catch(err => {
-     console.log("dogbarks.wav FAILED:", err);
-    });
+    console.log("DEBUG: barkBlink beginEvent fired");
+    playBark();
    });
   }
   // 5. Automatic sewer drip timer
