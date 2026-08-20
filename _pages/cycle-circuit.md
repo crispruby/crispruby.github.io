@@ -452,7 +452,15 @@ css: /assets/css/strava-dashboard.css
    <polygon id="cafe-entrance" points="20,55 36,60 36,70 20,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
-    <animate attributeName="points" dur="24s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65"/>
+    <animate attributeName="points" dur="24s" repeatCount="indefinite" values="
+      20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
+      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56; 
+      20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
+      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56; 
+      20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
+      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56;
+      20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65"
+      keyTimes="0;0.0614;0.0624;0.0627;0.0637;0.1863;0.1873;0.1877;0.1987;;1"/>
    </polygon>
   </g>
   <!-- KENNEL -->
@@ -517,6 +525,7 @@ css: /assets/css/strava-dashboard.css
   </g>
   <!-- Movement with pauses -->
   <animateTransform attributeName="transform" type="translate" values="68,54; 26,54; 26,54; 68,54; 68,54" keyTimes="0; 0.0625; 0.1250; 0.1875; 1" dur="24s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0; 1; 1; 0; 0" keyTimes="0; 0.001; 0.0625; 0.626; 0.124; 0.125; 0.1875; 0.1876; 1"/>
 </g>
   <!-- Wrapper handles rotation + position -->
    <g id="cafe-wife-wrapper" transform="translate(26,54)">
