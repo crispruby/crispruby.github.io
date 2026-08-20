@@ -629,7 +629,7 @@ css: /assets/css/strava-dashboard.css
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <path d="M -1 50 L 36 50" stroke="#666" stroke-width="28" stroke-linecap="butt" />
-  <g id="broken-road-details">
+  <g id="broken-road-details  transform="translate(0,-4)">
    <!-- Main jagged crack -->
    <path d="M 5 45 L 12 52 L 8 58 L 15 63 L 10 68" stroke="#444" stroke-width="2" fill="none"/>
    <!-- Secondary cracks -->
