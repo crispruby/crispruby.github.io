@@ -623,7 +623,7 @@ css: /assets/css/strava-dashboard.css
 <!-- Row 1 -->
 <g id="tile-0-1" transform="translate(0,100)">
  <!-- Background -->
- <rect x="0" y="0" width="100" height="100" fill="#deb888" stroke="#ddd" />
+ <rect x="0" y="-1" width="100" height="101" fill="#deb888" stroke="#ddd" />
  <!-- Road group (rotates) -->
  <g class="road" data-rotation="0">
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
@@ -669,22 +669,22 @@ css: /assets/css/strava-dashboard.css
    <!-- Dust Puffs Around Jackhammer -->
    <g id="dust-puffs">
     <!-- Left puff -->
-    <circle cx="12" cy="56" r="2" fill="#696969" opacity="0">
+    <circle cx="12" cy="60" r="2" fill="#555" opacity="0">
      <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
      <animate attributeName="r" values="2;4;2" dur="1.2s" repeatCount="indefinite"/>
     </circle>
     <!-- Right puff -->
-    <circle cx="18" cy="56" r="2" fill="#696969" opacity="0">
+    <circle cx="18" cy="60" r="2" fill="#555" opacity="0">
      <animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/>
      <animate attributeName="r" values="2;5;2" dur="1.4s" repeatCount="indefinite"/>
     </circle>
     <!-- Front puff -->
-    <circle cx="15" cy="51" r="2" fill="#696969" opacity="0">
+    <circle cx="15" cy="515" r="2" fill="#555" opacity="0">
      <animate attributeName="opacity" values="0;1;0" dur="1.1s" repeatCount="indefinite"/>
      <animate attributeName="r" values="2;4;2" dur="1.1s" repeatCount="indefinite"/>
     </circle>
     <!-- Back puff -->
-    <circle cx="15" cy="51" r="2" fill="#696969" opacity="0">
+    <circle cx="15" cy="55" r="2" fill="#555" opacity="0">
      <animate attributeName="opacity" values="0;1;0" dur="1.3s" repeatCount="indefinite"/>
      <animate attributeName="r" values="2;5;2" dur="1.3s" repeatCount="indefinite"/>
     </circle>
