@@ -651,7 +651,7 @@ css: /assets/css/strava-dashboard.css
     <!-- Jackhammer -->
     <rect x="4" y="19" width="6" height="12" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
     <!-- Vibration -->
-    <animateTransform attributeName="transform" type="translate" values="0,45; 0,46; 0,45" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,30; 0,31; 0,30" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
    </g>
   <!-- Excavator (left side) -->
   <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
