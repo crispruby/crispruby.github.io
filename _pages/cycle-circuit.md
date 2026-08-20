@@ -555,6 +555,7 @@ css: /assets/css/strava-dashboard.css
      <animateTransform attributeName="transform" type="rotate" values="-60 3 10; -60 3 10; 60 3 10; 60 3 10; -60 3 10; -60 3 10" keyTimes="0; 0.5; 0.5625; 0.6250; 0.6875; 1" dur="24s" repeatCount="indefinite"/>
     </g>
     <animateTransform attributeName="transform" type="translate" values="26,54; 26,54; 68,54; 68,54; 26,54; 26,54" keyTimes="0; 0.5; 0.5625; 0.6250; 0.6875; 1" dur="24s" repeatCount="indefinite" />
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0; 1; 1; 0; 0" keyTimes="0; 0.49; 0.5; 0.5625; 0.5626; 0.624; 0.625; 0.6875; 0.6876; 1"/>
    </g>
   <!-- POLICE CAR (small parking lot above road) -->
   <g id="police-car">
