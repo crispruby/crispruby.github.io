@@ -446,20 +446,16 @@ css: /assets/css/strava-dashboard.css
    <line x1="20" y1="80" x2="36" y2="100" stroke="#111" stroke-width="2"/> 
    <!-- Window (bottom wall) -->
    <rect id="cafe-window" x="5" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2">
-    <animate attributeName="fill" values="#cce6ff; #fffbd1; #4a4a4a; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#cce6ff; #cce6ff; #fffbd1; #fffbd1; #cce6ff; #cce6ff" keyTimes="0; 0.43; 0.44; 0.78; 0.79; 1" dur="24s" repeatCount="indefinite"/>
    </rect>
    <!-- Room Entrance facing road -->
    <polygon id="cafe-entrance" points="20,55 36,60 36,70 20,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
    <!-- Door facing road -->
    <polygon id="cafe-door" points="20,55 36,60 36,70 20,65" fill="#663300" stroke="#442200" stroke-width="1" rx="2">
-    <animate attributeName="points" dur="24s" repeatCount="indefinite" values="
-      20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
-      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56; 
-      20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
-      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56; 
-      20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
-      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56;
-      20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65"
+    <animate attributeName="points" dur="24s" repeatCount="indefinite" values="20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
+      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
+      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65;
+      20,55 36,60 36,61 20,56; 20,55 36,60 36,61 20,56; 20,55 36,60 36,70 20,65; 20,55 36,60 36,70 20,65"
       keyTimes="0;0.05;0.06;0.07;0.08;0.11;0.12;0.13;0.14;0.48;0.49;0.69;0.7;1"/>
    </polygon>
   </g>
@@ -478,21 +474,17 @@ css: /assets/css/strava-dashboard.css
    <line x1="0" y1="100" x2="16" y2="80" stroke="#111" stroke-width="2"/> 
    <!-- Window (bottom wall) -->
    <rect id="kennel-window" x="15" y="85" width="15" height="10" fill="#cce6ff" stroke="#88aacc" stroke-width="1" rx="2">
-    <animate attributeName="fill" values="#cce6ff; #ffe6e6; #3a3a3a; #cce6ff" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#fffbd1; #cce6ff; #cce6ff; #fffbd1; #fffbd1" keyTimes="0; 0.001; 0.24; 0.25; 1" dur="24s" repeatCount="indefinite"/>
    </rect>
    <!-- Room Entrance facing road -->
    <polygon id="kennel-entrance" points="16,55 0,60 0,70 16,65" fill="#4a4a4a" stroke="#88aacc" stroke-width="1" rx="2"/>
    <!-- Door facing road -->
    <polygon id="kennel-door" points="16,55 0,60 0,70 16,65" fill="#554422" stroke="#332211" stroke-width="1" rx="2">
-    <animate attributeName="points" dur="24s" repeatCount="indefinite" values="
-      16,55 0,60 0,70 16,65; 
-      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 
-      16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65; 
-      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 
-      16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65; 
-      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 
-      16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65" 
-      keyTimes="0;0.01;0.19;0.2;0.552;0.562;0.563;0.573;0.614;0.624;0.627;0.637;1"/>
+    <animate attributeName="points" dur="24s" repeatCount="indefinite" values="16,55 0,60 0,70 16,65; 
+      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65; 
+      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65; 
+      16,55 0,60 0,61 16,56; 16,55 0,60 0,61 16,56; 16,55 0,60 0,70 16,65; 16,55 0,60 0,70 16,65" 
+      keyTimes="0;0.01;0.19;0.2;0.552;0.562;0.563;0.573; 0.614;0.624;0.627;0.637;1"/>
    </polygon>
   </g>
   <g id="robber-wife-wrapper" transform="translate(68,54)">
