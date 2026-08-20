@@ -131,6 +131,14 @@ window.addEventListener("DOMContentLoaded", () => {
       clone.play();
     });
   });
+  // --- Bark animation → play dogbarks.wav once ---
+  const barkAnim = document.getElementById("barkBlink");
+  if (barkAnim) {
+   barkAnim.addEventListener("beginEvent", () => {
+    const bark = sounds.dogbarks.cloneNode();
+    bark.play();
+   });
+  }
   // 5. Automatic sewer drip timer
   let sewerCounter = 0;
   setInterval(() => {
