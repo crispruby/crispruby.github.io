@@ -623,13 +623,13 @@ css: /assets/css/strava-dashboard.css
 <!-- Row 1 -->
 <g id="tile-0-1" transform="translate(0,100)">
  <!-- Background -->
- <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+ <rect x="0" y="0" width="100" height="100" fill="#deb888" stroke="#ddd" />
  <!-- Road group (rotates) -->
  <g class="road" data-rotation="0">
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <!-- Excavator (left side) -->
-  <g id="excavator" transform="translate(5,45)  rotate(90 0 0)">
+  <g id="excavator" transform="translate(65,45) rotate(90 0 0)">
    <!-- Body -->
    <rect x="0" y="10" width="30" height="15" fill="#d4a000" stroke="#8a6a00" stroke-width="2" rx="3"/>
     <!-- Cabin -->
