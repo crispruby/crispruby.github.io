@@ -525,7 +525,7 @@ css: /assets/css/strava-dashboard.css
   </g>
   <!-- Movement with pauses -->
   <animateTransform attributeName="transform" type="translate" values="68,54; 26,54; 26,54; 68,54; 68,54" keyTimes="0; 0.0625; 0.1250; 0.1875; 1" dur="24s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0; 1; 1; 0; 0" keyTimes="0; 0.001; 0.0625; 0.626; 0.124; 0.125; 0.1875; 0.1876; 1"/>
+  <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0; 1; 1; 0; 0; 1; 1; 0; 0" keyTimes="0; 0.001; 0.0625; 0.626; 0.124; 0.125; 0.1875; 0.1876; 1"/>
 </g>
   <!-- Wrapper handles rotation + position -->
    <g id="cafe-wife-wrapper" transform="translate(26,54)">
