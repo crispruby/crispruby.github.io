@@ -554,7 +554,7 @@ css: /assets/css/strava-dashboard.css
    <circle cx="24" cy="20" r="4" fill="#333" />
   </g>
   <text x="50" y="80" font-size="10" fill="#fff" text-anchor="middle">BARK
-   <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0; 1; 1; 0; 0; 1; 1; 0; 0;" keyTimes="0; 0.609; 0.61; 0.626; 0.627; 0.63; 0.631; 0.635; 0.636; 0.640; 0.641; 0.645; 0.646; 1;" dur="24s" repeatCount="indefinite"/>
+   <animate id="barkBlink" attributeName="opacity" values="0; 0; 1; 1; 0; 0; 1; 1; 0; 0; 1; 1; 0; 0;" keyTimes="0; 0.609; 0.61; 0.626; 0.627; 0.63; 0.631; 0.635; 0.636; 0.640; 0.641; 0.645; 0.646; 1;" dur="24s" repeatCount="indefinite"/>
   </text>
  </g>
 </g>
