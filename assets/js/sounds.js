@@ -185,10 +185,7 @@ window.addEventListener("load", () => {
   // 6. CAT RUMMAGE SOUND 
   let rummageBuffer = null;
   function loadRummageSound() {
-    fetch('/assets/sounds/rummage.wav')
-      .then(res => res.arrayBuffer())
-      .then(data => audioCtx.decodeAudioData(data))
-      .then(buffer => {
+    fetch('/assets/sounds/rummage.wav').then(res => res.arrayBuffer()).then(data => audioCtx.decodeAudioData(data)).then(buffer => {
         rummageBuffer = buffer;
         console.log("DEBUG: rummage sound loaded");
       });
