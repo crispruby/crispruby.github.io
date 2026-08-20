@@ -621,19 +621,53 @@ css: /assets/css/strava-dashboard.css
  </g>
 </g>
 <!-- Row 1 -->
-  <g id="tile-0-1" transform="translate(0,100)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
-      <g class="road" data-rotation="0">
-        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-      </g>
-        <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
-        <!-- icons or images here -->
-      </g>
-    </g>
+<g id="tile-0-1" transform="translate(0,100)">
+ <!-- Background -->
+ <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+ <!-- Road group (rotates) -->
+ <g class="road" data-rotation="0">
+  <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+  <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+  <!-- Excavator (left side) -->
+  <g id="excavator" transform="translate(5,45)">
+   <!-- Body -->
+   <rect x="0" y="10" width="30" height="15" fill="#d4a000" stroke="#8a6a00" stroke-width="2" rx="3"/>
+    <!-- Cabin -->
+    <rect x="5" y="0" width="20" height="12" fill="#ffe680" stroke="#8a6a00" stroke-width="2" rx="2"/>
+    <!-- Arm -->
+    <line x1="30" y1="15" x2="45" y2="5" stroke="#8a6a00" stroke-width="4"/>
+    <!-- Bucket -->
+    <polygon points="45,5 55,10 50,15" fill="#444" stroke="#222" stroke-width="1"/>
+    <!-- Tracks -->
+    <rect x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
+   </g>
+   <!-- Jackhammer Worker (right side) -->
+   <g id="jackhammer-worker" transform="translate(65,45)">
+    <!-- Head -->
+    <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
+    <!-- Body -->
+    <rect x="3" y="9" width="4" height="10" fill="#444" rx="1"/>
+    <!-- Jackhammer -->
+    <rect x="4" y="19" width="6" height="12" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
+    <!-- Vibration -->
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+   </g>
+   <!-- Dust Puff -->
+   <circle id="dust" cx="70" cy="62" r="2" fill="#ccc" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2;5;2" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite"/>
+   </circle>
+   <!-- Road Cracks -->
+   <path d="M 48 60 L 52 63 L 49 66 L 53 69" stroke="#444" stroke-width="1"/>
+   <!-- Cones -->
+   <g id="cone1" transform="translate(30,70)">
+    <polygon points="0,10 5,0 10,10" fill="#ff6600" stroke="#aa4400" stroke-width="1"/>
+   </g>
+   <g id="cone2" transform="translate(60,70)">
+    <polygon points="0,10 5,0 10,10" fill="#ff6600" stroke="#aa4400" stroke-width="1"/>
+   </g>
+  </g>
+ </g>
     <g id="tile-1-1" transform="translate(100,100)">
       <!-- Background -->
       <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
