@@ -172,7 +172,7 @@ window.addEventListener("load", () => {
   const jackhammerAnim = document.getElementById("jackhammerID");
   if (jackhammerAnim) {
    jackhammerAnim.addEventListener("repeatEvent", () => {
-    playJackhammer();
+    //playJackhammer();
   });
  }
   // 5. Automatic sewer drip timer
@@ -203,7 +203,7 @@ window.addEventListener("load", () => {
   if (shockRingAnim) {
     shockRingAnim.addEventListener("beginEvent", () => {
       console.log("Explosion beginEvent fired");
-      playBurstSound();
+      //playBurstSound();
     });
   }
   // 6. CAT RUMMAGE SOUND 
@@ -225,7 +225,7 @@ window.addEventListener("load", () => {
   function scheduleCatRummage() {
     setTimeout(() => {
       console.log("DEBUG: cat rummage triggered");
-      playRummage();
+      //playRummage();
     }, 5000);
   }
   // Load rummage sound + schedule playback once audio is unlocked
