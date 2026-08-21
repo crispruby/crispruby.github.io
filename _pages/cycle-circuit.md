@@ -649,9 +649,10 @@ css: /assets/css/strava-dashboard.css
     <!-- Body -->
     <rect x="3" y="9" width="4" height="10" fill="#444" rx="1"/>
     <!-- Jackhammer -->
-    <rect id="jackhammerID" x="4" y="16" width="6" height="15" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
+    <rect x="4" y="16" width="6" height="15" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
     <!-- Vibration -->
     <animateTransform  attributeName="transform" type="translate" values="10,30; 10,31; 10,30" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
+    <animate id="jackhammerID" attributeName="opacity" values="1;1" dur="14s" repeatCount="indefinite"/>
    </g>
   <!-- Excavator (left side) -->
   <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
