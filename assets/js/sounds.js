@@ -20,7 +20,8 @@ window.addEventListener("load", () => {
     sizzle_patty: new Audio('/assets/sounds/sizzling.wav'),
     mouse_squeak: new Audio('/assets/sounds/mouse_squeak.wav'),
     bone_rattle: new Audio('/assets/sounds/rattling_bones.wav'),
-    dogbarks: new Audio('/assets/sounds/dogbarks.wav')
+    dogbarks: new Audio('/assets/sounds/dogbarks.wav'),
+    jackhammer: new Audio('/assets/sounds/jackhammer.wav')
   };
   // 2. Web Audio API (autoplay-safe)
   const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -120,7 +121,8 @@ window.addEventListener("load", () => {
     sizzlePatty: sounds.sizzle_patty,
     mouseSqueak: sounds.mouse_squeak,
     boneRattle: sounds.bone_rattle,
-    barks: sounds.dogbarks
+    barks: sounds.dogbarks,
+    jackhammer: sounds.jackhammer
   };
   Object.keys(blinkToSound).forEach(animId => {
     const anim = document.getElementById(animId);
@@ -151,6 +153,28 @@ window.addEventListener("load", () => {
     playBark();
    });
   }
+  // --- Jackhammer animation sound loop ---
+  let jackhammerBuffer = null;
+  // Load jackhammer sound
+  fetch('/assets/sounds/jackhammer.wav').then(res => res.arrayBuffer()).then(data => audioCtx.decodeAudioData(data)).then(buffer => {
+   jackhammerBuffer = buffer;
+   console.log("DEBUG: jackhammer sound loaded");
+  });
+  // Play jackhammer sound once
+  function playJackhammer() {
+   if (!jackhammerBuffer) return;
+   const src = audioCtx.createBufferSource();
+   src.buffer = jackhammerBuffer;
+   src.connect(audioCtx.destination);
+   src.start(0);
+  }
+  // Hook into jackhammer animation repeatEvent
+  const jackhammerAnim = document.getElementById("jackhammerID");
+  if (jackhammerAnim) {
+   jackhammerAnim.addEventListener("repeatEvent", () => {
+    playJackhammer();
+  });
+ }
   // 5. Automatic sewer drip timer
   let sewerCounter = 0;
   setInterval(() => {
