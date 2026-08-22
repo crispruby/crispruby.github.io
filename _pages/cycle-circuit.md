@@ -630,9 +630,9 @@ css: /assets/css/strava-dashboard.css
   <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <path d="M 0 50 L 36 50" stroke="#666" stroke-width="28" stroke-linecap="butt" />
   <!-- Construction Warning Sign -->
-  <g id="construction-sign" transform="translate(10,70)">
+  <g id="construction-sign" transform="translate(18,70)">
    <!-- Sign pole -->
-   <rect x="4" y="10" width="4" height="20" fill="#666" />
+   <rect x="6" y="10" width="4" height="20" fill="#666" />
    <!-- Sign plate (diamond shape) -->
    <polygon points="0,10 10,0 20,10 10,20" fill="#ffcc00" stroke="#aa8800" stroke-width="2"/>
    <!-- Icon: worker silhouette -->
