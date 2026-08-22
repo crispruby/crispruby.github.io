@@ -630,7 +630,7 @@ css: /assets/css/strava-dashboard.css
   <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <path d="M 0 50 L 36 50" stroke="#666" stroke-width="28" stroke-linecap="butt" />
   <!-- Construction Warning Sign -->
-  <g id="construction-sign" transform="translate(18,70)">
+  <g id="construction-sign" transform="translate(10,20)">
    <!-- Sign pole -->
    <rect x="6" y="10" width="4" height="20" fill="#666" />
    <!-- Sign plate (diamond shape) -->
@@ -639,8 +639,6 @@ css: /assets/css/strava-dashboard.css
    <path d="M 10 6 L 12 10 L 8 10 Z" fill="#333"/>
    <rect x="9" y="10" width="2" height="6" fill="#333"/>
    <rect x="9" y="16" width="2" height="3" fill="#333"/>
-   <!-- Gentle wobble animation -->
-   <animateTransform attributeName="transform" type="rotate" values="-2 10 10; 2 10 10; -2 10 10" dur="1.5s" repeatCount="indefinite"/>
   </g>
   <g id="broken-road-details">
    <!-- Main jagged crack -->
