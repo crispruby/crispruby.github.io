@@ -623,7 +623,7 @@ css: /assets/css/strava-dashboard.css
 <!-- Row 1 -->
 <g id="tile-0-1" transform="translate(0,100)">
  <!-- Background -->
- <rect x="0" y="-1" width="100" height="101" fill="#deb888" stroke="#ddd" />
+ <rect x="0" y="-1" width="100" height="101" fill="#6cc66c" stroke="#ddd" />
  <!-- Road group (rotates) -->
  <g class="road" data-rotation="0">
   <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
@@ -632,17 +632,15 @@ css: /assets/css/strava-dashboard.css
   <g id="broken-road-details">
    <!-- Main jagged crack -->
    <path d="M 5 40 L 12 47 L 8 53 L 15 58 L 10 63" stroke="#444" stroke-width="2" fill="none"/>
-   <!-- Secondary cracks -->
+   <!-- Cracks & Asphalt chunks -->
    <path d="M 20 43 L 25 49 L 22 55" stroke="#555" stroke-width="1.5" fill="none"/>
    <path d="M 28 41 L 32 46 L 30 52" stroke="#666" stroke-width="1.2" fill="none"/>
-   <!-- Asphalt chunks -->
    <polygon points="6,55 10,52 12,57" fill="#2a2a2a"/>
    <polygon points="18,50 22,47 23,52" fill="#2a2a2a"/>
    <polygon points="28,53 31,50 33,55" fill="#2a2a2a"/>
    <!-- Tiny vibration synced with jackhammer -->
    <animateTransform attributeName="transform" type="translate" values="0,0; 0,1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
   </g>
-   <!-- Jackhammer Worker (right side) -->
    <g id="jackhammer-worker">
     <!-- Head -->
     <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
@@ -654,17 +652,26 @@ css: /assets/css/strava-dashboard.css
     <!-- Body -->
     <rect x="3" y="9" width="4" height="10" fill="#444" rx="1"/>
     <!-- Jackhammer -->
-    <rect x="4" y="16" width="6" height="15" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
+    <rect x="3" y="14" width="6" height="7" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
     <!-- Vibration -->
     <animateTransform  attributeName="transform" type="translate" values="10,30; 10,31; 10,30" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
     <animate id="jackhammerID" attributeName="opacity" values="1;1" dur="14s" repeatCount="indefinite"/>
    </g>
-  <!-- Excavator (left side) -->
   <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
    <!-- Body -->
    <rect x="0" y="10" width="30" height="15" fill="#d4a000" stroke="#8a6a00" stroke-width="2" rx="3"/>
    <!-- Cabin -->
    <rect x="5" y="0" width="20" height="12" fill="#ffe680" stroke="#8a6a00" stroke-width="2" rx="2"/>
+   <g id="hazard-lights">
+    <!-- Left hazard light -->
+    <circle cx="8" cy="-2" r="2" fill="#ff8800" opacity="0">
+     <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Right hazard light -->
+    <circle cx="22" cy="-2" r="2" fill="#ff8800" opacity="0">
+     <animate attributeName="opacity" values="0;1;0" dur="0.8s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+   </g>
    <!-- Arm -->
    <line x1="30" y1="15" x2="45" y2="5" stroke="#8a6a00" stroke-width="4"/>
    <!-- Bucket -->
