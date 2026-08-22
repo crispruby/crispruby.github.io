@@ -667,8 +667,8 @@ css: /assets/css/strava-dashboard.css
     </circle>
    </g>
    <line id="excavatorarm" x1="30" y1="15" x2="45" y2="5" stroke="#8a6a00" stroke-width="4"/>
-   <polygon id="excavatorbucket"points="45,5 55,10 50,15" fill="#444" stroke="#222" stroke-width="1"/>
-   <rect id="excavatortrack"x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
+   <polygon id="excavatorbucket" points="45,5 55,10 50,15" fill="#444" stroke="#222" stroke-width="1"/>
+   <rect id="excavatortrack" x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
    </g>
    <!-- Dust Puffs Around Jackhammer -->
    <g id="dust-puffs">
@@ -683,7 +683,7 @@ css: /assets/css/strava-dashboard.css
      <animate attributeName="r" values="2;5;2" dur="1.4s" repeatCount="indefinite"/>
     </circle>
     <!-- Front puff -->
-    <circle cx="15" cy="515" r="2" fill="#888" opacity="0">
+    <circle cx="15" cy="51" r="2" fill="#888" opacity="0">
      <animate attributeName="opacity" values="0;1;0" dur="1.1s" repeatCount="indefinite"/>
      <animate attributeName="r" values="2;4;2" dur="1.1s" repeatCount="indefinite"/>
     </circle>
