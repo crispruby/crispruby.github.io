@@ -629,17 +629,6 @@ css: /assets/css/strava-dashboard.css
   <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
   <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
   <path d="M 0 50 L 36 50" stroke="#666" stroke-width="28" stroke-linecap="butt" />
-  <!-- Construction Warning Sign -->
-  <g id="construction-sign" transform="translate(13,66)">
-   <!-- Sign pole -->
-   <rect x="7" y="10" width="4" height="20" fill="#666" />
-   <!-- Sign plate (diamond shape) -->
-   <polygon points="0,10 10,0 20,10 10,20" fill="#ffcc00" stroke="#aa8800" stroke-width="2"/>
-   <!-- Icon: worker silhouette -->
-   <path d="M 10 6 L 12 10 L 8 10 Z" fill="#333"/>
-   <rect x="9" y="10" width="2" height="6" fill="#333"/>
-   <rect x="9" y="16" width="2" height="3" fill="#333"/>
-  </g>
   <g id="broken-road-details">
    <!-- Main jagged crack -->
    <path d="M 5 40 L 12 47 L 8 53 L 15 58 L 10 63" stroke="#444" stroke-width="2" fill="none"/>
@@ -710,6 +699,17 @@ css: /assets/css/strava-dashboard.css
    <g id="cone2" transform="translate(60,70)">
     <polygon points="0,10 5,0 10,10" fill="#ff6600" stroke="#aa4400" stroke-width="1"/>
    </g>
+  <!-- Construction Warning Sign -->
+  <g id="construction-sign" transform="translate(13,66)">
+   <!-- Sign pole -->
+   <rect x="7" y="10" width="4" height="20" fill="#666" />
+   <!-- Sign plate (diamond shape) -->
+   <polygon points="0,10 10,0 20,10 10,20" fill="#ffcc00" stroke="#aa8800" stroke-width="2"/>
+   <!-- Icon: worker silhouette -->
+   <path d="M 10 6 L 12 10 L 8 10 Z" fill="#333"/>
+   <rect x="9" y="10" width="2" height="6" fill="#333"/>
+   <rect x="9" y="16" width="2" height="3" fill="#333"/>
+  </g>
   </g>
  </g>
     <g id="tile-1-1" transform="translate(100,100)">
