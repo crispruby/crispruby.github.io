@@ -648,8 +648,8 @@ css: /assets/css/strava-dashboard.css
     <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
     <!-- Hard Hat -->
     <g id="hardhat">
-     <path d="M 1 5 Q 5 -1 9 5 Z" fill="#ffd200" stroke="#aa8800" stroke-width="1"/>
-     <rect x="1" y="5" width="8" height="2" fill="#ffcc00" stroke="#aa8800" stroke-width="0.8" rx="1"/>
+     <path d="M 1 4 Q 5 -2 9 4 Z" fill="#ffd200" stroke="#aa8800" stroke-width="1"/>
+     <rect x="1" y="4" width="8" height="2" fill="#ffcc00" stroke="#aa8800" stroke-width="0.8" rx="1"/>
     </g>
     <!-- Body -->
     <rect x="3" y="9" width="4" height="10" fill="#444" rx="1"/>
