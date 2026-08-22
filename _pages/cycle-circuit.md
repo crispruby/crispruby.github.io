@@ -644,6 +644,11 @@ css: /assets/css/strava-dashboard.css
   </g>
    <!-- Jackhammer Worker (right side) -->
    <g id="jackhammer-worker">
+    <!-- Hard Hat -->
+    <g id="hardhat">
+     <path d="M 1 5 Q 5 -1 9 5 Z" fill="#ffd200" stroke="#aa8800" stroke-width="1"/>
+     <rect x="1" y="5" width="8" height="2" fill="#ffcc00" stroke="#aa8800" stroke-width="0.8" rx="1"/>
+    </g>
     <!-- Head -->
     <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
     <!-- Body -->
