@@ -642,26 +642,20 @@ css: /assets/css/strava-dashboard.css
    <animateTransform attributeName="transform" type="translate" values="0,0; 0,1; 0,0" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
   </g>
    <g id="jackhammer-worker">
-    <!-- Head -->
-    <circle cx="5" cy="5" r="4" fill="#f2c9a1"/>
-    <!-- Hard Hat -->
+    <circle id="workerhead" cx="5" cy="5" r="4" fill="#f2c9a1"/>
     <g id="hardhat">
      <path d="M 1 4 Q 5 -2 9 4 Z" fill="#ffd200" stroke="#aa8800" stroke-width="1"/>
      <rect x="1" y="4" width="8" height="2" fill="#ffcc00" stroke="#aa8800" stroke-width="0.8" rx="1"/>
     </g>
-    <!-- Body -->
-    <rect x="3" y="9" width="4" height="10" fill="#444" rx="1"/>
-    <!-- Jackhammer -->
-    <rect x="3" y="14" width="6" height="7" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
+    <rect id="workerbody" x="3" y="9" width="4" height="10" fill="#444" rx="1"/>
+    <rect id="jackhammer" x="3" y="14" width="6" height="7" fill="#ffcc00" stroke="#aa8800" stroke-width="1"/>
     <!-- Vibration -->
     <animateTransform  attributeName="transform" type="translate" values="10,30; 10,31; 10,30" keyTimes="0;0.5;1" dur="0.3s" repeatCount="indefinite"/>
     <animate id="jackhammerID" attributeName="opacity" values="1;1" dur="14s" repeatCount="indefinite"/>
    </g>
-  <g id="excavator" transform="translate(98,5) rotate(90 0 0)">
-   <!-- Body -->
-   <rect x="0" y="10" width="30" height="15" fill="#d4a000" stroke="#8a6a00" stroke-width="2" rx="3"/>
-   <!-- Cabin -->
-   <rect x="5" y="0" width="20" height="12" fill="#ffe680" stroke="#8a6a00" stroke-width="2" rx="2"/>
+  <g id="excavator" transform="translate(96,5) rotate(90 0 0)">
+   <rect id="excavatorbody" x="0" y="10" width="30" height="15" fill="#d4a000" stroke="#8a6a00" stroke-width="2" rx="3"/>
+   <rect id="excavatorcabin" x="5" y="0" width="20" height="12" fill="#ffe680" stroke="#8a6a00" stroke-width="2" rx="2"/>
    <g id="hazard-lights">
     <!-- Left hazard light -->
     <circle cx="8" cy="-2" r="2" fill="#ff8800" opacity="0">
@@ -672,12 +666,9 @@ css: /assets/css/strava-dashboard.css
      <animate attributeName="opacity" values="0;1;0" dur="0.8s" begin="0.4s" repeatCount="indefinite"/>
     </circle>
    </g>
-   <!-- Arm -->
-   <line x1="30" y1="15" x2="45" y2="5" stroke="#8a6a00" stroke-width="4"/>
-   <!-- Bucket -->
-   <polygon points="45,5 55,10 50,15" fill="#444" stroke="#222" stroke-width="1"/>
-   <!-- Tracks -->
-   <rect x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
+   <line id="excavatorarm" x1="30" y1="15" x2="45" y2="5" stroke="#8a6a00" stroke-width="4"/>
+   <polygon id="excavatorbucket"points="45,5 55,10 50,15" fill="#444" stroke="#222" stroke-width="1"/>
+   <rect id="excavatortrack"x="0" y="25" width="30" height="8" fill="#333" rx="3"/>
    </g>
    <!-- Dust Puffs Around Jackhammer -->
    <g id="dust-puffs">
@@ -702,7 +693,6 @@ css: /assets/css/strava-dashboard.css
      <animate attributeName="r" values="2;5;2" dur="1.3s" repeatCount="indefinite"/>
     </circle>
    </g>
-   <!-- Cones -->
    <g id="cone1" transform="translate(30,70)">
     <polygon points="0,10 5,0 10,10" fill="#ff6600" stroke="#aa4400" stroke-width="1"/>
    </g>
