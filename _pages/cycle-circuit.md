@@ -626,9 +626,22 @@ css: /assets/css/strava-dashboard.css
  <rect x="0" y="-1" width="100" height="101" fill="#6cc66c" stroke="#ddd" />
  <!-- Road group (rotates) -->
  <g class="road" data-rotation="0">
-  <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-  <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-  <path d="M -1 50 L 36 50" stroke="#666" stroke-width="28" stroke-linecap="butt" />
+  <path d="M 50 0 L 50 100" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+  <path d="M 50 0 L 50 100" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+  <path d="M 0 50 L 36 50" stroke="#666" stroke-width="28" stroke-linecap="butt" />
+  <!-- Construction Warning Sign -->
+  <g id="construction-sign" transform="translate(10,70)">
+   <!-- Sign pole -->
+   <rect x="4" y="10" width="4" height="20" fill="#666" />
+   <!-- Sign plate (diamond shape) -->
+   <polygon points="0,10 10,0 20,10 10,20" fill="#ffcc00" stroke="#aa8800" stroke-width="2"/>
+   <!-- Icon: worker silhouette -->
+   <path d="M 10 6 L 12 10 L 8 10 Z" fill="#333"/>
+   <rect x="9" y="10" width="2" height="6" fill="#333"/>
+   <rect x="9" y="16" width="2" height="3" fill="#333"/>
+   <!-- Gentle wobble animation -->
+   <animateTransform attributeName="transform" type="rotate" values="-2 10 10; 2 10 10; -2 10 10" dur="1.5s" repeatCount="indefinite"/>
+  </g>
   <g id="broken-road-details">
    <!-- Main jagged crack -->
    <path d="M 5 40 L 12 47 L 8 53 L 15 58 L 10 63" stroke="#444" stroke-width="2" fill="none"/>
