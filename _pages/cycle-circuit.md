@@ -759,10 +759,6 @@ css: /assets/css/strava-dashboard.css
         <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
         <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
       </g>
-        <!-- Decorations (do NOT rotate) -->
-      <g class="decor">
-        <!-- icons or images here -->
-      </g>
     </g>
   <!-- Row 2 -->
   <g id="tile-0-2" transform="translate(0,200)">
