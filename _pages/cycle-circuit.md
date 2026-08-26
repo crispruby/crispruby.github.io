@@ -753,7 +753,7 @@ css: /assets/css/strava-dashboard.css
     </g>
     <g id="tile-4-1" transform="translate(400,100)">
      <!-- Background -->
-     <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+     <rect x="0" y="0" width="100" height="100" fill="#6cc66c" /> <!-- Grass -->
      <!-- Road group (rotates) -->
      <g class="road" data-rotation="0">
       <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
@@ -767,16 +767,21 @@ css: /assets/css/strava-dashboard.css
        <polygon points="60,0 70,5 60,10" fill="#cc66ff"/>
        <animateTransform attributeName="transform" type="rotate" values="-2 50 5; 2 50 5; -2 50 5" dur="2.5s" repeatCount="indefinite"/>
       </g>
-      <g id="balloon-cloud" transform="translate(10,60)">
+      <g id="balloon-cloud">
        <!-- Balloon stake -->
-       <rect x="4" y="15" width="2" height="20" fill="#555"/>
+       <rect x="20" y="85" width="2" height="15" fill="#555"/>
        <!-- Balloons -->
-       <circle cx="0" cy="0" r="6" fill="#ff6666"/>
-       <circle cx="12" cy="2" r="6" fill="#66aaff"/>
-       <circle cx="6" cy="-8" r="6" fill="#ffdd55"/>
-       <circle cx="18" cy="-6" r="6" fill="#ff88dd"/>
+       <circle cx="20" cy="70" r="6" fill="#ff6666"/>   <!-- red -->
+       <circle cx="32" cy="72" r="6" fill="#66aaff"/>   <!-- blue -->
+       <circle cx="26" cy="62" r="6" fill="#ffdd55"/>   <!-- yellow -->
+       <circle cx="38" cy="64" r="6" fill="#ff88dd"/>   <!-- pink -->
+       <!-- Balloon strings -->
+       <line x1="20" y1="76" x2="21" y2="85" stroke="#555" stroke-width="1"/>
+       <line x1="32" y1="78" x2="21" y2="85" stroke="#555" stroke-width="1"/>
+       <line x1="26" y1="68" x2="21" y2="85" stroke="#555" stroke-width="1"/>
+       <line x1="38" y1="70" x2="21" y2="85" stroke="#555" stroke-width="1"/>
        <!-- Balloon sway -->
-       <animateTransform attributeName="transform" type="rotate" values="-3 10 10; 3 10 10; -3 10 10" dur="2s" repeatCount="indefinite"/>
+       <animateTransform attributeName="transform" type="rotate" values="-3 28 70; 3 28 70; -3 28 70" dur="2s" repeatCount="indefinite"/>
       </g>
       <g id="floating-balloon" transform="translate(25,80)">
        <circle id="floatBalloon" cx="0" cy="0" r="6" fill="#ff4444">
