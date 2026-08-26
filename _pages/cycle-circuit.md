@@ -752,14 +752,72 @@ css: /assets/css/strava-dashboard.css
       </g>
     </g>
     <g id="tile-4-1" transform="translate(400,100)">
-      <!-- Background -->
-      <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
-      <!-- Road group (rotates) -->
-      <g class="road" data-rotation="0">
-        <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
-        <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+     <!-- Background -->
+     <rect x="0" y="0" width="100" height="100" fill="#f9f9f9" stroke="#ddd" />
+     <!-- Road group (rotates) -->
+     <g class="road" data-rotation="0">
+      <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
+      <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
+      <!-- Festival Flags (top) -->
+      <g id="festival-flags" transform="translate(5,5)">
+       <polygon points="0,0 10,5 0,10" fill="#ff4444"/>
+       <polygon points="15,0 25,5 15,10" fill="#44aaff"/>
+       <polygon points="30,0 40,5 30,10" fill="#ffaa00"/>
+       <polygon points="45,0 55,5 45,10" fill="#44cc44"/>
+       <polygon points="60,0 70,5 60,10" fill="#cc66ff"/>
+       <animateTransform attributeName="transform" type="rotate" values="-2 50 5; 2 50 5; -2 50 5" dur="2.5s" repeatCount="indefinite"/>
       </g>
+      <g id="balloon-cloud" transform="translate(10,60)">
+       <!-- Balloon stake -->
+       <rect x="4" y="15" width="2" height="20" fill="#555"/>
+       <!-- Balloons -->
+       <circle cx="0" cy="0" r="6" fill="#ff6666"/>
+       <circle cx="12" cy="2" r="6" fill="#66aaff"/>
+       <circle cx="6" cy="-8" r="6" fill="#ffdd55"/>
+       <circle cx="18" cy="-6" r="6" fill="#ff88dd"/>
+       <!-- Balloon sway -->
+       <animateTransform attributeName="transform" type="rotate" values="-3 10 10; 3 10 10; -3 10 10" dur="2s" repeatCount="indefinite"/>
+      </g>
+      <g id="floating-balloon" transform="translate(25,80)">
+       <circle id="floatBalloon" cx="0" cy="0" r="6" fill="#ff4444">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-40" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;1;0" dur="4s" repeatCount="indefinite"/>
+       </circle>
+       <g id="confettiBurst" opacity="0">
+        <circle cx="-4" cy="-4" r="2" fill="#ff4444"/>
+        <circle cx="4" cy="-4" r="2" fill="#44aaff"/>
+        <circle cx="-2" cy="2" r="2" fill="#ffaa00"/>
+        <circle cx="3" cy="3" r="2" fill="#44cc44"/>
+        <animate attributeName="opacity" values="0;1;0" dur="0.8s" begin="floatBalloon.endEvent" repeatCount="indefinite"/>
+       </g>
+      </g>
+      <g id="ticket-booth" transform="translate(5,70)">
+       <rect x="0" y="0" width="30" height="20" fill="#333" stroke="#111" stroke-width="2" rx="2"/>
+       <rect x="5" y="5" width="20" height="10" fill="#555" rx="1"/>
+       <text x="15" y="-3" font-size="6" fill="#ffdd33" text-anchor="middle">TICKETS</text>
+      <!-- Waving hand -->
+      <rect x="25" y="8" width="4" height="6" fill="#ffcc88">
+       <animateTransform attributeName="transform" type="rotate" values="-10 25 8; 10 25 8; -10 25 8" dur="1s" repeatCount="indefinite"/>
+      </rect>
+     </g>
+     <g id="cotton-candy" transform="translate(65,65)">
+      <rect x="0" y="0" width="30" height="20" fill="#ff88cc" stroke="#aa4488" stroke-width="2" rx="2"/>
+      <rect x="5" y="5" width="20" height="10" fill="#ffe6f7" rx="1"/>
+      <!-- Cotton candy swirl -->
+      <circle cx="15" cy="-5" r="6" fill="#ff66aa">
+       <animateTransform attributeName="transform" type="rotate" values="0 15 -5; 360 15 -5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Water bottles -->
+      <rect x="2" y="22" width="6" height="10" fill="#88ccff" stroke="#55aadd" stroke-width="1" rx="1"/>
+      <rect x="10" y="22" width="6" height="10" fill="#88ccff" stroke="#55aadd" stroke-width="1" rx="1"/>
+      <rect x="18" y="22" width="6" height="10" fill="#88ccff" stroke="#55aadd" stroke-width="1" rx="1"/>
+      <!-- Bottle sparkle -->
+      <circle cx="5" cy="20" r="2" fill="#ffffff" opacity="0">
+       <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+      </circle>
+     </g>
     </g>
+   </g>
   <!-- Row 2 -->
   <g id="tile-0-2" transform="translate(0,200)">
       <!-- Background -->
