@@ -741,15 +741,6 @@ css: /assets/css/strava-dashboard.css
      <g class="road" data-rotation="0">
       <path d="M 50 -1 L 50 101" stroke="#555" stroke-width="28" stroke-linecap="butt" />
       <path d="M 50 -1 L 50 101" stroke="#ffdd33" stroke-width="4" stroke-linecap="butt" />
-      <!-- Festival Flags (top) -->
-      <g id="festival-flags" transform="translate(5,5)">
-       <polygon points="0,0 10,5 0,10" fill="#ff4444"/>
-       <polygon points="15,0 25,5 15,10" fill="#44aaff"/>
-       <polygon points="30,0 40,5 30,10" fill="#ffaa00"/>
-       <polygon points="45,0 55,5 45,10" fill="#44cc44"/>
-       <polygon points="60,0 70,5 60,10" fill="#cc66ff"/>
-       <animateTransform attributeName="transform" type="rotate" values="-2 50 5; 2 50 5; -2 50 5" dur="2.5s" repeatCount="indefinite"/>
-      </g>
       <g id="balloon-cloud">
        <!-- Balloon stake -->
        <rect x="20" y="85" width="2" height="15" fill="#555"/>
@@ -780,7 +771,7 @@ css: /assets/css/strava-dashboard.css
         <animate attributeName="opacity" values="0;1;0" dur="0.8s" begin="floatBalloon.endEvent" repeatCount="indefinite"/>
        </g>
       </g>
-      <g id="ticket-booth" transform="translate(5,30)">
+      <g id="ticket-booth" transform="translate(5,10)">
        <rect x="0" y="0" width="30" height="20" fill="#333" stroke="#111" stroke-width="2" rx="2"/>
        <rect x="5" y="5" width="20" height="10" fill="#555" rx="1"/>
        <text x="15" y="-3" font-size="6" fill="#ffdd33" text-anchor="middle">TICKETS</text>
