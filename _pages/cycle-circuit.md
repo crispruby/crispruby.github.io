@@ -749,7 +749,7 @@ css: /assets/css/strava-dashboard.css
        <circle cx="32" cy="72" r="6" fill="#66aaff"/>   <!-- blue -->
        <circle cx="26" cy="62" r="6" fill="#ffdd55"/>   <!-- yellow -->
        <circle cx="38" cy="64" r="6" fill="#ff88dd"/>   <!-- pink -->
-       <circle cx="25" cy="80" r="6" fill="#ff4444">
+       <circle cx="25" cy="80" r="6" fill="#ff4444"/>
        <!-- Balloon strings -->
        <line x1="20" y1="76" x2="21" y2="85" stroke="#555" stroke-width="1"/>
        <line x1="32" y1="78" x2="21" y2="85" stroke="#555" stroke-width="1"/>
