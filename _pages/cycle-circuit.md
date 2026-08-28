@@ -768,8 +768,9 @@ css: /assets/css/strava-dashboard.css
       </g>
       <g id="floating-balloon" transform="translate(25,80)">
        <circle id="floatBalloon" cx="0" cy="0" r="6" fill="#ff4444">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-40" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="1;1;0" dur="4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-40" dur="4s" repeatCount="indefinite"/> <!-- Float upward -->
+        <!-- Instant vanish at pop moment -->
+        <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.999;1" dur="4s" repeatCount="indefinite"/>
        </circle>
        <g id="confettiBurst" opacity="0">
         <circle cx="-4" cy="-4" r="2" fill="#ff4444"/>
@@ -779,7 +780,7 @@ css: /assets/css/strava-dashboard.css
         <animate attributeName="opacity" values="0;1;0" dur="0.8s" begin="floatBalloon.endEvent" repeatCount="indefinite"/>
        </g>
       </g>
-      <g id="ticket-booth" transform="translate(5,70)">
+      <g id="ticket-booth" transform="translate(5,30)">
        <rect x="0" y="0" width="30" height="20" fill="#333" stroke="#111" stroke-width="2" rx="2"/>
        <rect x="5" y="5" width="20" height="10" fill="#555" rx="1"/>
        <text x="15" y="-3" font-size="6" fill="#ffdd33" text-anchor="middle">TICKETS</text>
